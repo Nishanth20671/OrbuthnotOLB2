@@ -1,0 +1,11 @@
+{
+  "serviceType" : "orchestration",
+  "jars" : [ {
+    "name" : "dbp-mfaservices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-productservices.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

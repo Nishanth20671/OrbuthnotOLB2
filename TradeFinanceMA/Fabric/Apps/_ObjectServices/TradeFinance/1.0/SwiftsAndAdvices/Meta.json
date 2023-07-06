@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "fetchSwiftsAdvices" : "fetchSwiftsAdvicesMapping",
+    "createSwiftsAndAdvices" : "createSwiftsAndAdvicesMapping",
+    "uploadSwiftsAdvices" : "uploadSwiftsAdvicesMapping",
+    "getSwiftsAndAdvices" : "getSwiftsAndAdvicesMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

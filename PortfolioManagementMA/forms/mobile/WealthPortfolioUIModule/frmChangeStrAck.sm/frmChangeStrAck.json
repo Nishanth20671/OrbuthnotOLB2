@@ -1,0 +1,161 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        71,
+        32
+    ],
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Stock News",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "androidwearos": {
+        "needAppMenu": false
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxMain",
+        "flxAdditionalOptions",
+        "socialshare"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmChangeStrAckController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhone11",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "enablescrolling": false,
+    "friendlyName": "frmChangeStrAck",
+    "id": "frmChangeStrAck",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4
+        },
+        "titleBar": false
+    },
+    "iphone": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "g78925cd4c6d4162a7b24b2784e6f07a",
+                    "style": 0,
+                    "tintColor": "fafafa00",
+                    "type": 1
+                },
+                "backIndicatorImage": "backbutton.png",
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "c16da134ea5546b480af8c5feef2f5b4",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_e269f0dfc1654f08b9a4b48c56473721",
+                        "info": {
+                            "image": "morewhite.png"
+                        },
+                        "kuid": "d5951a041e174e2e8857871e4f80f93f",
+                        "style": 0,
+                        "tintColor": "fafafa00",
+                        "type": 0
+                    }
+                ],
+                "tintColor": "fafafa00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "needAppMenu": false
+    },
+    "kuid": "af40e161b3da4c49aed0ca83171b69bc",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": false,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "GalaxyS5",
+    "prevPlatform": "android",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainscrollposition": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
+    "texti18n": "i18n.wealth.stockNews",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    },
+    "winphone8": {
+        "needAppMenu": false
+    }
+}

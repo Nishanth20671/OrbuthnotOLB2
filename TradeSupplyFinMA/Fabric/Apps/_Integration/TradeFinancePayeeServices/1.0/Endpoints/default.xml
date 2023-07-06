@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  **************************************************************************
+  Copyright © Temenos Headquarters SA 2021. All rights reserved.
+  **************************************************************************
+-->
+<endpoint name="default" type="Java" encryptSecureInfo="false">
+    <config/>
+    <apiThrottling/>
+    <jsonpath>false</jsonpath>
+</endpoint>

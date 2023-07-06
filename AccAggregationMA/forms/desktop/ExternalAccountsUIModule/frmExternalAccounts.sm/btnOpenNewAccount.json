@@ -1,0 +1,64 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s161cfe0a9704980851b68934d1df274",
+    "_text_": "OPEN NEW ACCOUNT",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Open New Account"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "focusSkin": "sf44d06ca8224832827ea7fdff757013"
+    },
+    "displaytext": true,
+    "id": "btnOpenNewAccount",
+    "info": null,
+    "isvisible": true,
+    "kuid": "e8b2b03510854984851fe7d02fe72a54",
+    "name": "kony.ui.Button",
+    "parent": "flxPrimaryActions",
+    "pf": "frmExternalAccounts",
+    "responsiveData": {
+        "b1": {},
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "40dp"
+            }
+        }
+    },
+    "texti18n": "i18n.WireTransfer.CreateNewAccount",
+    "tooltip": "Open New Account",
+    "wType": "Button",
+    "zindex": 1
+}

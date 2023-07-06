@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "10"
+    },
+    "_skin_": "sfbbba35ede4457b94eb681b72349b98",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sbaf3a51230d492f8509aa07a0807499",
+    "id": "btnRunInBack",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c65d937a30cc4a7ea949b484c74af7eb",
+    "name": "kony.ui.Button",
+    "parent": "flxFileUploadButtons",
+    "pf": "frmReceivableBillsDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.TradeSupplyFinance.runInBackground",
+    "tooltip": "Run in Background",
+    "wType": "Button"
+}

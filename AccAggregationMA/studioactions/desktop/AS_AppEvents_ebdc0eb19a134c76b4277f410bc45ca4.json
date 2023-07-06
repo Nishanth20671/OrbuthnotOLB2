@@ -1,0 +1,17 @@
+{
+    "AS_AppEvents_ebdc0eb19a134c76b4277f410bc45ca4": {
+        "id": "AS_AppEvents_ebdc0eb19a134c76b4277f410bc45ca4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_bf3eba62bc17438dbf2ac97f1aa049b7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "_kony.mvc.initCompositeApp(true);\nvar ApplicationManager = require('ApplicationManager');\napplicationManager = ApplicationManager.getApplicationManager();",
+            "parentId": null
+        }]
+    }
+}

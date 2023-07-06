@@ -1,0 +1,46 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.kony.dbputilities.customersecurityservices.preprocessor.ResetSecurityQuestionsPreProcessor",
+    "responseProcessorName" : "com.kony.dbputilities.customersecurityservices.postprocessor.ResetSecurityQuestionsPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "createCustomerSecurityQuestions2925",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"securityQuestions\" outputpath=\"securityQuestions\"/><set-param inputpath=\"userName\" outputpath=\"userName\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "eumAdminConsoleServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createCustomerSecurityQuestions"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "SecurityQuestions",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"securityQuestions\" outputpath=\"securityQuestions\"/><set-param inputpath=\"userName\" outputpath=\"userName\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

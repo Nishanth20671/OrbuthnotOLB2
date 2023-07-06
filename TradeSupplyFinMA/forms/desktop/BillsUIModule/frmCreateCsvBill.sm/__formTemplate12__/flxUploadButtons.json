@@ -1,0 +1,82 @@
+{
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1.60%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sec7cce05f18492ea7d1ed7dedec84cf",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96.80%"
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "children": [],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxUploadButtons",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fc1194f3e07f4b33925ae374f5930bb5",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxUploadActions",
+    "pf": "frmCreateCsvBill",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "80dp"
+            }
+        },
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": "50%"
+            },
+            "layoutType": 2
+        },
+        "b4": {
+            "height": {
+                "type": "string",
+                "value": "80dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

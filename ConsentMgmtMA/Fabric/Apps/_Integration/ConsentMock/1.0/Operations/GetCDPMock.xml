@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="GetCDPMock" passwordencrypted="false" security="authorized_app_user" type="stubConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <stub-param value="{&#10;    &quot;consentTypes&quot;: [&#10;        {&#10;            &quot;arrangementId&quot;: &quot;AA22109ZJ9YY&quot;,&#10;            &quot;consents&quot;: [&#10;                {&#10;                    &quot;consentType&quot;: &quot;CREDITCHECK&quot;,&#10;                    &quot;consentGiven&quot;: &quot;YES&quot;,&#10;                    &quot;consentTypeName&quot;: &quot;Credit Checks&quot;&#10;                },&#10;                {&#10;                    &quot;consentType&quot;: &quot;DATAPROFLING&quot;,&#10;                    &quot;consentGiven&quot;: &quot;NO&quot;,&#10;                    &quot;consentTypeName&quot;: &quot;Data Profiling and Analytics&quot;&#10;                },&#10;                {&#10;                    &quot;consentType&quot;: &quot;DIRECTMKTING&quot;,&#10;                    &quot;consentGiven&quot;: &quot;YES&quot;,&#10;                    &quot;consentTypeName&quot;: &quot;Direct Marketing&quot;,&#10;                    &quot;subTypes&quot;: [&#10;                        {&#10;                            &quot;consentSubType&quot;: &quot;EMAIL&quot;,&#10;                            &quot;consentSubTypeGiven&quot;: &quot;YES&quot;&#10;                        },&#10;                        {&#10;                            &quot;consentSubType&quot;: &quot;PHONE&quot;,&#10;                            &quot;consentSubTypeGiven&quot;: &quot;YES&quot;&#10;                        },&#10;                        {&#10;                            &quot;consentSubType&quot;: &quot;SMS&quot;,&#10;                            &quot;consentSubTypeGiven&quot;: &quot;NO&quot;&#10;                        }&#10;                    ]&#10;                },&#10;                {&#10;                    &quot;consentType&quot;: &quot;PERSONALLOAN&quot;,&#10;                    &quot;consentGiven&quot;: &quot;YES&quot;,&#10;                    &quot;consentTypeName&quot;: &quot;Product Related Offers&quot;,&#10;                    &quot;subTypes&quot;: [&#10;                        {&#10;                            &quot;consentSubType&quot;: &quot;EMAIL&quot;,&#10;                            &quot;consentSubTypeGiven&quot;: &quot;YES&quot;&#10;                        },&#10;                        {&#10;                            &quot;consentSubType&quot;: &quot;PHONE&quot;,&#10;                            &quot;consentSubTypeGiven&quot;: &quot;YES&quot;&#10;                        }&#10;                    ]&#10;                }&#10;            ]&#10;        }&#10;    ],&#10;    &quot;opstatus&quot;: 0,&#10;    &quot;httpStatusCode&quot;: 200&#10;}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="consentTypes" order="" paramOrder="1" parentOrder="0" src="$.consentTypes[*]" testvalue="" isExtended="false">
+            <dataset defaultvalue="" id="consents" order="" paramOrder="3" parentOrder="1" src="consents[*]" testvalue="" isExtended="false">
+                <dataset defaultvalue="" id="subTypes" order="" paramOrder="7" parentOrder="3" src="subTypes[*]" testvalue="" isExtended="false">
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentSubType" order="" paramOrder="8" parentOrder="7" passnull="false" sms-name="" src="consentSubType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                        <accessType></accessType>
+                    </param>
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentSubTypeGiven" order="" paramOrder="9" parentOrder="7" passnull="false" sms-name="" src="consentSubTypeGiven" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                        <accessType></accessType>
+                    </param>
+                </dataset>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentType" order="" paramOrder="4" parentOrder="3" passnull="false" sms-name="" src="consentType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentGiven" order="" paramOrder="5" parentOrder="3" passnull="false" sms-name="" src="consentGiven" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentTypeName" order="" paramOrder="6" parentOrder="3" passnull="false" sms-name="" src="consentTypeName" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+            </dataset>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="arrangementId" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="arrangementId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

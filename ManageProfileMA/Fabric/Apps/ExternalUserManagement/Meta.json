@@ -1,0 +1,171 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "ExternalUserManagement",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ActivationCodeAuthService",
+    "version" : "1.0",
+    "etag" : "a87892de-2f41-4e93-b808-e4c725543016"
+  }, {
+    "name" : "CIBAAuthJavaStatus",
+    "version" : "1.0",
+    "etag" : "b606471e-f558-4890-9c2d-ef8d9f010aa3"
+  }, {
+    "name" : "CIBAInitiation",
+    "version" : "1.0",
+    "etag" : "8116b36d-4aef-476d-b7e4-df27d221cf60"
+  }, {
+    "name" : "ClientCredentials",
+    "version" : "1.0",
+    "etag" : "e14e46b5-cb7e-4ead-83be-9622142c32fc"
+  }, {
+    "name" : "dbpPartyServices",
+    "version" : "1.0",
+    "etag" : "e2690a26-1b11-4fc9-8e98-a975268cf466"
+  }, {
+    "name" : "dbpSrmsServices",
+    "version" : "1.0",
+    "etag" : "e4f0a608-c494-4729-9750-6f1efade2fac"
+  }, {
+    "name" : "DeviceProvision",
+    "version" : "1.0",
+    "etag" : "aa429780-f7b2-452b-9129-ebe50b39e681"
+  }, {
+    "name" : "eumAdminConsoleServices",
+    "version" : "1.0",
+    "etag" : "a559b59e-9f22-4aac-8ebe-9a316aa21d9f"
+  }, {
+    "name" : "eumBBJavaServices",
+    "version" : "1.0",
+    "etag" : "081f035d-ab4f-4adf-9c52-d0c22ea126ba"
+  }, {
+    "name" : "eumCoreServices",
+    "version" : "1.0",
+    "etag" : "19d4ab3a-3754-4b28-ba55-c33995251817"
+  }, {
+    "name" : "eumMFAServices",
+    "version" : "1.0",
+    "etag" : "1737f772-2236-4ac2-8561-73615ba1f56b"
+  }, {
+    "name" : "eumNonProductServices",
+    "version" : "1.0",
+    "etag" : "d908e3ef-4073-46b0-9482-34178e4b5938"
+  }, {
+    "name" : "eumPartyServices",
+    "version" : "1.0",
+    "etag" : "60ae034f-4ce3-48d1-987a-14905a513626"
+  }, {
+    "name" : "eumProductServices",
+    "version" : "1.0",
+    "etag" : "5607a7b9-85db-4e72-b17f-5781bb36ca98"
+  }, {
+    "name" : "LimitsAndPermissions",
+    "version" : "1.0",
+    "etag" : "2f3ef77a-77cf-49b8-be9d-262618fc3819"
+  }, {
+    "name" : "RMSThreatMarkAPI",
+    "version" : "1.0",
+    "etag" : "6319987e-dee4-45c6-8670-afb4a5c1f120"
+  }, {
+    "name" : "SCAAuthApis",
+    "version" : "1.0",
+    "etag" : "1ce34b78-1869-4874-b5e0-08890e5a26ea"
+  }, {
+    "name" : "SCAInfinityWrapper",
+    "version" : "1.0",
+    "etag" : "60bc7fd7-ffe0-4ed9-8717-b5e33840ceb1"
+  }, {
+    "name" : "SCAIntegrationService",
+    "version" : "1.0",
+    "etag" : "bdc720e9-080f-40e1-831f-094743c02d9e"
+  }, {
+    "name" : "SCAJwksEndpoint",
+    "version" : "1.0",
+    "etag" : "3e6c9a25-5ce4-4a9c-a0ab-1c1eee3f6200"
+  }, {
+    "name" : "SCAScimApis",
+    "version" : "1.0",
+    "etag" : "66082bda-6dc4-4558-85d7-a4df29ac5d20"
+  }, {
+    "name" : "SCATransactionService",
+    "version" : "1.0",
+    "etag" : "c02c1c35-540e-4b39-850a-c6cea914edd5"
+  }, {
+    "name" : "SCATransactionSigning",
+    "version" : "1.0",
+    "etag" : "d3ae09b4-6824-45ab-aa6c-e32ab5e1fea1"
+  }, {
+    "name" : "SCIMApis",
+    "version" : "1.0",
+    "etag" : "cdb516f8-e8bd-4db1-8077-e0561124eece"
+  }, {
+    "name" : "T24EUMISExtra",
+    "version" : "1.0",
+    "etag" : "3553b27b-0db2-4ac5-ab66-e8b3fe1b28b2"
+  }, {
+    "name" : "T24ISOnboardingUser",
+    "version" : "1.0",
+    "etag" : "0261eeb2-99b6-48b9-9be7-1332bcde7b7f"
+  }, {
+    "name" : "UserManagementSettings",
+    "version" : "1.0",
+    "etag" : "ff7f8676-50f4-4d5a-a48b-b320e38b339e"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "CommonEumOrchService",
+    "version" : "1.0",
+    "etag" : "fba78e7e-d888-46ef-9385-3d367f47b723"
+  }, {
+    "name" : "SCARMSService",
+    "version" : "1.0",
+    "etag" : "30c29e1c-5037-4175-9f2d-59a401aefa54"
+  }, {
+    "name" : "eumDBX",
+    "version" : "1.0",
+    "etag" : "7999fa1d-ce75-4e7f-be37-ba71eaeb6b9b"
+  }, {
+    "name" : "SCAUserOrchService",
+    "version" : "1.0",
+    "etag" : "4e2fdcc0-87e9-40ac-9a66-9a9f169d5d90"
+  }, {
+    "name" : "CIBAPushValidationOrchService",
+    "version" : "1.0",
+    "etag" : "5af7a3db-09a4-4608-99b7-613f99ab1189"
+  }, {
+    "name" : "SCATxnValidationOrchService",
+    "version" : "1.0",
+    "etag" : "777b76bf-7840-4048-b297-6189b0bc2b50"
+  }, {
+    "name" : "CoreCustomerFeatureActions",
+    "version" : "1.0",
+    "etag" : "20362322-23h5-434d-947e-198b3c0c0795"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ExternalUserManagement",
+    "version" : "1.0",
+    "etag" : "a1c64ed9-1642-4ea5-893c-cf5872181069"
+  }, {
+    "name" : "HIDRMSService",
+    "version" : "1.0",
+    "etag" : "1dcb80e5-5882-4d46-994c-52e4e110e3ab"
+  }, {
+    "name" : "PartyExperienceAPI",
+    "version" : "1.0",
+    "etag" : "aec4383a-3b60-4b38-881f-9c4901b69ed8"
+  }, {
+    "name" : "SCAActivationObjects",
+    "version" : "1.0",
+    "etag" : "6919e7f7-0657-4ec3-9547-6ab5ee70eee8"
+  }, {
+    "name" : "SCAObjects",
+    "version" : "1.0",
+    "etag" : "b2b37d27-6ffe-4a62-8849-3ec1de41f03f"
+  }, {
+    "name" : "SCATransactionObjects",
+    "version" : "1.0",
+    "etag" : "c1aee533-658a-4f8f-9087-15bcfa490a0a"
+  } ],
+  "identity" : [ "CIBACustomIdentity", "DbxAPIIdentityService", "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

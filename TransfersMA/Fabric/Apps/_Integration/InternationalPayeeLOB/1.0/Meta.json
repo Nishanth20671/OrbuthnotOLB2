@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-nonproductservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

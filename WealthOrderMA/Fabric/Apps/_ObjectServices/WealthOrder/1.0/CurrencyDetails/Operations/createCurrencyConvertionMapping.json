@@ -1,0 +1,49 @@
+{
+  "operationConfig" : {
+    "name" : "createCurrencyConvertion8329",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"amount\" outputpath=\"amount\"/>\n        <set-param inputpath=\"buyAccount\" outputpath=\"buyAccount\"/>\n        <set-param inputpath=\"buyCurrency\" outputpath=\"buyCurrency\"/>\n        <set-param inputpath=\"portfolioId\" outputpath=\"portfolioId\"/>\n        <set-param inputpath=\"sellAccount\" outputpath=\"sellAccount\"/>\n        <set-param inputpath=\"validate_only\" outputpath=\"validate_only\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"CurrencyDetails\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"WealthOrderServices (1.0).createCurrencyConvertion\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:buyCurrency:\",\"to\":\"target:buyCurrency:\",\"fromPort\":\"source:CurrencyDetails:buyCurrency:\",\"toPort\":\"target:buyCurrency:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:portfolioId:\",\"to\":\"target:portfolioId:\",\"fromPort\":\"source:CurrencyDetails:portfolioId:\",\"toPort\":\"target:portfolioId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:buyAccount:\",\"to\":\"target:buyAccount:\",\"fromPort\":\"source:CurrencyDetails:buyAccount:\",\"toPort\":\"target:buyAccount:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:sellAccount:\",\"to\":\"target:sellAccount:\",\"fromPort\":\"source:CurrencyDetails:sellAccount:\",\"toPort\":\"target:sellAccount:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:validate_only:\",\"to\":\"target:validate_only:\",\"fromPort\":\"source:CurrencyDetails:validate_only:\",\"toPort\":\"target:validate_only:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:amount:\",\"to\":\"target:amount:\",\"fromPort\":\"source:CurrencyDetails:amount:\",\"toPort\":\"target:amount:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"CurrencyDetails\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"WealthOrderServices (1.0).createCurrencyConvertion\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "WealthOrderServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "createCurrencyConvertion"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "CurrencyDetails",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"amount\" outputpath=\"amount\"/>\n        <set-param inputpath=\"buyAccount\" outputpath=\"buyAccount\"/>\n        <set-param inputpath=\"buyCurrency\" outputpath=\"buyCurrency\"/>\n        <set-param inputpath=\"portfolioId\" outputpath=\"portfolioId\"/>\n        <set-param inputpath=\"sellAccount\" outputpath=\"sellAccount\"/>\n        <set-param inputpath=\"validate_only\" outputpath=\"validate_only\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"CurrencyDetails\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"WealthOrderServices (1.0).createCurrencyConvertion\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:buyCurrency:\",\"to\":\"target:buyCurrency:\",\"fromPort\":\"source:CurrencyDetails:buyCurrency:\",\"toPort\":\"target:buyCurrency:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:portfolioId:\",\"to\":\"target:portfolioId:\",\"fromPort\":\"source:CurrencyDetails:portfolioId:\",\"toPort\":\"target:portfolioId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:buyAccount:\",\"to\":\"target:buyAccount:\",\"fromPort\":\"source:CurrencyDetails:buyAccount:\",\"toPort\":\"target:buyAccount:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:sellAccount:\",\"to\":\"target:sellAccount:\",\"fromPort\":\"source:CurrencyDetails:sellAccount:\",\"toPort\":\"target:sellAccount:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:validate_only:\",\"to\":\"target:validate_only:\",\"fromPort\":\"source:CurrencyDetails:validate_only:\",\"toPort\":\"target:validate_only:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:CurrencyDetails:amount:\",\"to\":\"target:amount:\",\"fromPort\":\"source:CurrencyDetails:amount:\",\"toPort\":\"target:amount:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"CurrencyDetails\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"WealthOrderServices (1.0).createCurrencyConvertion\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "etag" : "96cab77b-8bb7-4abc-91e2-50cf8b04b247",
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

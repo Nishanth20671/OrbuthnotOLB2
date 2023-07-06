@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-businessbankingservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "dbp-productservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

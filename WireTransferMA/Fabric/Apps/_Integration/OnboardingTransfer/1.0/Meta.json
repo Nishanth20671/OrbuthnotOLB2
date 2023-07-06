@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "com.temenos.infinity.integration.common.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-paymentservices.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

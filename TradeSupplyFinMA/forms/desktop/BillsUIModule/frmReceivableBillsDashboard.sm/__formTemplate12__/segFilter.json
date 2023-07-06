@@ -1,0 +1,132 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_data_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "29dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segFilter",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fb7db8dea0054291aa8547b7b3809168",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxFilterContainer",
+    "pf": "frmReceivableBillsDashboard",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "b4": {
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "b17c15bfd9264bada24db33ba34fd9b1",
+    "rowcounter": 9,
+    "rowfocusskin": "",
+    "rowskin": "",
+    "rowtemplate": "flxBillsFilterList",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "bf7632d1fa7a47c2b071d8be502947d6",
+    "sectionheaderskin": "",
+    "sectionheadertemplate": "flxDetailsHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 0,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBillsFilterList": "flxBillsFilterList",
+        "flxDetailsHeader": "flxDetailsHeader",
+        "flxDropdown": "flxDropdown",
+        "flxHeaderSeparator": "flxHeaderSeparator",
+        "flxMain": "flxMain",
+        "lblDropdownIcon": "lblDropdownIcon",
+        "lblFilterValue": "lblFilterValue",
+        "lblHeading": "lblHeading",
+        "lblIcon": "lblIcon"
+    },
+    "zindex": 1
+}

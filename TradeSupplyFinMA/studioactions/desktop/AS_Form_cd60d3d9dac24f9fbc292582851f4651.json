@@ -1,0 +1,28 @@
+{
+    "AS_Form_cd60d3d9dac24f9fbc292582851f4651": {
+        "id": "AS_Form_cd60d3d9dac24f9fbc292582851f4651",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmReceivableBillsPrint",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e0331d68212d42529a6fae5c960611df"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__g7141efce35548f6b3cdb8af23a68cb8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

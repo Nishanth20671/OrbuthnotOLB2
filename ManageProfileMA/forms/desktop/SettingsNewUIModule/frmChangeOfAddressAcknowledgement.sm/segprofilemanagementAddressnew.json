@@ -1,0 +1,690 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        },
+        {
+            "btnDelete": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "kony.mb.common.Delete",
+                "text": "Delete"
+            },
+            "btnEdit": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.billPay.Edit",
+                "text": "EDIT"
+            },
+            "imgInfoIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "info_grey.png"
+            },
+            "imgPendingIcon": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "inprogress.png"
+            },
+            "imgelipses": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "activewealth.png"
+            },
+            "lblAddessLine2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Palo Alto, Santa clara county"
+            },
+            "lblAddressLine1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "201, Cowper street"
+            },
+            "lblAddressLine3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "California, US, 94301"
+            },
+            "lblHome": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "i18n.ProfileManagement.Home",
+                "text": "Home"
+            },
+            "lblPendingRequest": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Your change address request is pending, it will take time to reflect."
+            },
+            "lblPrimary": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Primary Communication"
+            },
+            "lblSeperator": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MAKE TRANSFER"
+            },
+            "lblUsedFor": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Used For:"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "240dp"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segprofilemanagementAddressnew",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j9728025e0ea4e8896dbdae72a794dc5",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxSegment",
+    "pf": "frmChangeOfAddressAcknowledgement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e5d898c5f08a4505be27fc947a367362",
+    "rowcounter": 9,
+    "rowfocusskin": "s61e69364e294a7182e76c8258d57fac",
+    "rowskin": "s3f31a9f547843478d0dbf6b5871a0ee",
+    "rowtemplate": "flxProfileManagement",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s630c7b008f74f10ab5ca3e31465bc2c",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnDelete": "btnDelete",
+        "btnEdit": "btnEdit",
+        "flxAddress": "flxAddress",
+        "flxAddressDetailContainer": "flxAddressDetailContainer",
+        "flxAddressWrapper": "flxAddressWrapper",
+        "flxAreaOfAddress": "flxAreaOfAddress",
+        "flxEdit": "flxEdit",
+        "flxImgElipses": "flxImgElipses",
+        "flxPendingRequest": "flxPendingRequest",
+        "flxPrimary": "flxPrimary",
+        "flxProfileManagement": "flxProfileManagement",
+        "flxUsedFor": "flxUsedFor",
+        "imgInfoIcon": "imgInfoIcon",
+        "imgPendingIcon": "imgPendingIcon",
+        "imgelipses": "imgelipses",
+        "lblAddessLine2": "lblAddessLine2",
+        "lblAddressLine1": "lblAddressLine1",
+        "lblAddressLine3": "lblAddressLine3",
+        "lblHome": "lblHome",
+        "lblPendingRequest": "lblPendingRequest",
+        "lblPrimary": "lblPrimary",
+        "lblSeperator": "lblSeperator",
+        "lblUsedFor": "lblUsedFor"
+    }
+}

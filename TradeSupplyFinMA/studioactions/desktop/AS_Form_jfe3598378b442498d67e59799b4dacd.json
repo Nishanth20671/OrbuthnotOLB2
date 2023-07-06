@@ -1,0 +1,23 @@
+{
+    "AS_Form_jfe3598378b442498d67e59799b4dacd": {
+        "id": "AS_Form_jfe3598378b442498d67e59799b4dacd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateBillStep3",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aa9794594913425dbf9cc62434c995e3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_a5cb3c3b59334ae38a1dbb3bb35b9eb0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updateInwardCollectionAmendment" : "updateInwardCollectionAmendmentMapping",
+    "updateAmendmentByBank" : "updateAmendmentByBankMapping",
+    "generateAmendmentsList" : "generateAmendmentsListMapping",
+    "UpdateInwardCollection" : "UpdateInwardCollectionMapping",
+    "createAmendment" : "createAmendmentMapping",
+    "getCollections" : "getCollectionsMapping",
+    "generateInwardCollectionsList" : "generateInwardCollectionsListMapping",
+    "generateAmendmentReport" : "generateAmendmentReportMapping",
+    "generateInwardCollectionReport" : "generateInwardCollectionReportMapping",
+    "GetInwardCollectionsAmendmentById" : "GetInwardCollectionsAmendmentByIdMapping",
+    "updateInwardCollectionByBank" : "updateInwardCollectionByBankMapping",
+    "GetInwardCollectionsAmendments" : "GetInwardCollectionsAmendmentsMapping",
+    "getCollectionById" : "getCollectionByIdMapping",
+    "createCollection" : "createCollectionMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

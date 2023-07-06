@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s161cfe0a9704980851b68934d1df274",
+    "_text_": "EDIT",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "EDIT"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 6,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s8ba57bbb01e49f2acad2f1ea21d8717"
+        }
+    },
+    "disabledSkins": {
+        "focusSkin": "sf44d06ca8224832827ea7fdff757013"
+    },
+    "displaytext": true,
+    "id": "btnEdit",
+    "ide_onClick": "AS_Button_eb30c2ef32274f5caa60b838d41676ce",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b4d14e5ebe77482abb0f99cec7b77e81",
+    "name": "kony.ui.Button",
+    "parent": "flxAction",
+    "pf": "segBillPaymentScheduledSelected",
+    "texti18n": "kony.tab.Manage.editRecipientInfo",
+    "tooltip": "Edit Transaction",
+    "wType": "Button",
+    "zindex": 1
+}

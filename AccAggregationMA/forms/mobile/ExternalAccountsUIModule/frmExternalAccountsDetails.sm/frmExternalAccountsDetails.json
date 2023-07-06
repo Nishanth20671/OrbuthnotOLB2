@@ -1,0 +1,161 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        0,
+        1
+    ],
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Account Details",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        },
+        "titleBar": false
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxBody",
+        "flxFooter"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmExternalAccountsDetailsController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhoneX",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmExternalAccountsDetails",
+    "id": "frmExternalAccountsDetails",
+    "ide_init": "AS_Form_a02da1427fdb465996b3845c9ef10a14",
+    "ide_preShow": "AS_Form_cd7e0a0380414f2dba751e3d734e0b4c",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4
+        },
+        "titleBar": false
+    },
+    "iphone": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "gea383d1227a41048730e7b4bacac519",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
+                "barStyle": 0,
+                "hidesBackButton": false,
+                "kuid": "d6464b5146624dc1a825a48bda16a511",
+                "leftBarButtonItems": [],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_h425c128edd2493e9ef5d4d064be470a",
+                        "info": {
+                            "title": "",
+                            "titlei18n": "kony.mb.common.Edit"
+                        },
+                        "kuid": "d7b67b7decb84cecad90147e3be63ca4",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 1
+                    }
+                ],
+                "tintColor": "ffffff00",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "needAppMenu": false
+    },
+    "kuid": "cf0bf9e94b9940c68692d8fc911453da",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": false,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "GalaxyS7",
+    "prevPlatform": "android",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainscrollposition": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
+    "texti18n": "kony.mb.enroll.accountDetails",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    },
+    "winphone8": {
+        "needAppMenu": false
+    }
+}

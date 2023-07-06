@@ -1,0 +1,114 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
+    "_skin_": "s95376e131db404ebbe858e3b39046ef",
+    "_text_": "Confirm & Pay",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "number",
+        "value": ""
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "width": {
+            "type": "string",
+            "value": "150dp"
+        }
+    },
+    "displaytext": true,
+    "focusskin": "s839e834483841dcbd2b03151e8136a0",
+    "id": "btnConfirm",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d716a31b499c496d9691bfb70025c46b",
+    "name": "kony.ui.Button",
+    "parent": "flxButtons",
+    "pf": "frmConfirmPartialRepayment",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "920dp"
+            }
+        },
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": "530dp"
+            }
+        },
+        "b3": {
+            "centerY": {
+                "type": "string",
+                "value": ""
+            },
+            "desktopweb": {
+                "width": {
+                    "type": "string",
+                    "value": "94%"
+                }
+            },
+            "left": {
+                "type": "string",
+                "value": "3%"
+            },
+            "right": {
+                "type": "string",
+                "value": ""
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "300dp"
+            }
+        },
+        "b4": {
+            "left": {
+                "type": "string",
+                "value": "1030dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.Accounts.ConfrimAndPay",
+    "wType": "Button"
+}

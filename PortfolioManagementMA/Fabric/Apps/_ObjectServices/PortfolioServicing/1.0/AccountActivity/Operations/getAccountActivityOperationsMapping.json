@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "getAccountActivityOperations4177",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"searchByInstrumentName\" outputpath=\"searchByInstrumentName\"/><set-param inputpath=\"accountId\" outputpath=\"accountId\"/><set-param inputpath=\"portfolioId\" outputpath=\"portfolioId\"/><set-param inputpath=\"dateTo\" outputpath=\"dateTo\"/><set-param inputpath=\"sortBy\" outputpath=\"sortBy\"/><set-param inputpath=\"dateFrom\" outputpath=\"dateFrom\"/><set-param inputpath=\"listType\" outputpath=\"listType\"/><set-param inputpath=\"sortOrder\" outputpath=\"sortOrder\"/><set-param inputpath=\"pageSize\" outputpath=\"pageSize\"/><set-param inputpath=\"pageOffset\" outputpath=\"pageOffset\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "WealthPortfolioServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getAccountActivityOperations"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "AccountActivity",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"searchByInstrumentName\" outputpath=\"searchByInstrumentName\"/><set-param inputpath=\"accountId\" outputpath=\"accountId\"/><set-param inputpath=\"portfolioId\" outputpath=\"portfolioId\"/><set-param inputpath=\"dateTo\" outputpath=\"dateTo\"/><set-param inputpath=\"sortBy\" outputpath=\"sortBy\"/><set-param inputpath=\"dateFrom\" outputpath=\"dateFrom\"/><set-param inputpath=\"listType\" outputpath=\"listType\"/><set-param inputpath=\"sortOrder\" outputpath=\"sortOrder\"/><set-param inputpath=\"pageSize\" outputpath=\"pageSize\"/><set-param inputpath=\"pageOffset\" outputpath=\"pageOffset\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

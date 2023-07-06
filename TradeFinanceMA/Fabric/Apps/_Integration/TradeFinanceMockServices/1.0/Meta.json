@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-nonproductservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "tradefinanceservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

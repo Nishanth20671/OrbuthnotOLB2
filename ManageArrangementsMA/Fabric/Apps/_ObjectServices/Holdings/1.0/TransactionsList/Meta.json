@@ -1,0 +1,22 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getPostedUserTransactions" : "getPostedUserTransactionsMapping",
+    "getDisputeRequest" : "getDisputeRequestMapping",
+    "getUserScheduledTransactions" : "getUserScheduledTransactionsMapping",
+    "get" : "getMapping",
+    "getLoanSchedule" : "getLoanScheduleMapping",
+    "createDisputeRequest" : "createDisputeRequestMapping",
+    "getAllTransactionsForAdmin" : "getAllTransactionsForAdminMapping",
+    "getRecent" : "getRecentMapping",
+    "getPendingUserTransactions" : "getPendingUserTransactionsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

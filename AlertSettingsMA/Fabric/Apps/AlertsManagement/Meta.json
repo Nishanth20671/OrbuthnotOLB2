@@ -1,0 +1,18 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "AlertsManagement",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "alertAdminConsoleServices",
+    "version" : "1.0",
+    "etag" : "98b5a26f-1cf7-4d15-b80f-d4baf09300cb"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "AlertsManagement",
+    "version" : "1.0",
+    "etag" : "edfe4c2c-2b19-4764-8784-af1192dc8bc8"
+  } ],
+  "identity" : [ "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

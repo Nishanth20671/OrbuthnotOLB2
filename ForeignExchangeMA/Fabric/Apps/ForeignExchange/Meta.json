@@ -1,0 +1,29 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "ForeignExchange",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "dbpForexServices",
+    "version" : "1.0",
+    "etag" : "68c14c60-8735-45b4-8400-ce7478a7b851"
+  }, {
+    "name" : "dbpNpForexServices",
+    "version" : "1.0",
+    "etag" : "fe58b147-2622-4aca-8e0b-7ede0d34dde9"
+  }, {
+    "name" : "MOCKForexService",
+    "version" : "1.0",
+    "etag" : "c1fc1ffe-42f3-4113-81b0-cc55833f07a6"
+  }, {
+    "name" : "T24ISForexService",
+    "version" : "1.0",
+    "etag" : "846a1ddd-f236-4e0e-8687-91b841e6c694"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ForeignExchange",
+    "version" : "1.0",
+    "etag" : "52ef2496-a45c-4038-892d-323e5b65eb70"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

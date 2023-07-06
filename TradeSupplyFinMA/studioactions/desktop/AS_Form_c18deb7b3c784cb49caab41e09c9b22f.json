@@ -1,0 +1,28 @@
+{
+    "AS_Form_c18deb7b3c784cb49caab41e09c9b22f": {
+        "id": "AS_Form_c18deb7b3c784cb49caab41e09c9b22f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCancelBill",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cc8d458e4c944bcca899857bf5d54df3"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__aa9897ca8c474a41908b58a8f329b654",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

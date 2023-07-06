@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "com.temenos.infinity.integration.common.jar",
+    "type" : "jar"
+  }, {
+    "name" : "arrangementsapi-services.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

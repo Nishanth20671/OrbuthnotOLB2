@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s9d634c8d71f49d283c6dbd243c743bb",
+    "_top_": {
+        "type": "string",
+        "value": "51dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "flxBatchEllipsisDropDownContainer"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxBatchEllipsisDropDown",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "e807b40010f043249ad53b8852c4c6cf",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxCreateNewBatch",
+    "pf": "frmReceivableBillsDashboard",
+    "responsiveData": {
+        "b1": {},
+        "b2": {},
+        "b4": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 150
+}

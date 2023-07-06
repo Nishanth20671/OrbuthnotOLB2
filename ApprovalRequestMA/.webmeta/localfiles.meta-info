@@ -1,0 +1,51 @@
+{
+    "HEAD": "wf10f096c00d4efe97ddd7e883bb0f3b",
+    "w15ecf7e0c7e437da6a1481dc73a0310": {
+        "children": [
+            "w1787ce89700409f992912b3d1c23645",
+            "weae95da3c454819bdc46d3ff0edb4ca",
+            "w977405abeaa4a67a34b2041da94696f",
+            "wb4d59c82a4b46c4a2c006df1e5f2346"
+        ],
+        "kuid": "w15ecf7e0c7e437da6a1481dc73a0310",
+        "name": "circular",
+        "parent": "wf10f096c00d4efe97ddd7e883bb0f3b",
+        "type": "D"
+    },
+    "w1787ce89700409f992912b3d1c23645": {
+        "extension": "html",
+        "kuid": "w1787ce89700409f992912b3d1c23645",
+        "name": "index.html",
+        "parent": "w15ecf7e0c7e437da6a1481dc73a0310",
+        "type": "F"
+    },
+    "w977405abeaa4a67a34b2041da94696f": {
+        "extension": "js",
+        "kuid": "w977405abeaa4a67a34b2041da94696f",
+        "name": "script.js",
+        "parent": "w15ecf7e0c7e437da6a1481dc73a0310",
+        "type": "F"
+    },
+    "wb4d59c82a4b46c4a2c006df1e5f2346": {
+        "extension": "css",
+        "kuid": "wb4d59c82a4b46c4a2c006df1e5f2346",
+        "name": "style.css",
+        "parent": "w15ecf7e0c7e437da6a1481dc73a0310",
+        "type": "F"
+    },
+    "weae95da3c454819bdc46d3ff0edb4ca": {
+        "extension": "html",
+        "kuid": "weae95da3c454819bdc46d3ff0edb4ca",
+        "name": "index2.html",
+        "parent": "w15ecf7e0c7e437da6a1481dc73a0310",
+        "type": "F"
+    },
+    "wf10f096c00d4efe97ddd7e883bb0f3b": {
+        "children": [
+            "w15ecf7e0c7e437da6a1481dc73a0310"
+        ],
+        "kuid": "wf10f096c00d4efe97ddd7e883bb0f3b",
+        "name": "localfiles",
+        "type": "L"
+    }
+}

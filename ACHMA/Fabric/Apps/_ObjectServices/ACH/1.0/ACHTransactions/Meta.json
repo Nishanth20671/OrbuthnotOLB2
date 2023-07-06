@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getACHTransactionDetailsById" : "getACHTransactionDetailsByIdMapping",
+    "createACHTransaction" : "createACHTransactionMapping",
+    "getAllACHTransactions" : "getAllACHTransactionsMapping",
+    "get" : "getMapping",
+    "RejectedTransactions" : "RejectedTransactionsMapping",
+    "SaveAsTemplate" : "SaveAsTemplateMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

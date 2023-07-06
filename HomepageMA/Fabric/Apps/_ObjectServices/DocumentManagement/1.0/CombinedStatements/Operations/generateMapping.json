@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "generateCombinedStatementFile5835",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"accountsInfo\" outputpath=\"accountsInfo\"/><set-param inputpath=\"fromDate\" outputpath=\"fromDate\"/><set-param inputpath=\"dateFormat\" outputpath=\"dateFormat\"/><set-param inputpath=\"toDate\" outputpath=\"toDate\"/><set-param inputpath=\"bankName\" outputpath=\"bankName\"/><set-param inputpath=\"userId\" outputpath=\"userId\"/><set-param inputpath=\"currencyCode\" outputpath=\"currencyCode\"/><set-param inputpath=\"fileType\" outputpath=\"fileType\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "CombinedStatementsJavaServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "generateCombinedStatementFile"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "CombinedStatements",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"accountsInfo\" outputpath=\"accountsInfo\"/><set-param inputpath=\"fromDate\" outputpath=\"fromDate\"/><set-param inputpath=\"dateFormat\" outputpath=\"dateFormat\"/><set-param inputpath=\"toDate\" outputpath=\"toDate\"/><set-param inputpath=\"bankName\" outputpath=\"bankName\"/><set-param inputpath=\"userId\" outputpath=\"userId\"/><set-param inputpath=\"currencyCode\" outputpath=\"currencyCode\"/><set-param inputpath=\"fileType\" outputpath=\"fileType\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

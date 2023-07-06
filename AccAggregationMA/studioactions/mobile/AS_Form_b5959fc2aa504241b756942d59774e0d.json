@@ -1,0 +1,23 @@
+{
+    "AS_Form_b5959fc2aa504241b756942d59774e0d": {
+        "id": "AS_Form_b5959fc2aa504241b756942d59774e0d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBankLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g3e0dd3aac7f4bcd9c5def19df4e6133"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_be1d5bd52c2546ce8075293a71bde657",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "test();",
+            "parentId": null
+        }]
+    }
+}

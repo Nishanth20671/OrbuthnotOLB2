@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-P2P-enrollment.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

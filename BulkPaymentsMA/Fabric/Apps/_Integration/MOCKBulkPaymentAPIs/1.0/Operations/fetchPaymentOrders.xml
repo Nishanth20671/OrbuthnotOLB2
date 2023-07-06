@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="fetchPaymentOrders" passwordencrypted="false" security="authorized_app_user" type="stubConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <stub-param value="{&quot;paymentOrders&quot;:[{&quot;paymentOrderId&quot;:&quot;PI2210905N5752W9&quot;,&quot;recordId&quot;:&quot;BKM2210900077&quot;,&quot;recipientName&quot;:&quot;SreerupaI&quot;,&quot;accountNumber&quot;:&quot;GB88DEMO60161300100137&quot;,&quot;swift&quot;:&quot;DEMOGBPX&quot;,&quot;currency&quot;:&quot;USD&quot;,&quot;amount&quot;:&quot;3&quot;,&quot;feesPaidBy&quot;:&quot;OUR&quot;,&quot;paymentReference&quot;:&quot;TestI&quot;,&quot;status&quot;:&quot;Ready for Execution&quot;,&quot;paymentMethod&quot;:&quot;FTBMBLK&quot;},{&quot;paymentOrderId&quot;:&quot;PI2210905N575360&quot;,&quot;recordId&quot;:&quot;BKM2210900077&quot;,&quot;recipientName&quot;:&quot;RRR&quot;,&quot;accountNumber&quot;:&quot;GB79DEMO60161300123676&quot;,&quot;currency&quot;:&quot;USD&quot;,&quot;amount&quot;:&quot;3.45&quot;,&quot;feesPaidBy&quot;:&quot;SHA&quot;,&quot;paymentReference&quot;:&quot;Test&quot;,&quot;status&quot;:&quot;Ready for Execution&quot;,&quot;paymentMethod&quot;:&quot;FTBMBLK&quot;},{&quot;paymentOrderId&quot;:&quot;PI2210905N575397&quot;,&quot;recordId&quot;:&quot;BKM2210900077&quot;,&quot;recipientName&quot;:&quot;SreerupaD&quot;,&quot;accountNumber&quot;:&quot;GB22DEMO60161300100064&quot;,&quot;swift&quot;:&quot;DEMOGBPX&quot;,&quot;currency&quot;:&quot;USD&quot;,&quot;amount&quot;:&quot;2&quot;,&quot;feesPaidBy&quot;:&quot;BEN&quot;,&quot;paymentReference&quot;:&quot;TestD&quot;,&quot;status&quot;:&quot;Ready for Execution&quot;,&quot;paymentMethod&quot;:&quot;FTBMBLK&quot;},{&quot;paymentOrderId&quot;:&quot;PI2210905N575399&quot;,&quot;recordId&quot;:&quot;BKM2210900077&quot;,&quot;recipientName&quot;:&quot;RRR&quot;,&quot;accountNumber&quot;:&quot;GB79DEMO60161300123676&quot;,&quot;currency&quot;:&quot;USD&quot;,&quot;amount&quot;:&quot;1&quot;,&quot;feesPaidBy&quot;:&quot;SHA&quot;,&quot;paymentReference&quot;:&quot;Test&quot;,&quot;status&quot;:&quot;Ready for Execution&quot;,&quot;paymentMethod&quot;:&quot;FTBMBLK&quot;}],&quot;opstatus&quot;:0,&quot;httpStatusCode&quot;:0}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="paymentOrders" order="" paramOrder="1" parentOrder="0" src="$.paymentOrders[*]" testvalue="" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="paymentOrderId" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="paymentOrderId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="recordId" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="recordId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="recipientName" order="" paramOrder="4" parentOrder="1" passnull="false" sms-name="" src="recipientName" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="accountNumber" order="" paramOrder="5" parentOrder="1" passnull="false" sms-name="" src="accountNumber" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="swift" order="" paramOrder="6" parentOrder="1" passnull="false" sms-name="" src="swift" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="currency" order="" paramOrder="7" parentOrder="1" passnull="false" sms-name="" src="currency" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="amount" order="" paramOrder="8" parentOrder="1" passnull="false" sms-name="" src="amount" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="feesPaidBy" order="" paramOrder="9" parentOrder="1" passnull="false" sms-name="" src="feesPaidBy" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="paymentReference" order="" paramOrder="10" parentOrder="1" passnull="false" sms-name="" src="paymentReference" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="status" order="" paramOrder="11" parentOrder="1" passnull="false" sms-name="" src="status" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="paymentMethod" order="" paramOrder="12" parentOrder="1" passnull="false" sms-name="" src="paymentMethod" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

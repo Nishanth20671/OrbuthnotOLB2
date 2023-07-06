@@ -1,0 +1,17 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "FinanceManagement",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "FinanceManagementJavaServices",
+    "version" : "1.0",
+    "etag" : "b1e38721-8f90-4985-9f24-230d4b33a15d"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "PFM",
+    "version" : "1.0",
+    "etag" : "d006d923-accd-4d43-b161-7488c358a505"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

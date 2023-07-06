@@ -1,0 +1,18 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "GetMarketRates" : "GetMarketRatesMapping",
+    "createOrder" : "createOrderMapping",
+    "getHistoricalData" : "getHistoricalDataMapping",
+    "getAddCurrency" : "getAddCurrencyMapping",
+    "createCurrencyConvertion" : "createCurrencyConvertionMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-ObjectServices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-commonutilityservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-businessbankingservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "cardmanagement-services.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

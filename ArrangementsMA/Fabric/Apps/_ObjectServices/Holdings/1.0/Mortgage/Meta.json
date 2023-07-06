@@ -1,0 +1,21 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "CreatePartialRepayment" : "CreatePartialRepaymentMapping",
+    "submitChangeRepaymentAccountServiceRequest" : "submitChangeRepaymentAccountServiceRequestMapping",
+    "submitPartialRepaymentServiceRequestOperation" : "submitPartialRepaymentServiceRequestOperationMapping",
+    "getMortgageSimulatedResults" : "getMortgageSimulatedResultsMapping",
+    "getMockSimulatedResults" : "getMockSimulatedResultsMapping",
+    "getMortgageDrawings" : "getMortgageDrawingsMapping",
+    "submitChangeRepaymentDayServiceRequest" : "submitChangeRepaymentDayServiceRequestMapping",
+    "getMortgageFacilityDetails" : "getMortgageFacilityDetailsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

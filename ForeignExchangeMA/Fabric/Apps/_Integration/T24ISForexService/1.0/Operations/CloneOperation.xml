@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="CloneOperation" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value="function executePostProcessor() {&#10;    var resultJson = resultToJSON();&#10;    var resultJson2 = resultJson;&#10;    try {&#10;&#10;        var reqCurr = request.getParameter(&quot;currency&quot;);&#10;        var filter1 = resultJson[&quot;rates&quot;].filter(&#10;            function(record1) {&#10;                if (record1.currency === reqCurr &amp;&amp; (record1.midRevalRate === undefined ||&#10;                        record1.midRevalRate == null || record1.midRevalRate == &quot;&quot;)) {&#10;                    record1.midRevalRate = &quot;1&quot;;&#10;                    return record1;&#10;                } else {&#10;                    return record1;&#10;                }&#10;            });&#10;&#10;        var result1 = {};&#10;        resultJson.rates = filter1;&#10;        result = jsonToResult(resultJson);&#10;    } catch (e) {&#10;        return resultJson2;&#10;    }&#10;}&#10;&#10;&#10;executePostProcessor();"/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://_$_T24_USER_HOST_URL_$_/v1.0.0/holdings/currencies/revaluationRates1?currency=$currency"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="urlprovider" value="com.kony.dbx.util.ServiceURLProvider"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="eyJraWQiOiJLT05ZIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJJUklTIiwic3ViIjoiZGJwb2xidXNlciIsInJvbGVJZCI6IklORklOSVRZLlJFVEFJTCIsImlzcyI6IkZhYnJpYyIsImRieFVzZXJJZCI6IjEwMjY1NDAiLCJleHAiOjE2Nzc0NDMwMDEsImlhdCI6MTU3NzQ0MTIwMSwidXNlcklkIjoiZGJwb2xidXNlciIsImp0aSI6IjQwMzMwMjAyLTg0MmYtNDRmNC05M2JhLTU2MDlhODA5ZTU5ZSJ9.f6u4vR5rOWfgyNiqHl05NDLab8D6FFAZ9zvdkWlZvgUE2dcvcexb38Ko_q3pHr39pbpmfycb3CLqVmIMlbIR5XQ9Wi5I0uwcZRGpqw6KiPaek9f_DhIoOebWUL5cs_UL6nxcJ9Lw0dExnq5cM__PiRoInLTQU6poRnrnxnR4QQ50WUiD7Oek9TGbaBSaOrMZFCybUQ22EHOV6p4Js2rFKZGx6k0RMxTxXh6iy7SzAjpiHR8YXYfPIuHW9arsU1MWXjNDMWpn-CpPMhPpUvqELGTqyvMinFn53bCH6dES3dW57VggLCOjQDoHC8JV1mXXwP79brMs-UoAxmfWhDbIxQ" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="INFINITY" description="" encode="false" format="None" formatvalue="" name="channelName" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="INFINITY" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="0" description="" encode="false" format="None" formatvalue="" name="numberOfAuthorisers" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="0" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="currency" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="GBP" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <stub-param value="{&#10; &quot;Employee&quot;:&#10; [&#10;  '{{repeat(10, 20)}}',&#10;  {&#10;   &quot;id&quot;: &quot;{{concat(&quot;EMP&quot;,index())}}&quot;,&#10;   &quot;onBoarded&quot;: &quot;{{bool()}}&quot;,&#10;   &quot;salary&quot;: &quot;{{concat(&quot;$&quot;,float(20000, 50000, &quot;%.2f&quot;))}}&quot;,&#10;   &quot;age&quot;: &quot;{{integer(20, 40)}}&quot;,&#10;   &quot;name&quot;: &quot;{{firstName()}} {{surname()}}&quot;,&#10;   &quot;manager&quot;: &quot;{{firstName()}} {{surname()}}&quot;,&#10;   &quot;gender&quot;: &quot;{{gender()}}&quot;,&#10;   &quot;designation&quot;:&quot;{{random(&quot;Associate Engineer&quot;,&quot;VP Operations&quot;,&quot;Director Of HR&quot;,&quot;Lead HR Officer&quot;,&quot;Senior Manager&quot;,&quot;Associate Manager&quot;)}}&quot;,&#10;   &quot;company&quot;: &quot;{{toUpperCase(company())}}&quot;,&#10;   &quot;email&quot;: &quot;{{email()}}&quot;,&#10;   &quot;phone&quot;: &quot;+1 {{phone()}}&quot;,&#10;   &quot;address&quot;: &quot;{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}&quot;,&#10;   &quot;location&quot;:&quot;{{city()}}&quot;,&#10;   &quot;latitude&quot;: &quot;{{float(-90.000001, 90)}}&quot;,&#10;   &quot;longitude&quot;: &quot;{{float(-180.000001, 180)}}&quot;,&#10;   &quot;about&quot;: &quot;{{lorem(30, &quot;words&quot;)}}&quot;,&#10;   &quot;date_of_joining&quot;: &quot;{{date(&quot;01-01-2014 12:00:00&quot;, &quot;01-01-2018 12:00:00&quot;, &quot;yyyy-MM-dd'T'HH:mm:ss Z&quot;)}}&quot;&#10;  }&#10; ]&#10;}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="rates" order="" paramOrder="2" parentOrder="0" src="$.body[*]" testvalue="" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="midRevalRate" order="" paramOrder="3" parentOrder="2" passnull="false" sms-name="" src="midRevalRate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="currency" order="" paramOrder="4" parentOrder="2" passnull="false" sms-name="" src="currency" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="quotationCode" order="" paramOrder="5" parentOrder="2" passnull="false" sms-name="" src="quotationCode" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="errmsg" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="$.message" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

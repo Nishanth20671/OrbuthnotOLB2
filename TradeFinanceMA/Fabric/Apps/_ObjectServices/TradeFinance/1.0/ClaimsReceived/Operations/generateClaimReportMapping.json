@@ -1,0 +1,53 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.temenos.infinity.tradefinanceservices.preprocessor.TradeFinancePreprocessor"
+  },
+  "operationConfig" : {
+    "name" : "GenerateIssuedGuaranteeClaim4134",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"request_in\" outputpath=\"request_out\">            <set-param inputpath=\"claimsSRMSId\" outputpath=\"claimsSRMSId\"/>                             </map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"response_in\" outputpath=\"response_out\">              <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>                    <set-param inputpath=\"dbpErrCode\" outputpath=\"dbpErrCode\"/>              <set-param inputpath=\"dbpErrMsg\" outputpath=\"dbpErrMsg\"/>      </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ClaimsReceived\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceServices (1.0).GenerateIssuedGuaranteeClaim\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:ClaimsReceived\",\"fromPort\":\"source\",\"toPort\":\"source:ClaimsReceived\",\"visible\":true,\"common\":false},{\"from\":\"source:ClaimsReceived\",\"to\":\"source:ClaimsReceived:t_p_fields\",\"fromPort\":\"source:ClaimsReceived\",\"toPort\":\"source:ClaimsReceived:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:claimsSRMSId:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:claimsSRMSId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ClaimsReceived\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceServices (1.0).GenerateIssuedGuaranteeClaim\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:ClaimsReceived\",\"fromPort\":\"target\",\"toPort\":\"target:ClaimsReceived\",\"visible\":true,\"common\":false},{\"from\":\"target:ClaimsReceived\",\"to\":\"target:ClaimsReceived:t_p_fields\",\"fromPort\":\"target:ClaimsReceived\",\"toPort\":\"target:ClaimsReceived:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source\",\"to\":\"source:t_p_parameters\",\"fromPort\":\"source\",\"toPort\":\"source:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:fileId:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "TradeFinanceServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "GenerateIssuedGuaranteeClaim"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "ClaimsReceived",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : true,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"request_in\" outputpath=\"request_out\">            <set-param inputpath=\"claimsSRMSId\" outputpath=\"claimsSRMSId\"/>                             </map></mapper>",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">      <map inputpath=\"response_in\" outputpath=\"response_out\">              <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>                    <set-param inputpath=\"dbpErrCode\" outputpath=\"dbpErrCode\"/>              <set-param inputpath=\"dbpErrMsg\" outputpath=\"dbpErrMsg\"/>      </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ClaimsReceived\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceServices (1.0).GenerateIssuedGuaranteeClaim\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:ClaimsReceived\",\"fromPort\":\"source\",\"toPort\":\"source:ClaimsReceived\",\"visible\":true,\"common\":false},{\"from\":\"source:ClaimsReceived\",\"to\":\"source:ClaimsReceived:t_p_fields\",\"fromPort\":\"source:ClaimsReceived\",\"toPort\":\"source:ClaimsReceived:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:claimsSRMSId:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:claimsSRMSId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ClaimsReceived\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceServices (1.0).GenerateIssuedGuaranteeClaim\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:ClaimsReceived\",\"fromPort\":\"target\",\"toPort\":\"target:ClaimsReceived\",\"visible\":true,\"common\":false},{\"from\":\"target:ClaimsReceived\",\"to\":\"target:ClaimsReceived:t_p_fields\",\"fromPort\":\"target:ClaimsReceived\",\"toPort\":\"target:ClaimsReceived:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source\",\"to\":\"source:t_p_parameters\",\"fromPort\":\"source\",\"toPort\":\"source:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:fileId:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : true,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : true,
+  "customVerb" : false,
+  "frontendUrlPath" : "generateClaimReport",
+  "frontend_supported_method" : "POST"
+}

@@ -1,0 +1,154 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb11c88f678a49128649098b2fc0396b",
+                "srcKUID": "a92fc4f8fe924a5a95a2b7f3de772c04",
+                "wType": "Button"
+            }
+        },
+        "btnRight": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a54f6290f96d445d87e5dd248020bfd6",
+                "srcKUID": "a4ee84ad1d214582898217af1d05a7d5",
+                "wType": "Button"
+            },
+            "i18n_text": "kony.mb.common.Cancel",
+            "isVisible": false,
+            "text": "Cancel"
+        },
+        "customHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e349ae742032441bb47a2494d4ebf62f",
+                "srcKUID": "cf270a797f14497bb1bba45b251f1a06",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j998ac1d23244b6c88001fb10e46195a",
+                "srcKUID": "dd5ab076f18a49149f542c0d2b517ac2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fc3d9ec867394a559775b06860ae5729",
+                "srcKUID": "d9ee03385e1f41a79b8e123b6dda48c5",
+                "wType": "FlexContainer"
+            },
+            "isVisible": true
+        },
+        "flxHeaderShadow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bb960da3948442499da6993fc53c4f01",
+                "srcKUID": "fd3eb3ca751e4798b59a12af8de4fd04",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c6980461534c4c37b9dc0f2bedc807e8",
+                "srcKUID": "f46eab5e257a4a5faca8d9c8b16f58bb",
+                "wType": "FlexContainer"
+            },
+            "isVisible": false
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j88bc39962974966b404c02ea06aaa98",
+                "srcKUID": "a54167a680ef4852826dcbc71ac31f89",
+                "wType": "Image"
+            },
+            "src": "hamburger.png"
+        },
+        "imgSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f43257a0f4ef4564a173216f701ec1ae",
+                "srcKUID": "d5b6a4c443884b6e920a9e69bfa3cf50",
+                "wType": "Image"
+            }
+        },
+        "lblLocateUs": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a15bf84b090b478ba4a3c11ef027bc19",
+                "srcKUID": "c6589a12cf8e43e685fa0a5b4a9223f6",
+                "wType": "Label"
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "i18n_text": "kony.mb.ExternalAccounts.ManageOtherBankAccounts",
+            "text": "Manage External Accounts"
+        }
+    },
+    "id": "customHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e349ae742032441bb47a2494d4ebf62f",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxHeader",
+    "pf": "frmExternalAccountsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "cf270a797f14497bb1bba45b251f1a06",
+    "wType": "UserWidgetInstance"
+}

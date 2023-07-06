@@ -1,0 +1,95 @@
+{
+  "operationConfig" : {
+    "name" : "fetchACHTransactionTypes9028",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                <map inputpath=\"response_in\" outputpath=\"response_out\">                                <map inputpath=\"TransactionTypes\" outputpath=\"TransactionTypes\">                                              <set-param inputpath=\"transactionTypeName\" outputpath=\"TransactionTypeName\" />                                    <set-param inputpath=\"transactionType_id\" outputpath=\"TransactionType_id\" />                              </map>                     <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                            <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                    <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                    <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />          </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"TransactionTypes\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpACHServices (1.0).FetchACHTransactionTypes\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:TransactionTypes\",\"fromPort\":\"target\",\"toPort\":\"target:TransactionTypes\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes\",\"to\":\"target:TransactionTypes:fields\",\"fromPort\":\"target:TransactionTypes\",\"toPort\":\"target:TransactionTypes:fields\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:TransactionType_id:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:TransactionType_id:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:TransactionTypeName:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:TransactionTypeName:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:dbpErrCode:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:dbpErrCode:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:httpStatusCode:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:httpStatusCode:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:opstatus:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:opstatus:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:dbpErrMsg:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:dbpErrMsg:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpACHServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "FetchACHTransactionTypes"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "TransactionTypes",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                <map inputpath=\"response_in\" outputpath=\"response_out\">                                <map inputpath=\"TransactionTypes\" outputpath=\"TransactionTypes\">                                              <set-param inputpath=\"transactionTypeName\" outputpath=\"TransactionTypeName\" />                                    <set-param inputpath=\"transactionType_id\" outputpath=\"TransactionType_id\" />                              </map>                     <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                            <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                    <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                    <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />          </map></mapper>",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"TransactionTypes\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpACHServices (1.0).FetchACHTransactionTypes\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:TransactionTypes\",\"fromPort\":\"target\",\"toPort\":\"target:TransactionTypes\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes\",\"to\":\"target:TransactionTypes:fields\",\"fromPort\":\"target:TransactionTypes\",\"toPort\":\"target:TransactionTypes:fields\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:TransactionType_id:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:TransactionType_id:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:TransactionTypeName:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:TransactionTypeName:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:dbpErrCode:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:dbpErrCode:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:httpStatusCode:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:httpStatusCode:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:opstatus:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:opstatus:\",\"visible\":true,\"common\":false},{\"from\":\"target:TransactionTypes:fields\",\"to\":\"target:TransactionTypes:dbpErrMsg:\",\"fromPort\":\"target:TransactionTypes:fields\",\"toPort\":\"target:TransactionTypes:dbpErrMsg:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

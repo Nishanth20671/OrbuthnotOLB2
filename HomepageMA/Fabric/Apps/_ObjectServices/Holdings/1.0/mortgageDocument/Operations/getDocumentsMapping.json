@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "searchDocument4820",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"arrangementId\" outputpath=\"arrangementId\"/>\n        <set-param inputpath=\"authorization\" outputpath=\"authorization\"/>\n        <set-param inputpath=\"documentGroup\" outputpath=\"documentGroup\"/>\n        <set-param inputpath=\"ownerSystemId\" outputpath=\"ownerSystemId\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"documentsList\" outputpath=\"mortgageDocument\">\n            <set-param inputpath=\"documentId\" outputpath=\"documentId\"/>\n            <set-param inputpath=\"documentStatus\" outputpath=\"documentStatus\"/>\n            <set-param inputpath=\"documentType\" outputpath=\"documentType\"/>\n            <set-param inputpath=\"documentName\" outputpath=\"documentName\"/>\n            <set-param inputpath=\"metaDocumentName\" outputpath=\"metaDocumentName\"/>\n        </map>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"mortgageDocument\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"mortgageDocument (1.0).searchDocument\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:authorization:\",\"to\":\"target:authorization:\",\"fromPort\":\"source:mortgageDocument:authorization:\",\"toPort\":\"target:authorization:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:documentGroup:\",\"to\":\"target:documentGroup:\",\"fromPort\":\"source:mortgageDocument:documentGroup:\",\"toPort\":\"target:documentGroup:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:ownerSystemId:\",\"to\":\"target:ownerSystemId:\",\"fromPort\":\"source:mortgageDocument:ownerSystemId:\",\"toPort\":\"target:ownerSystemId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:arrangementId:\",\"to\":\"target:arrangementId:\",\"fromPort\":\"source:mortgageDocument:arrangementId:\",\"toPort\":\"target:arrangementId:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"mortgageDocument\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"mortgageDocument (1.0).searchDocument\",\"xy\":\"269 110.80000305175781\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentId:\",\"to\":\"target:mortgageDocument:documentId:\",\"fromPort\":\"source:documentsList:documentId:\",\"toPort\":\"target:mortgageDocument:documentId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentName:\",\"to\":\"target:mortgageDocument:documentName:\",\"fromPort\":\"source:documentsList:documentName:\",\"toPort\":\"target:mortgageDocument:documentName:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentType:\",\"to\":\"target:mortgageDocument:documentType:\",\"fromPort\":\"source:documentsList:documentType:\",\"toPort\":\"target:mortgageDocument:documentType:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentStatus:\",\"to\":\"target:mortgageDocument:documentStatus:\",\"fromPort\":\"source:documentsList:documentStatus:\",\"toPort\":\"target:mortgageDocument:documentStatus:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:metaDocumentName:\",\"to\":\"target:mortgageDocument:metaDocumentName:\",\"fromPort\":\"source:documentsList:metaDocumentName:\",\"toPort\":\"target:mortgageDocument:metaDocumentName:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "mortgageDocument",
+      "serviceVersion" : "1.0",
+      "operationName" : "searchDocument"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "mortgageDocument",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"arrangementId\" outputpath=\"arrangementId\"/>\n        <set-param inputpath=\"authorization\" outputpath=\"authorization\"/>\n        <set-param inputpath=\"documentGroup\" outputpath=\"documentGroup\"/>\n        <set-param inputpath=\"ownerSystemId\" outputpath=\"ownerSystemId\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"documentsList\" outputpath=\"mortgageDocument\">\n            <set-param inputpath=\"documentId\" outputpath=\"documentId\"/>\n            <set-param inputpath=\"documentStatus\" outputpath=\"documentStatus\"/>\n            <set-param inputpath=\"documentType\" outputpath=\"documentType\"/>\n            <set-param inputpath=\"documentName\" outputpath=\"documentName\"/>\n            <set-param inputpath=\"metaDocumentName\" outputpath=\"metaDocumentName\"/>\n        </map>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"mortgageDocument\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"mortgageDocument (1.0).searchDocument\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:authorization:\",\"to\":\"target:authorization:\",\"fromPort\":\"source:mortgageDocument:authorization:\",\"toPort\":\"target:authorization:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:documentGroup:\",\"to\":\"target:documentGroup:\",\"fromPort\":\"source:mortgageDocument:documentGroup:\",\"toPort\":\"target:documentGroup:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:ownerSystemId:\",\"to\":\"target:ownerSystemId:\",\"fromPort\":\"source:mortgageDocument:ownerSystemId:\",\"toPort\":\"target:ownerSystemId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:mortgageDocument:arrangementId:\",\"to\":\"target:arrangementId:\",\"fromPort\":\"source:mortgageDocument:arrangementId:\",\"toPort\":\"target:arrangementId:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"mortgageDocument\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"mortgageDocument (1.0).searchDocument\",\"xy\":\"269 110.80000305175781\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentId:\",\"to\":\"target:mortgageDocument:documentId:\",\"fromPort\":\"source:documentsList:documentId:\",\"toPort\":\"target:mortgageDocument:documentId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentName:\",\"to\":\"target:mortgageDocument:documentName:\",\"fromPort\":\"source:documentsList:documentName:\",\"toPort\":\"target:mortgageDocument:documentName:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentType:\",\"to\":\"target:mortgageDocument:documentType:\",\"fromPort\":\"source:documentsList:documentType:\",\"toPort\":\"target:mortgageDocument:documentType:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:documentStatus:\",\"to\":\"target:mortgageDocument:documentStatus:\",\"fromPort\":\"source:documentsList:documentStatus:\",\"toPort\":\"target:mortgageDocument:documentStatus:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:documentsList:metaDocumentName:\",\"to\":\"target:mortgageDocument:metaDocumentName:\",\"fromPort\":\"source:documentsList:metaDocumentName:\",\"toPort\":\"target:mortgageDocument:metaDocumentName:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

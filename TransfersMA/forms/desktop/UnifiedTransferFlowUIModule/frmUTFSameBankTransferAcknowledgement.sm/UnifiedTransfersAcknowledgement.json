@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s27ab58d7fc2473f856d8eddf15c88fc",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "UnifiedTransfersAcknowledgement",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c7168f866e014017afd10d690692fae7",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMainContainer",
+    "pf": "frmUTFSameBankTransferAcknowledgement",
+    "responsiveData": {
+        "b4": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "j2ba4c31d72e4932b8e59ff0b3c89fba",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="" groupType="" id="computeStrategy" passwordencrypted="" security="authorized_app_user" type="CompositeConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealth.preandpostprocessors.ComputeStrategyOrchPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="exec_type" value="Sequential"/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="1.0" appid="StrategyIntgServices" name="service" value="computeStrategyMock"/>
+        <config-param api-version="1.0" appid="StrategyOrchService" name="service" value="computeStrategyTAP"/>
+        <config-param api-version="1.0" appid="StrategyIntgServices" name="service" value="computeStrategyT24"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false"/>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

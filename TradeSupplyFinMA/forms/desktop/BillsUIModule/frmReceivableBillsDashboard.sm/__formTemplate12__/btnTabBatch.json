@@ -1,0 +1,48 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8b2926066b44d10999b1df73b26fd3a",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s2286a2c960140bd87714b9e1c5a2e05",
+    "id": "btnTabBatch",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a6181d1f63e74d9aad997f37588bc9f5",
+    "name": "kony.ui.Button",
+    "parent": "flxTabs",
+    "pf": "frmReceivableBillsDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.TradeSupplyFinance.batch",
+    "wType": "Button"
+}

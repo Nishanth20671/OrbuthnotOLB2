@@ -1,0 +1,139 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s966eaf1ea1441148b4828270a782f8b",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": false,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnLeft": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b3ec3182de6b4ed1a0d0f59949a299d1",
+                "srcKUID": "a92fc4f8fe924a5a95a2b7f3de772c04",
+                "wType": "Button"
+            }
+        },
+        "btnRight": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dba51953b58841d6b1bef01fe5d0c630",
+                "srcKUID": "a4ee84ad1d214582898217af1d05a7d5",
+                "wType": "Button"
+            }
+        },
+        "customHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "eb79340b374e42eaa7c22a6889e8a76f",
+                "srcKUID": "cf270a797f14497bb1bba45b251f1a06",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cd8c8e89a4ac4f67a9eb407ee95b8446",
+                "srcKUID": "dd5ab076f18a49149f542c0d2b517ac2",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d20a5e35de574bb38fb22b97f2c5b56c",
+                "srcKUID": "d9ee03385e1f41a79b8e123b6dda48c5",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHeaderShadow": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f6d94fcce9d7438cabc6c26176b8f902",
+                "srcKUID": "fd3eb3ca751e4798b59a12af8de4fd04",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e6df2956ac9b4001a52cdb07573f153e",
+                "srcKUID": "f46eab5e257a4a5faca8d9c8b16f58bb",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ce4863348d6740a2bed2c7ef8ebee980",
+                "srcKUID": "a54167a680ef4852826dcbc71ac31f89",
+                "wType": "Image"
+            }
+        },
+        "imgSearch": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d81ea31e0675423fae55e8fcb4d0092e",
+                "srcKUID": "d5b6a4c443884b6e920a9e69bfa3cf50",
+                "wType": "Image"
+            }
+        },
+        "lblLocateUs": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb8687b3246c4f58bf7ef8854d968f7a",
+                "srcKUID": "c6589a12cf8e43e685fa0a5b4a9223f6",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "customHeader",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "eb79340b374e42eaa7c22a6889e8a76f",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxHeader",
+    "pf": "frmExternalAccountsDetails",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "cf270a797f14497bb1bba45b251f1a06",
+    "wType": "UserWidgetInstance"
+}

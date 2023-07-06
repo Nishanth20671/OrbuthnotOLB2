@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "createCardlessTransaction" : "createCardlessTransactionMapping",
+    "getPostedCardlessTransactions" : "getPostedCardlessTransactionsMapping",
+    "getPendingCardlessTransactions" : "getPendingCardlessTransactionsMapping",
+    "deleteCardlessTransaction" : "deleteCardlessTransactionMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

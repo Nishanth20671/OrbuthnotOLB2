@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "getCampaigns7866",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param input=\"PRELOGIN\" outputpath=\"eventCode\"/>\n        <set-param inputpath=\"placeholderCode\" outputpath=\"placeholderCode\"/>\n        <set-param inputpath=\"scale\" outputpath=\"scale\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Campaigns\",\"xy\":\"150 100\",\"__gohashid\":2627},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"CampaignProcessingService (1.0).getOnlineCampaigns\",\"xy\":\"770 100\",\"__gohashid\":2628},{\"key\":\"block:kony.util:constant:1\",\"name\":\"kony.basic:constant\",\"text\":\"Constant\",\"category\":\"functionTemplateConstant\",\"outPortId\":\"PRELOGIN\",\"outPortText\":\"value\",\"loc\":\"408 152\",\"__gohashid\":6526,\"visible\":true}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":6199,\"from\":\"source:Campaigns:placeholderCode:\",\"to\":\"target:placeholderCode:\",\"fromPort\":\"source:Campaigns:placeholderCode:\",\"toPort\":\"target:placeholderCode:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":6475,\"from\":\"source:Campaigns:scale:\",\"to\":\"target:scale:\",\"fromPort\":\"source:Campaigns:scale:\",\"toPort\":\"target:scale:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":10065,\"from\":\"block:kony.util:constant:1\",\"to\":\"target:eventCode:\",\"fromPort\":\"PRELOGIN\",\"toPort\":\"target:eventCode:\"}],\"blockCount\":{\"variableCount\":0,\"constant\":1},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "CampaignProcessingService",
+      "serviceVersion" : "1.0",
+      "operationName" : "getOnlineCampaigns"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Campaigns",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param input=\"PRELOGIN\" outputpath=\"eventCode\"/>\n        <set-param inputpath=\"placeholderCode\" outputpath=\"placeholderCode\"/>\n        <set-param inputpath=\"scale\" outputpath=\"scale\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Campaigns\",\"xy\":\"150 100\",\"__gohashid\":2627},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"CampaignProcessingService (1.0).getOnlineCampaigns\",\"xy\":\"770 100\",\"__gohashid\":2628},{\"key\":\"block:kony.util:constant:1\",\"name\":\"kony.basic:constant\",\"text\":\"Constant\",\"category\":\"functionTemplateConstant\",\"outPortId\":\"PRELOGIN\",\"outPortText\":\"value\",\"loc\":\"408 152\",\"__gohashid\":6526,\"visible\":true}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":6199,\"from\":\"source:Campaigns:placeholderCode:\",\"to\":\"target:placeholderCode:\",\"fromPort\":\"source:Campaigns:placeholderCode:\",\"toPort\":\"target:placeholderCode:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":6475,\"from\":\"source:Campaigns:scale:\",\"to\":\"target:scale:\",\"fromPort\":\"source:Campaigns:scale:\",\"toPort\":\"target:scale:\"},{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":10065,\"from\":\"block:kony.util:constant:1\",\"to\":\"target:eventCode:\",\"fromPort\":\"PRELOGIN\",\"toPort\":\"target:eventCode:\"}],\"blockCount\":{\"variableCount\":0,\"constant\":1},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

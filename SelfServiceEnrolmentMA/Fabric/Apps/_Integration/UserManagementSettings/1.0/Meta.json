@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "externalusermanagment.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "usermanagementapi-services.jar",
+    "type" : "dependentJar"
+  } ],
+  "empty" : true
+}

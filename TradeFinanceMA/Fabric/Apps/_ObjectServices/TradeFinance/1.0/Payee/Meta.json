@@ -1,0 +1,16 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "editPayee" : "editPayeeMapping",
+    "createCorporatePayee" : "createCorporatePayeeMapping",
+    "getCorporatePayees" : "getCorporatePayeesMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

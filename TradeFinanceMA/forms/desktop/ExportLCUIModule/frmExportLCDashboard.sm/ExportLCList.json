@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd9746beaf4541af95c2f513f1495edd",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "serviceParameters": "{\n  \"GetExportLetterOfCredits\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCredits\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\"\n    }\n  },\n  \"GetExportDrawings\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCreditDrawings\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\",\n      \"exportLcId\": \"${Collection.ExportLC.exportLcId}\"\n    }\n  },\n  \"GenerateExportLetterOfCreditList\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"LCSummary\",\n    \"Verb\": \"generateExportLetterOfCreditList\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\"\n    }\n  },\n  \"GenerateExportDrawingsList\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"LCSummary\",\n    \"Verb\": \"generateExportDrawingsList\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\",\n      \"exportLcId\": \"${Collection.ExportLC.exportLcId}\"\n    }\n  },\n  \"GetExportLetterOfCreditsById\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCreditsById\",\n    \"Criteria\": \"\"\n  },\n  \"GetExportDrawingById\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCreditDrawingById\",\n    \"Criteria\": \"\"\n  },\n  \"GetExportAmendments\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLCAmmendments\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\",\n      \"exportLcId\": \"${Collection.ExportLC.exportLcId}\"\n    }\n  },\n  \"GetExportAmendmentById\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLCAmendmentById\",\n    \"Criteria\": \"\"\n  },\n  \"GenerateExportAmendmentList\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"LCSummary\",\n    \"Verb\": \"generateExportAmendmentList\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\",\n      \"exportLcId\": \"${Collection.ExportLC.exportLcId}\"\n    }\n  },\n  \"DownloadLOC\": {\n    \"ServiceType\":\"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"LCSummary\",\n    \"Verb\": \"generateExportLC\",\n    \"Criteria\": {\n      \"exportLCId\": \"\"\n    }\n  },  \n  \"DownloadDrawings\": {\n    \"ServiceType\":\"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"generateExportLetterOfCreditDrawing\",\n    \"Criteria\": {\n      \"drawingReferenceNo\": \"\"\n    }\n  },  \n  \"DownloadAmendments\": {\n    \"ServiceType\":\"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"generateExportLetterOfCreditAmendment\",\n    \"Criteria\": {\n      \"amendmentSRMSRequestId\": \"\"\n    }\n  }\n}"
+    },
+    "id": "ExportLCList",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a74a59f9e5ab431dbc366c27c05106c3",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxExportLCList",
+    "pf": "frmExportLCDashboard",
+    "responsiveData": {
+        "b1": {},
+        "b2": {
+            "skin": "s7c2917aebf6489c9409250ebfb1aaa3"
+        },
+        "b3": {
+            "skin": "s8a077aaedc841058caab8a6aaa04d14"
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "b861e7f985454a2e8bcfbba5837e05cf",
+    "wType": "UserWidgetInstance",
+    "zindex": 20
+}

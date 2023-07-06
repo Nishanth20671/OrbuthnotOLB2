@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "UserAgentUtils-1.21.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "cardmanagement-services.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

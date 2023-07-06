@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        2,
+        2,
+        2,
+        2
+    ],
+    "_padding_": [
+        12,
+        10,
+        12,
+        10
+    ],
+    "_placeholder_": "",
+    "_skin_": "s168a3a6e84e4f939b1a0326c3fa877b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "closebuttontext": "",
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "desktopweb": {
+        "placeholderSkin": "s51e3600f0844b5a9c89646985d814a9"
+    },
+    "disabledSkins": {},
+    "focusskin": "s1b132bbe1154b2bb9ac0b773fbe61d1",
+    "id": "txtReasonForCancellation",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "cb3034c438af4fcda8b682f56947c575",
+    "maxheight": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "minwidth": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "mode": "A",
+    "name": "kony.ui.TextArea2",
+    "numberofvisiblelines": 3,
+    "paddinginpixel": true,
+    "parent": "flxReason",
+    "pf": "frmCancelBill",
+    "placeholderi18n": "i18n.konybb.Common.Enterhere",
+    "placeholderskin": "s51e3600f0844b5a9c89646985d814a9",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "showoprogressindicator": false,
+    "showprogressindicator": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextArea"
+}

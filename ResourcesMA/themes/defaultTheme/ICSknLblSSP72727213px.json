@@ -1,0 +1,98 @@
+{
+  "android": {
+    "font_color": "727272ff",
+    "font_size": 36,
+    "isForked": true
+  },
+  "androidwearos": {
+    "font_size": 46,
+    "isForked": true
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_color": "727272ff",
+    "font_name": "SourceSansPro-Regular",
+    "font_size": 108,
+    "isForked": true
+  },
+  "fontSizeInPx": true,
+  "font_color": "424242ff",
+  "font_name": "Helvetica",
+  "font_size": 45,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_color": "727272ff",
+    "font_size": 46,
+    "isForked": true
+  },
+  "iphone": {
+    "font_color": "727272ff",
+    "font_size": 45,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_color": "727272ff",
+    "font_size": 81,
+    "isForked": true
+  },
+  "kuid": "sec3d7200df64d9b8b54aa005592cd9a",
+  "spaan": {
+    "font_color": "727272ff",
+    "font_size": 87,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "font_color": "727272ff",
+    "font_size": 72,
+    "isForked": true
+  },
+  "spaip": {
+    "font_color": "727272ff",
+    "font_size": 84,
+    "isForked": true
+  },
+  "spaipad": {
+    "font_color": "727272ff",
+    "font_name": "SourceSansPro-Regular",
+    "font_size": 76,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "font_color": "727272ff",
+    "font_size": 76,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "font_color": "727272ff",
+    "font_size": 108,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "font_color": "727272ff",
+    "font_size": 77,
+    "isForked": true
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_color": "727272ff",
+    "font_size": 46,
+    "isForked": true
+  },
+  "windows8": {
+    "font_color": "727272ff",
+    "font_size": 32,
+    "isForked": true
+  },
+  "winphone8": {
+    "font_color": "727272ff",
+    "font_size": 43,
+    "isForked": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "BulkPayments",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "dbpBulkPaymentServices",
+    "version" : "1.0",
+    "etag" : "d7f7ddb0-61ed-4f18-a367-32562bd24e84"
+  }, {
+    "name" : "dbpNPBulkPaymentServices",
+    "version" : "1.0",
+    "etag" : "d74df992-2b64-4796-9777-6c3fcb1e93f7"
+  }, {
+    "name" : "MOCKBulkPaymentAPIs",
+    "version" : "1.0",
+    "etag" : "c356913f-9ee4-4b91-91bd-ef99e13e06ec"
+  }, {
+    "name" : "T24BulkPaymentAPIs",
+    "version" : "1.0",
+    "etag" : "28f85a99-1fd8-4ddd-87c7-704726d6173e"
+  }, {
+    "name" : "T24BulkPaymentServices",
+    "version" : "1.0",
+    "etag" : "401a8374-c0de-4471-9d3c-18932b45c594"
+  }, {
+    "name" : "T24DependentAPIs",
+    "version" : "1.0",
+    "etag" : "0aaf6f6b-d84f-4ed6-980f-c2d3770291e6"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "dbpNPBulkPaymentsOrch",
+    "version" : "1.0",
+    "etag" : "23369183-a0b5-4def-9ded-843d86b375ed"
+  }, {
+    "name" : "T24BulkPaymentsOrch",
+    "version" : "1.0",
+    "etag" : "50de0ef4-083e-48ae-8006-51aaeea517ae"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "BulkPaymentObjects",
+    "version" : "1.0",
+    "etag" : "ece07e0b-839c-4bf6-bb33-1c880dae81c0"
+  } ],
+  "identity" : [ "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

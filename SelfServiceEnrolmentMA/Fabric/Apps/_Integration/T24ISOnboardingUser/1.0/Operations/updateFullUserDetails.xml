@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="updateFullUserDetails" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.infinity.dbx.temenos.user.UpdateFullUserDetailsPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://_$_T24_USER_HOST_URL_$_/v1.1.0/party/onboarding/customers/$coreCustomerID"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="PUT"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="urlprovider" value="com.kony.dbx.util.ServiceURLProvider"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="eyJraWQiOiJLQTAxIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJhdWQiOiJJUklTIiwic3ViIjoiVDI0Iiwicm9sZUlkIjoiSU5GSU5JVFkuT05CT0FSRElORyIsImlzcyI6IkZhYnJpYyIsImRieFVzZXJJZCI6IjAwMDEiLCJleHAiOjMxNjQ4NDY5NjMsImlhdCI6MTU4ODA0Njk2MywidXNlcklkIjoiVDI0IiwiX2lzc21ldGEiOiJodHRwczpcL1wvZGJ4bGVuZGluZ3FhLmtvbnljbG91ZC5jb21cL3NlcnZpY2VzXC9UMjRJU0V4dHJhXC9nZXRwdWJsaWNrZXkiLCJqdGkiOiI3OTZkNjUyNy1mNmEwLTQ4YmItYmI0NS1hZmQyMzdhZTUwZmYifQ.g-5pPTK1sSZUbbvZ-ScgN6kEOv8uSpvGcYjH1miF_mHV3vr3kDVXCspz3sbFHgCHK-UmU8v6xGIXSOntL4Go5oO5LyYsLS7ZwcU-JCOIK_8CF4DTLEYaIPDrA2U21tJkfxQ37QRzeAF_7tqnWOe-LzTbtLPTDZmHcVTTZzx3ZCqUa55OyaDJT2KGkU578p7O1fq333Dvjlbn2tBFGYUOPnCHzLU4Z5PTlNLqtbxaA-G8IAdidaUfTHD2MzFFLnhnTGmqkr7JlQfukYL98KjUtHU-hOQx6XQCo-kQWWVOVQlZUp6W8oWCR56iFYjRCVDNv0J852VpKy2YCkRHVoAD8g" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="INFINITY" description="" encode="false" format="None" formatvalue="" name="channelName" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="INFINITY" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="companyId" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="US0010001" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="coreCustomerID" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="700007" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="status" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="ACTIVE" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="FirstName" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Sebastian" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="LastName" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Vettel" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="dateOfBirth" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="1975-02-02" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="TaxId" order="" paramOrder="6" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="33333333" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="AddressLine1" order="" paramOrder="7" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="121" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="AddressLine2" order="" paramOrder="8" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="2221" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="City" order="" paramOrder="9" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Frankfurts" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Email" order="" paramOrder="10" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="forza@seb.com" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="MobileCountryCode" order="" paramOrder="11" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="+91" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="MobileNumber" order="" paramOrder="12" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="741741741" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Country" order="" paramOrder="13" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="US" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ZipCode" order="" paramOrder="14" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="100101" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="IssueDate" order="" paramOrder="15" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="1990-12-23" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="ExpiryDate" order="" paramOrder="16" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="2026-12-23" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="IdentityNumber" order="" paramOrder="17" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="111222" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="IdentityType" order="" paramOrder="18" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="EIC" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="State" order="" paramOrder="19" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="California" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;header&quot;: {},&#10;    &quot;body&quot;: {&#10;        &quot;displayNames&quot;: [&#10;            {&#10;                &quot;displayName&quot;: &quot;$FirstName&quot;&#10;            }&#10;        ],&#10;        &quot;customerNames&quot;: [&#10;            {&#10;                &quot;customerName&quot;: &quot;$FirstName&quot;,&#10;                &quot;customerNameAdditional&quot;: &quot;$LastName&quot;&#10;            }&#10;        ],&#10;        &quot;streets&quot;: [&#10;            {&#10;                &quot;street&quot;: &quot;$AddressLine1&quot;&#10;            }&#10;        ],&#10;        &quot;addresses&quot;: [&#10;            {&#10;                &quot;address&quot;: &quot;$AddressLine2&quot;&#10;            }&#10;        ],&#10;        &quot;addressCities&quot;: [&#10;            {&#10;                &quot;addressCity&quot;: &quot;$City&quot;&#10;            }&#10;        ],&#10;        &quot;state&quot;: &quot;$State&quot;,&#10;        &quot;countries&quot;: [&#10;            {&#10;                &quot;country&quot;: &quot;$Country&quot;&#10;            }&#10;        ],&#10;        &quot;taxIds&quot;: [&#10;            {&#10;                &quot;taxId&quot;: &quot;$TaxId&quot;&#10;            }&#10;        ],&#10;        &quot;communicationDevices&quot;: [&#10;            {&#10;                &quot;email&quot;: &quot;$Email&quot;&#10;            }&#10;        ],&#10;        &quot;contactTypes&quot;: [&#10;            {&#10;                &quot;contactType&quot;: &quot;MOBILE&quot;,&#10;                &quot;countryCode&quot;: &quot;$MobileCountryCode&quot;,&#10;                &quot;contactData&quot;: &quot;$MobileNumber&quot;&#10;            }&#10;        ],&#10;        &quot;legalDetails&quot;: [&#10;            {&#10;                &quot;legalIssueDate&quot;: &quot;$IssueDate&quot;,&#10;                &quot;legalExpiredDate&quot;: &quot;$ExpiryDate&quot;,&#10;                &quot;legalId&quot;: &quot;$IdentityNumber&quot;,&#10;                &quot;legalDocumentName&quot;: &quot;$IdentityType&quot;&#10;            }&#10;        ],&#10;        &quot;customerType&quot;: &quot;$status&quot;,&#10;        &quot;language&quot;: 1,&#10;        &quot;dateOfBirth&quot;: &quot;$dateOfBirth&quot;,&#10;        &quot;customerStatus&quot;: 4,&#10;        &quot;nationalityId&quot;: &quot;$Country&quot;,&#10;        &quot;residenceId&quot;: &quot;$Country&quot;,&#10;        &quot;accountOfficerId&quot;: 26,&#10;        &quot;industryId&quot;: 1000,&#10;        &quot;target&quot;: 4,&#10;        &quot;sectorId&quot;: 1000,&#10;        &quot;postCode&quot;: &quot;$ZipCode&quot;,&#10;        &quot;lastName&quot;: &quot;$LastName&quot;,&#10;        &quot;givenName&quot;: &quot;$FirstName&quot;&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;header&quot;: {},&#10;    &quot;body&quot;: {&#10;        &quot;displayNames&quot;: [&#10;            {&#10;                &quot;displayName&quot;: &quot;$FirstName&quot;&#10;            }&#10;        ],&#10;        &quot;customerNames&quot;: [&#10;            {&#10;                &quot;customerName&quot;: &quot;$FirstName&quot;,&#10;                &quot;customerNameAdditional&quot;: &quot;$LastName&quot;&#10;            }&#10;        ],&#10;        &quot;streets&quot;: [&#10;            {&#10;                &quot;street&quot;: &quot;$AddressLine1&quot;&#10;            }&#10;        ],&#10;        &quot;addresses&quot;: [&#10;            {&#10;                &quot;address&quot;: &quot;$AddressLine2&quot;&#10;            }&#10;        ],&#10;        &quot;addressCities&quot;: [&#10;            {&#10;                &quot;addressCity&quot;: &quot;$City&quot;&#10;            }&#10;        ],&#10;        &quot;state&quot;: &quot;$State&quot;,&#10;        &quot;countries&quot;: [&#10;            {&#10;                &quot;country&quot;: &quot;$Country&quot;&#10;            }&#10;        ],&#10;        &quot;taxIds&quot;: [&#10;            {&#10;                &quot;taxId&quot;: &quot;$TaxId&quot;&#10;            }&#10;        ],&#10;        &quot;communicationDevices&quot;: [&#10;            {&#10;                &quot;email&quot;: &quot;$Email&quot;&#10;            }&#10;        ],&#10;        &quot;contactTypes&quot;: [&#10;            {&#10;                &quot;contactType&quot;: &quot;MOBILE&quot;,&#10;                &quot;countryCode&quot;: &quot;$MobileCountryCode&quot;,&#10;                &quot;contactData&quot;: &quot;$MobileNumber&quot;&#10;            }&#10;        ],&#10;        &quot;legalDetails&quot;: [&#10;            {&#10;                &quot;legalIssueDate&quot;: &quot;$IssueDate&quot;,&#10;                &quot;legalExpiredDate&quot;: &quot;$ExpiryDate&quot;,&#10;                &quot;legalId&quot;: &quot;$IdentityNumber&quot;,&#10;                &quot;legalDocumentName&quot;: &quot;$IdentityType&quot;&#10;            }&#10;        ],&#10;        &quot;customerType&quot;: &quot;$status&quot;,&#10;        &quot;language&quot;: 1,&#10;        &quot;dateOfBirth&quot;: &quot;$dateOfBirth&quot;,&#10;        &quot;customerStatus&quot;: 4,&#10;        &quot;nationalityId&quot;: &quot;$Country&quot;,&#10;        &quot;residenceId&quot;: &quot;$Country&quot;,&#10;        &quot;accountOfficerId&quot;: 26,&#10;        &quot;industryId&quot;: 1000,&#10;        &quot;target&quot;: 4,&#10;        &quot;sectorId&quot;: 1000,&#10;        &quot;postCode&quot;: &quot;$ZipCode&quot;,&#10;        &quot;lastName&quot;: &quot;$LastName&quot;,&#10;        &quot;givenName&quot;: &quot;$FirstName&quot;&#10;    }&#10;}" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="errorDetails" order="" paramOrder="3" parentOrder="0" src="$.error.errorDetails[*]" testvalue="" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="code" order="" paramOrder="4" parentOrder="3" passnull="false" sms-name="" src="code" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="message" order="" paramOrder="5" parentOrder="3" passnull="false" sms-name="" src="message" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <record id="header" order="" paramOrder="1" parentOrder="0" src="$.header" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="transactionStatus" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="transactionStatus" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </record>
+    </service-output>
+</service>

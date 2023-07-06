@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="fetchBulkPaymentRecordDetailsById" passwordencrypted="false" security="authorized_app_user" type="stubConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <stub-param value="{&quot;recordId&quot;:&quot;BKM2210900084&quot;,&quot;description&quot;:&quot;fs erb&quot;,&quot;paymentDate&quot;:&quot;2022-04-19T00:00:00Z&quot;,&quot;scheduledDate&quot;:&quot;2022-04-19T00:00:00Z&quot;,&quot;status&quot;:&quot;CREATED&quot;,&quot;fromAccount&quot;:&quot;123676&quot;,&quot;totalAmount&quot;:&quot;9.45&quot;,&quot;totalTransactions&quot;:&quot;4&quot;,&quot;fileName&quot;:&quot;T123676310720220823051650.csv&quot;,&quot;bulkErrorDetails&quot;:[],&quot;currency&quot;:&quot;USD&quot;,&quot;batchMode&quot;:&quot;SINGLE&quot;,&quot;opstatus&quot;:0,&quot;httpStatusCode&quot;:0}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="recordId" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="$.recordId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="description" order="" paramOrder="2" parentOrder="0" passnull="false" sms-name="" src="$.description" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="paymentDate" order="" paramOrder="3" parentOrder="0" passnull="false" sms-name="" src="$.paymentDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="scheduledDate" order="" paramOrder="4" parentOrder="0" passnull="false" sms-name="" src="$.scheduledDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="status" order="" paramOrder="5" parentOrder="0" passnull="false" sms-name="" src="$.status" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fromAccount" order="" paramOrder="6" parentOrder="0" passnull="false" sms-name="" src="$.fromAccount" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="totalAmount" order="" paramOrder="7" parentOrder="0" passnull="false" sms-name="" src="$.totalAmount" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="totalTransactions" order="" paramOrder="8" parentOrder="0" passnull="false" sms-name="" src="$.totalTransactions" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fileName" order="" paramOrder="9" parentOrder="0" passnull="false" sms-name="" src="$.fileName" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="bulkErrorDetails" order="" paramOrder="10" parentOrder="0" passnull="false" sms-name="" src="$.bulkErrorDetails[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="currency" order="" paramOrder="11" parentOrder="0" passnull="false" sms-name="" src="$.currency" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="batchMode" order="" paramOrder="12" parentOrder="0" passnull="false" sms-name="" src="$.batchMode" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="opstatus" order="" paramOrder="13" parentOrder="0" passnull="false" sms-name="" src="$.opstatus" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="httpStatusCode" order="" paramOrder="14" parentOrder="0" passnull="false" sms-name="" src="$.httpStatusCode" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

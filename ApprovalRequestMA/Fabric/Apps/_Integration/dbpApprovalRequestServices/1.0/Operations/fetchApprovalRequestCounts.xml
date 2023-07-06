@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="fetchApprovalRequestCounts" passwordencrypted="false" security="authorized_app_user" type="javaConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="className" value="com.temenos.dbx.product.approvalservices.javaservices.GetApprovalRequestCountsOperation"/>
+        <config-param api-version="" appid="" name="methodName" value="fetchApprovalRequestCounts"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="languageCode" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="counts" order="" paramOrder="15" parentOrder="0" src="" testvalue="" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="limitgroupId" order="" paramOrder="1" parentOrder="15" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="limitgroupName" order="" paramOrder="2" parentOrder="15" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <record id="featureActions" order="" paramOrder="3" parentOrder="15" src="" isExtended="false">
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="featureActionId" order="" paramOrder="4" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="featureActionName" order="" paramOrder="5" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="actionType" order="" paramOrder="6" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="myApprovalsPending" order="" paramOrder="7" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="myApprovalsHistory" order="" paramOrder="8" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="myRequestsPending" order="" paramOrder="9" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="myRequestHistory" order="" paramOrder="10" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="featureName" order="" paramOrder="16" parentOrder="3" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+            </record>
+        </dataset>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="dbpErrCode" order="" paramOrder="11" parentOrder="0" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="dbpErrMsg" order="" paramOrder="12" parentOrder="0" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="opstatus" order="" paramOrder="13" parentOrder="0" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="httpStatusCode" order="" paramOrder="14" parentOrder="0" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

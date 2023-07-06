@@ -1,0 +1,140 @@
+/*
+    This is an auto generated file and any modifications to it may result in corrupted data.
+*/
+define([], function() {
+	var mappings = {
+		"filterByValue": "filterByValue",
+		"filterByParam": "filterByParam",
+		"bills": "bills",
+		"timeValue": "timeValue",
+		"timeParam": "timeParam",
+		"sortByParam": "sortByParam",
+		"sortOrder": "sortOrder",
+		"pageOffset": "pageOffset",
+		"pageSize": "pageSize",
+		"searchString": "searchString",
+		"fileReferene": "fileReferene",
+		"billReference": "billReference",
+		"amount": "amount",
+		"billDate": "billDate",
+		"billName": "billName",
+		"billNumber": "billNumber",
+		"billType": "billType",
+		"buyerAddress": "buyerAddress",
+		"buyerName": "buyerName",
+		"buyerId": "buyerId",
+		"buyerSelection": "buyerSelection",
+		"cancellationDocuments": "cancellationDocuments",
+		"cancellationStatus": "cancellationStatus",
+		"countryOfDestination": "countryOfDestination",
+		"countryOfOrigin": "countryOfOrigin",
+		"createdOn": "createdOn",
+		"currency": "currency",
+		"documentNo": "documentNo",
+		"dueDate": "dueDate",
+		"finalDestination": "finalDestination",
+		"goodsDescription": "goodsDescription",
+		"messageFromBank": "messageFromBank",
+		"modeOfShipment": "modeOfShipment",
+		"messageToBank": "messageToBank",
+		"paymentTerms": "paymentTerms",
+		"portOfLoading": "portOfLoading",
+		"portOfDischarge": "portOfDischarge",
+		"reasonForCancellation": "reasonForCancellation",
+		"reasonForRejection": "reasonForRejection",
+		"reasonForReturn": "reasonForReturn",
+		"receivableAccount": "receivableAccount",
+		"requestFinance": "requestFinance",
+		"returnedHistory": "returnedHistory",
+		"shipmentDate": "shipmentDate",
+		"shipmentTrackingDetails": "shipmentTrackingDetails",
+		"status": "status",
+		"updatedOn": "updatedOn",
+		"uploadedDocuments": "uploadedDocuments",
+		"billReferences": "billReferences",
+		"batchReferences": "batchReferences",
+		"counts": "counts",
+		"fileDate": "fileDate",
+		"fileType": "fileType",
+		"fileReference": "fileReference",
+	};
+
+	Object.freeze(mappings);
+
+	var typings = {
+		"filterByValue": "string",
+		"filterByParam": "string",
+		"bills": "string",
+		"timeValue": "string",
+		"timeParam": "string",
+		"sortByParam": "string",
+		"sortOrder": "string",
+		"pageOffset": "string",
+		"pageSize": "string",
+		"searchString": "string",
+		"fileReferene": "string",
+		"billReference": "string",
+		"amount": "string",
+		"billDate": "string",
+		"billName": "string",
+		"billNumber": "string",
+		"billType": "string",
+		"buyerAddress": "string",
+		"buyerName": "string",
+		"buyerId": "string",
+		"buyerSelection": "string",
+		"cancellationDocuments": "string",
+		"cancellationStatus": "string",
+		"countryOfDestination": "string",
+		"countryOfOrigin": "string",
+		"createdOn": "string",
+		"currency": "string",
+		"documentNo": "string",
+		"dueDate": "string",
+		"finalDestination": "string",
+		"goodsDescription": "string",
+		"messageFromBank": "string",
+		"modeOfShipment": "string",
+		"messageToBank": "string",
+		"paymentTerms": "string",
+		"portOfLoading": "string",
+		"portOfDischarge": "string",
+		"reasonForCancellation": "string",
+		"reasonForRejection": "string",
+		"reasonForReturn": "string",
+		"receivableAccount": "string",
+		"requestFinance": "string",
+		"returnedHistory": "string",
+		"shipmentDate": "string",
+		"shipmentTrackingDetails": "string",
+		"status": "string",
+		"updatedOn": "string",
+		"uploadedDocuments": "string",
+		"billReferences": "string",
+		"batchReferences": "string",
+		"counts": "string",
+		"fileDate": "string",
+		"fileType": "string",
+		"fileReference": "string",
+	}
+
+	Object.freeze(typings);
+
+	var primaryKeys = [
+					"fileReferene",
+	];
+
+	Object.freeze(primaryKeys);
+
+	var config = {
+		mappings: mappings,
+		typings: typings,
+		primaryKeys: primaryKeys,
+		serviceName: "TradeSupplyFinance",
+		tableName: "ReceivablesCsvImport"
+	};
+
+	Object.freeze(config);
+
+	return config;
+})

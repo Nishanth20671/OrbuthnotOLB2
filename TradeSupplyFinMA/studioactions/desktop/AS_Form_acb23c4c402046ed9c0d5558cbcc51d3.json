@@ -1,0 +1,23 @@
+{
+    "AS_Form_acb23c4c402046ed9c0d5558cbcc51d3": {
+        "id": "AS_Form_acb23c4c402046ed9c0d5558cbcc51d3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCreateCsvBill",
+            "type": "forms",
+            "platform": "",
+            "KUID": "faead38cba944590838eb36e718f9fd5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e52b272f8f214c69bf442cf5474a3087",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.init();",
+            "parentId": null
+        }]
+    }
+}

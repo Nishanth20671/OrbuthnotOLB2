@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "docmanagementapi-services.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "arrangementsapi-services.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

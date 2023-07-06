@@ -1,0 +1,94 @@
+{
+    "android": {
+        "font_color": "4176a400",
+        "font_size": 31,
+        "isForked": true
+    },
+    "background_color": "00000000",
+    "bg_type": "one",
+    "border_color": "424242ff",
+    "border_style": "plain",
+    "border_type": 0,
+    "border_width": 0,
+    "desktopweb": {
+        "font_color": "4176a400",
+        "font_name": "SourceSansPro-Regular",
+        "font_size": 108,
+        "isForked": true
+    },
+    "fontSizeInPx": true,
+    "font_color": "424242ff",
+    "font_name": "Helvetica",
+    "font_size": 76,
+    "font_style": "normal",
+    "font_weight": "normal",
+    "ipad": {
+        "font_color": "4176a400",
+        "font_size": 46,
+        "isForked": true
+    },
+    "iphone": {
+        "font_color": "4176a400",
+        "font_size": 46,
+        "isForked": true
+    },
+    "isDefaultSkin": false,
+    "kiosk": {
+        "font_color": "4176a400",
+        "font_size": 81,
+        "isForked": true
+    },
+    "kuid": "s3f1884e196d4630a1949d9cbf755366",
+    "spaan": {
+        "font_color": "4176a400",
+        "font_size": 108,
+        "isForked": true
+    },
+    "spaandroidtablet": {
+        "font_color": "4176a400",
+        "font_size": 108,
+        "isForked": true
+    },
+    "spaip": {
+        "font_color": "4176a400",
+        "font_size": 108,
+        "isForked": true
+    },
+    "spaipad": {
+        "font_color": "4176a400",
+        "font_name": "SourceSansPro-Regular",
+        "font_size": 108,
+        "isForked": true
+    },
+    "spawindowstablet": {
+        "font_color": "4176a400",
+        "font_size": 108,
+        "isForked": true
+    },
+    "spawinphone8": {
+        "font_color": "4176a400",
+        "font_size": 108,
+        "isForked": true
+    },
+    "tabrcandroid": {
+        "font_color": "4176a400",
+        "font_size": 77,
+        "isForked": true
+    },
+    "wType": "Label",
+    "watchos": {
+        "font_color": "4176a400",
+        "font_size": 46,
+        "isForked": true
+    },
+    "windows8": {
+        "font_color": "4176a400",
+        "font_size": 32,
+        "isForked": true
+    },
+    "winphone8": {
+        "font_color": "4176a400",
+        "font_size": 43,
+        "isForked": true
+    }
+}

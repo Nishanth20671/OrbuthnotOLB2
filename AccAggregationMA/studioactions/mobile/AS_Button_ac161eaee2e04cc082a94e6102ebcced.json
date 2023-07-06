@@ -1,0 +1,22 @@
+{
+    "AS_Button_ac161eaee2e04cc082a94e6102ebcced": {
+        "id": "AS_Button_ac161eaee2e04cc082a94e6102ebcced",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "e47ae6030f5048159694c241d51ab49c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_daf6a6158a30422089e3014eb3844803",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.dismissLoadingScreen();\nvar ntf = new kony.mvc.Navigation(\"frmBankLogin\");\nntf.navigate();",
+            "parentId": null
+        }]
+    }
+}

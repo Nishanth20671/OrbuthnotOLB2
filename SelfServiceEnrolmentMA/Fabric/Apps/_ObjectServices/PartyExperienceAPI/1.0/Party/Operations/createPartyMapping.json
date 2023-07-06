@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "PartyCreateOperation5101",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"lastName\" outputpath=\"lastName\"/><set-param inputpath=\"phoneAddress\" outputpath=\"phoneAddress\"/><set-param inputpath=\"noOfDependents\" outputpath=\"noOfDependents\"/><set-param inputpath=\"gender\" outputpath=\"gender\"/><set-param inputpath=\"nickName\" outputpath=\"nickName\"/><set-param inputpath=\"partyType\" outputpath=\"partyType\"/><set-param inputpath=\"suffix\" outputpath=\"suffix\"/><set-param inputpath=\"partyStatus\" outputpath=\"partyStatus\"/><set-param inputpath=\"firstName\" outputpath=\"firstName\"/><set-param inputpath=\"defaultLanguage\" outputpath=\"defaultLanguage\"/><set-param inputpath=\"nameStartDate\" outputpath=\"nameStartDate\"/><set-param inputpath=\"electronicAddress\" outputpath=\"electronicAddress\"/><set-param inputpath=\"alias\" outputpath=\"alias\"/><set-param inputpath=\"contactAddress\" outputpath=\"contactAddress\"/><set-param inputpath=\"middleName\" outputpath=\"middleName\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"dbpErrCode\" outputpath=\"dbpErrCode\"/><set-param inputpath=\"createStatus\" outputpath=\"createStatus\"/><set-param inputpath=\"error\" outputpath=\"error\"/><set-param inputpath=\"partyId\" outputpath=\"partyId\"/><set-param inputpath=\"dbpErrMsg\" outputpath=\"dbpErrMsg\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "eumPartyServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "PartyCreateOperation"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Party",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"lastName\" outputpath=\"lastName\"/><set-param inputpath=\"phoneAddress\" outputpath=\"phoneAddress\"/><set-param inputpath=\"noOfDependents\" outputpath=\"noOfDependents\"/><set-param inputpath=\"gender\" outputpath=\"gender\"/><set-param inputpath=\"nickName\" outputpath=\"nickName\"/><set-param inputpath=\"partyType\" outputpath=\"partyType\"/><set-param inputpath=\"suffix\" outputpath=\"suffix\"/><set-param inputpath=\"partyStatus\" outputpath=\"partyStatus\"/><set-param inputpath=\"firstName\" outputpath=\"firstName\"/><set-param inputpath=\"defaultLanguage\" outputpath=\"defaultLanguage\"/><set-param inputpath=\"nameStartDate\" outputpath=\"nameStartDate\"/><set-param inputpath=\"electronicAddress\" outputpath=\"electronicAddress\"/><set-param inputpath=\"alias\" outputpath=\"alias\"/><set-param inputpath=\"contactAddress\" outputpath=\"contactAddress\"/><set-param inputpath=\"middleName\" outputpath=\"middleName\"/></map></mapper>",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"dbpErrCode\" outputpath=\"dbpErrCode\"/><set-param inputpath=\"createStatus\" outputpath=\"createStatus\"/><set-param inputpath=\"error\" outputpath=\"error\"/><set-param inputpath=\"partyId\" outputpath=\"partyId\"/><set-param inputpath=\"dbpErrMsg\" outputpath=\"dbpErrMsg\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

@@ -1,0 +1,18 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updatePlan" : "updatePlanMapping",
+    "getPlan" : "getPlanMapping",
+    "getStatus" : "getStatusMapping",
+    "createPlan" : "createPlanMapping",
+    "deletePlan" : "deletePlanMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

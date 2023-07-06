@@ -1,0 +1,14 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "t24common.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "com.temenos.infinity.integration.common.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "dbp-paymentservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

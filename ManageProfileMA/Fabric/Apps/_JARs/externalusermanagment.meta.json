@@ -1,0 +1,4 @@
+{
+  "dependentJars" : [ "usermanagementapi-services.jar" ],
+  "empty" : true
+}

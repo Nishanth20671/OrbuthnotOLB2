@@ -1,0 +1,95 @@
+{
+  "operationConfig" : {
+    "name" : "getPFMCategories7559",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"pfmcategory\" outputpath=\"PFMCategory\">            <set-param inputpath=\"id\" outputpath=\"categoryId\"/>            <set-param inputpath=\"categoryName\" outputpath=\"categoryName\"/>        </map>    </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"PFMCategory\",\"xy\":\"770 100\",\"__gohashid\":164299},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getPFMCategories\",\"xy\":\"150 100\",\"__gohashid\":164300}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:PFMCategory\",\"fromPort\":\"target\",\"toPort\":\"target:PFMCategory\",\"visible\":true,\"common\":false,\"__gohashid\":164315},{\"from\":\"target:PFMCategory\",\"to\":\"target:PFMCategory:fields\",\"fromPort\":\"target:PFMCategory\",\"toPort\":\"target:PFMCategory:fields\",\"visible\":true,\"common\":false,\"__gohashid\":164316},{\"from\":\"target:PFMCategory:fields\",\"to\":\"target:PFMCategory:categoryId:\",\"fromPort\":\"target:PFMCategory:fields\",\"toPort\":\"target:PFMCategory:categoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":164317},{\"from\":\"target:PFMCategory:fields\",\"to\":\"target:PFMCategory:categoryName:\",\"fromPort\":\"target:PFMCategory:fields\",\"toPort\":\"target:PFMCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":164318},{\"from\":\"target:PFMCategory:fields\",\"to\":\"target:PFMCategory:errmsg:\",\"fromPort\":\"target:PFMCategory:fields\",\"toPort\":\"target:PFMCategory:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":164319},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":164320},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":164321},{\"from\":\"source\",\"to\":\"source:PFMCategory\",\"fromPort\":\"source\",\"toPort\":\"source:PFMCategory\",\"visible\":true,\"common\":false,\"__gohashid\":164322},{\"from\":\"source:PFMCategory\",\"to\":\"source:PFMCategory:parameters\",\"fromPort\":\"source:PFMCategory\",\"toPort\":\"source:PFMCategory:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":164323},{\"from\":\"source:PFMCategory:parameters\",\"to\":\"source:PFMCategory:categoryId:\",\"fromPort\":\"source:PFMCategory:parameters\",\"toPort\":\"source:PFMCategory:categoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":164324},{\"from\":\"source:PFMCategory:parameters\",\"to\":\"source:PFMCategory:categoryName:\",\"fromPort\":\"source:PFMCategory:parameters\",\"toPort\":\"source:PFMCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":164325},{\"category\":\"Mapping\",\"from\":\"source:PFMCategory:categoryId:\",\"to\":\"target:PFMCategory:categoryId:\",\"fromPort\":\"source:PFMCategory:categoryId:\",\"toPort\":\"target:PFMCategory:categoryId:\",\"visible\":true,\"common\":true,\"__gohashid\":166702},{\"category\":\"Mapping\",\"from\":\"source:PFMCategory:categoryName:\",\"to\":\"target:PFMCategory:categoryName:\",\"fromPort\":\"source:PFMCategory:categoryName:\",\"toPort\":\"target:PFMCategory:categoryName:\",\"visible\":true,\"common\":true,\"__gohashid\":166709}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "FinanceManagementJavaServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getPFMCategories"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "PFMCategory",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"response_in\" outputpath=\"response_out\">        <map inputpath=\"pfmcategory\" outputpath=\"PFMCategory\">            <set-param inputpath=\"id\" outputpath=\"categoryId\"/>            <set-param inputpath=\"categoryName\" outputpath=\"categoryName\"/>        </map>    </map></mapper>",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"PFMCategory\",\"xy\":\"770 100\",\"__gohashid\":164299},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpNonProductServices.getPFMCategories\",\"xy\":\"150 100\",\"__gohashid\":164300}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:PFMCategory\",\"fromPort\":\"target\",\"toPort\":\"target:PFMCategory\",\"visible\":true,\"common\":false,\"__gohashid\":164315},{\"from\":\"target:PFMCategory\",\"to\":\"target:PFMCategory:fields\",\"fromPort\":\"target:PFMCategory\",\"toPort\":\"target:PFMCategory:fields\",\"visible\":true,\"common\":false,\"__gohashid\":164316},{\"from\":\"target:PFMCategory:fields\",\"to\":\"target:PFMCategory:categoryId:\",\"fromPort\":\"target:PFMCategory:fields\",\"toPort\":\"target:PFMCategory:categoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":164317},{\"from\":\"target:PFMCategory:fields\",\"to\":\"target:PFMCategory:categoryName:\",\"fromPort\":\"target:PFMCategory:fields\",\"toPort\":\"target:PFMCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":164318},{\"from\":\"target:PFMCategory:fields\",\"to\":\"target:PFMCategory:errmsg:\",\"fromPort\":\"target:PFMCategory:fields\",\"toPort\":\"target:PFMCategory:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":164319},{\"from\":\"source\",\"to\":\"source:parameters\",\"fromPort\":\"source\",\"toPort\":\"source:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":164320},{\"from\":\"source:parameters\",\"to\":\"source:errmsg:\",\"fromPort\":\"source:parameters\",\"toPort\":\"source:errmsg:\",\"visible\":true,\"common\":false,\"__gohashid\":164321},{\"from\":\"source\",\"to\":\"source:PFMCategory\",\"fromPort\":\"source\",\"toPort\":\"source:PFMCategory\",\"visible\":true,\"common\":false,\"__gohashid\":164322},{\"from\":\"source:PFMCategory\",\"to\":\"source:PFMCategory:parameters\",\"fromPort\":\"source:PFMCategory\",\"toPort\":\"source:PFMCategory:parameters\",\"visible\":true,\"common\":false,\"__gohashid\":164323},{\"from\":\"source:PFMCategory:parameters\",\"to\":\"source:PFMCategory:categoryId:\",\"fromPort\":\"source:PFMCategory:parameters\",\"toPort\":\"source:PFMCategory:categoryId:\",\"visible\":true,\"common\":false,\"__gohashid\":164324},{\"from\":\"source:PFMCategory:parameters\",\"to\":\"source:PFMCategory:categoryName:\",\"fromPort\":\"source:PFMCategory:parameters\",\"toPort\":\"source:PFMCategory:categoryName:\",\"visible\":true,\"common\":false,\"__gohashid\":164325},{\"category\":\"Mapping\",\"from\":\"source:PFMCategory:categoryId:\",\"to\":\"target:PFMCategory:categoryId:\",\"fromPort\":\"source:PFMCategory:categoryId:\",\"toPort\":\"target:PFMCategory:categoryId:\",\"visible\":true,\"common\":true,\"__gohashid\":166702},{\"category\":\"Mapping\",\"from\":\"source:PFMCategory:categoryName:\",\"to\":\"target:PFMCategory:categoryName:\",\"fromPort\":\"source:PFMCategory:categoryName:\",\"toPort\":\"target:PFMCategory:categoryName:\",\"visible\":true,\"common\":true,\"__gohashid\":166709}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

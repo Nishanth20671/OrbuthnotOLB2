@@ -1,0 +1,25 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "ConsentManagement",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ConsentMock",
+    "version" : "1.0",
+    "etag" : "b7884103-e249-4adf-b26e-ab7c12e1128d"
+  }, {
+    "name" : "dbpConsentManagement",
+    "version" : "1.0",
+    "etag" : "017ed7d7-9b5e-4617-8593-1f3308f49673"
+  }, {
+    "name" : "T24ISConsents",
+    "version" : "1.0",
+    "etag" : "35e409cf-e4b6-445f-9573-ca6e79a60ea7"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ConsentManagement",
+    "version" : "1.0",
+    "etag" : "bf08fee9-875c-4d40-9244-41f4ce3e374a"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true,\"integrity_key_type\":\"custom\",\"integrity_key\":\"\"}"
+}

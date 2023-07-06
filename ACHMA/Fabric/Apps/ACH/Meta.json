@@ -1,0 +1,25 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "ACH",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ACHLineOfBusinessServices",
+    "version" : "1.0",
+    "etag" : "7337829d-1c8d-4568-87bd-1983637ae65c"
+  }, {
+    "name" : "dbpACHServices",
+    "version" : "1.0",
+    "etag" : "0350c840-9894-4d7b-8fca-725733b4c267"
+  }, {
+    "name" : "dbpBBJavaServices",
+    "version" : "1.0",
+    "etag" : "b7dc7c58-803d-4461-b1fd-cfc1c48f2b4b"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ACH",
+    "version" : "1.0",
+    "etag" : "6b6bf8a7-10bb-4866-9a6d-577593f73a41"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true,\"integrity_key_type\":\"custom\",\"integrity_key\":\"\"}"
+}

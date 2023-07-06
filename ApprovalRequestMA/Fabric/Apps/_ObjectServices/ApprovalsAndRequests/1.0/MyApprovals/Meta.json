@@ -1,0 +1,29 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getRejectedACHTransactions" : "getRejectedACHTransactionsMapping",
+    "approveBBGeneralTransaction" : "approveBBGeneralTransactionMapping",
+    "fetchAllMyPendingApprovals" : "fetchAllMyPendingApprovalsMapping",
+    "rejectBBGeneralTransaction" : "rejectBBGeneralTransactionMapping",
+    "getACHTransactionsForApproval" : "getACHTransactionsForApprovalMapping",
+    "RejectedFiles" : "RejectedFilesMapping",
+    "fetchAllMyApprovalHistory" : "fetchAllMyApprovalHistoryMapping",
+    "getACHTransactionsPendingForApproval" : "getACHTransactionsPendingForApprovalMapping",
+    "rejectACHTransaction" : "rejectACHTransactionMapping",
+    "getACHFiles" : "getACHFilesMapping",
+    "approveACHTransaction" : "approveACHTransactionMapping",
+    "Reject" : "RejectMapping",
+    "approveACHFile" : "approveACHFileMapping",
+    "rejectACHFile" : "rejectACHFileMapping",
+    "getGeneralTransactions" : "getGeneralTransactionsMapping",
+    "Approve" : "ApproveMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

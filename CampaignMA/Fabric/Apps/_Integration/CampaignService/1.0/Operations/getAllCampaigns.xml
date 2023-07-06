@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="getAllCampaigns" passwordencrypted="false" security="private" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.kony.campaign.common.CampaignMSAuthenticationPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://_$_MS_CAMPAIGN_MANAGEMENT_$_/api/v2.0.0/origination/campaigns?campaignStatus=SCHEDULED_ACTIVE_COMPLETED"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="urlprovider" value="com.kony.campaign.common.ServiceURLProvider"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="x-api-key" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="x-functions-key" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <stub-param value="{&#10; &quot;campaignLists&quot;:&#10; [&#10;  '{{repeat(1, 2)}}',&#10;  {&#10;&quot;campaignId&quot;: &quot;{{concat(&quot;Campaign&quot;,index())}}&quot;,&#10;&quot;campaignName&quot;: &quot;{{firstName()}} {{surname()}}&quot;, &#10;&quot;campaignDescription&quot;: &quot;campaignDescription&quot;,&#10;&quot;objectiveId&quot;: &quot;objectiveId&quot;,&#10;&quot;productId&quot;: &quot;productId&quot;,&#10;&quot;campaignPriority&quot;:&quot;{{index(1)}}&quot;,&#10;&quot;campaignType&quot;: &quot;campaignType&quot;,&#10;&quot;campaignStatus&quot;: &quot;{{random(&quot;Active&quot;,&quot;NotActive&quot;)}}&quot;,&#10;&quot;startDate&quot;: &quot;{{date(&quot;01-11-2019 12:00:00&quot;, &quot;01-01-2020 12:00:00&quot;, &quot;yyyy-MM-dd'T'HH:mm:ss Z&quot;)}}&quot;,&#10;&quot;endDate&quot;: &quot;{{date(&quot;01-01-2020  12:00:00&quot;, &quot;01-04-2020 12:00:00&quot;, &quot;yyyy-MM-dd'T'HH:mm:ss Z&quot;)}}&quot;,&#10;&quot;channelType&quot;: &quot;{{random(&quot;ONLINE&quot;,&quot;OFFLINE&quot;)}}&quot;,&#10;&quot;eventTriggerIdList&quot;:&quot;{{random(&quot;Event1&quot;,&quot;Event2&quot;,&quot;Event3&quot;,&quot;Event4&quot;,&quot;Event5&quot;,&quot;Event6&quot;,&quot;Event7&quot;,&quot;Event8&quot;,&quot;Event9&quot;,&quot;Event10&quot;)}}&quot;,&#10; &quot;profileDetailss&quot;:[ &#10;'{{repeat(2, 3)}}',&#10;{&#10; &quot;profileName&quot; : &quot;{{concat(&quot;Profile&quot;,index())}}&quot;,&#10;&quot;profileConditionss&quot;:[&#10;'{{repeat(2, 3)}}',&#10;{  &#10;          &quot;dataContextName&quot;: &quot;{{random(&quot;NextBestProduct&quot;,&quot;Outlier&quot;,&quot;DC3&quot;,&quot;DC4&quot;)}}&quot;,&#10;          &quot;conditionExpression&quot; : &quot;&quot;,&#10;    &quot;dataContextEndPoints&quot; : &quot;http://tmnstransact2.southeastasia.cloudapp.azure.com/APIService/odata/Tenant1/Dataset_AllCustomersNBP&quot;&#10;}&#10;]&#10;}&#10;],&#10;&quot;channelDetailss&quot;: [&#10;      {&#10;        &quot;channelSubType&quot;: &quot;WEB&quot;,&#10;        &quot;channelPriority&quot;: &quot;string&quot;,&#10;        &quot;campaignId&quot;: &quot;string&quot;&#10;      },&#10;{&#10;        &quot;channelSubType&quot;: &quot;SMS&quot;,&#10;        &quot;channelPriority&quot;: &quot;string&quot;,&#10;        &quot;campaignId&quot;: &quot;string&quot;&#10;      },{&#10;        &quot;channelSubType&quot;: &quot;EMAIL&quot;,&#10;        &quot;channelPriority&quot;: &quot;string&quot;,&#10;        &quot;campaignId&quot;: &quot;string&quot;&#10;      },&#10;{&#10;        &quot;channelSubType&quot;: &quot;PUSH&quot;,&#10;        &quot;channelPriority&quot;: &quot;string&quot;,&#10;        &quot;campaignId&quot;: &quot;string&quot;&#10;      }&#10;    ],&#10;&quot;onlineContents&quot;: [&#10;        {&#10;          &quot;onlineContentId&quot;: &quot;123455&quot;,&#10;          &quot;campaignId&quot;: &quot;c1&quot;,&#10;          &quot;channelSubType&quot;: &quot;WEB&quot;,&#10;          &quot;placeholderId&quot;: &quot;placeholderId&quot;,&#10;  &quot;placeholderIdentifier&quot;: &quot;placeholderId&quot;,&#10; &quot;placeholderName&quot;: &quot;string&quot;,&#10;          &quot;placeholderDescription&quot;: &quot;string&quot;,&#10;             &quot;imageResolution&quot;: &quot;imageResolution&quot;,&#10;              &quot;imageScale&quot;: &quot;imageScale&quot;,&#10;              &quot;imageSize&quot;: &quot;imageSize&quot;,&#10;              &quot;imageURL&quot;: &quot;imageURL&quot;,&#10;              &quot;targetURL&quot;: &quot;targetURL&quot;,&#10;&quot;imageIndex&quot;: &quot;string&quot;&#10;&#10;           &#10;        }&#10;      ],&#10;      &quot;offlineTemplates&quot;: [&#10;        {&#10;          &quot;offlineTemplateId&quot;: &quot;string&quot;,&#10;          &quot;channelSubType&quot;: &quot;SMS&quot;,&#10;          &quot;subject&quot;: &quot;string&quot;,&#10;          &quot;content&quot;: &quot;string&quot;&#10;        }, {&#10;          &quot;offlineTemplateId&quot;: &quot;string&quot;,&#10;            &quot;channelSubType&quot;: &quot;PUSH&quot;,&#10;          &quot;subject&quot;: &quot;string&quot;,&#10;          &quot;content&quot;: &quot;string&quot;&#10;        }, {&#10;          &quot;offlineTemplateId&quot;: &quot;string&quot;,&#10;          &quot;channelSubType&quot;: &quot;EMAIL&quot;,&#10;          &quot;subject&quot;: &quot;string&quot;,&#10;          &quot;content&quot;: &quot;string&quot;&#10;        }&#10;      ]&#10;  }&#10; ]&#10;}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="CampaignList" order="" paramOrder="1" parentOrder="0" src="$.campaignList[*]" testvalue="" isExtended="false">
+            <dataset defaultvalue="" id="DataContext" order="" paramOrder="13" parentOrder="1" src="profileDetails[*].profileConditions[*]" testvalue="" isExtended="false">
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="name" order="" paramOrder="14" parentOrder="13" passnull="false" sms-name="" src="dataContextId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="attributes" order="" paramOrder="15" parentOrder="13" passnull="false" sms-name="" src="conditionExpression" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="EndPointURL" order="" paramOrder="16" parentOrder="13" passnull="false" sms-name="" src="dataContextEndPoints" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+            </dataset>
+            <dataset defaultvalue="" id="onlineContent" order="" paramOrder="17" parentOrder="1" src="onlineContent[*]" testvalue="" isExtended="false">
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="channelSubType" order="" paramOrder="18" parentOrder="17" passnull="false" sms-name="" src="channelSubType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="placeholderId" order="" paramOrder="19" parentOrder="17" passnull="false" sms-name="" src="placeholderId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="placeholderIdentifier" order="" paramOrder="27" parentOrder="17" passnull="false" sms-name="" src="placeholderIdentifier" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="placeholderName" order="" paramOrder="28" parentOrder="17" passnull="false" sms-name="" src="placeholderName" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="placeholderDescription" order="" paramOrder="29" parentOrder="17" passnull="false" sms-name="" src="placeholderDescription" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="imageResolution" order="" paramOrder="30" parentOrder="17" passnull="false" sms-name="" src="imageResolution" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="imageScale" order="" paramOrder="31" parentOrder="17" passnull="false" sms-name="" src="imageScale" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="imageSize" order="" paramOrder="32" parentOrder="17" passnull="false" sms-name="" src="imageSize" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="imageURL" order="" paramOrder="33" parentOrder="17" passnull="false" sms-name="" src="imageURL" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="targetURL" order="" paramOrder="34" parentOrder="17" passnull="false" sms-name="" src="targetURL" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="imageIndex" order="" paramOrder="35" parentOrder="17" passnull="false" sms-name="" src="imageIndex" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+            </dataset>
+            <dataset defaultvalue="" id="offlineTemplate" order="" paramOrder="20" parentOrder="1" src="offlineTemplate[*]" testvalue="" isExtended="false">
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="channelSubType" order="" paramOrder="21" parentOrder="20" passnull="false" sms-name="" src="channelSubType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="subject" order="" paramOrder="22" parentOrder="20" passnull="false" sms-name="" src="subject" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="content" order="" paramOrder="23" parentOrder="20" passnull="false" sms-name="" src="messageContent" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+            </dataset>
+            <dataset defaultvalue="" id="channelDetails" order="" paramOrder="24" parentOrder="1" src="channelDetails[*]" testvalue="" isExtended="false">
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="channelSubType" order="" paramOrder="25" parentOrder="24" passnull="false" sms-name="" src="channelSubType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="channelPriority" order="" paramOrder="26" parentOrder="24" passnull="false" sms-name="" src="channelPriority" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+            </dataset>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="campaignId" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="campaignId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="campaignName" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="campaignName" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="campaignDescription" order="" paramOrder="4" parentOrder="1" passnull="false" sms-name="" src="campaignDescription" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="objectiveId" order="" paramOrder="5" parentOrder="1" passnull="false" sms-name="" src="objectiveId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="productId" order="" paramOrder="6" parentOrder="1" passnull="false" sms-name="" src="productId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="campaignPriority" order="" paramOrder="7" parentOrder="1" passnull="false" sms-name="" src="campaignPriority" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="campaignType" order="" paramOrder="8" parentOrder="1" passnull="false" sms-name="" src="campaignType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="campaignStatus" order="" paramOrder="9" parentOrder="1" passnull="false" sms-name="" src="campaignStatus" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="startDate" order="" paramOrder="10" parentOrder="1" passnull="false" sms-name="" src="startDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="endDate" order="" paramOrder="11" parentOrder="1" passnull="false" sms-name="" src="endDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="channelType" order="" paramOrder="12" parentOrder="1" passnull="false" sms-name="" src="channelType[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="errmsg" order="" paramOrder="36" parentOrder="0" passnull="false" sms-name="" src="$.[*].message" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="errcode" order="" paramOrder="37" parentOrder="0" passnull="false" sms-name="" src="$.[*].code" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

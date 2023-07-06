@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "44dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "sd5fb4525cc9414e911580d4f0b6f580",
+    "_text_": "Delete",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "View Details"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "focusSkin": "sf44d06ca8224832827ea7fdff757013"
+    },
+    "displaytext": true,
+    "id": "btnDelete",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a35b2e60821d4410b91280c67bbd8dfd",
+    "name": "kony.ui.Button",
+    "parent": "flxEdit",
+    "pf": "frmChangeOfAddressAcknowledgement",
+    "texti18n": "kony.mb.common.Delete",
+    "tooltip": "VIEW DETAILS",
+    "wType": "Button",
+    "zindex": 1
+}

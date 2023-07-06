@@ -1,0 +1,49 @@
+{
+  "operationConfig" : {
+    "name" : "DownloadTransactionReport5192",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\"/>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"DownloadTransactionReport\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"DownloadReportJavaServices (1.0).DownloadTransactionReport\",\"xy\":\"770 100\"}],\"linkDataArray\":[]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"DownloadTransactionReport\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"DownloadReportJavaServices (1.0).DownloadTransactionReport\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "DownloadReportJavaServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "DownloadTransactionReport"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "DownloadTransactionReport",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\"/>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"DownloadTransactionReport\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"DownloadReportJavaServices (1.0).DownloadTransactionReport\",\"xy\":\"770 100\"}],\"linkDataArray\":[]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"DownloadTransactionReport\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"DownloadReportJavaServices (1.0).DownloadTransactionReport\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "etag" : "609cbc72-f9a6-4c40-bd73-073b7a5ebc79",
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

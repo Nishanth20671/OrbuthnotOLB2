@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "getSearchFavoriteInstruments5252",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"FavouriteInstruments\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"WealthOrderOrch (1.0).getSearchFavoriteInstruments\",\"xy\":\"770 100\"}],\"linkDataArray\":[]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"FavouriteInstruments\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"WealthOrderOrch (1.0).getSearchFavoriteInstruments\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "WealthOrderOrch",
+      "serviceVersion" : "1.0",
+      "operationName" : "getSearchFavoriteInstruments"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "FavouriteInstruments",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"FavouriteInstruments\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"WealthOrderOrch (1.0).getSearchFavoriteInstruments\",\"xy\":\"770 100\"}],\"linkDataArray\":[]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"FavouriteInstruments\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"WealthOrderOrch (1.0).getSearchFavoriteInstruments\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

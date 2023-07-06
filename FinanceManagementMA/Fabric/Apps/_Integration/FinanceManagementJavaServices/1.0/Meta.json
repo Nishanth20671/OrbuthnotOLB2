@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "financemanagement-services.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

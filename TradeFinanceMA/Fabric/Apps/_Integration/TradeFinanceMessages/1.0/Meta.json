@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "tradefinanceservices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "infinity-api-commons.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

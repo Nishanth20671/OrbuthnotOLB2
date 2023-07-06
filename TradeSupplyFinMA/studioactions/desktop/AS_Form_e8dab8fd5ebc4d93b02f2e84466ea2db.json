@@ -1,0 +1,28 @@
+{
+    "AS_Form_e8dab8fd5ebc4d93b02f2e84466ea2db": {
+        "id": "AS_Form_e8dab8fd5ebc4d93b02f2e84466ea2db",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmViewBillDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j080f5dfadc54e019482bdff0de2e859"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__jc4cb109ab4c4e51bcf5287062d6e8ff",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

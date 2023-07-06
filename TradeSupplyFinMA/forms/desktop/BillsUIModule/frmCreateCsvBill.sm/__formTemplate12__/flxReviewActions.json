@@ -1,0 +1,62 @@
+{
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0e865c660c24ec6b4ac89d4f8303233",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "flxSeparator2",
+        "btnReview1",
+        "btnReview2"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxReviewActions",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c2ef93f464ff44eb87fc1e88b52d9ff7",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxCsvBillsContainer",
+    "pf": "frmCreateCsvBill",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

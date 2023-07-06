@@ -1,0 +1,42 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "SecureMessage",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "C360IntegrationServiceSM",
+    "version" : "1.0",
+    "etag" : "cffbcddc-7e3a-4145-8404-3170b2f56d2a"
+  }, {
+    "name" : "dbpAdminConsoleServicesSM",
+    "version" : "1.0",
+    "etag" : "9a649bb1-05f1-4dc0-85fc-31817836f06a"
+  }, {
+    "name" : "dbpNonProductServicesSM",
+    "version" : "1.0",
+    "etag" : "25821ed5-fd9a-4e72-a765-bb37b84bf1ec"
+  }, {
+    "name" : "dbpNotificationServices",
+    "version" : "1.0",
+    "etag" : "acbc7001-ab2c-463d-a7c4-397a527bdbe1"
+  }, {
+    "name" : "notificationServices",
+    "version" : "1.0",
+    "etag" : "6b74d8a8-5b03-4bb4-951f-9df470fd526d"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "MessageBinary",
+    "version" : "1.0",
+    "etag" : "dec7faab-7516-4061-9e57-6b3bb1b082dd"
+  }, {
+    "name" : "Notifications",
+    "version" : "1.0",
+    "etag" : "feeca4f0-7514-4509-b211-a7f33e8920f4"
+  }, {
+    "name" : "SecureMessaging",
+    "version" : "1.0",
+    "etag" : "ece42a16-11cd-412f-a771-c834bfdc754c"
+  } ],
+  "identity" : [ "CIBACustomIdentity", "DbxAPIIdentityService", "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

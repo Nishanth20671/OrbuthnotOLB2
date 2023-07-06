@@ -1,0 +1,50 @@
+{
+  "operationConfig" : {
+    "name" : "downloadDocument9618",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>  </map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"LCDocuments\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceDocumentServices (1.0).downloadDocument\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:LCDocuments:fileID:\",\"to\":\"target:fileId:\",\"fromPort\":\"source:LCDocuments:fileID:\",\"toPort\":\"target:fileId:\",\"visible\":true,\"common\":true},{\"from\":\"source\",\"to\":\"source:LCDocuments\",\"fromPort\":\"source\",\"toPort\":\"source:LCDocuments\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments\",\"to\":\"source:LCDocuments:t_p_fields\",\"fromPort\":\"source:LCDocuments\",\"toPort\":\"source:LCDocuments:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:uploadedattachments:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:uploadedattachments:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:successfulUploads:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:successfulUploads:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:failedUploads:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:failedUploads:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:documentReference:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:documentReference:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileID:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileID:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileName:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileName:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileNames:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileNames:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileContent:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileContent:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:fileId:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"LCDocuments\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceDocumentServices (1.0).downloadDocument\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "TradeFinanceDocumentServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "downloadDocument"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "LCDocuments",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : true,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>  </map></mapper>",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"LCDocuments\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceDocumentServices (1.0).downloadDocument\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:LCDocuments:fileID:\",\"to\":\"target:fileId:\",\"fromPort\":\"source:LCDocuments:fileID:\",\"toPort\":\"target:fileId:\",\"visible\":true,\"common\":true},{\"from\":\"source\",\"to\":\"source:LCDocuments\",\"fromPort\":\"source\",\"toPort\":\"source:LCDocuments\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments\",\"to\":\"source:LCDocuments:t_p_fields\",\"fromPort\":\"source:LCDocuments\",\"toPort\":\"source:LCDocuments:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:uploadedattachments:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:uploadedattachments:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:successfulUploads:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:successfulUploads:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:failedUploads:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:failedUploads:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:documentReference:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:documentReference:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileID:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileID:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileName:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileName:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileNames:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileNames:\",\"visible\":true,\"common\":false},{\"from\":\"source:LCDocuments:t_p_fields\",\"to\":\"source:LCDocuments:fileContent:\",\"fromPort\":\"source:LCDocuments:t_p_fields\",\"toPort\":\"source:LCDocuments:fileContent:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:fileId:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"LCDocuments\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceDocumentServices (1.0).downloadDocument\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : true,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : true,
+  "customVerb" : false,
+  "frontendUrlPath" : "downloadDocument",
+  "frontend_supported_method" : "POST"
+}

@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "verifyDbxUserName9757",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"Email\" outputpath=\"Email\"/>\n        <set-param inputpath=\"IDMidentifier\" outputpath=\"IDMidentifier\"/>\n        <set-param inputpath=\"Phone\" outputpath=\"Phone\"/>\n        <set-param inputpath=\"UserName\" outputpath=\"UserName\"/>\n        <set-param inputpath=\"doNotSendOTP\" outputpath=\"doNotSendOTP\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"ExternalUsers_2\">\n            <set-param inputpath=\"success\" outputpath=\"success\"/>\n            <set-param inputpath=\"Otp\" outputpath=\"Otp\"/>\n            <set-param inputpath=\"securityKey\" outputpath=\"securityKey\"/>\n            <set-param inputpath=\"isUserNameExists\" outputpath=\"isUserNameExists\"/>\n            <set-param inputpath=\"dbpErrMsg\" outputpath=\"dbpErrMsg\"/>\n            <set-param inputpath=\"dbpErrCode\" outputpath=\"dbpErrCode\"/>\n        </map>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ExternalUsers_2\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumDBX (1.0).verifyDbxUserName\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:UserName:\",\"to\":\"target:UserName:\",\"fromPort\":\"source:ExternalUsers_2:UserName:\",\"toPort\":\"target:UserName:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:Phone:\",\"to\":\"target:Phone:\",\"fromPort\":\"source:ExternalUsers_2:Phone:\",\"toPort\":\"target:Phone:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:Email:\",\"to\":\"target:Email:\",\"fromPort\":\"source:ExternalUsers_2:Email:\",\"toPort\":\"target:Email:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:IDMidentifier:\",\"to\":\"target:IDMidentifier:\",\"fromPort\":\"source:ExternalUsers_2:IDMidentifier:\",\"toPort\":\"target:IDMidentifier:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:doNotSendOTP:\",\"to\":\"target:doNotSendOTP:\",\"fromPort\":\"source:ExternalUsers_2:doNotSendOTP:\",\"toPort\":\"target:doNotSendOTP:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ExternalUsers_2\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"eumDBX (1.0).verifyDbxUserName\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:success:\",\"to\":\"target:ExternalUsers_2:success:\",\"fromPort\":\"source:success:\",\"toPort\":\"target:ExternalUsers_2:success:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:Otp:\",\"to\":\"target:ExternalUsers_2:Otp:\",\"fromPort\":\"source:Otp:\",\"toPort\":\"target:ExternalUsers_2:Otp:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:securityKey:\",\"to\":\"target:ExternalUsers_2:securityKey:\",\"fromPort\":\"source:securityKey:\",\"toPort\":\"target:ExternalUsers_2:securityKey:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:isUserNameExists:\",\"to\":\"target:ExternalUsers_2:isUserNameExists:\",\"fromPort\":\"source:isUserNameExists:\",\"toPort\":\"target:ExternalUsers_2:isUserNameExists:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:dbpErrMsg:\",\"to\":\"target:ExternalUsers_2:dbpErrMsg:\",\"fromPort\":\"source:dbpErrMsg:\",\"toPort\":\"target:ExternalUsers_2:dbpErrMsg:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:dbpErrCode:\",\"to\":\"target:ExternalUsers_2:dbpErrCode:\",\"fromPort\":\"source:dbpErrCode:\",\"toPort\":\"target:ExternalUsers_2:dbpErrCode:\",\"visible\":true,\"common\":true}]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "eumDBX",
+      "serviceVersion" : "1.0",
+      "operationName" : "verifyDbxUserName"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "ExternalUsers_2",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"Email\" outputpath=\"Email\"/>\n        <set-param inputpath=\"IDMidentifier\" outputpath=\"IDMidentifier\"/>\n        <set-param inputpath=\"Phone\" outputpath=\"Phone\"/>\n        <set-param inputpath=\"UserName\" outputpath=\"UserName\"/>\n        <set-param inputpath=\"doNotSendOTP\" outputpath=\"doNotSendOTP\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"ExternalUsers_2\">\n            <set-param inputpath=\"success\" outputpath=\"success\"/>\n            <set-param inputpath=\"Otp\" outputpath=\"Otp\"/>\n            <set-param inputpath=\"securityKey\" outputpath=\"securityKey\"/>\n            <set-param inputpath=\"isUserNameExists\" outputpath=\"isUserNameExists\"/>\n            <set-param inputpath=\"dbpErrMsg\" outputpath=\"dbpErrMsg\"/>\n            <set-param inputpath=\"dbpErrCode\" outputpath=\"dbpErrCode\"/>\n        </map>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ExternalUsers_2\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumDBX (1.0).verifyDbxUserName\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:UserName:\",\"to\":\"target:UserName:\",\"fromPort\":\"source:ExternalUsers_2:UserName:\",\"toPort\":\"target:UserName:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:Phone:\",\"to\":\"target:Phone:\",\"fromPort\":\"source:ExternalUsers_2:Phone:\",\"toPort\":\"target:Phone:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:Email:\",\"to\":\"target:Email:\",\"fromPort\":\"source:ExternalUsers_2:Email:\",\"toPort\":\"target:Email:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:IDMidentifier:\",\"to\":\"target:IDMidentifier:\",\"fromPort\":\"source:ExternalUsers_2:IDMidentifier:\",\"toPort\":\"target:IDMidentifier:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:doNotSendOTP:\",\"to\":\"target:doNotSendOTP:\",\"fromPort\":\"source:ExternalUsers_2:doNotSendOTP:\",\"toPort\":\"target:doNotSendOTP:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ExternalUsers_2\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"eumDBX (1.0).verifyDbxUserName\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:success:\",\"to\":\"target:ExternalUsers_2:success:\",\"fromPort\":\"source:success:\",\"toPort\":\"target:ExternalUsers_2:success:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:Otp:\",\"to\":\"target:ExternalUsers_2:Otp:\",\"fromPort\":\"source:Otp:\",\"toPort\":\"target:ExternalUsers_2:Otp:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:securityKey:\",\"to\":\"target:ExternalUsers_2:securityKey:\",\"fromPort\":\"source:securityKey:\",\"toPort\":\"target:ExternalUsers_2:securityKey:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:isUserNameExists:\",\"to\":\"target:ExternalUsers_2:isUserNameExists:\",\"fromPort\":\"source:isUserNameExists:\",\"toPort\":\"target:ExternalUsers_2:isUserNameExists:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:dbpErrMsg:\",\"to\":\"target:ExternalUsers_2:dbpErrMsg:\",\"fromPort\":\"source:dbpErrMsg:\",\"toPort\":\"target:ExternalUsers_2:dbpErrMsg:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:dbpErrCode:\",\"to\":\"target:ExternalUsers_2:dbpErrCode:\",\"fromPort\":\"source:dbpErrCode:\",\"toPort\":\"target:ExternalUsers_2:dbpErrCode:\",\"visible\":true,\"common\":true}]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

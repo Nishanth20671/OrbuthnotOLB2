@@ -1,0 +1,42 @@
+{
+  "operationConfig" : {
+    "name" : "updateRequest9197",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"Status\" outputpath=\"Status\"/><set-param inputpath=\"accountid\" outputpath=\"accountid\"/><set-param inputpath=\"requestcategory_id\" outputpath=\"requestcategory_id\"/><set-param inputpath=\"requestid\" outputpath=\"requestid\"/><set-param inputpath=\"Priority\" outputpath=\"Priority\"/><set-param inputpath=\"Requestsubject\" outputpath=\"Requestsubject\"/><set-param inputpath=\"harddelete\" outputpath=\"harddelete\"/><set-param inputpath=\"modifiedby\" outputpath=\"modifiedby\"/><set-param inputpath=\"markallasread\" outputpath=\"markallasread\"/><set-param inputpath=\"softdelete\" outputpath=\"softdelete\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpAdminConsoleServicesSM",
+      "serviceVersion" : "1.0",
+      "operationName" : "updateRequest"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Message",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"Status\" outputpath=\"Status\"/><set-param inputpath=\"accountid\" outputpath=\"accountid\"/><set-param inputpath=\"requestcategory_id\" outputpath=\"requestcategory_id\"/><set-param inputpath=\"requestid\" outputpath=\"requestid\"/><set-param inputpath=\"Priority\" outputpath=\"Priority\"/><set-param inputpath=\"Requestsubject\" outputpath=\"Requestsubject\"/><set-param inputpath=\"harddelete\" outputpath=\"harddelete\"/><set-param inputpath=\"modifiedby\" outputpath=\"modifiedby\"/><set-param inputpath=\"markallasread\" outputpath=\"markallasread\"/><set-param inputpath=\"softdelete\" outputpath=\"softdelete\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

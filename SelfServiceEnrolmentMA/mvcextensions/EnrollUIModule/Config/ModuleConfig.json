@@ -1,0 +1,11 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationExtensions": [],
+            "PresentationControllerClass": "EnrollUIModule/PresentationControllers/PresentationController"
+        }
+    },
+    "Forms": {},
+    "ModuleType": "UIModule",
+    "ModuleName": "UIModule"
+}

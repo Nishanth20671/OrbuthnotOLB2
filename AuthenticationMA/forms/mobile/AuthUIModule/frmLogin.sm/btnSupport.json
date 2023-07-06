@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0e96acc37c6433384321ab444392007",
+    "_text_": "Support",
+    "_width_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "SUPPORT"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sae2e4475aa3419b8c89d14cf90383cb",
+    "id": "btnSupport",
+    "ide_onClick": "AS_Button_ddca20b68415486faf31bad9fd1fa798",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "i224d189924c4e3986bbfb1153561d3f",
+    "name": "kony.ui.Button",
+    "parent": "flxFooterInner",
+    "pf": "frmLogin",
+    "texti18n": "kony.mb.login.support",
+    "wType": "Button",
+    "zindex": 1
+}

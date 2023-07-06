@@ -1,0 +1,148 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        0,
+        3
+    ],
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "TERMS & CONDITIONS",
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "flxHeader",
+        "flxTermsConditions"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmExternalAccountsTermsAndConditionsController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhone11",
+    "displayorientation": 1,
+    "enabledforidletimeout": true,
+    "friendlyName": "frmExternalAccountsTermsAndConditions",
+    "id": "frmExternalAccountsTermsAndConditions",
+    "ide_init": "AS_Form_d9c91edfcb9d4df587f791392986c803",
+    "ide_preShow": "AS_Form_bbf36bd0fe6648e7813316f233168337",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4
+        },
+        "titleBar": false
+    },
+    "iphone": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "titleBarAttributes": {
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "ffd41db713ae42838fe9d9220794126c",
+                "leftBarButtonItems": [
+                    {
+                        "enabled": true,
+                        "ide_onClick": "AS_BarButtonItem_g83543c955134f288505994195f18fef",
+                        "info": {
+                            "image": "closeicon.png"
+                        },
+                        "kuid": "d86622d9c8fc457e85a661880a4c57be",
+                        "style": 0,
+                        "tintColor": "ffffff00",
+                        "type": 0
+                    }
+                ],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [],
+                "tintColor": "4b88f100",
+                "translucent": false
+            }
+        },
+        "titleBar": true
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kiosk": {
+        "needAppMenu": false
+    },
+    "kuid": "a71c471abcd640e79ca84af8ef2f179f",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": false,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "Pixel3",
+    "prevPlatform": "android",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainscrollposition": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spaandroidtablet": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spaipad": {
+        "needAppMenu": false
+    },
+    "spawindowstablet": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
+    "texti18n": "kony.mb.AddExternalAccountsTermsAndConditions.Title",
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "windows8": {
+        "needAppMenu": false
+    },
+    "winphone8": {
+        "needAppMenu": false
+    }
+}

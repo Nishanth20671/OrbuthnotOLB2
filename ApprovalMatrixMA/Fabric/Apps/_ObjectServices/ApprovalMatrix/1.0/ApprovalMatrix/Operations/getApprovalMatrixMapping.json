@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "fetchApprovalMatrix5483",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"accountId\" outputpath=\"accountId\"/>\n        <set-param inputpath=\"actionId\" outputpath=\"actionId\"/>\n        <set-param inputpath=\"cif\" outputpath=\"cif\"/>\n        <set-param inputpath=\"companyId\" outputpath=\"companyId\"/>\n        <set-param inputpath=\"contractId\" outputpath=\"contractId\"/>\n        <set-param inputpath=\"limitTypeId\" outputpath=\"limitTypeId\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ApprovalMatrix\",\"xy\":\"176 87\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpApprovalMatrixServices (1.0).fetchApprovalMatrix\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:accountId:\",\"to\":\"target:accountId:\",\"fromPort\":\"source:ApprovalMatrix:accountId:\",\"toPort\":\"target:accountId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:actionId:\",\"to\":\"target:actionId:\",\"fromPort\":\"source:ApprovalMatrix:actionId:\",\"toPort\":\"target:actionId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:cif:\",\"to\":\"target:cif:\",\"fromPort\":\"source:ApprovalMatrix:cif:\",\"toPort\":\"target:cif:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:companyId:\",\"to\":\"target:companyId:\",\"fromPort\":\"source:ApprovalMatrix:companyId:\",\"toPort\":\"target:companyId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:limitTypeId:\",\"to\":\"target:limitTypeId:\",\"fromPort\":\"source:ApprovalMatrix:limitTypeId:\",\"toPort\":\"target:limitTypeId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:contractId:\",\"to\":\"target:contractId:\",\"fromPort\":\"source:ApprovalMatrix:contractId:\",\"toPort\":\"target:contractId:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpApprovalMatrixServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "fetchApprovalMatrix"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "ApprovalMatrix",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"accountId\" outputpath=\"accountId\"/>\n        <set-param inputpath=\"actionId\" outputpath=\"actionId\"/>\n        <set-param inputpath=\"cif\" outputpath=\"cif\"/>\n        <set-param inputpath=\"companyId\" outputpath=\"companyId\"/>\n        <set-param inputpath=\"contractId\" outputpath=\"contractId\"/>\n        <set-param inputpath=\"limitTypeId\" outputpath=\"limitTypeId\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ApprovalMatrix\",\"xy\":\"176 87\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpApprovalMatrixServices (1.0).fetchApprovalMatrix\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:accountId:\",\"to\":\"target:accountId:\",\"fromPort\":\"source:ApprovalMatrix:accountId:\",\"toPort\":\"target:accountId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:actionId:\",\"to\":\"target:actionId:\",\"fromPort\":\"source:ApprovalMatrix:actionId:\",\"toPort\":\"target:actionId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:cif:\",\"to\":\"target:cif:\",\"fromPort\":\"source:ApprovalMatrix:cif:\",\"toPort\":\"target:cif:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:companyId:\",\"to\":\"target:companyId:\",\"fromPort\":\"source:ApprovalMatrix:companyId:\",\"toPort\":\"target:companyId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:limitTypeId:\",\"to\":\"target:limitTypeId:\",\"fromPort\":\"source:ApprovalMatrix:limitTypeId:\",\"toPort\":\"target:limitTypeId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:ApprovalMatrix:contractId:\",\"to\":\"target:contractId:\",\"fromPort\":\"source:ApprovalMatrix:contractId:\",\"toPort\":\"target:contractId:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

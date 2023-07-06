@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "editPaymentOrder" : "editPaymentOrderMapping",
+    "deletePaymentOrder" : "deletePaymentOrderMapping",
+    "addPaymentOrder" : "addPaymentOrderMapping",
+    "fetchPaymentOrders" : "fetchPaymentOrdersMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

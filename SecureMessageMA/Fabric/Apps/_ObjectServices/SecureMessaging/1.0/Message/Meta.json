@@ -1,0 +1,22 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getRequestCategory" : "getRequestCategoryMapping",
+    "updateRequest" : "updateRequestMapping",
+    "getRequests" : "getRequestsMapping",
+    "createRequest" : "createRequestMapping",
+    "getAllMessagesForARequest" : "getAllMessagesForARequestMapping",
+    "getUnreadMessageCount" : "getUnreadMessageCountMapping",
+    "get" : "getMapping",
+    "deleteAttachement" : "deleteAttachementMapping",
+    "addAttachment" : "addAttachmentMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

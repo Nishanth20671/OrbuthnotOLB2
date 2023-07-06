@@ -1,0 +1,22 @@
+{
+    "AS_Form_be807dc70c6c4c828a5f62da2b136669": {
+        "id": "AS_Form_be807dc70c6c4c828a5f62da2b136669",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "j896b6785a4f41b4ae28b3adfaf257f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e0c287235d6f4af0aaad93ce7929b330",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.showLoadingScreen(\"\", \"Authenticating the user\");\nvar authParams = {\n  \"UserName\": \"testeu01\",\n  \"Password\": \"kony@1234\",\n  \"loginOptions\": {\n    \"isOfflineEnabled\": false\n  }\n};\nauthClient = KNYMobileFabric.getIdentityService(\"DbxUserLogin\");\nauthClient.login(authParams,successCallback,errorCallback);\nfunction successCallback(resSuccess){\n  kony.application.dismissLoadingScreen();\n  kony.print(resSuccess);\n\n}\nfunction errorCallback(resError){\n  kony.application.dismissLoadingScreen();\n  kony.print(resError);\n  alert(\"login is not working...\")\n}",
+            "parentId": null
+        }]
+    }
+}

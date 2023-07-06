@@ -1,0 +1,18 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "downloadBulkPaymentFileAck" : "downloadBulkPaymentFileAckMapping",
+    "initiateDownloadBulkPaymentAck" : "initiateDownloadBulkPaymentAckMapping",
+    "UploadFile" : "UploadFileMapping",
+    "fetchUploadedFiles" : "fetchUploadedFilesMapping",
+    "fetchSampleFiles" : "fetchSampleFilesMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

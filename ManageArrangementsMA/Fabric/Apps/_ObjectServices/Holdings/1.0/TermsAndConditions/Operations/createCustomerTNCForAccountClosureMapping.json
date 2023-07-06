@@ -1,0 +1,46 @@
+{
+  "operationConfig" : {
+    "name" : "CustomerTNCForAccountClosure3062",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"languageCode\" outputpath=\"languageCode\"/>  </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"TermsAndConditions\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"ArrangementsJavaServices (1.0).CustomerTNCForAccountClosure\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:TermsAndConditions\",\"fromPort\":\"source\",\"toPort\":\"source:TermsAndConditions\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions\",\"to\":\"source:TermsAndConditions:t_p_fields\",\"fromPort\":\"source:TermsAndConditions\",\"toPort\":\"source:TermsAndConditions:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:termsAndConditionsCode:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:termsAndConditionsCode:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:languageCode:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:languageCode:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:termsAndConditionsContent:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:termsAndConditionsContent:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:contentTypeId:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:contentTypeId:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:versionId:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:versionId:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:alreadySigned:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:alreadySigned:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:id:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:id:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:languageCode:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:languageCode:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:TermsAndConditions:languageCode:\",\"to\":\"target:languageCode:\",\"fromPort\":\"source:TermsAndConditions:languageCode:\",\"toPort\":\"target:languageCode:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"TermsAndConditions\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"ArrangementsJavaServices (1.0).CustomerTNCForAccountClosure\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "ArrangementsJavaServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "CreateCustomerTNCForAccountClosure"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "TermsAndConditions",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"languageCode\" outputpath=\"languageCode\"/>  </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"TermsAndConditions\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"ArrangementsJavaServices (1.0).CustomerTNCForAccountClosure\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:TermsAndConditions\",\"fromPort\":\"source\",\"toPort\":\"source:TermsAndConditions\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions\",\"to\":\"source:TermsAndConditions:t_p_fields\",\"fromPort\":\"source:TermsAndConditions\",\"toPort\":\"source:TermsAndConditions:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:termsAndConditionsCode:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:termsAndConditionsCode:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:languageCode:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:languageCode:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:termsAndConditionsContent:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:termsAndConditionsContent:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:contentTypeId:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:contentTypeId:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:versionId:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:versionId:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:alreadySigned:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:alreadySigned:\",\"visible\":true,\"common\":false},{\"from\":\"source:TermsAndConditions:t_p_fields\",\"to\":\"source:TermsAndConditions:id:\",\"fromPort\":\"source:TermsAndConditions:t_p_fields\",\"toPort\":\"source:TermsAndConditions:id:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:languageCode:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:languageCode:\",\"visible\":true,\"common\":false},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:TermsAndConditions:languageCode:\",\"to\":\"target:languageCode:\",\"fromPort\":\"source:TermsAndConditions:languageCode:\",\"toPort\":\"target:languageCode:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"TermsAndConditions\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"ArrangementsJavaServices (1.0).CustomerTNCForAccountClosure\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

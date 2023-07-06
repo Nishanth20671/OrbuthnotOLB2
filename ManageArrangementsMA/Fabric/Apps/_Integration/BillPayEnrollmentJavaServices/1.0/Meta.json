@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-billPay-enrollment.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

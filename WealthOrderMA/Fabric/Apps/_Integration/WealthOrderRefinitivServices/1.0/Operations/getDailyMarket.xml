@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="getDailyMarket" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealthservices.preandpostprocessors.RefinitivTokenGenPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://api.rkd.refinitiv.com/api/QuoteLists/QuoteLists.svc/REST/QuoteLists_1/GetSimpleData_2"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-Token" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-ApplicationID" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="RICs" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;GetSimpleData_Request_2&quot;:{&#10;        &quot;RICs&quot;:{&#10;            &quot;RIC&quot;:[&#10;              $RICs&#10;            ]&#10;        },&#10;        &quot;FIDs&quot;:{&#10;            &quot;FID&quot;:[&#10;                &quot;CF_NAME&quot;,&#10;                &quot;DSPLY_NAME&quot;,&#10;                &quot;CF_NETCHNG&quot;,&#10;                &quot;PCTCHNG&quot;,&#10;                &quot;CF_LAST&quot;,&#10;                &quot;CF_CURRENCY&quot;&#10;            ]&#10;        }&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;GetSimpleData_Request_2&quot;:{&#10;        &quot;RICs&quot;:{&#10;            &quot;RIC&quot;:[&#10;              $RICs&#10;            ]&#10;        },&#10;        &quot;FIDs&quot;:{&#10;            &quot;FID&quot;:[&#10;                &quot;CF_NAME&quot;,&#10;                &quot;DSPLY_NAME&quot;,&#10;                &quot;CF_NETCHNG&quot;,&#10;                &quot;PCTCHNG&quot;,&#10;                &quot;CF_LAST&quot;,&#10;                &quot;CF_CURRENCY&quot;&#10;            ]&#10;        }&#10;    }&#10;}" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <record id="GetSimpleData_Response_2" order="" paramOrder="1" parentOrder="0" src="$.GetSimpleData_Response_2" isExtended="false">
+            <record id="SimpleDataResult" order="" paramOrder="2" parentOrder="1" src="SimpleDataResult" isExtended="false">
+                <dataset defaultvalue="" id="ItemResponse" order="" paramOrder="3" parentOrder="2" src="ItemResponse[*]" testvalue="" isExtended="false">
+                    <dataset defaultvalue="" id="Item" order="" paramOrder="4" parentOrder="3" src="Item[*]" testvalue="" isExtended="false">
+                        <record id="Fields" order="" paramOrder="5" parentOrder="4" src="Fields" isExtended="false">
+                            <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Field" order="" paramOrder="6" parentOrder="5" passnull="false" sms-name="" src="Field[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+<accessType></accessType>
+                            </param>
+                        </record>
+                        <record id="Status" order="" paramOrder="7" parentOrder="4" src="Status" isExtended="false">
+                            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="StatusMsg" order="" paramOrder="8" parentOrder="7" passnull="false" sms-name="" src="StatusMsg" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+<accessType></accessType>
+                            </param>
+                            <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="StatusCode" order="" paramOrder="9" parentOrder="7" passnull="false" sms-name="" src="StatusCode" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+<accessType></accessType>
+                            </param>
+                        </record>
+                    </dataset>
+                </dataset>
+            </record>
+        </record>
+    </service-output>
+</service>

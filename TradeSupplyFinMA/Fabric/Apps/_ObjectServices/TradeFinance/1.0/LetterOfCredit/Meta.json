@@ -1,0 +1,23 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updateImportLCByBank" : "updateImportLCByBankMapping",
+    "deleteImportLC" : "deleteImportLCMapping",
+    "updateImportLCAmendmentByBank" : "updateImportLCAmendmentByBankMapping",
+    "getImportLetterOfCreditAmendments" : "getImportLetterOfCreditAmendmentsMapping",
+    "createImportLC" : "createImportLCMapping",
+    "createImportLetterOfCreditAmendment" : "createImportLetterOfCreditAmendmentMapping",
+    "getImportLetterOfCreditAmendmentsById" : "getImportLetterOfCreditAmendmentsByIdMapping",
+    "getLetterOfCreditsById" : "getLetterOfCreditsByIdMapping",
+    "getSwiftCode" : "getSwiftCodeMapping",
+    "getImportLCs" : "getImportLCsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

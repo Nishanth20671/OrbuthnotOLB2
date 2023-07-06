@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "UserAgentUtils-1.21.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-adminintegrationservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

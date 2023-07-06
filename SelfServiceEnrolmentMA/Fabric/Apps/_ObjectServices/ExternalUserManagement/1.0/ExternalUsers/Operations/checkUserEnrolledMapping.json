@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "CheckUserEnrolled2370",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"dateOfBirth\" outputpath=\"DateOfBirth\"/>\n        <set-param inputpath=\"LastName\" outputpath=\"LastName\"/>\n        <set-param inputpath=\"ssn\" outputpath=\"Ssn\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ExternalUsers\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumDBX (1.0).CheckUserEnrolled\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers:dateOfBirth:\",\"to\":\"target:DateOfBirth:\",\"fromPort\":\"source:ExternalUsers:dateOfBirth:\",\"toPort\":\"target:DateOfBirth:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers:ssn:\",\"to\":\"target:Ssn:\",\"fromPort\":\"source:ExternalUsers:ssn:\",\"toPort\":\"target:Ssn:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers:LastName:\",\"to\":\"target:LastName:\",\"fromPort\":\"source:ExternalUsers:LastName:\",\"toPort\":\"target:LastName:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ExternalUsers\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"eumDBX (1.0).CheckUserEnrolled\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "eumDBX",
+      "serviceVersion" : "1.0",
+      "operationName" : "CheckUserEnrolled"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "ExternalUsers",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"dateOfBirth\" outputpath=\"DateOfBirth\"/>\n        <set-param inputpath=\"LastName\" outputpath=\"LastName\"/>\n        <set-param inputpath=\"ssn\" outputpath=\"Ssn\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"response_in\" outputpath=\"response_out\">\n        <map inputpath=\"\" outputpath=\"\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ExternalUsers\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumDBX (1.0).CheckUserEnrolled\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers:dateOfBirth:\",\"to\":\"target:DateOfBirth:\",\"fromPort\":\"source:ExternalUsers:dateOfBirth:\",\"toPort\":\"target:DateOfBirth:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers:ssn:\",\"to\":\"target:Ssn:\",\"fromPort\":\"source:ExternalUsers:ssn:\",\"toPort\":\"target:Ssn:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers:LastName:\",\"to\":\"target:LastName:\",\"fromPort\":\"source:ExternalUsers:LastName:\",\"toPort\":\"target:LastName:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ExternalUsers\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"eumDBX (1.0).CheckUserEnrolled\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

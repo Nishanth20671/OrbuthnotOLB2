@@ -1,0 +1,55 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.temenos.infinity.api.docmanagement.preprocessor.TransactionPreProcessor"
+  },
+  "operationConfig" : {
+    "name" : "GenerateTransactionPDF7631",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"contentType\" outputpath=\"contentType\"/>\n        <set-param inputpath=\"transactionId\" outputpath=\"transactionId\"/>\n        <set-param inputpath=\"transactionType\" outputpath=\"transactionType\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">     <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>  </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"DownloadTransactionPDF\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"T24DocumentService (1.0).GenerateTransactionPDF\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:DownloadTransactionPDF:transactionType:\",\"to\":\"target:transactionType:\",\"fromPort\":\"source:DownloadTransactionPDF:transactionType:\",\"toPort\":\"target:transactionType:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:DownloadTransactionPDF:transactionId:\",\"to\":\"target:transactionId:\",\"fromPort\":\"source:DownloadTransactionPDF:transactionId:\",\"toPort\":\"target:transactionId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:DownloadTransactionPDF:contentType:\",\"to\":\"target:contentType:\",\"fromPort\":\"source:DownloadTransactionPDF:contentType:\",\"toPort\":\"target:contentType:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"DownloadTransactionPDF\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"T24DocumentService (1.0).GenerateTransactionPDF\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:DownloadTransactionPDF\",\"fromPort\":\"target\",\"toPort\":\"target:DownloadTransactionPDF\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF\",\"to\":\"target:DownloadTransactionPDF:t_p_fields\",\"fromPort\":\"target:DownloadTransactionPDF\",\"toPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:transactionType:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:transactionType:\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:transactionId:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:transactionId:\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:contentType:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:contentType:\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:fileId:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "T24DocumentService",
+      "serviceVersion" : "1.0",
+      "operationName" : "GenerateTransactionPDF"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "DownloadTransactionPDF",
+      "children" : [ ],
+      "actions" : {
+        "create" : true,
+        "update" : true,
+        "partialupdate" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"contentType\" outputpath=\"contentType\"/>\n        <set-param inputpath=\"transactionId\" outputpath=\"transactionId\"/>\n        <set-param inputpath=\"transactionType\" outputpath=\"transactionType\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">  <map inputpath=\"response_in\" outputpath=\"response_out\">     <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>  </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"DownloadTransactionPDF\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"T24DocumentService (1.0).GenerateTransactionPDF\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:DownloadTransactionPDF:transactionType:\",\"to\":\"target:transactionType:\",\"fromPort\":\"source:DownloadTransactionPDF:transactionType:\",\"toPort\":\"target:transactionType:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:DownloadTransactionPDF:transactionId:\",\"to\":\"target:transactionId:\",\"fromPort\":\"source:DownloadTransactionPDF:transactionId:\",\"toPort\":\"target:transactionId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:DownloadTransactionPDF:contentType:\",\"to\":\"target:contentType:\",\"fromPort\":\"source:DownloadTransactionPDF:contentType:\",\"toPort\":\"target:contentType:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"DownloadTransactionPDF\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"T24DocumentService (1.0).GenerateTransactionPDF\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:DownloadTransactionPDF\",\"fromPort\":\"target\",\"toPort\":\"target:DownloadTransactionPDF\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF\",\"to\":\"target:DownloadTransactionPDF:t_p_fields\",\"fromPort\":\"target:DownloadTransactionPDF\",\"toPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:transactionType:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:transactionType:\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:transactionId:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:transactionId:\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:contentType:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:contentType:\",\"visible\":true,\"common\":false},{\"from\":\"target:DownloadTransactionPDF:t_p_fields\",\"to\":\"target:DownloadTransactionPDF:fileId:\",\"fromPort\":\"target:DownloadTransactionPDF:t_p_fields\",\"toPort\":\"target:DownloadTransactionPDF:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa611611b2f24e93bcfd09e1606c01aa",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa01793c8b654f65860ee963c305f460",
+    "id": "btnUploadNewFile",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b381bcfe3f7d45618e71acd5b82ffd09",
+    "name": "kony.ui.Button",
+    "parent": "flxDocs",
+    "pf": "frmCancelBill",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.TradeFinance.UploadDocument",
+    "wType": "Button"
+}

@@ -1,0 +1,74 @@
+{
+    "models": {
+        "desktop": {
+            "1366": {
+                "class": "GraphLinksModel",
+                "linkDataArray": [],
+                "nodeDataArray": [
+                    {
+                        "formKUID": "j5cdfe6761c143deac06bd11c589b0de",
+                        "formName": "Form1",
+                        "isStartupForm": true,
+                        "key": "j5cdfe6761c143deac06bd11c589b0de",
+                        "loc": "8 24.7544921875",
+                        "thumbnailURL": null
+                    }
+                ]
+            }
+        },
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "f87d28cee9854451af79b7143bca7f53",
+                    "formName": "frmStyleGuide",
+                    "isStartupForm": false,
+                    "key": "f87d28cee9854451af79b7143bca7f53",
+                    "loc": "8 24.7544921875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "g3e0dd3aac7f4bcd9c5def19df4e6133",
+                    "formName": "frmBankLogin",
+                    "isStartupForm": false,
+                    "key": "g3e0dd3aac7f4bcd9c5def19df4e6133",
+                    "loc": "8 724.7544921875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "cf0bf9e94b9940c68692d8fc911453da",
+                    "formName": "frmExternalAccountsDetails",
+                    "isStartupForm": false,
+                    "key": "cf0bf9e94b9940c68692d8fc911453da",
+                    "loc": "8 1424.7544921874999",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "j12ed437856b4893b657693023982df5",
+                    "formName": "frmExternalAccountsList",
+                    "isStartupForm": false,
+                    "key": "j12ed437856b4893b657693023982df5",
+                    "loc": "8 2124.7544921875",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "a71c471abcd640e79ca84af8ef2f179f",
+                    "formName": "frmExternalAccountsTermsAndConditions",
+                    "isStartupForm": false,
+                    "key": "a71c471abcd640e79ca84af8ef2f179f",
+                    "loc": "8 2824.7544921874996",
+                    "thumbnailURL": null
+                },
+                {
+                    "formKUID": "d92ec5c101074474b0f27bc3b0994b14",
+                    "formName": "frmSelectExternalBanks",
+                    "isStartupForm": false,
+                    "key": "d92ec5c101074474b0f27bc3b0994b14",
+                    "loc": "8 4124.754492187501",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s963768c82394bc78c43038f558413f9",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "s9021d46fc8c4f7da63ca8964251b652"
+    },
+    "displaytext": true,
+    "id": "btnDownloadSampleFile",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e8fc6ad3edd746f5a295d2fcad275e8c",
+    "name": "kony.ui.Button",
+    "parent": "flxUploadFile",
+    "pf": "frmCreateCsvBill",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.bulkWireFiles.donwLoadFileInfo",
+    "tooltip": "Download Sample File",
+    "wType": "Button"
+}

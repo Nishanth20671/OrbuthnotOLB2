@@ -1,0 +1,37 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "editContract" : "editContractMapping",
+    "getCompanyAccounts" : "getCompanyAccountsMapping",
+    "enrollContract" : "enrollContractMapping",
+    "getProductPermissions" : "getProductPermissionsMapping",
+    "searchContract" : "searchContractMapping",
+    "checkIfCompanyExists" : "checkIfCompanyExistsMapping",
+    "getServiceDefinitionProductIdPermissions" : "getServiceDefinitionProductIdPermissionsMapping",
+    "getCoreRelativeCustomers" : "getCoreRelativeCustomersMapping",
+    "getCoreCustomerProductRolesFeatureActionLimits" : "getCoreCustomerProductRolesFeatureActionLimitsMapping",
+    "getListOfContractsByStatus" : "getListOfContractsByStatusMapping",
+    "getRelativeCoreCustomerContractDetails" : "getRelativeCoreCustomerContractDetailsMapping",
+    "getContractInfinityUsers" : "getContractInfinityUsersMapping",
+    "searchCoreCustomers" : "searchCoreCustomersMapping",
+    "getContractFeatureActionLimits" : "getContractFeatureActionLimitsMapping",
+    "addNewFeaturesTOContractFromSD" : "addNewFeaturesTOContractFromSDMapping",
+    "getContractDetails" : "getContractDetailsMapping",
+    "DBXCustomerCommunicationDetails" : "DBXCustomerCommunicationDetailsMapping",
+    "getCoreCustomerRoleFeatureActionLimits" : "getCoreCustomerRoleFeatureActionLimitsMapping",
+    "getContractAccounts" : "getContractAccountsMapping",
+    "createContract" : "createContractMapping",
+    "getCoreCustomerAccounts" : "getCoreCustomerAccountsMapping",
+    "getCoreCustomerContractDetails" : "getCoreCustomerContractDetailsMapping",
+    "updateContractStatus" : "updateContractStatusMapping",
+    "getCoreCustomerDetails" : "getCoreCustomerDetailsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

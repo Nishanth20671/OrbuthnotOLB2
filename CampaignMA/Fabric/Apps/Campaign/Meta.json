@@ -1,0 +1,34 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "Campaign",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "CampaignDBService",
+    "version" : "1.0",
+    "etag" : "8b45a449-bc6e-4e54-88f9-eaa3b851fb1d"
+  }, {
+    "name" : "CampaignDeliveryService",
+    "version" : "1.0",
+    "etag" : "e09ad0ac-b4c9-4c95-bd5f-00f010703e2b"
+  }, {
+    "name" : "CampaignProcessingService",
+    "version" : "1.0",
+    "etag" : "0fb7a41c-1694-4ca9-9f32-0bcee4da71a4"
+  }, {
+    "name" : "CampaignService",
+    "version" : "1.0",
+    "etag" : "3e888a80-0ca0-407a-8eff-030a3f79fd2d"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "Orch_Campaign",
+    "version" : "1.0",
+    "etag" : "aeb12610-2f6d-4c4d-ae1f-6e41c8344e22"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "CampaignEngine",
+    "version" : "1.0",
+    "etag" : "db3bd54c-d577-4fb2-bc19-1acad23750b0"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

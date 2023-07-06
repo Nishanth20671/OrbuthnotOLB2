@@ -1,0 +1,35 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "com.temenos.infinity.integration.common.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "channels.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "tcommonjms.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "tcommon.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "bulkpaymentservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "tcclient.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "tbrowser.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "tcsecurity.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "ofsml.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "tcommonjdbc.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

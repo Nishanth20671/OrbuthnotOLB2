@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "CommonHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a8a0d09bbdaa43b89ac55b6d89f8aa1a",
+                "srcKUID": "fc262cfc376241858f6464bb6acce7ed",
+                "wType": "FlexContainer"
+            },
+            "responsiveData": {
+                "b4": {
+                    "isVisible": false
+                }
+            }
+        },
+        "btnRequest": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "id09db77e2084b76924dff54587cbc89",
+                "srcKUID": "c8855780f2c24539bdac150fddb3eade",
+                "wType": "Button"
+            }
+        },
+        "flxHeader": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e064b2b4315b4adfadde60e469442bef",
+                "srcKUID": "ac4ddc384192440f9e8440fa909b9e19",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxSeperator": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb05de9148804db5b893dc82dadccce8",
+                "srcKUID": "c964ea0ebe3f4c03ba22b719e2c8e2e8",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f33d6783288a408292c4aafa7bc231bf",
+                "srcKUID": "bd38f9434a504b6a869469d928247bae",
+                "wType": "Label"
+            },
+            "i18n_text": "i18n.PFM.UncategorizedTransactions",
+            "left": {},
+            "responsiveData": {
+                "b1": {
+                    "left": {
+                        "type": "string",
+                        "value": "5dp"
+                    }
+                },
+                "b2": {
+                    "left": {
+                        "type": "string",
+                        "value": "0%"
+                    }
+                },
+                "b3": {
+                    "left": {
+                        "type": "string",
+                        "value": "0%"
+                    }
+                }
+            }
+        }
+    },
+    "id": "CommonHeaderUncategorized",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a8a0d09bbdaa43b89ac55b6d89f8aa1a",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxUncategorizedTransactions",
+    "pf": "frmPersonalFinanceManagement",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "fc262cfc376241858f6464bb6acce7ed",
+    "wType": "UserWidgetInstance"
+}

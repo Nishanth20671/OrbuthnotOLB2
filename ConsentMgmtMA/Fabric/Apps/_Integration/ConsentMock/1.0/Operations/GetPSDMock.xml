@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="GetPSDMock" passwordencrypted="false" security="authorized_app_user" type="stubConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <stub-param value="{&#10;    &quot;consentTypes&quot;: [&#10;        {&#10;            &quot;arrangementId&quot;: &quot;AA22109L020S&quot;,&#10;            &quot;accountIBANs&quot;: [&#10;                {&#10;                    &quot;isConsentGiven&quot;: &quot;YES&quot;,&#10;                    &quot;accountIBAN&quot;: &quot;GB73DEMO60161300131253&quot;,&#10;                    &quot;shortName&quot;: &quot;SARAN321&quot;,&#10;                    &quot;categoryId&quot;: &quot;6001&quot;,&#10;                    &quot;consents&quot;: [&#10;                        {&#10;                            &quot;consentType&quot;: &quot;allPsd2&quot;,&#10;                            &quot;description&quot;: &quot;Account Information&quot;,&#10;                            &quot;fullDescription&quot;: &quot;Account information for selected account(s) including; Account Identifiers, Account Name(s), Account Currency, Account Type, Account Status.&quot;&#10;                        },&#10;                        {&#10;                            &quot;consentType&quot;: &quot;&quot;,&#10;                            &quot;description&quot;: &quot;Balances Details&quot;,&#10;                            &quot;fullDescription&quot;: &quot;Balances details for selected account(s) including a range of available, opening and closed balances. This can include additional overdrafts or limits linked to you and your accounts.&quot;&#10;                        },&#10;                        {&#10;                            &quot;consentType&quot;: &quot;&quot;,&#10;                            &quot;description&quot;: &quot;Transactions History&quot;,&#10;                            &quot;fullDescription&quot;: &quot;A list of transactions for selected account(s). This will include payer and payee details, amount (including currency), transaction types, references and additional transparency details where applicable.&quot;&#10;                        }&#10;                    ]&#10;                }&#10;            ],&#10;            &quot;consentId&quot;: &quot;AAACT22109SNBV3JQZ&quot;,&#10;            &quot;thirdpartyprovider&quot;: &quot;saltedge&quot;,&#10;            &quot;imagePath&quot;: &quot;&quot;,&#10;            &quot;consentStatus&quot;: &quot;valid&quot;,&#10;            &quot;thirdpartyproviderId&quot;: &quot;TESTSRJ217&quot;,&#10;            &quot;tppStatus&quot;: &quot;&quot;,&#10;            &quot;validUntil&quot;: &quot;06 NOV 2022&quot;,&#10;            &quot;signUpService&quot;: &quot;AISP&quot;,&#10;            &quot;lastActionDate&quot;: &quot;19 APR 2022&quot;&#10;        }&#10;    ],&#10;    &quot;opstatus&quot;: 0,&#10;    &quot;httpStatusCode&quot;: 200&#10;}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="consentTypes" order="" paramOrder="1" parentOrder="0" src="$.consentTypes[*]" testvalue="" isExtended="false">
+            <dataset defaultvalue="" id="accountIBANs" order="" paramOrder="3" parentOrder="1" src="accountIBANs[*]" testvalue="" isExtended="false">
+                <dataset defaultvalue="" id="consents" order="" paramOrder="8" parentOrder="3" src="consents[*]" testvalue="" isExtended="false">
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentType" order="" paramOrder="9" parentOrder="8" passnull="false" sms-name="" src="consentType" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                        <accessType></accessType>
+                    </param>
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="description" order="" paramOrder="10" parentOrder="8" passnull="false" sms-name="" src="description" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                        <accessType></accessType>
+                    </param>
+                    <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fullDescription" order="" paramOrder="11" parentOrder="8" passnull="false" sms-name="" src="fullDescription" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                        <accessType></accessType>
+                    </param>
+                </dataset>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="isConsentGiven" order="" paramOrder="4" parentOrder="3" passnull="false" sms-name="" src="isConsentGiven" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="accountIBAN" order="" paramOrder="5" parentOrder="3" passnull="false" sms-name="" src="accountIBAN" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="shortName" order="" paramOrder="6" parentOrder="3" passnull="false" sms-name="" src="shortName" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+                <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="categoryId" order="" paramOrder="7" parentOrder="3" passnull="false" sms-name="" src="categoryId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                    <accessType></accessType>
+                </param>
+            </dataset>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="arrangementId" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="arrangementId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentId" order="" paramOrder="12" parentOrder="1" passnull="false" sms-name="" src="consentId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="thirdpartyprovider" order="" paramOrder="13" parentOrder="1" passnull="false" sms-name="" src="thirdpartyprovider" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="imagePath" order="" paramOrder="14" parentOrder="1" passnull="false" sms-name="" src="imagePath" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="consentStatus" order="" paramOrder="15" parentOrder="1" passnull="false" sms-name="" src="consentStatus" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="thirdpartyproviderId" order="" paramOrder="16" parentOrder="1" passnull="false" sms-name="" src="thirdpartyproviderId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="tppStatus" order="" paramOrder="17" parentOrder="1" passnull="false" sms-name="" src="tppStatus" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="validUntil" order="" paramOrder="18" parentOrder="1" passnull="false" sms-name="" src="validUntil" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="signUpService" order="" paramOrder="19" parentOrder="1" passnull="false" sms-name="" src="signUpService" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="lastActionDate" order="" paramOrder="20" parentOrder="1" passnull="false" sms-name="" src="lastActionDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

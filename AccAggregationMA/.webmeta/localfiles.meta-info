@@ -1,0 +1,18 @@
+{
+    "HEAD": "w0ec9c4541444750801cdd8d8cf68b60",
+    "w0ec9c4541444750801cdd8d8cf68b60": {
+        "children": [
+            "w12156533c3145f98fa748a21accbf06"
+        ],
+        "kuid": "w0ec9c4541444750801cdd8d8cf68b60",
+        "name": "localfiles",
+        "type": "L"
+    },
+    "w12156533c3145f98fa748a21accbf06": {
+        "extension": "html",
+        "kuid": "w12156533c3145f98fa748a21accbf06",
+        "name": "richtextViewer.html",
+        "parent": "w0ec9c4541444750801cdd8d8cf68b60",
+        "type": "F"
+    }
+}

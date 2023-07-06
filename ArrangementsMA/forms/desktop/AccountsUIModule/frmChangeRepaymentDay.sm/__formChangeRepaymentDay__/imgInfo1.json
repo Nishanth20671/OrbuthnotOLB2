@@ -1,0 +1,83 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "255dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s54e497ebb944a74a1ba381586f26f83",
+    "_src_": "info_grey_2.png",
+    "_top_": {
+        "type": "string",
+        "value": "270dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgInfo1",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d05f5bef0ee64cd4b00664676d0816ca",
+    "name": "kony.ui.Image2",
+    "parent": "flxSelectRepaymentDay",
+    "pf": "frmChangeRepaymentDay",
+    "responsiveData": {
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": "240dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "254dp"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "15dp"
+            },
+            "left": {
+                "type": "string",
+                "value": "170dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "264dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "15dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

@@ -1,0 +1,97 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.temenos.infinity.api.docmanagement.preprocessor.GetTransactionsPreProcessor",
+    "responseProcessorName" : "com.temenos.infinity.api.docmanagement.postprocessors.GetDownloadTransactionObjectServicePostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "GetTransactionsDownloaded7457",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "public",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    } ],
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"searchEndDate\" outputpath=\"searchEndDate\"/><set-param inputpath=\"fromCheckNumber\" outputpath=\"fromCheckNumber\"/><set-param inputpath=\"searchDescription\" outputpath=\"searchDescription\"/><set-param inputpath=\"title\" outputpath=\"title\"/><set-param inputpath=\"Auth_Token\" outputpath=\"Auth_Token\"/><set-param inputpath=\"accountID\" outputpath=\"accountID\"/><set-param inputpath=\"searchDateRange\" outputpath=\"searchDateRange\"/><set-param inputpath=\"searchTransactionType\" outputpath=\"searchTransactionType\"/><set-param inputpath=\"searchMinAmount\" outputpath=\"searchMinAmount\"/><set-param inputpath=\"firstRecordNumber\" outputpath=\"firstRecordNumber\"/><set-param inputpath=\"toCheckNumber\" outputpath=\"toCheckNumber\"/><set-param inputpath=\"sortBy\" outputpath=\"sortBy\"/><set-param inputpath=\"payeeId\" outputpath=\"payeeId\"/><set-param inputpath=\"generatedBy\" outputpath=\"generatedBy\"/><set-param inputpath=\"searchMaxAmount\" outputpath=\"searchMaxAmount\"/><set-param inputpath=\"order\" outputpath=\"order\"/><set-param inputpath=\"checkNumber\" outputpath=\"checkNumber\"/><set-param inputpath=\"lastRecordNumber\" outputpath=\"lastRecordNumber\"/><set-param inputpath=\"searchType\" outputpath=\"searchType\"/><set-param inputpath=\"filters\" outputpath=\"filters\"/><set-param inputpath=\"accountNumber\" outputpath=\"accountNumber\"/><set-param inputpath=\"transactionId\" outputpath=\"transactionId\"/><set-param inputpath=\"transactionType\" outputpath=\"transactionType\"/><set-param inputpath=\"searchAmount\" outputpath=\"searchAmount\"/><set-param inputpath=\"searchStartDate\" outputpath=\"searchStartDate\"/><set-param inputpath=\"fileType\" outputpath=\"fileType\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "DownloadTransactionJavaService",
+      "serviceVersion" : "1.0",
+      "operationName" : "GetTransactionsDownloaded"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "DownloadTransactions",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"searchEndDate\" outputpath=\"searchEndDate\"/><set-param inputpath=\"fromCheckNumber\" outputpath=\"fromCheckNumber\"/><set-param inputpath=\"searchDescription\" outputpath=\"searchDescription\"/><set-param inputpath=\"title\" outputpath=\"title\"/><set-param inputpath=\"Auth_Token\" outputpath=\"Auth_Token\"/><set-param inputpath=\"accountID\" outputpath=\"accountID\"/><set-param inputpath=\"searchDateRange\" outputpath=\"searchDateRange\"/><set-param inputpath=\"searchTransactionType\" outputpath=\"searchTransactionType\"/><set-param inputpath=\"searchMinAmount\" outputpath=\"searchMinAmount\"/><set-param inputpath=\"firstRecordNumber\" outputpath=\"firstRecordNumber\"/><set-param inputpath=\"toCheckNumber\" outputpath=\"toCheckNumber\"/><set-param inputpath=\"sortBy\" outputpath=\"sortBy\"/><set-param inputpath=\"payeeId\" outputpath=\"payeeId\"/><set-param inputpath=\"generatedBy\" outputpath=\"generatedBy\"/><set-param inputpath=\"searchMaxAmount\" outputpath=\"searchMaxAmount\"/><set-param inputpath=\"order\" outputpath=\"order\"/><set-param inputpath=\"checkNumber\" outputpath=\"checkNumber\"/><set-param inputpath=\"lastRecordNumber\" outputpath=\"lastRecordNumber\"/><set-param inputpath=\"searchType\" outputpath=\"searchType\"/><set-param inputpath=\"filters\" outputpath=\"filters\"/><set-param inputpath=\"accountNumber\" outputpath=\"accountNumber\"/><set-param inputpath=\"transactionId\" outputpath=\"transactionId\"/><set-param inputpath=\"transactionType\" outputpath=\"transactionType\"/><set-param inputpath=\"searchAmount\" outputpath=\"searchAmount\"/><set-param inputpath=\"searchStartDate\" outputpath=\"searchStartDate\"/><set-param inputpath=\"fileType\" outputpath=\"fileType\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

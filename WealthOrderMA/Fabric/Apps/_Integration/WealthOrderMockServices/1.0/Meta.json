@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "wealthorder-services.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "wealth-services.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

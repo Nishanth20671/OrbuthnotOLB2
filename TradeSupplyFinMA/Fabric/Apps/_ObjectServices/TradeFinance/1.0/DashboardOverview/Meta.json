@@ -1,0 +1,25 @@
+{
+  "type" : "svcdriven",
+  "description" : "Api's for total dashboard",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "GetDashboardDetails" : "GetDashboardDetailsMapping",
+    "GenerateAllTradesList" : "GenerateAllTradesListMapping",
+    "FetchPayables" : "FetchPayablesMapping",
+    "FetchAllTradeDetails" : "FetchAllTradeDetailsMapping",
+    "GenerateReceivablesList" : "GenerateReceivablesListMapping",
+    "UpdateTradeFinanceConfiguration" : "UpdateTradeFinanceConfigurationMapping",
+    "GeneratePayablesList" : "GeneratePayablesListMapping",
+    "FetchReceivables" : "FetchReceivablesMapping",
+    "CreateTradeFinanceConfiguration" : "CreateTradeFinanceConfigurationMapping",
+    "FetchTradeFinanceConfiguration" : "FetchTradeFinanceConfigurationMapping",
+    "FetchLimits" : "FetchLimitsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

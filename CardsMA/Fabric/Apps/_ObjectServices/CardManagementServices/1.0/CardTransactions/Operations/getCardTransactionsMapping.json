@@ -1,0 +1,46 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.temenos.infinity.api.cards.preprocessors.CardTransactionsPreprocessor",
+    "responseProcessorName" : "com.temenos.infinity.api.cards.postprocessors.GetCardTransactionsPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "getCardTransactions4669",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"offset\" outputpath=\"offset\"/><set-param inputpath=\"cardId\" outputpath=\"cardId\"/><set-param inputpath=\"limit\" outputpath=\"limit\"/><set-param inputpath=\"sortBy\" outputpath=\"sortBy\"/><set-param inputpath=\"userId\" outputpath=\"userId\"/><set-param inputpath=\"order\" outputpath=\"order\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpCardServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "getCardTransactions"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "CardTransactions",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"offset\" outputpath=\"offset\"/><set-param inputpath=\"cardId\" outputpath=\"cardId\"/><set-param inputpath=\"limit\" outputpath=\"limit\"/><set-param inputpath=\"sortBy\" outputpath=\"sortBy\"/><set-param inputpath=\"userId\" outputpath=\"userId\"/><set-param inputpath=\"order\" outputpath=\"order\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

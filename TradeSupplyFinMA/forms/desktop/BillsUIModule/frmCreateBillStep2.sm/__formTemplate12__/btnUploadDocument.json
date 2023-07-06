@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa611611b2f24e93bcfd09e1606c01aa",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {
+        "focusSkin": "sbd60d22ed1b40f6b988ad4ebf38e7da"
+    },
+    "displaytext": true,
+    "id": "btnUploadDocument",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "bae7d69c76f744f18ee406dc76fd83cc",
+    "name": "kony.ui.Button",
+    "parent": "flxUploadDocumentContainer",
+    "pf": "frmCreateBillStep2",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.TradeFinance.UploadDocument",
+    "tooltip": "Upload Document",
+    "wType": "Button"
+}

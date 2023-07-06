@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "ApplyCustomRole1304",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"customRoleId\" outputpath=\"customRoleId\"/>    <set-param inputpath=\"customRoleName\" outputpath=\"customRoleName\"/>    <set-param inputpath=\"users\" outputpath=\"users\"/>    <set-param inputpath=\"legalEntityId\" outputpath=\"legalEntityId\"/>  </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"CustomRole\",\"xy\":\"194 114\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumProductServices (1.0).ApplyCustomRole\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:CustomRole\",\"fromPort\":\"source\",\"toPort\":\"source:CustomRole\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole\",\"to\":\"source:CustomRole:t_p_fields\",\"fromPort\":\"source:CustomRole\",\"toPort\":\"source:CustomRole:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:customRoleId:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:customRoleId:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:customRoleName:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:customRoleName:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:parentRoleId:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:parentRoleId:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:accounts:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:accounts:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:features:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:features:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:description:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:description:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:users:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:users:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:legalEntityId:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:legalEntityId:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:id:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:id:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:legalEntityId:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:legalEntityId:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:userList:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:userList:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "eumProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "ApplyCustomRole"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "CustomRole",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : true,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">    <map inputpath=\"request_in\" outputpath=\"request_out\">    <set-param inputpath=\"customRoleId\" outputpath=\"customRoleId\"/>    <set-param inputpath=\"customRoleName\" outputpath=\"customRoleName\"/>    <set-param inputpath=\"users\" outputpath=\"users\"/>    <set-param inputpath=\"legalEntityId\" outputpath=\"legalEntityId\"/>  </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"CustomRole\",\"xy\":\"194 114\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumProductServices (1.0).ApplyCustomRole\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:CustomRole\",\"fromPort\":\"source\",\"toPort\":\"source:CustomRole\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole\",\"to\":\"source:CustomRole:t_p_fields\",\"fromPort\":\"source:CustomRole\",\"toPort\":\"source:CustomRole:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:customRoleId:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:customRoleId:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:customRoleName:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:customRoleName:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:parentRoleId:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:parentRoleId:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:accounts:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:accounts:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:features:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:features:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:description:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:description:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:users:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:users:\",\"visible\":true,\"common\":false},{\"from\":\"source:CustomRole:t_p_fields\",\"to\":\"source:CustomRole:legalEntityId:\",\"fromPort\":\"source:CustomRole:t_p_fields\",\"toPort\":\"source:CustomRole:legalEntityId:\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:id:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:id:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:legalEntityId:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:legalEntityId:\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:userList:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:userList:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : true,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

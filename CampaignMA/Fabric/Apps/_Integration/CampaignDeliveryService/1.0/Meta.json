@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-campaigndeliveryengine.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "GetEmploymentOperation5855",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"id\" outputpath=\"id\"/>\n        <set-param inputpath=\"legalEntityId\" outputpath=\"legalEntityId\"/>\n        <set-param inputpath=\"partyID\" outputpath=\"partyID\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ExternalUsers_2\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpPartyServices (1.0).GetEmploymentOperation\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:id:\",\"to\":\"target:id:\",\"fromPort\":\"source:ExternalUsers_2:id:\",\"toPort\":\"target:id:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:partyID:\",\"to\":\"target:partyID:\",\"fromPort\":\"source:ExternalUsers_2:partyID:\",\"toPort\":\"target:partyID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:legalEntityId:\",\"to\":\"target:legalEntityId:\",\"fromPort\":\"source:ExternalUsers_2:legalEntityId:\",\"toPort\":\"target:legalEntityId:\",\"visible\":true,\"common\":true}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "dbpPartyServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "GetEmploymentOperation"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "ExternalUsers_2",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"id\" outputpath=\"id\"/>\n        <set-param inputpath=\"legalEntityId\" outputpath=\"legalEntityId\"/>\n        <set-param inputpath=\"partyID\" outputpath=\"partyID\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"ExternalUsers_2\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpPartyServices (1.0).GetEmploymentOperation\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:id:\",\"to\":\"target:id:\",\"fromPort\":\"source:ExternalUsers_2:id:\",\"toPort\":\"target:id:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:partyID:\",\"to\":\"target:partyID:\",\"fromPort\":\"source:ExternalUsers_2:partyID:\",\"toPort\":\"target:partyID:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:ExternalUsers_2:legalEntityId:\",\"to\":\"target:legalEntityId:\",\"fromPort\":\"source:ExternalUsers_2:legalEntityId:\",\"toPort\":\"target:legalEntityId:\",\"visible\":true,\"common\":true}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

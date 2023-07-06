@@ -1,0 +1,45 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.temenos.infinity.api.docmanagement.acctstatement.preprocessors.GenerateCombinedStatementPreprocessor"
+  },
+  "operationConfig" : {
+    "name" : "generateCombinedStatementFileId4121",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"fileName\" outputpath=\"fileName\"/><set-param inputpath=\"id\" outputpath=\"id\"/><set-param inputpath=\"fileType\" outputpath=\"fileType\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "CombinedStatementsJavaServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "generateCombinedStatementFileId"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "CombinedStatements",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"fileName\" outputpath=\"fileName\"/><set-param inputpath=\"id\" outputpath=\"id\"/><set-param inputpath=\"fileType\" outputpath=\"fileType\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

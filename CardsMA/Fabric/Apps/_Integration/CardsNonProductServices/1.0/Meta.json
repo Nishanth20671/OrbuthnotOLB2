@@ -1,0 +1,20 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "layout-7.1.5.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "RBMetrics-4.2.0.jar",
+    "type" : "jar"
+  }, {
+    "name" : "cardmanagement-services.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "mail-1.4.7.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "io-7.1.5.jar",
+    "type" : "dependentJar"
+  } ],
+  "empty" : true
+}

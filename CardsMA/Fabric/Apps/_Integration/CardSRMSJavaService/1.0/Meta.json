@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "cardmanagement-services.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

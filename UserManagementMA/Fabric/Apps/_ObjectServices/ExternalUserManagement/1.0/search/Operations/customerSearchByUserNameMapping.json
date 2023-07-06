@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "customerSearchByUserName3099",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"userId\" outputpath=\"userId\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                <map inputpath=\"response_in\" outputpath=\"response_out\">                                <map inputpath=\"records\" outputpath=\"records\">                               <set-param inputpath = \"legalEntityId\" outputpath=\"legalEntityId\"/>                         <set-param inputpath = \"homeLegalEntity\" outputpath=\"homeLegalEntity\"/>                        <set-param inputpath = \"UserName\" outputpath=\"UserName\"/>                        <set-param inputpath = \"Status_id\" outputpath=\"Status_id\"/>                        <set-param inputpath = \"FirstName\" outputpath=\"FirstName\"/>                         <set-param inputpath = \"isSuperAdmin\" outputpath=\"isSuperAdmin\"/>                         <set-param inputpath = \"isEnrolledFromSpotlight\" outputpath=\"isEnrolledFromSpotlight\"/>                         <set-param inputpath = \"CustomerId\" outputpath=\"CustomerId\"/>                        <set-param inputpath = \"IsEnrolledForOlb\" outputpath=\"IsEnrolledForOlb\"/>                         <set-param inputpath = \"Ssn\" outputpath=\"Ssn\"/>                         <set-param inputpath = \"defaultLegalEntity\" outputpath=\"defaultLegalEntity\"/>                         <set-param inputpath = \"phnNo\" outputpath=\"phnNo\"/>              <set-param inputpath = \"Email\" outputpath=\"Email\"/>             <set-param inputpath = \"CustomerType_id\" outputpath=\"CustomerType_id\"/>                         <set-param inputpath = \"LastName\" outputpath=\"LastName\"/>                        <set-param inputpath = \"isEnrolled\" outputpath=\"isEnrolled\"/>             <set-param inputpath = \"coreCustomerId\" outputpath=\"coreCustomerId\"/>            <set-param inputpath = \"DateOfBirth\" outputpath=\"DateOfBirth\">                                    </set-param>                         </map>            </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"search\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumProductServices (1.0).customerSearchByUserName\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:search:userId:\",\"to\":\"target:userId:\",\"fromPort\":\"source:search:userId:\",\"toPort\":\"target:userId:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"search\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"eumProductServices (1.0).customerSearchByUserName\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:search\",\"fromPort\":\"target\",\"toPort\":\"target:search\",\"visible\":true,\"common\":false},{\"from\":\"target:search\",\"to\":\"target:search:t_p_fields\",\"fromPort\":\"target:search\",\"toPort\":\"target:search:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:search:t_p_fields\",\"to\":\"target:search:userId:\",\"fromPort\":\"target:search:t_p_fields\",\"toPort\":\"target:search:userId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "eumProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "customerSearchByUserName"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "search",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"userId\" outputpath=\"userId\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                <map inputpath=\"response_in\" outputpath=\"response_out\">                                <map inputpath=\"records\" outputpath=\"records\">                               <set-param inputpath = \"legalEntityId\" outputpath=\"legalEntityId\"/>                         <set-param inputpath = \"homeLegalEntity\" outputpath=\"homeLegalEntity\"/>                        <set-param inputpath = \"UserName\" outputpath=\"UserName\"/>                        <set-param inputpath = \"Status_id\" outputpath=\"Status_id\"/>                        <set-param inputpath = \"FirstName\" outputpath=\"FirstName\"/>                         <set-param inputpath = \"isSuperAdmin\" outputpath=\"isSuperAdmin\"/>                         <set-param inputpath = \"isEnrolledFromSpotlight\" outputpath=\"isEnrolledFromSpotlight\"/>                         <set-param inputpath = \"CustomerId\" outputpath=\"CustomerId\"/>                        <set-param inputpath = \"IsEnrolledForOlb\" outputpath=\"IsEnrolledForOlb\"/>                         <set-param inputpath = \"Ssn\" outputpath=\"Ssn\"/>                         <set-param inputpath = \"defaultLegalEntity\" outputpath=\"defaultLegalEntity\"/>                         <set-param inputpath = \"phnNo\" outputpath=\"phnNo\"/>              <set-param inputpath = \"Email\" outputpath=\"Email\"/>             <set-param inputpath = \"CustomerType_id\" outputpath=\"CustomerType_id\"/>                         <set-param inputpath = \"LastName\" outputpath=\"LastName\"/>                        <set-param inputpath = \"isEnrolled\" outputpath=\"isEnrolled\"/>             <set-param inputpath = \"coreCustomerId\" outputpath=\"coreCustomerId\"/>            <set-param inputpath = \"DateOfBirth\" outputpath=\"DateOfBirth\">                                    </set-param>                         </map>            </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"search\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumProductServices (1.0).customerSearchByUserName\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:search:userId:\",\"to\":\"target:userId:\",\"fromPort\":\"source:search:userId:\",\"toPort\":\"target:userId:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"search\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"eumProductServices (1.0).customerSearchByUserName\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:search\",\"fromPort\":\"target\",\"toPort\":\"target:search\",\"visible\":true,\"common\":false},{\"from\":\"target:search\",\"to\":\"target:search:t_p_fields\",\"fromPort\":\"target:search\",\"toPort\":\"target:search:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:search:t_p_fields\",\"to\":\"target:search:userId:\",\"fromPort\":\"target:search:t_p_fields\",\"toPort\":\"target:search:userId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

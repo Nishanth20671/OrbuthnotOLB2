@@ -1,0 +1,16 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getPortfolioHoldings" : "getPortfolioHoldingsMapping",
+    "getPortfolioDetails" : "getPortfolioDetailsMapping",
+    "getCashAccounts" : "getCashAccountsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

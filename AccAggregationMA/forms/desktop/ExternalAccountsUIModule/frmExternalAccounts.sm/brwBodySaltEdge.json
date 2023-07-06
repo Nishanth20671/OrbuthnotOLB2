@@ -1,0 +1,112 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_type_": 5,
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "htmlstring": "Browser",
+    "id": "brwBodySaltEdge",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d6d69f87de8f4a9586d57e23ae0e111a",
+    "localurl": "w12156533c3145f98fa748a21accbf06",
+    "margininpixel": false,
+    "method": "get",
+    "minheight": {
+        "type": "string",
+        "value": "520dp"
+    },
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "flxBody",
+    "pf": "frmExternalAccounts",
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "responsiveData": {
+        "b1": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "minHeight": {
+                "type": "string",
+                "value": ""
+            }
+        },
+        "b2": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "minHeight": {
+                "type": "string",
+                "value": ""
+            }
+        },
+        "b3": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "minHeight": {
+                "type": "string",
+                "value": ""
+            }
+        },
+        "b4": {
+            "bottom": {
+                "type": "string",
+                "value": ""
+            },
+            "minHeight": {
+                "type": "string",
+                "value": ""
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "url": "",
+    "wType": "Browser",
+    "zindex": 1
+}

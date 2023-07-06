@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "19dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "135dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfc6afada351421eb1cd1f8e8d0f619dx",
+    "_text_": "Terms & Conditions",
+    "_width_": {
+        "type": "string",
+        "value": "123dp"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "lblTAndC",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "gca03225d2b249cfabef1f1028eb463d",
+    "name": "kony.ui.Label",
+    "parent": "flxCheckBoxMain",
+    "pf": "frmConfirmClosure",
+    "responsiveData": {
+        "b2": {},
+        "b3": {}
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "kony.mb.AddExternalAccountsTermsAndConditions.Title",
+    "tooltip": "",
+    "wType": "Label"
+}

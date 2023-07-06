@@ -1,0 +1,20 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "updateClaim" : "updateClaimMapping",
+    "updateClaimByBank" : "updateClaimByBankMapping",
+    "generateClaimsList" : "generateClaimsListMapping",
+    "getClaimById" : "getClaimByIdMapping",
+    "createClaim" : "createClaimMapping",
+    "generateClaimReport" : "generateClaimReportMapping",
+    "getClaims" : "getClaimsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

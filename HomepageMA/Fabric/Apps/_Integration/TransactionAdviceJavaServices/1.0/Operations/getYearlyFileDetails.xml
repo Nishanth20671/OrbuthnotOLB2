@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="getYearlyFileDetails" passwordencrypted="false" security="authorized_app_user" type="javaConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="className" value="com.temenos.infinity.api.docmanagement.javaservices.RetrieveDocumentsPerYear"/>
+        <config-param api-version="" appid="" name="methodName" value="getYearlyFileDetails"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="page" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="1" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="accountNumber" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="110008" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="customerNumber" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="193466" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="year" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="2020" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="subType" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Statement" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Auth_Token" order="" paramOrder="6" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="eyAidHlwIjogImp3dCIsICJhbGciOiAiUlMyNTYiIH0.eyAiX2VtYWlsIjogInZlbmthdGEuY2hhbGxhZ3VuZGxhQHRlbWVub3MuY29tIiwgIl92ZXIiOiAidjEuMSIsICJpc3MiOiAiaHR0cDovL2toMTU3NC50ZW1lbm9zZ3JvdXAuY29tOjgwODEvYXV0aFNlcnZpY2UvMTAwMDAwMDAyIiwgIl9zY29wZSI6ICJnIiwgIl9pc3NtZXRhIjogIi9tZXRhZGF0YS9RS1UtWmpXT1ZmbVdhZ2FGTS1MMU13PT0iLCAiX2FwcCI6ICIxNzcyZTE0MS0xYmE5LTQ5NGUtYmZhYy1iYTU2YzI4MDFhZTgiLCAiX3Nlc3Npb25faWQiOiAiYmFiNzkxMWMtNTQxNC00MjhlLWFjZDgtYzM0ZjMxY2Y1YWU0IiwgIl9wdWlkIjogMjE0MzQ1NDM1OTY0OTY3ODAwNywgIl9hdXRoeiI6ICJleUp3WlhKdGFYTnphVzl1Y3lJNmUzMHNJbkp2YkdWeklqcGJYWDAiLCAiX2lkcCI6ICJsb2dpbmR1bSIsICJleHAiOiAxNTk4OTgzNjg5LCAiaWF0IjogMTU5ODk4MjQ5MCwgIl9zZXNzaW9uX3RpZCI6ICIxMDAwMDAwMDIiLCAiX3Byb3ZfdXNlcmlkIjogInZlbmthdGEuY2hhbGxhZ3VuZGxhQHRlbWVub3MuY29tIiwgImp0aSI6ICJlYmFjZTUzNy1hNDY0LTRlZGItOTY2OC0xZTMyMDJlODMyZTciLCAiX2FjcyI6ICIxMDAwMDAwMDIiLCAiX3Byb3ZpZGVycyI6IFsgImxvZ2luZHVtIiBdIH0.eUkpbehsM5jpa1CVbV8CsmnwXYnQHTap9VQP5tUTb6kbIGnF-T--X0zLWfHciXcjLLKgI16_xQ02zs0A20WoJ_QmiXD9rbAsMPTmLXUh2oJzLpLsCv3386yu8rvFVfAZ78gxMbdDOkAW3R7O38de13V_6Rg7AYFC0nH502lzTubm54odzIYlINeLNcVxL7T87I7VcjTYsSZ-oGvQlEjiZAWxaIgs8nBxa-lvFU3-oZ673OvOvOllBmjHcQLJ1GVf3T2wLfnqUlWm5UWoqaCYHefQ7x5ike4ahOLgNBqcJPcuAD2PgUIAXbqNoWrKqJtqQbTwwsXfhLNXjZeyy_f3zg" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

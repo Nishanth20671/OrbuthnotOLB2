@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "description" : "serviceDefinition",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getServiceDefinitionsForContracts" : "getServiceDefinitionsForContractsMapping",
+    "getServicedefinitionAndRoleFeatures" : "getServicedefinitionAndRoleFeaturesMapping",
+    "getServiceDefinitionRoles" : "getServiceDefinitionRolesMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

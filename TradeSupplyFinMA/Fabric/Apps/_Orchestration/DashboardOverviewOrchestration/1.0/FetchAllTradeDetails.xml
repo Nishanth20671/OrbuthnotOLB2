@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="" groupType="" id="FetchAllTradeDetails" passwordencrypted="" security="authorized_app_user" type="CompositeConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="exec_type" value="Concurrent"/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="LetterOfCredit/getImportLCs"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="LetterOfCredit/getImportLetterOfCreditAmendments"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="LCImportDrawing/getImportLCDrawings"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="ExportLetterOfCredit/getExportLetterOfCredits"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="ExportLetterOfCredit/getExportLetterOfCreditDrawings"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="ExportLetterOfCredit/getExportLCAmmendments"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="Guarantees/getGuaranteeAmendments"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="Guarantees/getGuarantees"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="ClaimsReceived/getClaims"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="ReceivedGuarantees/getAmendments"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="ReceivedGuarantees/GetGuaranteeClaims"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="ReceivedGuarantees/getGuarantees"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="InwardCollections/getCollections"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="InwardCollections/GetInwardCollectionsAmendments"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="OutwardCollections/getCollections"/>
+        <config-param api-version="1.0" appid="TradeFinance" name="service" value="OutwardCollections/getAmendments"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false"/>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

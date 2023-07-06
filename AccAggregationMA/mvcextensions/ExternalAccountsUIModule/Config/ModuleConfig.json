@@ -1,0 +1,65 @@
+{
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "ExternalAccountsUIModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": [
+            ]
+        },
+        "Mobile": {
+            "PresentationControllerClass": "ExternalAccountsUIModule/PresentationControllers/PresentationController_Mobile",
+            "PresentationExtensions": [
+            ]
+        }
+    },
+    "Forms": {
+        "desktop": {
+            "frmExternalAccounts": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ExternalAccountsUIModule/frmExternalAccountsController",
+                "FormName": "ExternalAccountsUIModule/frmExternalAccounts",
+                "friendlyName": "frmExternalAccounts"
+            }
+        },
+        "mobile": {
+            "frmBankLogin": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ExternalAccountsUIModule/frmBankLoginController",
+                "FormName": "ExternalAccountsUIModule/frmBankLogin",
+                "friendlyName": "frmBankLogin"
+            },
+            "frmExternalAccountsDetails": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ExternalAccountsUIModule/frmExternalAccountsDetailsController",
+                "FormName": "ExternalAccountsUIModule/frmExternalAccountsDetails",
+                "friendlyName": "frmExternalAccountsDetails"
+            },
+            "frmExternalAccountsList": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ExternalAccountsUIModule/frmExternalAccountsListController",
+                "FormName": "ExternalAccountsUIModule/frmExternalAccountsList",
+                "friendlyName": "frmExternalAccountsList"
+            },
+            "frmExternalAccountsTermsAndConditions": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ExternalAccountsUIModule/frmExternalAccountsTermsAndConditionsController",
+                "FormName": "ExternalAccountsUIModule/frmExternalAccountsTermsAndConditions",
+                "friendlyName": "frmExternalAccountsTermsAndConditions"
+            },
+            "frmSelectExternalBanks": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "ExternalAccountsUIModule/frmSelectExternalBanksController",
+                "FormName": "ExternalAccountsUIModule/frmSelectExternalBanks",
+                "friendlyName": "frmSelectExternalBanks"
+            }
+        }
+    },
+
+    "ModuleType": "UIModule",
+    "ModuleName": "ExternalAccountsUIModule"
+}

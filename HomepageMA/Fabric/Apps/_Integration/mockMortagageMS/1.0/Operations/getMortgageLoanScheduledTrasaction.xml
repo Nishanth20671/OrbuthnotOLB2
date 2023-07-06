@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="getMortgageLoanScheduledTrasaction" passwordencrypted="false" security="authorized_app_user" type="stubConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <stub-param value="[{&#10; &quot;amount&quot;: &quot;0&quot;,&#10; &quot;fromAccountBalance&quot;: &quot;0&quot;,&#10; &quot;installmentAmount&quot;: &quot;2140.33&quot;,&#10; &quot;principal&quot;: &quot;2046.58&quot;,&#10; &quot;interest&quot;: &quot;93.75&quot;,&#10; &quot;outstandingBalance&quot;: &quot;-47952.42&quot;,&#10; &quot;charges&quot;: &quot;0.0&quot;,&#10; &quot;tax&quot;: &quot;0.0&quot;,&#10; &quot;installmentType&quot;: &quot;PAID&quot;,&#10; &quot;paymentDate&quot;: &quot;2021-04-14&quot;&#10;}, {&#10; &quot;amount&quot;: &quot;0&quot;,&#10; &quot;fromAccountBalance&quot;: &quot;0&quot;,&#10; &quot;installmentAmount&quot;: &quot;2140.33&quot;,&#10; &quot;principal&quot;: &quot;2036.58&quot;,&#10; &quot;interest&quot;: &quot;103.75&quot;,&#10; &quot;outstandingBalance&quot;: &quot;-45916.84&quot;,&#10; &quot;charges&quot;: &quot;0.0&quot;,&#10; &quot;tax&quot;: &quot;0.0&quot;,&#10; &quot;installmentType&quot;: &quot;DUE&quot;,&#10; &quot;paymentDate&quot;: &quot;2021-05-14&quot;&#10;}, {&#10; &quot;amount&quot;: &quot;0&quot;,&#10; &quot;fromAccountBalance&quot;: &quot;0&quot;,&#10; &quot;installmentAmount&quot;: &quot;2140.33&quot;,&#10; &quot;principal&quot;: &quot;2037.68&quot;,&#10; &quot;interest&quot;: &quot;102.65&quot;,&#10; &quot;outstandingBalance&quot;: &quot;-43879.16&quot;,&#10; &quot;charges&quot;: &quot;0.0&quot;,&#10; &quot;tax&quot;: &quot;0.0&quot;,&#10; &quot;installmentType&quot;: &quot;DUE&quot;,&#10; &quot;paymentDate&quot;: &quot;2021-06-14&quot;&#10;}]"/>
+    </service-input>
+    <service-output passthrough="true" isExtended="false"/>
+</service>

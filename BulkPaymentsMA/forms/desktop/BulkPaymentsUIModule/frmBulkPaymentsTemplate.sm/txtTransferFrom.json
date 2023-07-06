@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        2,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
+    "_skin_": "sb7fc2dbf077409e8c9768d0678b148c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Search by account name or number"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "placeholderSkin": "sea05f0b2f1f4b57a7c043d6c947516a"
+    },
+    "disabledSkins": {},
+    "focusskin": "s38834f7b6374aa597f26c3d9367ae84",
+    "id": "txtTransferFrom",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "a25048f359ed4ea89d4b2c560f57f01e",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
+    "parent": "flxFrom",
+    "pf": "frmBulkPaymentsTemplate",
+    "placeholderi18n": "i18n.ACH.Select",
+    "placeholderskin": "sea05f0b2f1f4b57a7c043d6c947516a",
+    "responsiveData": {
+        "b1": {
+            "disabledSkins": {}
+        },
+        "b3": {
+            "right": {
+                "type": "number",
+                "value": "3"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 5
+}

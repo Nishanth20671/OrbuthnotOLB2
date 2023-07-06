@@ -1,0 +1,370 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        [
+            {
+                "imgBankLogo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "banklogo2.png"
+                },
+                "lblBankName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            [
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgBankLogo": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "banklogo2.png"
+                },
+                "lblBankName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Label"
+                }
+            },
+            [
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                },
+                {
+                    "imgDelRow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "del_full_trans.png"
+                    },
+                    "lblAccountName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblAccountType": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblDelete": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Delete"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": true
+        }
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "15",
+    "enabledictionary": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segTransactions",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "enableDictionary": true,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "db271712e2fe43118f3c4a7a0c7e68c9",
+    "masterdata": {},
+    "minheight": {
+        "type": "string",
+        "value": "85%"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxTransactions",
+    "pf": "frmExternalAccountsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "dfddc393aedc4e699ba09c54b9e820c0",
+    "rowcounter": 5,
+    "rowfocusskin": "s31c2585aac1444c821742efa4646d46",
+    "rowskin": "s18472307db04580a2a9cb6f4681ebec",
+    "rowtemplate": "flxAddedExternalAccounts",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "h8fc6c449ddd4fafad30ff56db08a42b",
+    "sectionheaderskin": "s65e8b0a8be54624ac979cda71a22cac",
+    "sectionheadertemplate": "flxExternalBanks",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "f1f1f100",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAddedExternalAccounts": "flxAddedExternalAccounts",
+        "flxDelRow": "flxDelRow",
+        "flxExternalBanks": "flxExternalBanks",
+        "flxMainRowContainer": "flxMainRowContainer",
+        "flxMasterContainer": "flxMasterContainer",
+        "flxSeparator": "flxSeparator",
+        "imgBankLogo": "imgBankLogo",
+        "imgDelRow": "imgDelRow",
+        "lblAccountName": "lblAccountName",
+        "lblAccountType": "lblAccountType",
+        "lblBankName": "lblBankName",
+        "lblDelete": "lblDelete"
+    },
+    "widgetskin": "s18472307db04580a2a9cb6f4681ebec",
+    "zindex": 1
+}

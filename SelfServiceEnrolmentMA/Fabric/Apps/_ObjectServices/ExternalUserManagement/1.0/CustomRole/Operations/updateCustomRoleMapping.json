@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "updateCustomRole7385",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"accounts\" outputpath=\"accounts\"/>\n        <set-param inputpath=\"customRoleId\" outputpath=\"customRoleId\"/>\n        <set-param inputpath=\"customRoleName\" outputpath=\"customRoleName\"/>\n        <set-param inputpath=\"description\" outputpath=\"description\"/>\n        <set-param inputpath=\"features\" outputpath=\"features\"/>\n        <set-param inputpath=\"parentRoleId\" outputpath=\"parentRoleId\"/>\n    </map>\n</mapper>\n",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"CustomRole\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumProductServices (1.0).updateCustomRole\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:customRoleId:\",\"to\":\"target:customRoleId:\",\"fromPort\":\"source:CustomRole:customRoleId:\",\"toPort\":\"target:customRoleId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:customRoleName:\",\"to\":\"target:customRoleName:\",\"fromPort\":\"source:CustomRole:customRoleName:\",\"toPort\":\"target:customRoleName:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:parentRoleId:\",\"to\":\"target:parentRoleId:\",\"fromPort\":\"source:CustomRole:parentRoleId:\",\"toPort\":\"target:parentRoleId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:accounts:\",\"to\":\"target:accounts:\",\"fromPort\":\"source:CustomRole:accounts:\",\"toPort\":\"target:accounts:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:features:\",\"to\":\"target:features:\",\"fromPort\":\"source:CustomRole:features:\",\"toPort\":\"target:features:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:description:\",\"to\":\"target:description:\",\"fromPort\":\"source:CustomRole:description:\",\"toPort\":\"target:description:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "eumProductServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "updateCustomRole"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "CustomRole",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"accounts\" outputpath=\"accounts\"/>\n        <set-param inputpath=\"customRoleId\" outputpath=\"customRoleId\"/>\n        <set-param inputpath=\"customRoleName\" outputpath=\"customRoleName\"/>\n        <set-param inputpath=\"description\" outputpath=\"description\"/>\n        <set-param inputpath=\"features\" outputpath=\"features\"/>\n        <set-param inputpath=\"parentRoleId\" outputpath=\"parentRoleId\"/>\n    </map>\n</mapper>\n",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"CustomRole\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"eumProductServices (1.0).updateCustomRole\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:customRoleId:\",\"to\":\"target:customRoleId:\",\"fromPort\":\"source:CustomRole:customRoleId:\",\"toPort\":\"target:customRoleId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:customRoleName:\",\"to\":\"target:customRoleName:\",\"fromPort\":\"source:CustomRole:customRoleName:\",\"toPort\":\"target:customRoleName:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:parentRoleId:\",\"to\":\"target:parentRoleId:\",\"fromPort\":\"source:CustomRole:parentRoleId:\",\"toPort\":\"target:parentRoleId:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:accounts:\",\"to\":\"target:accounts:\",\"fromPort\":\"source:CustomRole:accounts:\",\"toPort\":\"target:accounts:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:features:\",\"to\":\"target:features:\",\"fromPort\":\"source:CustomRole:features:\",\"toPort\":\"target:features:\"},{\"category\":\"Mapping\",\"visible\":true,\"from\":\"source:CustomRole:description:\",\"to\":\"target:description:\",\"fromPort\":\"source:CustomRole:description:\",\"toPort\":\"target:description:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

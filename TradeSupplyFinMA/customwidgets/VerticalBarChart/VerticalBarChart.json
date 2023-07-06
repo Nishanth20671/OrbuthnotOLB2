@@ -1,0 +1,40 @@
+{
+    "customComponent": {
+        "i18nSupported": true,
+        "id": "cweba506eca72c4b89a27c5d72d83384e5",
+        "isOverride": false,
+        "konyWrapperFiles": [
+            "resources/thirdpartywidgets/widgetwrapper/tp-VerticalBarChart-wrapper.js"
+        ],
+        "libraryFiles": [
+            "resources/thirdpartywidgets/gstatic/loader.js"
+        ],
+        "libraryName": "gstatic",
+        "marginSupported": true,
+        "name": "VerticalBarChart",
+        "paddingSupported": true,
+        "platformID": "0",
+        "property": [
+            {
+                "categoryType": "Custom",
+                "defaultValue": "",
+                "exclude": false,
+                "name": "chartData",
+                "propertySelection": false,
+                "type": "List",
+                "uniqueID": "cwphbe372063cf14447bc45dcbc49a54be0",
+                "value": ""
+            },
+            {
+                "categoryType": "Event",
+                "defaultValue": "",
+                "exclude": false,
+                "name": "chartProperties",
+                "propertySelection": false,
+                "type": "Event",
+                "uniqueID": "cwphec9a4f03aae41e18cfbbcd224e18b41",
+                "value": ""
+            }
+        ]
+    }
+}

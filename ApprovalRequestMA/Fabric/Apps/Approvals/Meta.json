@@ -1,0 +1,33 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "Approvals",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "dbpApprovalMatrixServices",
+    "version" : "1.0",
+    "etag" : "e9e80f03-49b0-47d0-b65d-8a01de2c8adf"
+  }, {
+    "name" : "dbpApprovalRequestServices",
+    "version" : "1.0",
+    "etag" : "b7260f72-ea59-4dcc-b53d-80196af7e3da"
+  }, {
+    "name" : "SignatoryGroupServices",
+    "version" : "1.0",
+    "etag" : "d7a3f9d0-99a6-412f-8225-82242e7422bb"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ApprovalMatrix",
+    "version" : "1.0",
+    "etag" : "5efeaa34-be61-4e4a-aa20-a8ac1deef889"
+  }, {
+    "name" : "ApprovalsAndRequests",
+    "version" : "1.0",
+    "etag" : "37f8a5fb-1c61-49bc-b1af-8fc960d72ff3"
+  }, {
+    "name" : "SignatoryObject",
+    "version" : "1.0",
+    "etag" : "187dbd17-c323-43b2-b98a-1d046de0d1b6"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

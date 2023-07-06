@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="getFavoriteInstruments" passwordencrypted="false" security="public" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealthservices.preandpostprocessors.RefinitivTokenGenPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value="com.temenos.infinity.api.wealthOrder.preandpostprocessors.GetFavoriteInstrumentsPostProcesor"/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://api.rkd.refinitiv.com/api/Quotes/Quotes.svc/REST/Quotes_1/RetrieveItem_3"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="POST"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-Token" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="87409FE9F364D423A9FE04BC7672F12A0657A242E35B6D4FC810F2374B4F1A9B54C428804BDF7E0FA84B2D0C2A612A4409CD11F22F3125C5F63D01D8A918BF09A8A3E8CC92FC94B1CC067902DA16434A2A79716C7AA2CC2F822328637002EA20" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="X-Trkd-Auth-ApplicationID" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="rkdapidemoapp" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Fields" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="CF_EXCHNG:ISIN_CODE:TRADE_DATE:CF_NAME:PRCTCK_1:TRDPRC_1:PCTCHNG:CF_CLOSE:CF_NETCHNG:CF_DATE:CF_TIME:CF_BID:BIDSIZE:CF_ASK:ASKSIZE:CF_VOLUME:CF_OPEN:CF_CLOSE:52WK_HIGH:52WK_LOW:CF_LAST:CF_CURRENCY" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="RequestKey" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="[   {&quot;Name&quot;: &quot;MSFT.O&quot;,   &quot;NameType&quot;: &quot;RIC&quot;   },   {   &quot;Name&quot;: &quot;AMZN.O&quot;,   &quot;NameType&quot;: &quot;RIC&quot;   } ]" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;RetrieveItem_Request_3&quot;: {&#10;        &quot;ItemRequest&quot;: [&#10;            {&#10;                &quot;Fields&quot;: &quot;$Fields&quot;,&#10;                &quot;RequestKey&quot;: $RequestKey,&#10;                &quot;Scope&quot;: &quot;List&quot;&#10;            }&#10;        ],&#10;        &quot;TrimResponse&quot;: false,&#10;        &quot;IncludeChildItemQoS&quot;: false&#10;    }&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;RetrieveItem_Request_3&quot;: {&#10;        &quot;ItemRequest&quot;: [&#10;            {&#10;                &quot;Fields&quot;: &quot;$Fields&quot;,&#10;                &quot;RequestKey&quot;: $RequestKey,&#10;                &quot;Scope&quot;: &quot;List&quot;&#10;            }&#10;        ],&#10;        &quot;TrimResponse&quot;: false,&#10;        &quot;IncludeChildItemQoS&quot;: false&#10;    }&#10;}" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Instruments" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="$.RetrieveItem_Response_3.ItemResponse[*].Item[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

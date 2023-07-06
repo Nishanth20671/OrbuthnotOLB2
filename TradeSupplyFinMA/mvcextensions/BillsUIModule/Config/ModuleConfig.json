@@ -1,0 +1,77 @@
+{
+    "Forms": {
+        "desktop": {
+            "frmCreateBillStep1": {
+                "Controller": "BillsUIModule/frmCreateBillStep1Controller",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "BillsUIModule/frmCreateBillStep1",
+                "friendlyName": "frmCreateBillStep1"
+            },
+            "frmCreateBillStep2": {
+                "Controller": "BillsUIModule/frmCreateBillStep2Controller",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "BillsUIModule/frmCreateBillStep2",
+                "friendlyName": "frmCreateBillStep2"
+            },
+            "frmCreateBillStep3": {
+                "Controller": "BillsUIModule/frmCreateBillStep3Controller",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "BillsUIModule/frmCreateBillStep3",
+                "friendlyName": "frmCreateBillStep3"
+            },
+            "frmReceivableBillsDashboard": {
+                "Controller": "BillsUIModule/frmReceivableBillsDashboardController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "BillsUIModule/frmReceivableBillsDashboard",
+                "friendlyName": "frmReceivableBillsDashboard"
+            },
+            "frmViewBillDetails": {
+                "Controller": "BillsUIModule/frmViewBillDetailsController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "BillsUIModule/frmViewBillDetails",
+                "friendlyName": "frmViewBillDetails"
+            },
+            "frmReviewCsvBill": {
+                "Controller": "BillsUIModule/frmReviewCsvBillController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "BillsUIModule/frmReviewCsvBill",
+                "friendlyName": "frmReviewCsvBill"
+            },
+            "frmCreateCsvBill": {
+                "Controller": "BillsUIModule/frmCreateCsvBillController",
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "FormName": "BillsUIModule/frmCreateCsvBill",
+                "friendlyName": "frmCreateCsvBill"
+            },
+            "frmReceivableBillsPrint": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "BillsUIModule/frmReceivableBillsPrintController",
+                "FormName": "BillsUIModule/frmReceivableBillsPrint",
+                "friendlyName": "frmReceivableBillsPrint"
+            },
+            "frmCancelBill": {
+                "ControllerExtensions": [],
+                "FormController": "kony.mvc.MDAFormController",
+                "Controller": "BillsUIModule/frmCancelBillController",
+                "FormName": "BillsUIModule/frmCancelBill",
+                "friendlyName": "frmCancelBill"
+            }
+        }
+    },
+    "ModuleName": "BillsUIModule",
+    "ModuleType": "UIModule",
+    "PresentationControllerConfig": {
+        "Default": {
+            "PresentationControllerClass": "BillsUIModule/PresentationControllers/PresentationController",
+            "PresentationExtensions": []
+        }
+    }
+}

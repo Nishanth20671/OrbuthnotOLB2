@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "37.07%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sa611611b2f24e93bcfd09e1606c0d86",
+    "_text_": "RESET",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "28.96%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Reset"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s83729feaa224e359d660d5af05c4bac"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s434743e49c446699565893e4974ec52",
+    "id": "btnReset",
+    "info": null,
+    "isvisible": true,
+    "kuid": "jaf4bd7c73604ee2af3d99c70a79110f",
+    "name": "kony.ui.Button",
+    "parent": "flxSelectBankOrVendorButtons",
+    "pf": "frmExternalAccounts",
+    "responsiveData": {
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "2%"
+            },
+            "top": {
+                "type": "string",
+                "value": "80dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "96%"
+            }
+        }
+    },
+    "texti18n": "i18n.transfers.reset",
+    "tooltip": "CANCEL",
+    "wType": "Button",
+    "zindex": 1
+}

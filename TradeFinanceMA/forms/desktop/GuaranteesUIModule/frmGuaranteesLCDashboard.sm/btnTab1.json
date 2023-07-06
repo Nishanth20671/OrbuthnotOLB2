@@ -1,0 +1,133 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_i18n_text_": "i18n.TradeFinance.GuaranteeAndStandbyLC",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8b2926066b44d10999b1df73b26fd3a",
+    "_text_": "Guarantee & Standby LC",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "number",
+        "value": ""
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": null,
+    "id": "btnTab1",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c62e0fea88cb405799f9879d6ae6f743",
+    "name": "kony.ui.Button",
+    "parent": "flxTabSwitchBtn",
+    "pf": "frmGuaranteesLCDashboard",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "centerY": {
+                "type": "string",
+                "value": "50%"
+            },
+            "left": {
+                "type": "string",
+                "value": "30dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "173dp"
+            }
+        },
+        "b2": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "i18n_text": "i18n.TradeFinance.GuaranteeAndStandbyLC",
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "30dp"
+            },
+            "text": "-",
+            "width": {
+                "type": "string",
+                "value": "173dp"
+            }
+        },
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "12dp"
+            }
+        },
+        "b4": {
+            "centerX": {
+                "type": "string",
+                "value": ""
+            },
+            "centerY": {
+                "type": "string",
+                "value": ""
+            },
+            "left": {
+                "type": "string",
+                "value": "30dp"
+            },
+            "skin": "se2115a9d1fb4a3e818b79dcf25337c3",
+            "text": "Guarantee & Standby LC",
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "173dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "i18n.TradeFinance.GuaranteeAndStandbyLC",
+    "wType": "Button",
+    "zindex": 1
+}

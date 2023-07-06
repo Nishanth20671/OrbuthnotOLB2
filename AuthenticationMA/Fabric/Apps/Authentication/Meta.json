@@ -1,0 +1,247 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "Authentication",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ActivationCodeAuthService",
+    "version" : "1.0",
+    "etag" : "a87892de-2f41-4e93-b808-e4c725543016"
+  }, {
+    "name" : "APIDBPIdentity",
+    "version" : "1.0",
+    "etag" : "d5d3cd7a-1bd4-4a1d-915a-0df2c198c762"
+  }, {
+    "name" : "authAdminConsoleServices",
+    "version" : "1.0",
+    "etag" : "efea9b2f-eab3-4143-949d-88e228107f2d"
+  }, {
+    "name" : "authMFAServices",
+    "version" : "1.0",
+    "etag" : "876ae908-352d-4415-8466-f36dbc72ac48"
+  }, {
+    "name" : "authProductServices",
+    "version" : "1.0",
+    "etag" : "6b0db4cd-2d9a-4346-9aad-9e0c8b9b2264"
+  }, {
+    "name" : "C360APILogin",
+    "version" : "1.0",
+    "etag" : "b458e770-db30-4390-9b24-d11824aa08c2"
+  }, {
+    "name" : "C360IntegrationService",
+    "version" : "1.0",
+    "etag" : "a00cb5f3-7355-47f9-bda4-c961132efb41"
+  }, {
+    "name" : "CIBAAuthJavaStatus",
+    "version" : "1.0",
+    "etag" : "b606471e-f558-4890-9c2d-ef8d9f010aa3"
+  }, {
+    "name" : "CIBAInitiation",
+    "version" : "1.0",
+    "etag" : "8116b36d-4aef-476d-b7e4-df27d221cf60"
+  }, {
+    "name" : "CIBAValidationJavaService",
+    "version" : "1.0",
+    "etag" : "277f990c-7640-4ee4-8ed6-725f9537ef8f"
+  }, {
+    "name" : "CIBAValidationService",
+    "version" : "1.0",
+    "etag" : "18f4d5c9-66fa-4ffa-b098-e01e1449ae3f"
+  }, {
+    "name" : "ClientCredentials",
+    "version" : "1.0",
+    "etag" : "e14e46b5-cb7e-4ead-83be-9622142c32fc"
+  }, {
+    "name" : "CustomerData",
+    "version" : "1.0",
+    "etag" : "8311f143-22c8-4989-9fe8-46eec7d9c592"
+  }, {
+    "name" : "DBPAPILogin",
+    "version" : "1.0",
+    "etag" : "ce3d417c-1ad2-4dd0-bd19-44fcc9f18c96"
+  }, {
+    "name" : "DBPDataStorageAPIs",
+    "version" : "1.0",
+    "etag" : "bfbe25f3-3924-41e0-ad40-545ed0933ff5"
+  }, {
+    "name" : "dbpDbxCustomerLogin",
+    "version" : "1.0",
+    "etag" : "04e301d2-92d7-4d94-9c36-10c82203dde5"
+  }, {
+    "name" : "dbpProductServices",
+    "version" : "1.0",
+    "etag" : "8050ab4a-69b2-4727-a8c1-5516432f0633"
+  }, {
+    "name" : "dbpRbLocalServicesdb",
+    "version" : "1.0",
+    "etag" : "940984a5-532f-4714-8a04-26e3834e43b5"
+  }, {
+    "name" : "dbpUserAttributes",
+    "version" : "1.0",
+    "etag" : "3a4e499c-db0f-4a3a-9ae6-0e669956d7e7"
+  }, {
+    "name" : "DeleteUserSession",
+    "version" : "1.0",
+    "etag" : "8e99844d-56fd-4e95-ac80-8b7708a77e71"
+  }, {
+    "name" : "DeviceProvision",
+    "version" : "1.0",
+    "etag" : "aa429780-f7b2-452b-9129-ebe50b39e681"
+  }, {
+    "name" : "HIDRMS",
+    "version" : "1.0",
+    "etag" : "cf938c61-5abf-4fac-adcb-7d7f691256ea"
+  }, {
+    "name" : "QuantumLoginService",
+    "version" : "1.0",
+    "etag" : "3f86e6c5-f961-4f1c-be03-ff414b4c2107"
+  }, {
+    "name" : "RMSThreatMarkAPI",
+    "version" : "1.0",
+    "etag" : "6319987e-dee4-45c6-8670-afb4a5c1f120"
+  }, {
+    "name" : "SCAAuthApis",
+    "version" : "1.0",
+    "etag" : "1ce34b78-1869-4874-b5e0-08890e5a26ea"
+  }, {
+    "name" : "SCADependentJars",
+    "version" : "1.0",
+    "etag" : "64e3a5b0-3e1d-4a83-a33f-771a8cc7bb02"
+  }, {
+    "name" : "SCAInfinityWrapper",
+    "version" : "1.0",
+    "etag" : "60bc7fd7-ffe0-4ed9-8717-b5e33840ceb1"
+  }, {
+    "name" : "SCAIntegrationService",
+    "version" : "1.0",
+    "etag" : "bdc720e9-080f-40e1-831f-094743c02d9e"
+  }, {
+    "name" : "SCAJwksEndpoint",
+    "version" : "1.0",
+    "etag" : "3e6c9a25-5ce4-4a9c-a0ab-1c1eee3f6200"
+  }, {
+    "name" : "SCARMSAssessment",
+    "version" : "1.0",
+    "etag" : "c0c1bae1-a66e-4b4a-9847-ed058f9e97df"
+  }, {
+    "name" : "SCAScimApis",
+    "version" : "1.0",
+    "etag" : "66082bda-6dc4-4558-85d7-a4df29ac5d20"
+  }, {
+    "name" : "SCATransactionService",
+    "version" : "1.0",
+    "etag" : "c02c1c35-540e-4b39-850a-c6cea914edd5"
+  }, {
+    "name" : "SCATransactionSigning",
+    "version" : "1.0",
+    "etag" : "d3ae09b4-6824-45ab-aa6c-e32ab5e1fea1"
+  }, {
+    "name" : "SCIMApis",
+    "version" : "1.0",
+    "etag" : "cdb516f8-e8bd-4db1-8077-e0561124eece"
+  }, {
+    "name" : "T24ISAccounts",
+    "version" : "1.0",
+    "etag" : "b333bdee-4ab8-428d-a11b-0efa41c124ed"
+  }, {
+    "name" : "T24ISExtra",
+    "version" : "1.0",
+    "etag" : "74022097-ce85-414d-9c33-e824a62ca369"
+  }, {
+    "name" : "T24ISUser",
+    "version" : "1.0",
+    "etag" : "d8564aa6-c73d-4488-a0f4-c405be0803fc"
+  }, {
+    "name" : "UserIdentityAttributesJava",
+    "version" : "1.0",
+    "etag" : "d2b3f4bf-82e4-48de-9a9c-d405072eba16"
+  }, {
+    "name" : "UserManagementSettings",
+    "version" : "1.0",
+    "etag" : "ff7f8676-50f4-4d5a-a48b-b320e38b339e"
+  }, {
+    "name" : "utilityAdminConsoleServices",
+    "version" : "1.0",
+    "etag" : "96522f5f-1c1a-43b1-a31a-5b80554b854e"
+  }, {
+    "name" : "utilityProductServices",
+    "version" : "1.0",
+    "etag" : "59d9e4fc-0817-4f8e-a5e1-d9fb5413b512"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "CommonauthOrchestrationService",
+    "version" : "1.0",
+    "etag" : "9kac4537-8c2b-4607-976b-f7e5e14567h5"
+  }, {
+    "name" : "CIBAValidationOrchService",
+    "version" : "1.0",
+    "etag" : "d71b47fc-3f19-4878-96f4-e29df0574cc7"
+  }, {
+    "name" : "SCARMSService",
+    "version" : "1.0",
+    "etag" : "30c29e1c-5037-4175-9f2d-59a401aefa54"
+  }, {
+    "name" : "KmsEmailOrch",
+    "version" : "1.0",
+    "etag" : "6c19f8aa-8872-42fb-a74b-3ebbcw4e92a8"
+  }, {
+    "name" : "SCAUserOrchService",
+    "version" : "1.0",
+    "etag" : "4e2fdcc0-87e9-40ac-9a66-9a9f169d5d90"
+  }, {
+    "name" : "CIBAAuthOrchService",
+    "version" : "1.0",
+    "etag" : "3837d9a9-9e4a-43bf-9aa8-85b1a43069f4"
+  }, {
+    "name" : "CIBAPushValidationOrchService",
+    "version" : "1.0",
+    "etag" : "5af7a3db-09a4-4608-99b7-613f99ab1189"
+  }, {
+    "name" : "DbxCustomerLogin",
+    "version" : "1.0",
+    "etag" : "d1f2f703-8cbc-41f9-9db9-fed9ff83e330"
+  }, {
+    "name" : "authDBX",
+    "version" : "1.0",
+    "etag" : "ygt6j571-07jh-0a59-9i4r-8a7i8u956h6k"
+  }, {
+    "name" : "CIBAOTPOrchService",
+    "version" : "1.0",
+    "etag" : "0e290eea-c9e4-4516-be4a-4c9bb7ed22df"
+  }, {
+    "name" : "SCATxnValidationOrchService",
+    "version" : "1.0",
+    "etag" : "777b76bf-7840-4048-b297-6189b0bc2b50"
+  }, {
+    "name" : "CustomerData_Orch",
+    "version" : "1.0",
+    "etag" : "8uhy6tfr-8h9j-3ef6-9ha5-3e6ty74e92a8"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "HIDRMSService",
+    "version" : "1.0",
+    "etag" : "1dcb80e5-5882-4d46-994c-52e4e110e3ab"
+  }, {
+    "name" : "Login",
+    "version" : "1.0",
+    "etag" : "ea34ca6d-7b67-416e-b25a-ad172a2a9477"
+  }, {
+    "name" : "SCAActivationObjects",
+    "version" : "1.0",
+    "etag" : "6919e7f7-0657-4ec3-9547-6ab5ee70eee8"
+  }, {
+    "name" : "SCAObjects",
+    "version" : "1.0",
+    "etag" : "b2b37d27-6ffe-4a62-8849-3ec1de41f03f"
+  }, {
+    "name" : "SCATransactionObjects",
+    "version" : "1.0",
+    "etag" : "c1aee533-658a-4f8f-9087-15bcfa490a0a"
+  }, {
+    "name" : "Utility",
+    "version" : "1.0",
+    "etag" : "2cd0b42d-9a4a-427f-ae2e-ad1de75847a8"
+  } ],
+  "identity" : [ "CIBACustomIdentity", "DbxAPIIdentityService", "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true,\"integrity_key_type\":\"custom\",\"integrity_key\":\"\"}"
+}

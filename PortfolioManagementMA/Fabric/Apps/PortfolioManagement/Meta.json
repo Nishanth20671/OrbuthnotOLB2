@@ -1,0 +1,74 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "PortfolioManagement",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "HealthCheckIntgServices",
+    "version" : "1.0",
+    "etag" : "cc560da8-bdee-48f2-97d9-40e5cdc98793"
+  }, {
+    "name" : "InvestmentPropIntgServices",
+    "version" : "1.0",
+    "etag" : "6fa64dbd-6cb7-4946-a129-fd9a3645df1e"
+  }, {
+    "name" : "StrategyIntgServices",
+    "version" : "1.0",
+    "etag" : "36c0ac76-9bff-4127-ba93-4b58273620ea"
+  }, {
+    "name" : "WealthPortfolioMockServices",
+    "version" : "1.0",
+    "etag" : "9cc54424-24e5-467d-811a-e2442672c6b9"
+  }, {
+    "name" : "WealthPortfolioRefServices",
+    "version" : "1.0",
+    "etag" : "a9dceb98-f81e-431b-980c-9e3e29e1d5bf"
+  }, {
+    "name" : "WealthPortfolioServices",
+    "version" : "1.0",
+    "etag" : "633ba446-d164-498c-8a0a-7f5211daad3a"
+  }, {
+    "name" : "WealthPortfolioT24Services",
+    "version" : "1.0",
+    "etag" : "3a1b25d4-ae40-4ef6-bad6-3f5b4d07a285"
+  }, {
+    "name" : "WealthPortfolioTAPServices",
+    "version" : "1.0",
+    "etag" : "b81add20-9c10-48c0-a36f-09693ca2d0bc"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "WealthPortfolioRefOrch",
+    "version" : "1.0",
+    "etag" : "be3e7fda-11bc-4d0e-a7bd-b3a6ecc8353a"
+  }, {
+    "name" : "WealthPortfolioOrch",
+    "version" : "1.0",
+    "etag" : "1d300c6b-5ba9-4b0f-9999-cef059dd9aff"
+  }, {
+    "name" : "WealthPortfolioTAPOrch",
+    "version" : "1.0",
+    "etag" : "0e976567-99e8-4a36-87df-6df5c63da3d4"
+  }, {
+    "name" : "StrategyOrchService",
+    "version" : "1.0",
+    "etag" : "4e52a29e-c4fe-487f-a387-ebe20e09cd78"
+  }, {
+    "name" : "InvestmentPropOrchServices",
+    "version" : "1.0",
+    "etag" : "3822402f-27d0-4909-a51c-84d508382ecf"
+  }, {
+    "name" : "WealthPortfolioT24Orch",
+    "version" : "1.0",
+    "etag" : "88b28cb8-efff-4c42-a21f-879c3569cf04"
+  }, {
+    "name" : "HealthCheckOrchService",
+    "version" : "1.0",
+    "etag" : "42debca2-9cae-46db-9007-aa8c66fb55a6"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "PortfolioServicing",
+    "version" : "1.0",
+    "etag" : "059522f9-2131-478a-bc62-7b1202ce3a20"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

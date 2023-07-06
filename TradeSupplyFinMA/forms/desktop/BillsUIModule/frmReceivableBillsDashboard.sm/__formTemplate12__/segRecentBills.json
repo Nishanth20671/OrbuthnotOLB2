@@ -1,0 +1,146 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_data_": [
+        {
+            "btnAction": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblKey1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblKey2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblKey3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblValue1": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblValue2": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblValue3": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segRecentBills",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fe9a6ab3b55c43659c8fbec5d2e67186",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxRecentBillContainer",
+    "pf": "frmReceivableBillsDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "gfee20ea7d8f4f0b98a8eedbb2c8377c",
+    "rowcounter": 0,
+    "rowfocusskin": "s35812c9595a45408b12f4a1d3e54af0",
+    "rowskin": "s57631007f1d4847b1229e6dea9df657",
+    "rowtemplate": "flxRecentRecords",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s1fff7242a334c13afa4a61e6a4a73fa",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnAction": "btnAction",
+        "flxKey1": "flxKey1",
+        "flxKey2": "flxKey2",
+        "flxKey3": "flxKey3",
+        "flxMain": "flxMain",
+        "flxRecentRecords": "flxRecentRecords",
+        "flxRow1": "flxRow1",
+        "flxRow2": "flxRow2",
+        "flxRow3": "flxRow3",
+        "flxSeparator": "flxSeparator",
+        "flxValue1": "flxValue1",
+        "flxValue2": "flxValue2",
+        "flxValue3": "flxValue3",
+        "lblKey1": "lblKey1",
+        "lblKey2": "lblKey2",
+        "lblKey3": "lblKey3",
+        "lblValue1": "lblValue1",
+        "lblValue2": "lblValue2",
+        "lblValue3": "lblValue3"
+    },
+    "zindex": 1
+}

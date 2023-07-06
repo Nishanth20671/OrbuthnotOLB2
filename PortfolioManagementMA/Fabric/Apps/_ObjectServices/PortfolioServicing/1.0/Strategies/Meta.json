@@ -1,0 +1,27 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getAllStrategies" : "getAllStrategiesMapping",
+    "getStrategyAllocation" : "getStrategyAllocationMapping",
+    "getStrategyQuestions" : "getStrategyQuestionsMapping",
+    "revertStrategy" : "revertStrategyMapping",
+    "getRecomStrat" : "getRecomStratMapping",
+    "getSuitabilityProfile" : "getSuitabilityProfileMapping",
+    "submitStrategyQues" : "submitStrategyQuesMapping",
+    "confirmStrategyFromQuestion" : "confirmStrategyFromQuestionMapping",
+    "confirmRecomStrat" : "confirmRecomStratMapping",
+    "confirmChangeStrat" : "confirmChangeStratMapping",
+    "computeStrategy" : "computeStrategyMapping",
+    "getRecommendedStrategy" : "getRecommendedStrategyMapping",
+    "getMyStrategy" : "getMyStrategyMapping",
+    "getPersonalizedStrategy" : "getPersonalizedStrategyMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

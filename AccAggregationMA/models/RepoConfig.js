@@ -1,0 +1,1 @@
+{"table":"Consent","db":"ExternalAccounts","verbs":"true"},{"table":"Banks","db":"ExternalAccounts","verbs":"true"},{"table":"Connection","db":"ExternalAccounts","verbs":"true"}

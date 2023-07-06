@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s7b436962d6a4647b197083ac7d03d39",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {},
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "actionImgIsVisible": "true",
+        "actionImgSrc": "more_detail.png",
+        "currencyCode": "secCCy",
+        "featuresAndPermission": "{\"view\":[\"WEALTH_ORDER_MGMT_ORDER_LINK_VIEW\"],\"buy\":[\"WEALTH_ORDER_MGMT_BUY_ORDER_CREATE\"], \"sell\":[\"WEALTH_ORDER_MGMT_SELL_ORDER_CREATE\"]}",
+        "fieldFiveKey": "{i.i18n.wealth.mktValue}",
+        "fieldFiveType": "Amount",
+        "fieldFiveValue": "marketValue,referenceCurrency",
+        "fieldFourKey": "{i.i18n.wealth.pl}",
+        "fieldFourType": "PL",
+        "fieldFourValue": "unrealPLMkt,referenceCurrency",
+        "fieldOneKey": "{i.i18n.wealth.latestPricemb}",
+        "fieldOneType": "Amount",
+        "fieldOneValue": "marketPrice",
+        "fieldThreeKey": "{i.i18n.wealth.avgCost}",
+        "fieldThreeType": "Amount",
+        "fieldThreeValue": "costPrice",
+        "fieldTwoKey": "{i.i18n.wealth.qty}",
+        "fieldTwoType": "Text",
+        "fieldTwoValue": "quantity",
+        "noRecordsFoundText": "{i.i18n.wealth.noHoldings}",
+        "operationName": "getPortfolioHoldings",
+        "placeholderSearchText": "{i.i18n.wealth.searchByInstrument}",
+        "requestParam": "{   \"portfolioId\":\"{$.c.portfolioId}\",   \"searchByInstrumentName\":\"{$.c.searchByInstrumentName}\",   \"sortBy\":\"{$.c.sortBy}\"  , \"navPage\":\"{$.c.navPage}\" }",
+        "serviceResponseKey": "portfolioHoldings",
+        "topFlex": "Holdings",
+        "totalValueKey": "{i.i18n.wealth.totalValue}"
+    },
+    "id": "segmentDetailsWealth",
+    "info": null,
+    "iphone": {},
+    "iscustomlayout": false,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "b4dfeacc613443c6aa028269e593f0e4",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxScroll",
+    "pf": "frmHoldings",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "fdde45de24a04b9aab1ddac29d88537e",
+    "wType": "UserWidgetInstance"
+}

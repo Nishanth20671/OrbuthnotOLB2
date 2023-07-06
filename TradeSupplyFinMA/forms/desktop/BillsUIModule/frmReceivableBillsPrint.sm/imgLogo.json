@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf31139e3ff0461c84bb176629de5bc8",
+    "_src_": "digital_banking.png",
+    "_top_": {
+        "type": "string",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "id": "imgLogo",
+    "imagescalemode": 1,
+    "imagewhenfailed": "digital_banking.png",
+    "imagewhiledownloading": "digital_banking.png",
+    "info": null,
+    "invokedProperty": "imageWhenFailed",
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ee4b5761659a4393883bd51699452e89",
+    "name": "kony.ui.Image2",
+    "parent": "flxHeaderContainer",
+    "pf": "frmReceivableBillsPrint",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5
+}

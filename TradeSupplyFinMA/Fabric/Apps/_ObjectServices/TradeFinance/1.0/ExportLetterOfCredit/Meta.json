@@ -1,0 +1,32 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getExportLetterOfCreditDrawingById" : "getExportLetterOfCreditDrawingByIdMapping",
+    "deleteExportLetterOfCreditDrawing" : "deleteExportLetterOfCreditDrawingMapping",
+    "generateExportLetterOfCreditDrawing" : "generateExportLetterOfCreditDrawingMapping",
+    "submitBeneficiaryConsent" : "submitBeneficiaryConsentMapping",
+    "updateDrawingByBank" : "updateDrawingByBankMapping",
+    "getExportLetterOfCredits" : "getExportLetterOfCreditsMapping",
+    "getExportLetterOfCreditsById" : "getExportLetterOfCreditsByIdMapping",
+    "getExportLCAmendmentById" : "getExportLCAmendmentByIdMapping",
+    "createExportLetterOfCreditDrawing" : "createExportLetterOfCreditDrawingMapping",
+    "updateExportLetterOfCreditDrawing" : "updateExportLetterOfCreditDrawingMapping",
+    "updateExportLCByBank" : "updateExportLCByBankMapping",
+    "updateExportAmendmentByBank" : "updateExportAmendmentByBankMapping",
+    "createExportLetterOfCredit" : "createExportLetterOfCreditMapping",
+    "generateExportLetterOfCreditAmendment" : "generateExportLetterOfCreditAmendmentMapping",
+    "updateExportLCAmendmentByBank" : "updateExportLCAmendmentByBankMapping",
+    "getExportLetterOfCreditDrawings" : "getExportLetterOfCreditDrawingsMapping",
+    "updateExportLCAmendment" : "updateExportLCAmendmentMapping",
+    "createExportLetterOfCreditAmendment" : "createExportLetterOfCreditAmendmentMapping",
+    "getExportLCAmmendments" : "getExportLCAmmendmentsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

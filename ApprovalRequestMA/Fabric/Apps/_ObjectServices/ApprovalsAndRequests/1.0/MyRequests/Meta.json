@@ -1,0 +1,24 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "withdrawACHTransaction" : "withdrawACHTransactionMapping",
+    "getGeneralTransactionsRequestedByMe" : "getGeneralTransactionsRequestedByMeMapping",
+    "getRequestsHistory" : "getRequestsHistoryMapping",
+    "Withdraw" : "WithdrawMapping",
+    "fetchAllMyRequestHistory" : "fetchAllMyRequestHistoryMapping",
+    "fetchAllMyPendingRequests" : "fetchAllMyPendingRequestsMapping",
+    "RenotifyPendingApprovalRequest" : "RenotifyPendingApprovalRequestMapping",
+    "getACHTransactionsRequestedByMe" : "getACHTransactionsRequestedByMeMapping",
+    "withdrawGeneralTransaction" : "withdrawGeneralTransactionMapping",
+    "withdrawACHFile" : "withdrawACHFileMapping",
+    "getACHFilesRequestedByMe" : "getACHFilesRequestedByMeMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

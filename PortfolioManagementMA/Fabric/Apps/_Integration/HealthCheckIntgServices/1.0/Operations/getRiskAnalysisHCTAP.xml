@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="getRiskAnalysisHCTAP" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value="com.temenos.infinity.api.wealth.tap.preandpostprocessors.GetRiskAnalysisHCPreProcessor"/>
+        <config-param api-version="" appid="" name="postprocessorname" value="com.temenos.infinity.api.wealth.tap.preandpostprocessors.GetRiskAnalysisHCPostProcessor"/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="http://_$_INF_WLTH_TAP_HOST_URL_$_v1.0.0/holdings/portfolios/$portfolioId/riskChecks"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="urlprovider" value="com.temenos.infinity.api.commons.config.ServiceURLProvider"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="false" format="None" formatvalue="" name="x-channel" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="portfolioId" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="portfolioServiceType" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <stub-param value="{&#10; &quot;Employee&quot;:&#10; [&#10;  '{{repeat(10, 20)}}',&#10;  {&#10;   &quot;id&quot;: &quot;{{concat(&quot;EMP&quot;,index())}}&quot;,&#10;   &quot;onBoarded&quot;: &quot;{{bool()}}&quot;,&#10;   &quot;salary&quot;: &quot;{{concat(&quot;$&quot;,float(20000, 50000, &quot;%.2f&quot;))}}&quot;,&#10;   &quot;age&quot;: &quot;{{integer(20, 40)}}&quot;,&#10;   &quot;name&quot;: &quot;{{firstName()}} {{surname()}}&quot;,&#10;   &quot;manager&quot;: &quot;{{firstName()}} {{surname()}}&quot;,&#10;   &quot;gender&quot;: &quot;{{gender()}}&quot;,&#10;   &quot;designation&quot;:&quot;{{random(&quot;Associate Engineer&quot;,&quot;VP Operations&quot;,&quot;Director Of HR&quot;,&quot;Lead HR Officer&quot;,&quot;Senior Manager&quot;,&quot;Associate Manager&quot;)}}&quot;,&#10;   &quot;company&quot;: &quot;{{toUpperCase(company())}}&quot;,&#10;   &quot;email&quot;: &quot;{{email()}}&quot;,&#10;   &quot;phone&quot;: &quot;+1 {{phone()}}&quot;,&#10;   &quot;address&quot;: &quot;{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}&quot;,&#10;   &quot;location&quot;:&quot;{{city()}}&quot;,&#10;   &quot;latitude&quot;: &quot;{{float(-90.000001, 90)}}&quot;,&#10;   &quot;longitude&quot;: &quot;{{float(-180.000001, 180)}}&quot;,&#10;   &quot;about&quot;: &quot;{{lorem(30, &quot;words&quot;)}}&quot;,&#10;   &quot;date_of_joining&quot;: &quot;{{date(&quot;01-01-2014 12:00:00&quot;, &quot;01-01-2018 12:00:00&quot;, &quot;yyyy-MM-dd'T'HH:mm:ss Z&quot;)}}&quot;&#10;  }&#10; ]&#10;}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="riskAnalysis" order="" paramOrder="1" parentOrder="0" src="//body[*]" testvalue="" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="portfolioLevel" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="portfolioLevel" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="riskPortMeasureP" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="mainRiskPortfolioMeasureP" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="riskToleranceMinP" order="" paramOrder="4" parentOrder="1" passnull="false" sms-name="" src="mainRiskMinP" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="riskToleranceMaxP" order="" paramOrder="5" parentOrder="1" passnull="false" sms-name="" src="mainRiskMaxP" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="riskObjectiveP" order="" paramOrder="6" parentOrder="1" passnull="false" sms-name="" src="mainRiskObectiveP" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

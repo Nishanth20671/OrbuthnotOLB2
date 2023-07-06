@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getUserFavouriteInstruments" : "getUserFavouriteInstrumentsMapping",
+    "getFavoriteInstruments" : "getFavoriteInstrumentsMapping",
+    "getSearchFavoriteInstruments" : "getSearchFavoriteInstrumentsMapping",
+    "updateUserFavouriteInstruments" : "updateUserFavouriteInstrumentsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

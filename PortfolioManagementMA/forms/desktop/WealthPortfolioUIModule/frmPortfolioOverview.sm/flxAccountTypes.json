@@ -1,0 +1,133 @@
+{
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
+    "_skin_": "s680c9bafb594fe4bfa388d84acc43b2",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "accessibilityconfig": {
+        "a11yARIA": {
+            "tabindex": 1
+        }
+    },
+    "allboxes": [],
+    "canUpdateUI": true,
+    "children": [
+        "flxImgAccountTypeIcon",
+        "lblAccountTypes",
+        "imgAccountTypes"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "s680c9bafb594fe4bfa388d84acc43b2"
+        }
+    },
+    "disabledSkins": {},
+    "enablescrolling": true,
+    "focusskin": "s680c9bafb594fe4bfa388d84acc43b2",
+    "id": "flxAccountTypes",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a04552988c0d4ff6982ffe34d8898404",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxAccountTypesAndInfo",
+    "pf": "frmPortfolioOverview",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "0%"
+            },
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        },
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": "0px"
+            },
+            "top": {
+                "type": "string",
+                "value": "7dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "50%"
+            },
+            "layoutType": 3,
+            "left": {
+                "type": "string",
+                "value": "0px"
+            },
+            "right": {
+                "type": "string",
+                "value": "10px"
+            },
+            "skin": "s018b592f2be4ccf98f6e95b092c9c4c",
+            "width": {
+                "type": "string",
+                "value": "34%"
+            }
+        },
+        "b4": {
+            "left": {
+                "type": "string",
+                "value": "0px"
+            },
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        }
+    },
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

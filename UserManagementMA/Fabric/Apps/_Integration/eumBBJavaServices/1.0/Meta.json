@@ -1,0 +1,29 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-ObjectServices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "eum-productservices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-commonutilityservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "externalusermanagment.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "dbp-mfaservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-nonproductservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-adminintegrationservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-demoandcoreservices.jar",
+    "type" : "dependentJar"
+  } ],
+  "empty" : true
+}

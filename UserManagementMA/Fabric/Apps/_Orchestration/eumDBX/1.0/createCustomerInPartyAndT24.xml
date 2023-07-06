@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="" groupType="" id="createCustomerInPartyAndT24" passwordencrypted="" security="authorized_app_user" type="CompositeConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="exec_type" value="Sequential"/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="1.0" appid="dbpPartyServices" name="service" value="CreatePartyOperation"/>
+        <config-param api-version="1.0" appid="T24EUMISExtra" name="service" value="createT24Operation"/>
+        <config-param api-version="1.0" appid="dbpPartyServices" name="service" value="CreatePartyClassificationOperation"/>
+        <config-param api-version="1.0" appid="dbpPartyServices" name="service" value="CreateDueDiligenceOperation"/>
+        <config-param api-version="1.0" appid="dbpPartyServices" name="service" value="CreatePartyRelationshipOperation"/>
+        <config-param api-version="1.0" appid="dbpPartyServices" name="service" value="UpdatePartyIdentifier"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false"/>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

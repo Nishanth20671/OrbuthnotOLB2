@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "getFavObjectService": "WealthOrder",
+        "historyDataObjectService": "WealthOrder",
+        "holdingsObjectName": "PortfolioDetails",
+        "holdingsObjectService": "WealthOrder",
+        "instrumentCriteria": "{\"ISINCode\":\"{$.c.ISINCode}\",\"RICCode\":\"{$.c.RICCode}\",\"instrumentId\":\"{$.c.instrumentId}\",\"application\":\"{$.c.application}\"}",
+        "instrumentObjectService": "WealthOrder",
+        "updateFavObjectService": "WealthOrder"
+    },
+    "id": "instrumentDetails1",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c70dda6b79b5459489f3b6ec53d40cfc",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxInvestment1",
+    "pf": "frmProductDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "h29733d2cedd40888bfd0d4e871ad828",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,67 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "8dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s0fa73f078e247aca7c561229c33c48f",
+    "_top_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [],
+    "clipbounds": true,
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "sec33ce747114bec824bad2508e6968f"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxShadowContainer",
+    "info": null,
+    "isvisible": true,
+    "kuid": "g46fcc50cf864669a2d3b8bcc4ff86d8",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "appHeader",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b3": {
+            "top": {
+                "type": "string",
+                "value": "50dp"
+            }
+        }
+    },
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 4
+}

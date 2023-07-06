@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "holdingsapi-services.jar",
+    "type" : "jar"
+  }, {
+    "name" : "arrangementsapi-services.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

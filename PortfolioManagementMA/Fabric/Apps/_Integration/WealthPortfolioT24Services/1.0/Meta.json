@@ -1,0 +1,14 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "com.temenos.infinity.t24irisintegration.jar",
+    "type" : "jar"
+  }, {
+    "name" : "portfolio-services.jar",
+    "type" : "jar"
+  }, {
+    "name" : "wealth-services.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

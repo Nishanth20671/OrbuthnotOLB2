@@ -1,0 +1,218 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "DateInput": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "cff9ddba72144c6f9774b2b4afa24790",
+                "srcKUID": "b2211a78f0fd452d9125dce4ea10c0f3",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "centerX": {
+                "Default": {
+                    "type": "string",
+                    "value": "50%"
+                }
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "responsiveData": {
+                "b1": {
+                    "centerX": {
+                        "type": "string",
+                        "value": ""
+                    }
+                },
+                "b2": {}
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
+            }
+        },
+        "flxDateInputKA": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jac7d1bce5654a49845b14cb2c9969b5",
+                "srcKUID": "da44411028864b2da0125da0924fad08",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblDatePlaceholderKA": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f72c144feb214b7b9f86e10afd1673a3",
+                "srcKUID": "c3e5f81d87664b1fb179debe469173ea",
+                "wType": "Label"
+            }
+        },
+        "lblEnteredDateKA": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb7437ed627b466fa5e792a3a52ea5c4",
+                "srcKUID": "b63ffa6b75244160a9f240e6b906c520",
+                "wType": "Label"
+            },
+            "left": {},
+            "responsiveData": {
+                "b1": {
+                    "left": {
+                        "type": "string",
+                        "value": "3%"
+                    }
+                },
+                "b2": {
+                    "left": {
+                        "type": "string",
+                        "value": "3%"
+                    }
+                },
+                "b3": {
+                    "left": {
+                        "type": "string",
+                        "value": "3%"
+                    }
+                },
+                "b4": {
+                    "left": {
+                        "type": "string",
+                        "value": "3%"
+                    }
+                }
+            }
+        },
+        "tbxDateInputKA": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d9f878f9e8dc4b7fb777b025ada90d7e",
+                "srcKUID": "j4522b447c2d4aea85ad04da0d02449b",
+                "wType": "TextField"
+            },
+            "left": {},
+            "responsiveData": {
+                "b1": {
+                    "left": {
+                        "type": "string",
+                        "value": "1dp"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "100%"
+                    }
+                },
+                "b2": {
+                    "left": {
+                        "type": "string",
+                        "value": "1dp"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "90%"
+                    }
+                },
+                "b3": {
+                    "left": {
+                        "type": "string",
+                        "value": "1dp"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "90%"
+                    }
+                },
+                "b4": {
+                    "left": {
+                        "type": "string",
+                        "value": "1dp"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "90%"
+                    }
+                }
+            },
+            "width": {}
+        }
+    },
+    "enablescrolling": true,
+    "id": "DateInput",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "cff9ddba72144c6f9774b2b4afa24790",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxDateInput",
+    "pf": "frmEnrollNow",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "b2211a78f0fd452d9125dce4ea10c0f3",
+    "wType": "UserWidgetInstance"
+}

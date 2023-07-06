@@ -1,0 +1,4 @@
+{
+  "dependentJars" : [ "jmimemagic-0.1.5.jar", "mail-1.4.7.jar", "commons-csv-1.0.jar" ],
+  "empty" : true
+}

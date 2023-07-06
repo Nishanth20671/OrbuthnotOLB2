@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "flxContentTCCenter": {
+            "children": [
+                "flxContentMain"
+            ],
+            "targetContainerInfo": true
+        },
+        "pageTitle": "Confirm Partial Repayment",
+        "pageTitlei18n": "i18n.Accounts.ConfirmPartialRepayment",
+        "supplementaryLinks": "[]"
+    },
+    "id": "confirmPartialRepayment",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f2a5605e11f24c128ea7cf77aed52b81",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmConfirmPartialRepayment",
+    "pf": "frmConfirmPartialRepayment",
+    "responsiveData": {
+        "b1": {
+            "backProperties": "{}"
+        },
+        "b3": {
+            "breadCrumbBackFlag": false,
+            "flag": false
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "d50fa0f8c62546ff9bb50359585bbd5b",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,50 @@
+{
+  "customCode" : {
+    "requestProcessorName" : "com.temenos.infinity.tradefinanceservices.preprocessor.TradeFinancePreprocessor",
+    "responseProcessorName" : "com.temenos.infinity.tradefinanceservices.postprocessor.getLimitInstructionsPostProcessor"
+  },
+  "operationConfig" : {
+    "name" : "GetLimitInstructions5155",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Guarantees\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceServices (1.0).GetLimitInstructions\",\"xy\":\"770 100\"}],\"linkDataArray\":[]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Guarantees\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceServices (1.0).GetLimitInstructions\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "TradeFinanceServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "GetLimitInstructions"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "Guarantees",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"Guarantees\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceServices (1.0).GetLimitInstructions\",\"xy\":\"770 100\"}],\"linkDataArray\":[]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"Guarantees\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceServices (1.0).GetLimitInstructions\",\"xy\":\"150 100\"}],\"linkDataArray\":[]}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : true,
+  "customVerb" : false,
+  "frontendUrlPath" : "getLimitInstructions",
+  "frontend_supported_method" : "POST"
+}

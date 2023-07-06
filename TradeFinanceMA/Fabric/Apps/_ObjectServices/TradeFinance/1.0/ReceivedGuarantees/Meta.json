@@ -1,0 +1,37 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "generateGuaranteesList" : "generateGuaranteesListMapping",
+    "createGuarantee" : "createGuaranteeMapping",
+    "generateClaimsList" : "generateClaimsListMapping",
+    "generateReceivedGuaranteeClaim" : "generateReceivedGuaranteeClaimMapping",
+    "updateAmendment" : "updateAmendmentMapping",
+    "updateGuarantee" : "updateGuaranteeMapping",
+    "generateGuaranteeReport" : "generateGuaranteeReportMapping",
+    "updateAmendmentByBank" : "updateAmendmentByBankMapping",
+    "UpdateReceivedGuaranteeClaim" : "UpdateReceivedGuaranteeClaimMapping",
+    "generateAmendmentsList" : "generateAmendmentsListMapping",
+    "updateGuaranteeByBank" : "updateGuaranteeByBankMapping",
+    "createAmendment" : "createAmendmentMapping",
+    "getGuaranteeById" : "getGuaranteeByIdMapping",
+    "releaseLiability" : "releaseLiabilityMapping",
+    "GetGuaranteeClaimsById" : "GetGuaranteeClaimsByIdMapping",
+    "UpdateReceivedGuaranteeClaimByBank" : "UpdateReceivedGuaranteeClaimByBankMapping",
+    "CreateGuaranteeClaims" : "CreateGuaranteeClaimsMapping",
+    "SaveGuaranteeClaims" : "SaveGuaranteeClaimsMapping",
+    "getAmendments" : "getAmendmentsMapping",
+    "GetGuaranteeClaims" : "GetGuaranteeClaimsMapping",
+    "generateAmendmentReport" : "generateAmendmentReportMapping",
+    "getAmendmentById" : "getAmendmentByIdMapping",
+    "deleteGuaranteeClaim" : "deleteGuaranteeClaimMapping",
+    "getGuarantees" : "getGuaranteesMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

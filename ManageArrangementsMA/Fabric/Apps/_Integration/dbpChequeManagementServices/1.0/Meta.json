@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-checkManagement.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

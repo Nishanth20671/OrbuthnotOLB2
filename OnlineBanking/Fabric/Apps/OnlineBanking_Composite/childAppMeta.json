@@ -1,0 +1,107 @@
+{"childApps": [
+    {
+        "name": "AccountAggregation",
+        "etag": "7770a6f9-3743-4bef-a688-f02f74c6829c",
+        "version": "1.0"
+    },
+    {
+        "name": "ACH",
+        "etag": "bc7e1852-a77e-4730-b68b-2007e4605f93",
+        "version": "1.0"
+    },
+    {
+        "name": "AlertsManagement",
+        "etag": "eb1099fb-71a7-4010-8b2d-b8ae1b5210cf",
+        "version": "1.0"
+    },
+    {
+        "name": "Approvals",
+        "etag": "55a31aad-61c2-43d3-8ace-589f71bf4240",
+        "version": "1.0"
+    },
+    {
+        "name": "Arrangements",
+        "etag": "e181e556-3dad-446b-81aa-39f5b1298b5d",
+        "version": "1.0"
+    },
+    {
+        "name": "Authentication",
+        "etag": "a6741271-9641-4d94-95aa-84002cb6d281",
+        "version": "1.0"
+    },
+    {
+        "name": "BulkPayments",
+        "etag": "9265d4fc-12ca-4c62-b0d5-460c26205fef",
+        "version": "1.0"
+    },
+    {
+        "name": "Campaign",
+        "etag": "689c0560-6b64-492f-aef2-c8136fbe18c7",
+        "version": "1.0"
+    },
+    {
+        "name": "CardManagementMA",
+        "etag": "2c5a356d-ce51-4aee-83b0-4e3a0fe71cd7",
+        "version": "1.0"
+    },
+    {
+        "name": "ConsentManagement",
+        "etag": "ac5d1c30-aa92-4e67-a9c5-c679671cbb42",
+        "version": "1.0"
+    },
+    {
+        "name": "ContentManagement",
+        "etag": "e0e4fcd2-e728-46fa-b925-18baa0467726",
+        "version": "1.0"
+    },
+    {
+        "name": "ExternalUserManagement",
+        "etag": "a8dd322d-402d-4684-add4-19dd5b57494a",
+        "version": "1.0"
+    },
+    {
+        "name": "FinanceManagement",
+        "etag": "d0d6c8be-bb5c-4532-8180-585923961ca4",
+        "version": "1.0"
+    },
+    {
+        "name": "ForeignExchange",
+        "etag": "d8623834-9a35-4df0-bf15-c5b5cf575028",
+        "version": "1.0"
+    },
+    {
+        "name": "Payments",
+        "etag": "7c02e425-534b-47ff-86a0-f8662811ac5d",
+        "version": "1.0"
+    },
+    {
+        "name": "PortfolioManagement",
+        "etag": "cf31c5a7-3539-4815-b322-535bdbfae2bf",
+        "version": "1.0"
+    },
+    {
+        "name": "SavingsPot",
+        "etag": "dd915a56-689c-4b25-9cd7-4c59f081febe",
+        "version": "1.0"
+    },
+    {
+        "name": "SecureMessage",
+        "etag": "8080314b-ad8e-4755-b638-80d301a484ef",
+        "version": "1.0"
+    },
+    {
+        "name": "TradeFinance",
+        "etag": "0f94ff18-07aa-491c-96ca-fb6e2a8db87e",
+        "version": "1.0"
+    },
+    {
+        "name": "TradeSupplyFinance",
+        "etag": "9a2682f6-e966-4a4d-833a-72e497c85e01",
+        "version": "1.0"
+    },
+    {
+        "name": "WealthOrder",
+        "etag": "7d5c98f7-10f7-4c30-956e-95b1b324c4a8",
+        "version": "1.0"
+    }
+]}

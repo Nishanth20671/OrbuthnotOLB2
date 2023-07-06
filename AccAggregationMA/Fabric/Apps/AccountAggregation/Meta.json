@@ -1,0 +1,25 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "AccountAggregation",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "AccountAggregationJava",
+    "version" : "1.0",
+    "etag" : "f33d31d5-6c81-4569-acf1-eb1b8b21b404"
+  }, {
+    "name" : "AccountAggregationJSON",
+    "version" : "1.0",
+    "etag" : "cb2f746a-ae03-4621-b615-1225976953a2"
+  }, {
+    "name" : "ConsentJSON",
+    "version" : "1.0",
+    "etag" : "95800b0c-2af1-44d7-81ca-6078286204c9"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ExternalAccounts",
+    "version" : "1.0",
+    "etag" : "2f71e96b-eef6-4eb4-a8da-6e36ae689d75"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":true,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

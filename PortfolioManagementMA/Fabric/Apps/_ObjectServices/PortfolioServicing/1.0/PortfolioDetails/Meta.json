@@ -1,0 +1,23 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getPortfolioHoldings" : "getPortfolioHoldingsMapping",
+    "getFieldsOrder" : "getFieldsOrderMapping",
+    "getPortfolioDetails" : "getPortfolioDetailsMapping",
+    "updateFieldsOrder" : "updateFieldsOrderMapping",
+    "getAllocation" : "getAllocationMapping",
+    "getAssetAllocation" : "getAssetAllocationMapping",
+    "getInstrumentTotal" : "getInstrumentTotalMapping",
+    "getTransactionDetails" : "getTransactionDetailsMapping",
+    "getOrdersDetails" : "getOrdersDetailsMapping",
+    "getCashAccounts" : "getCashAccountsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

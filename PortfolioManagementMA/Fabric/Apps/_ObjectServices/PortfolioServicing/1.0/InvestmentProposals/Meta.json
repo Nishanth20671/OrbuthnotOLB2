@@ -1,0 +1,22 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getInvestmentProposal" : "getInvestmentProposalMapping",
+    "getPastProposal" : "getPastProposalMapping",
+    "rejectProposal" : "rejectProposalMapping",
+    "getRiskAnalysisIP" : "getRiskAnalysisIPMapping",
+    "confirmOrdersIP" : "confirmOrdersIPMapping",
+    "getOrderProposal" : "getOrderProposalMapping",
+    "getHealthIfOrderAccepted" : "getHealthIfOrderAcceptedMapping",
+    "getConstraintsIP" : "getConstraintsIPMapping",
+    "getRecommendedInstrIP" : "getRecommendedInstrIPMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

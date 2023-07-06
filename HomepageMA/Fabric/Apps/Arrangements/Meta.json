@@ -1,0 +1,203 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "Arrangements",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ArrangementMicroService",
+    "version" : "1.0",
+    "etag" : "7fd7f1af-02c5-4155-a084-7f20796089a9"
+  }, {
+    "name" : "ArrangementsJavaServices",
+    "version" : "1.0",
+    "etag" : "46f773d8-fd39-40ea-9274-10652f1b0759"
+  }, {
+    "name" : "ArrangementsMicroServicesJava",
+    "version" : "1.0",
+    "etag" : "a5ec0c4d-eb4d-4483-9e75-9534f42fca60"
+  }, {
+    "name" : "ArrangementsT24ISExtra",
+    "version" : "1.0",
+    "etag" : "5d93820d-0ee5-4f9d-93a8-c4431a0f4c4d"
+  }, {
+    "name" : "ArrangementsT24ISTransactions",
+    "version" : "1.0",
+    "etag" : "48d2cae6-7249-47fb-b536-960343bd8523"
+  }, {
+    "name" : "ArrangementsT24Services",
+    "version" : "1.0",
+    "etag" : "82b6278e-8377-40ce-8655-fcf0c704e541"
+  }, {
+    "name" : "ArrangementT24ISAccounts",
+    "version" : "1.0",
+    "etag" : "f49aa76c-3294-48c1-b773-39dc656d38c9"
+  }, {
+    "name" : "BillPayEnrollmentJavaServices",
+    "version" : "1.0",
+    "etag" : "cebf6543-d81c-41c0-ba07-260540a94900"
+  }, {
+    "name" : "CardlessCashServices",
+    "version" : "1.0",
+    "etag" : "e70c5d02-3103-4c12-9399-168db7a58764"
+  }, {
+    "name" : "CashPositionsJavaServices",
+    "version" : "1.0",
+    "etag" : "1cfba197-4893-4e1a-a47a-669289415de8"
+  }, {
+    "name" : "CheckDepositServices",
+    "version" : "1.0",
+    "etag" : "497fc10a-ce14-4b60-8401-94541f4d237b"
+  }, {
+    "name" : "ChequeManagementMock",
+    "version" : "1.0",
+    "etag" : "e9686bd5-1e32-43ac-af8d-8f0fbd75a00b"
+  }, {
+    "name" : "ChequeManagementT24Services",
+    "version" : "1.0",
+    "etag" : "db7a42c2-18eb-4a01-ae0f-85cf115be8ff"
+  }, {
+    "name" : "CombinedStatementsJavaServices",
+    "version" : "1.0",
+    "etag" : "9b961dc1-f7ef-4733-a22c-01177f4aba81"
+  }, {
+    "name" : "CustomerAdviceJavaServices",
+    "version" : "1.0",
+    "etag" : "6bc160bb-2a97-4cca-9dd3-c13a7c7a26d4"
+  }, {
+    "name" : "dbpChequeManagementServices",
+    "version" : "1.0",
+    "etag" : "060881ad-bfb8-4e67-ac6b-1916c992f251"
+  }, {
+    "name" : "dbpServiceRequest",
+    "version" : "1.0",
+    "etag" : "8bf058ef-2507-4dc8-ae28-45d7f4741c81"
+  }, {
+    "name" : "DisputeTransactionJavaServices",
+    "version" : "1.0",
+    "etag" : "7a40048c-1061-4753-80bc-12c39601e45c"
+  }, {
+    "name" : "DMAPILogin",
+    "version" : "1.0",
+    "etag" : "7da75ae8-d7e8-431d-bcb8-092d00233c7e"
+  }, {
+    "name" : "DownloadReportJavaServices",
+    "version" : "1.0",
+    "etag" : "07e1d034-0dbd-4323-a687-574332a73d82"
+  }, {
+    "name" : "DownloadTransactionJavaService",
+    "version" : "1.0",
+    "etag" : "5f617071-558d-4909-bd22-3a118437df31"
+  }, {
+    "name" : "GetMortageDetails",
+    "version" : "1.0",
+    "etag" : "132c2ad5-95a0-4a1d-9655-fdc298a81c92"
+  }, {
+    "name" : "HoldingsMicroServicesJava",
+    "version" : "1.0",
+    "etag" : "e2294cc6-dca4-4a0e-b6cf-1fd3608cdd14"
+  }, {
+    "name" : "HoldingsMicroServicesJSON",
+    "version" : "1.0",
+    "etag" : "1863b0bb-8da2-4169-93e2-cc2b5a57ef52"
+  }, {
+    "name" : "mockMortagageMS",
+    "version" : "1.0",
+    "etag" : "d736fe43-adef-46dc-b3ab-775c21c55dc0"
+  }, {
+    "name" : "mockServices",
+    "version" : "1.0",
+    "etag" : "fe27c843-3aa2-4f51-ad98-68f09acecb5a"
+  }, {
+    "name" : "mortgageDocument",
+    "version" : "1.0",
+    "etag" : "bc93ba9f-7f83-4803-b79e-74069db144f3"
+  }, {
+    "name" : "P2PEnrollmentJavaServices",
+    "version" : "1.0",
+    "etag" : "b40cbdb2-ac82-4613-bc9b-8e1aa21a719c"
+  }, {
+    "name" : "pushCombinedStatementEvent",
+    "version" : "1.0",
+    "etag" : "c2a50a5a-41e2-448f-91df-e6d9950e7700"
+  }, {
+    "name" : "pushEventIdentityService",
+    "version" : "1.0",
+    "etag" : "fef012b8-4bb1-4fc6-acde-7bcc277a958b"
+  }, {
+    "name" : "QRPaymentJavaServices",
+    "version" : "1.0",
+    "etag" : "f0e97052-b545-4219-a42a-c26886c756cf"
+  }, {
+    "name" : "T24ArrangementServices",
+    "version" : "1.0",
+    "etag" : "23251669-95d1-4c39-b655-ac8070a441f4"
+  }, {
+    "name" : "T24DocumentService",
+    "version" : "1.0",
+    "etag" : "8d2d175d-c2f5-4ac7-826e-6fce95183c3d"
+  }, {
+    "name" : "T24IrisArrangementServices",
+    "version" : "1.0",
+    "etag" : "4ddc3653-16d2-4b43-ad14-4e969e6e2cfe"
+  }, {
+    "name" : "T24MortgageServices",
+    "version" : "1.0",
+    "etag" : "0826d230-d32c-4453-99e4-4965259fdd41"
+  }, {
+    "name" : "TransactionAdviceJava",
+    "version" : "1.0",
+    "etag" : "1b4925f1-d88a-468d-a477-659704bea81a"
+  }, {
+    "name" : "TransactionAdviceJavaServices",
+    "version" : "1.0",
+    "etag" : "02e74693-cd00-49a9-9cbb-c393a9236418"
+  }, {
+    "name" : "TransactionAdviceJSON",
+    "version" : "1.0",
+    "etag" : "29f80fd5-5a11-49fb-bdcc-d461fa9ec49c"
+  }, {
+    "name" : "TransactionAdviceJSONServices",
+    "version" : "1.0",
+    "etag" : "16cc8126-23fe-4e8d-83da-654be8db84a2"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "ArrangementsOrchServices",
+    "version" : "1.0",
+    "etag" : "1a5e10ff-035d-2179-94bd-d6895d1fa424"
+  }, {
+    "name" : "CreateDisputeTransactionorch",
+    "version" : "1.0",
+    "etag" : "1a5e10ff-035c-4179-94bd-d68922222222"
+  }, {
+    "name" : "TransactionsOrchServices",
+    "version" : "1.0",
+    "etag" : "f55b7537-d8ad-56ea-997a-2e54aeadeeeb"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "CardlessCash",
+    "version" : "1.0",
+    "etag" : "4886ec6e-f6b6-463d-9a75-149f1de5597a"
+  }, {
+    "name" : "CheckDeposit",
+    "version" : "1.0",
+    "etag" : "2af9fd3f-fc77-40b4-b23c-f0eed34ecbcc"
+  }, {
+    "name" : "ChequeManagement",
+    "version" : "1.0",
+    "etag" : "f5d4c17e-bbc1-4539-b3de-7f116d65ad12"
+  }, {
+    "name" : "DocumentManagement",
+    "version" : "1.0",
+    "etag" : "d7410027-2220-4ffd-9ec8-b439ea56d347"
+  }, {
+    "name" : "Holdings",
+    "version" : "1.0",
+    "etag" : "52c8fbdd-35c8-49ef-be02-3c156e2033da"
+  }, {
+    "name" : "ServiceRequestManagement",
+    "version" : "1.0",
+    "etag" : "c394703e-23d3-4ca6-95c7-3ed4abd95a8e"
+  } ],
+  "identity" : [ "CIBACustomIdentity", "DbxAPIIdentityService", "DbxUserLogin" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

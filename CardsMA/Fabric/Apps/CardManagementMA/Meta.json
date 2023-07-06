@@ -1,0 +1,38 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "CardManagementMA",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "CardsAdminConsoleServices",
+    "version" : "1.0",
+    "etag" : "c9e7efe5-7090-43d1-8f05-f3a35c6c9dcb"
+  }, {
+    "name" : "CardsNonProductServices",
+    "version" : "1.0",
+    "etag" : "266ceb61-2c9f-4b87-b9f1-1c3791c0b517"
+  }, {
+    "name" : "CardSRMSJavaService",
+    "version" : "1.0",
+    "etag" : "6d799e78-1b3d-49f3-987f-5947cf5fc1df"
+  }, {
+    "name" : "dbpCardServices",
+    "version" : "1.0",
+    "etag" : "5442389a-1c44-44a3-9af1-b29cfa11aadf"
+  }, {
+    "name" : "LinkCardsJava",
+    "version" : "1.0",
+    "etag" : "e20a7dbf-6557-4e60-9c02-129c65a4c9c4"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "Cards",
+    "version" : "1.0",
+    "etag" : "8e47d470-a209-4306-b9e4-810f2q4180e8"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "CardManagementServices",
+    "version" : "1.0",
+    "etag" : "cd1e1312-4cb7-40c1-bec6-317a11a27053"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

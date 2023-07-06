@@ -1,0 +1,20 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "createPartyIdentifier" : "createPartyIdentifierMapping",
+    "createParty" : "createPartyMapping",
+    "getPartyRelations" : "getPartyRelationsMapping",
+    "createPartyRelations" : "createPartyRelationsMapping",
+    "updatePartyRelations" : "updatePartyRelationsMapping",
+    "getParty" : "getPartyMapping",
+    "updateParty" : "updatePartyMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

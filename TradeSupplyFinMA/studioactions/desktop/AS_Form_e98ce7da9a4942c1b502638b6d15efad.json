@@ -1,0 +1,28 @@
+{
+    "AS_Form_e98ce7da9a4942c1b502638b6d15efad": {
+        "id": "AS_Form_e98ce7da9a4942c1b502638b6d15efad",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmReceivableBillsDashboard",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fd13d7fe04254c6ba557223ae397ba56"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ede55e5aef064a2c9072282768a550d9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "init",
+            "display": "init",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

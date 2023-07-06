@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="GetBlockedFundsMock" passwordencrypted="false" security="authorized_app_user" type="stubConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <stub-param value="{&#10;    &quot;Transactions&quot;: [&#10;        {&#10;            &quot;fromDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;            &quot;lockedAmount&quot;: &quot;500.00&quot;,&#10;            &quot;transactionReference&quot;: &quot;ACLK2210907140&quot;,&#10;            &quot;lockedEventId&quot;: &quot;ACLK2210907140&quot;&#10;        },&#10;        {&#10;            &quot;fromDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;            &quot;lockedAmount&quot;: &quot;500.00&quot;,&#10;            &quot;transactionReference&quot;: &quot;ACLK2210974975&quot;,&#10;            &quot;toDate&quot;: &quot;2022-04-22T00:00:00Z&quot;,&#10;            &quot;lockedEventId&quot;: &quot;ACLK2210974975&quot;,&#10;            &quot;lockReason&quot;: &quot;test&quot;&#10;        },&#10;        {&#10;            &quot;fromDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;            &quot;lockedAmount&quot;: &quot;500.00&quot;,&#10;            &quot;transactionReference&quot;: &quot;ACLK2210994007&quot;,&#10;            &quot;toDate&quot;: &quot;2022-04-22T00:00:00Z&quot;,&#10;            &quot;lockedEventId&quot;: &quot;ACLK2210994007&quot;&#10;        }&#10;    ],&#10;    &quot;Meta&quot;: [&#10;        {&#10;            &quot;pageSize&quot;: &quot;9999&quot;,&#10;            &quot;pageStart&quot;: &quot;1&quot;,&#10;            &quot;totalSize&quot;: &quot;3&quot;&#10;        }&#10;    ]&#10;}"/>
+    </service-input>
+    <service-output passthrough="true" isExtended="false"/>
+</service>

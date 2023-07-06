@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "bulkpaymentservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

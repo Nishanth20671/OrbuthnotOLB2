@@ -1,0 +1,50 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "TradeFinance",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "TradeFinanceDocumentServices",
+    "version" : "1.0",
+    "etag" : "6bef0ea7-849d-44a2-9e5a-93c04c122726"
+  }, {
+    "name" : "TradeFinanceMessages",
+    "version" : "1.0",
+    "etag" : "39c931e4-812d-44f0-9f32-d51103b693c7"
+  }, {
+    "name" : "TradeFinanceMockData",
+    "version" : "1.0",
+    "etag" : "da6661ec-e1ee-4dc7-bbf5-841ea3e7c296"
+  }, {
+    "name" : "TradeFinanceMockServices",
+    "version" : "1.0",
+    "etag" : "10101f0b-0147-465d-ac3b-627449c5c352"
+  }, {
+    "name" : "TradeFinancePayeeServices",
+    "version" : "1.0",
+    "etag" : "bc32fa7a-8a69-425e-8843-35106e4d9551"
+  }, {
+    "name" : "TradeFinanceServices",
+    "version" : "1.0",
+    "etag" : "40fe2004-a6b4-4e06-bb0f-fa2f98361c55"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "SwiftCodeService",
+    "version" : "1.0",
+    "etag" : "44a7460c-af80-49cb-a95b-ef2100db6bd3"
+  }, {
+    "name" : "DashboardOverviewOrchestration",
+    "version" : "1.0",
+    "etag" : "626c8e33-7a84-4715-b811-25a653a59b4r"
+  }, {
+    "name" : "ClauseOrchestration",
+    "version" : "1.0",
+    "etag" : "8e028bb9-c2e9-4f95-94c1-15001f2a979d"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "TradeFinance",
+    "version" : "1.0",
+    "etag" : "671e6037-34ef-46e0-aec1-a1afc4d34937"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

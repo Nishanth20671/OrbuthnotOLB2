@@ -1,0 +1,64 @@
+{
+	 "@class": "com.kony.gen.viz.model.component.KVizImage2",
+	 "DNDConfig": null,
+	 "__parentReadjusting__": false,
+	 "_base64_": null,
+	 "_height_": {
+		 "type": "string",
+		 "value": "40dp"
+	},
+	 "_left_": {
+		 "type": "string",
+		 "value": "10dp"
+	},
+	 "_margin_": [
+		 0,
+		 0,
+		 0,
+		 0
+	],
+	 "_padding_": [
+		 0,
+		 0,
+		 0,
+		 0
+	],
+	 "_skin_": "s78a5f26c9f14cec9ebed1bb46098f80",
+	 "_src_": "error_yellow.png",
+	 "_top_": {
+		 "type": "string",
+		 "value": "10dp"
+	},
+	 "_width_": {
+		 "type": "string",
+		 "value": "40dp"
+	},
+	 "canUpdateUI": true,
+	 "containerweight": 100,
+	 "context": {
+		 "channel": "desktop",
+		 "formID": "uwu63f03ac1eb64dd1a4457d71df524962",
+		 "platform": "desktopweb",
+		 "templateType": "userwidgets",
+		 "topLevelBox": null
+	},
+	 "id": "imgWarning",
+	 "imagescalemode": 1,
+	 "info": null,
+	 "isvisible": true,
+	 "kuid": "gebecb07c28d453ba96f0a77f078dd28",
+	 "name": "kony.ui.Image2",
+	 "parent": "warning",
+	 "pf": "userwidgetmodel",
+	 "srcType": 1,
+	 "wType": "Image",
+	 "widgetalignment": 5,
+	 "zindex": 1,
+	 "accessibilityconfig": {
+		 "a11yHidden": true,
+		 "a11yARIA": {
+			 "tabindex": -1
+		},
+		 "a11yValue": ""
+	}
+}

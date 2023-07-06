@@ -1,0 +1,8 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "forexservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

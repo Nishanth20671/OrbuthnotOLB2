@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "UserIdSearchOperationDetailedData" : "UserIdSearchOperationDetailedDataMapping",
+    "enrolledCustomerSearch" : "enrolledCustomerSearchMapping",
+    "CustomerLegalEntitiesGetOperation" : "CustomerLegalEntitiesGetOperationMapping",
+    "customerSearch" : "customerSearchMapping",
+    "customerSearchByUserName" : "customerSearchByUserNameMapping",
+    "getCustomerBasicInformation" : "getCustomerBasicInformationMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

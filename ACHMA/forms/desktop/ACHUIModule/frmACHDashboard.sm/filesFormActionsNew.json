@@ -1,0 +1,236 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "111dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s24c92fc23b14f5484b693ee9b8a9b35",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a12fa94e470d4690b5d2d27ff02654c7",
+                "srcKUID": "h24be82bc96e4ee6a04762680f6e874e",
+                "wType": "Button"
+            }
+        },
+        "btnCancel": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "hfc88800c5314908a9a178830beb1226",
+                "srcKUID": "e47a358a81aa4a0da07a4a7c8e127177",
+                "wType": "Button"
+            },
+            "centerY": {},
+            "i18n_text": "i18n.konybb.common.cancel",
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "responsiveData": {
+                "b2": {
+                    "right": {
+                        "type": "string",
+                        "value": "20%"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "15%"
+                    }
+                },
+                "b3": {
+                    "centerY": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "top": {
+                        "type": "number",
+                        "value": "70"
+                    }
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "23%"
+                }
+            },
+            "text": "",
+            "top": {},
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "18%"
+                }
+            }
+        },
+        "btnNext": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ja19d52b73f14875bd62a09b11aa57df",
+                "srcKUID": "b82d156418d9458d809e69dc41992a16",
+                "wType": "Button"
+            },
+            "centerY": {},
+            "i18n_text": "i18n.konybb.common.Proceed",
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "responsiveData": {
+                "b2": {
+                    "right": {
+                        "type": "string",
+                        "value": "2.50%"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "15%"
+                    }
+                },
+                "b3": {
+                    "centerY": {
+                        "type": "string",
+                        "value": ""
+                    },
+                    "top": {
+                        "type": "string",
+                        "value": "20dp"
+                    }
+                }
+            },
+            "right": {},
+            "text": "",
+            "top": {},
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "18%"
+                }
+            }
+        },
+        "btnOption": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e4086dd897c2448a8df125707b09a48f",
+                "srcKUID": "ebf49918aa7a419fb39b29e23b734b42",
+                "wType": "Button"
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": ""
+                }
+            },
+            "responsiveData": {
+                "b2": {
+                    "right": {
+                        "type": "string",
+                        "value": "37.50%"
+                    },
+                    "width": {
+                        "type": "string",
+                        "value": "15%"
+                    }
+                }
+            },
+            "right": {
+                "Default": {
+                    "type": "string",
+                    "value": "43.50%"
+                }
+            },
+            "width": {
+                "Default": {
+                    "type": "string",
+                    "value": "18%"
+                }
+            }
+        },
+        "flxMain": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c63fcfb3b8fa454a8d655d3dcb431e86",
+                "srcKUID": "d54f919210284a3a8ba217e23f749884",
+                "wType": "FlexContainer"
+            }
+        },
+        "formActionsNew": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "g10a55e474c24a0c855575c86e8dc0e9",
+                "srcKUID": "a571c5a347394d3fb1e9debcf70da170",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {},
+            "responsiveData": {
+                "b3": {
+                    "height": {
+                        "type": "string",
+                        "value": "140dp"
+                    }
+                }
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "filesFormActionsNew",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "g10a55e474c24a0c855575c86e8dc0e9",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxFilesACHActions",
+    "pf": "frmACHDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a571c5a347394d3fb1e9debcf70da170",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,22 @@
+{
+    "AS_Button_fe56315ae1f945369c30d50b31387d34": {
+        "id": "AS_Button_fe56315ae1f945369c30d50b31387d34",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "forms",
+            "platform": null,
+            "KUID": "j896b6785a4f41b4ae28b3adfaf257f1"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_bda1bb91807f432e8e5e639e192fd4a3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.dismissLoadingScreen();\nvar ntf = new kony.mvc.Navigation(\"frmExternalAccounts\");\nntf.navigate();",
+            "parentId": null
+        }]
+    }
+}

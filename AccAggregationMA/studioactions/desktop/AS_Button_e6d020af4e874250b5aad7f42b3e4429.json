@@ -1,0 +1,23 @@
+{
+    "AS_Button_e6d020af4e874250b5aad7f42b3e4429": {
+        "id": "AS_Button_e6d020af4e874250b5aad7f42b3e4429",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j1b7ba2f5ed24d21b4dee326fb3d800d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f271736e92c048d1b3e8a00bd03ef711",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var ntf = new kony.mvc.Navigation({\"appName\" : \"AccAggregationMA\", \"friendlyName\" : \"frmExternalAccounts\"});\nntf.navigate();",
+            "parentId": null
+        }]
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "getRecommendedInstrumentsHC3646",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"portfolioId\" outputpath=\"portfolioId\"/>\n        <set-param inputpath=\"portfolioServiceType\" outputpath=\"portfolioServiceType\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                        <map inputpath=\"response_in\" outputpath=\"response_out\">                                                <set-param inputpath=\"portfolioID\" outputpath=\"portfolioID\"/>                                                <set-param inputpath=\"recommendedInstrumentComment\" outputpath=\"recommendedInstrumentComment\"/>                                     <set-param inputpath=\"recommendedInstrumentStatus\" outputpath=\"recommendedInstrumentStatus\"/>                                     <set-param inputpath=\"status\" outputpath=\"status\"/>                              <set-param inputpath=\"errorText\" outputpath=\"errorText\"/>         <set-param inputpath=\"error\" outputpath=\"error\"/>         <map inputpath=\"recommendedInstrumentDetails\" outputpath=\"recommendedInstrumentDetails\">                                                                        <set-param inputpath=\"instrumentName\" outputpath=\"instrumentName\"/>                                                            <set-param inputpath=\"instrumentDetails\" outputpath=\"instrumentDetails\"/>                                        </map>                                 <set-param inputpath=\"opstatus\" outputpath=\"opstatus\"/>                                 <set-param inputpath=\"httpStatusCode\" outputpath=\"httpStatusCode\"/>          </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"PortfolioHealth\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"HealthCheckOrchService (1.0).getRecommendedInstrumentsHC\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:PortfolioHealth:portfolioId:\",\"to\":\"target:portfolioId:\",\"fromPort\":\"source:PortfolioHealth:portfolioId:\",\"toPort\":\"target:portfolioId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:PortfolioHealth:portfolioServiceType:\",\"to\":\"target:portfolioServiceType:\",\"fromPort\":\"source:PortfolioHealth:portfolioServiceType:\",\"toPort\":\"target:portfolioServiceType:\",\"visible\":true,\"common\":true}]}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"PortfolioHealth\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"HealthCheckOrchService (1.0).getRecommendedInstrumentsHC\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:PortfolioHealth\",\"fromPort\":\"target\",\"toPort\":\"target:PortfolioHealth\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth\",\"to\":\"target:PortfolioHealth:t_p_fields\",\"fromPort\":\"target:PortfolioHealth\",\"toPort\":\"target:PortfolioHealth:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth:t_p_fields\",\"to\":\"target:PortfolioHealth:portfolioId:\",\"fromPort\":\"target:PortfolioHealth:t_p_fields\",\"toPort\":\"target:PortfolioHealth:portfolioId:\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth:t_p_fields\",\"to\":\"target:PortfolioHealth:portfolioServiceType:\",\"fromPort\":\"target:PortfolioHealth:t_p_fields\",\"toPort\":\"target:PortfolioHealth:portfolioServiceType:\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth:t_p_fields\",\"to\":\"target:PortfolioHealth:navPage:\",\"fromPort\":\"target:PortfolioHealth:t_p_fields\",\"toPort\":\"target:PortfolioHealth:navPage:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "HealthCheckOrchService",
+      "serviceVersion" : "1.0",
+      "operationName" : "getRecommendedInstrumentsHC"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "PortfolioHealth",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"portfolioId\" outputpath=\"portfolioId\"/>\n        <set-param inputpath=\"portfolioServiceType\" outputpath=\"portfolioServiceType\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                        <map inputpath=\"response_in\" outputpath=\"response_out\">                                                <set-param inputpath=\"portfolioID\" outputpath=\"portfolioID\"/>                                                <set-param inputpath=\"recommendedInstrumentComment\" outputpath=\"recommendedInstrumentComment\"/>                                     <set-param inputpath=\"recommendedInstrumentStatus\" outputpath=\"recommendedInstrumentStatus\"/>                                     <set-param inputpath=\"status\" outputpath=\"status\"/>                              <set-param inputpath=\"errorText\" outputpath=\"errorText\"/>         <set-param inputpath=\"error\" outputpath=\"error\"/>         <map inputpath=\"recommendedInstrumentDetails\" outputpath=\"recommendedInstrumentDetails\">                                                                        <set-param inputpath=\"instrumentName\" outputpath=\"instrumentName\"/>                                                            <set-param inputpath=\"instrumentDetails\" outputpath=\"instrumentDetails\"/>                                        </map>                                 <set-param inputpath=\"opstatus\" outputpath=\"opstatus\"/>                                 <set-param inputpath=\"httpStatusCode\" outputpath=\"httpStatusCode\"/>          </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"PortfolioHealth\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"HealthCheckOrchService (1.0).getRecommendedInstrumentsHC\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"category\":\"Mapping\",\"from\":\"source:PortfolioHealth:portfolioId:\",\"to\":\"target:portfolioId:\",\"fromPort\":\"source:PortfolioHealth:portfolioId:\",\"toPort\":\"target:portfolioId:\",\"visible\":true,\"common\":true},{\"category\":\"Mapping\",\"from\":\"source:PortfolioHealth:portfolioServiceType:\",\"to\":\"target:portfolioServiceType:\",\"fromPort\":\"source:PortfolioHealth:portfolioServiceType:\",\"toPort\":\"target:portfolioServiceType:\",\"visible\":true,\"common\":true}]}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"PortfolioHealth\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"HealthCheckOrchService (1.0).getRecommendedInstrumentsHC\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:PortfolioHealth\",\"fromPort\":\"target\",\"toPort\":\"target:PortfolioHealth\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth\",\"to\":\"target:PortfolioHealth:t_p_fields\",\"fromPort\":\"target:PortfolioHealth\",\"toPort\":\"target:PortfolioHealth:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth:t_p_fields\",\"to\":\"target:PortfolioHealth:portfolioId:\",\"fromPort\":\"target:PortfolioHealth:t_p_fields\",\"toPort\":\"target:PortfolioHealth:portfolioId:\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth:t_p_fields\",\"to\":\"target:PortfolioHealth:portfolioServiceType:\",\"fromPort\":\"target:PortfolioHealth:t_p_fields\",\"toPort\":\"target:PortfolioHealth:portfolioServiceType:\",\"visible\":true,\"common\":false},{\"from\":\"target:PortfolioHealth:t_p_fields\",\"to\":\"target:PortfolioHealth:navPage:\",\"fromPort\":\"target:PortfolioHealth:t_p_fields\",\"toPort\":\"target:PortfolioHealth:navPage:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

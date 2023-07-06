@@ -1,0 +1,26 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "fetchOnGoingPayments" : "fetchOnGoingPaymentsMapping",
+    "updateBulkPaymentRecord" : "updateBulkPaymentRecordMapping",
+    "fetchHistory" : "fetchHistoryMapping",
+    "fetchCancellationReasons" : "fetchCancellationReasonsMapping",
+    "fetchRecordHistoryReviewedByMe" : "fetchRecordHistoryReviewedByMeMapping",
+    "cancelBulkPaymentRecord" : "cancelBulkPaymentRecordMapping",
+    "review" : "reviewMapping",
+    "fetchRecordHistoryActedByMe" : "fetchRecordHistoryActedByMeMapping",
+    "fetchBulkPaymentRecordDetailsById" : "fetchBulkPaymentRecordDetailsByIdMapping",
+    "rejectBulkPaymentRecord" : "rejectBulkPaymentRecordMapping",
+    "approveBulkPaymentRecord" : "approveBulkPaymentRecordMapping",
+    "fetchRecordsWaitingForMyApproval" : "fetchRecordsWaitingForMyApprovalMapping",
+    "fetchRecordsReviewedByMeAndInApprovalQueue" : "fetchRecordsReviewedByMeAndInApprovalQueueMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

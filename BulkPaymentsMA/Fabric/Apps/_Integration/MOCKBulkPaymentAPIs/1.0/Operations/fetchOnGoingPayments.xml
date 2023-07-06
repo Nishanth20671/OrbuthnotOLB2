@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="fetchOnGoingPayments" passwordencrypted="false" security="authorized_app_user" type="stubConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="GET"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <stub-param value="{&#10;  &quot;onGoingPayments&quot;: [&#10;    {&#10;      &quot;recordId&quot;: &quot;BKM2210900026&quot;,&#10;      &quot;description&quot;: &quot;Record11&quot;,&#10;      &quot;paymentDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;scheduledDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;status&quot;: &quot;CREATED&quot;,&#10;      &quot;fromAccount&quot;: &quot;128597&quot;,&#10;      &quot;totalAmount&quot;: &quot;9.45&quot;,&#10;      &quot;initiatedBy&quot;: &quot;3934038218&quot;,&#10;      &quot;totalTransactions&quot;: &quot;4&quot;,&#10;      &quot;companyId&quot;: &quot;4605335805_192228&quot;,&#10;      &quot;fileId&quot;: &quot;UPLD2210930359&quot;,&#10;      &quot;currency&quot;: &quot;USD&quot;,&#10;      &quot;batchMode&quot;: &quot;SINGLE&quot;,&#10;      &quot;paymentOrderProduct&quot;: &quot;FTBMBLK&quot;,&#10;      &quot;bulkErrorDetails&quot;: []&#10;    },&#10;    {&#10;      &quot;recordId&quot;: &quot;BKM2210900102&quot;,&#10;      &quot;description&quot;: &quot;TPS17102020059501&quot;,&#10;      &quot;paymentDate&quot;: &quot;2022-08-01T00:00:00Z&quot;,&#10;      &quot;status&quot;: &quot;WAITACK&quot;,&#10;      &quot;fromAccount&quot;: &quot;123676&quot;,&#10;      &quot;totalAmount&quot;: &quot;9.45&quot;,&#10;      &quot;initiatedBy&quot;: &quot;2321044835&quot;,&#10;      &quot;totalTransactions&quot;: &quot;4&quot;,&#10;      &quot;companyId&quot;: &quot;&quot;,&#10;      &quot;fileId&quot;: &quot;UPLD2210958037&quot;,&#10;      &quot;currency&quot;: &quot;USD&quot;,&#10;      &quot;batchMode&quot;: &quot;SINGLE&quot;,&#10;      &quot;paymentOrderProduct&quot;: &quot;FTBMBLK&quot;,&#10;      &quot;bulkErrorDetails&quot;: []&#10;    },&#10;    {&#10;      &quot;recordId&quot;: &quot;BKM2210900123&quot;,&#10;      &quot;description&quot;: &quot;check&quot;,&#10;      &quot;paymentDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;scheduledDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;status&quot;: &quot;Pending&quot;,&#10;      &quot;fromAccount&quot;: &quot;123676&quot;,&#10;      &quot;totalAmount&quot;: &quot;9.45&quot;,&#10;      &quot;initiatedBy&quot;: &quot;2321044835&quot;,&#10;      &quot;totalTransactions&quot;: &quot;4&quot;,&#10;      &quot;companyId&quot;: &quot;9711042642_190736&quot;,&#10;      &quot;requestId&quot;: &quot;204&quot;,&#10;      &quot;actedByMeAlready&quot;: &quot;false&quot;,&#10;      &quot;amIApprover&quot;: &quot;false&quot;,&#10;      &quot;amICreator&quot;: &quot;true&quot;,&#10;      &quot;receivedApprovals&quot;: &quot;0&quot;,&#10;      &quot;fileId&quot;: &quot;UPLD2210950932&quot;,&#10;      &quot;currency&quot;: &quot;USD&quot;,&#10;      &quot;batchMode&quot;: &quot;SINGLE&quot;,&#10;      &quot;paymentOrderProduct&quot;: &quot;FTBMBLK&quot;,&#10;      &quot;bulkErrorDetails&quot;: []&#10;    },&#10;    {&#10;      &quot;recordId&quot;: &quot;BKM2210900017&quot;,&#10;      &quot;description&quot;: &quot;TestUpload1&quot;,&#10;      &quot;paymentDate&quot;: &quot;2022-09-16T00:00:00Z&quot;,&#10;      &quot;scheduledDate&quot;: &quot;2022-09-16T00:00:00Z&quot;,&#10;      &quot;status&quot;: &quot;CREATED&quot;,&#10;      &quot;fromAccount&quot;: &quot;128597&quot;,&#10;      &quot;totalAmount&quot;: &quot;9.45&quot;,&#10;      &quot;initiatedBy&quot;: &quot;3934038218&quot;,&#10;      &quot;totalTransactions&quot;: &quot;4&quot;,&#10;      &quot;companyId&quot;: &quot;4605335805_192228&quot;,&#10;      &quot;fileId&quot;: &quot;UPLD2210989282&quot;,&#10;      &quot;currency&quot;: &quot;USD&quot;,&#10;      &quot;batchMode&quot;: &quot;SINGLE&quot;,&#10;      &quot;paymentOrderProduct&quot;: &quot;FTBMBLK&quot;,&#10;      &quot;bulkErrorDetails&quot;: []&#10;    },&#10;    {&#10;      &quot;recordId&quot;: &quot;BKM2210900148&quot;,&#10;      &quot;description&quot;: &quot;Record 1&quot;,&#10;      &quot;paymentDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;scheduledDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;status&quot;: &quot;DISCARDED&quot;,&#10;      &quot;fromAccount&quot;: &quot;123676&quot;,&#10;      &quot;totalAmount&quot;: &quot;9.45&quot;,&#10;      &quot;initiatedBy&quot;: &quot;2321044835&quot;,&#10;      &quot;totalTransactions&quot;: &quot;4&quot;,&#10;      &quot;companyId&quot;: &quot;9711042642_190736&quot;,&#10;      &quot;fileId&quot;: &quot;UPLD2210938503&quot;,&#10;      &quot;currency&quot;: &quot;USD&quot;,&#10;      &quot;batchMode&quot;: &quot;SINGLE&quot;,&#10;      &quot;cancellationreason&quot;: &quot;SELLER NOT ADHERED&quot;,&#10;      &quot;paymentOrderProduct&quot;: &quot;FTBMBLK&quot;,&#10;      &quot;bulkErrorDetails&quot;: []&#10;    },&#10;    {&#10;      &quot;recordId&quot;: &quot;BKM2210900149&quot;,&#10;      &quot;description&quot;: &quot;Record 933&quot;,&#10;      &quot;paymentDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;scheduledDate&quot;: &quot;2022-04-19T00:00:00Z&quot;,&#10;      &quot;status&quot;: &quot;DISCARDED&quot;,&#10;      &quot;fromAccount&quot;: &quot;123676&quot;,&#10;      &quot;totalAmount&quot;: &quot;9.45&quot;,&#10;      &quot;initiatedBy&quot;: &quot;2321044835&quot;,&#10;      &quot;totalTransactions&quot;: &quot;4&quot;,&#10;      &quot;companyId&quot;: &quot;9711042642_190736&quot;,&#10;      &quot;fileId&quot;: &quot;UPLD2210938601&quot;,&#10;      &quot;currency&quot;: &quot;USD&quot;,&#10;      &quot;batchMode&quot;: &quot;SINGLE&quot;,&#10;      &quot;cancellationreason&quot;: &quot;SELLER NOT ADHERED&quot;,&#10;      &quot;paymentOrderProduct&quot;: &quot;FTBMBLK&quot;,&#10;      &quot;bulkErrorDetails&quot;: []&#10;    }&#10;  ],&#10;  &quot;opstatus&quot;: 0,&#10;  &quot;httpStatusCode&quot;: 0&#10;}"/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <dataset defaultvalue="" id="onGoingPayments" order="" paramOrder="1" parentOrder="0" src="$.onGoingPayments[*]" testvalue="" isExtended="false">
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="recordId" order="" paramOrder="2" parentOrder="1" passnull="false" sms-name="" src="recordId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="description" order="" paramOrder="3" parentOrder="1" passnull="false" sms-name="" src="description" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="paymentDate" order="" paramOrder="4" parentOrder="1" passnull="false" sms-name="" src="paymentDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="scheduledDate" order="" paramOrder="5" parentOrder="1" passnull="false" sms-name="" src="scheduledDate" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="status" order="" paramOrder="6" parentOrder="1" passnull="false" sms-name="" src="status" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fromAccount" order="" paramOrder="7" parentOrder="1" passnull="false" sms-name="" src="fromAccount" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="totalAmount" order="" paramOrder="8" parentOrder="1" passnull="false" sms-name="" src="totalAmount" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="initiatedBy" order="" paramOrder="9" parentOrder="1" passnull="false" sms-name="" src="initiatedBy" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="totalTransactions" order="" paramOrder="10" parentOrder="1" passnull="false" sms-name="" src="totalTransactions" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="companyId" order="" paramOrder="11" parentOrder="1" passnull="false" sms-name="" src="companyId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fileId" order="" paramOrder="12" parentOrder="1" passnull="false" sms-name="" src="fileId" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="currency" order="" paramOrder="13" parentOrder="1" passnull="false" sms-name="" src="currency" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="batchMode" order="" paramOrder="14" parentOrder="1" passnull="false" sms-name="" src="batchMode" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="cancellationreason" order="" paramOrder="15" parentOrder="1" passnull="false" sms-name="" src="cancellationreason" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="paymentOrderProduct" order="" paramOrder="16" parentOrder="1" passnull="false" sms-name="" src="paymentOrderProduct" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+            <param datatype="collection" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="bulkErrorDetails" order="" paramOrder="17" parentOrder="1" passnull="false" sms-name="" src="bulkErrorDetails[*]" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </dataset>
+    </service-output>
+</service>

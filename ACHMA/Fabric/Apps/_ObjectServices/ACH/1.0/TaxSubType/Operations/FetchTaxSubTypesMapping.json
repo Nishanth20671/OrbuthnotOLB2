@@ -1,0 +1,48 @@
+{
+  "operationConfig" : {
+    "name" : "FetchACHTaxSubType9462",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"TaxType\" outputpath=\"taxType\"/>\n    </map>\n</mapper>\n",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"response_in\" outputpath=\"response_out\">                <map inputpath=\"bbTaxSubType\" outputpath=\"TaxSubType\">                        <set-param inputpath=\"id\" outputpath=\"Id\" />                        <set-param inputpath=\"taxSubType\" outputpath=\"TaxSubType\" />                        <set-param inputpath=\"taxType\" outputpath=\"TaxType\" />                </map>             <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                        <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />        </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"TaxSubType\",\"xy\":\"150 100\",\"__gohashid\":23210},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpACHServices (1.0).FetchACHTaxSubType\",\"xy\":\"770 100\",\"__gohashid\":23211}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":25110,\"from\":\"source:TaxSubType:TaxType:\",\"to\":\"target:taxType:\",\"fromPort\":\"source:TaxSubType:TaxType:\",\"toPort\":\"target:taxType:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"TaxSubType\",\"xy\":\"770 100\",\"__gohashid\":25646},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpACHServices (1.0).FetchACHTaxSubType\",\"xy\":\"150 100\",\"__gohashid\":25647}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:TaxSubType\",\"fromPort\":\"target\",\"toPort\":\"target:TaxSubType\",\"visible\":true,\"common\":false,\"__gohashid\":25660},{\"from\":\"target:TaxSubType\",\"to\":\"target:TaxSubType:fields\",\"fromPort\":\"target:TaxSubType\",\"toPort\":\"target:TaxSubType:fields\",\"visible\":true,\"common\":false,\"__gohashid\":25661},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:Id:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:Id:\",\"visible\":true,\"common\":false,\"__gohashid\":25662},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:TaxType:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:TaxType:\",\"visible\":true,\"common\":false,\"__gohashid\":25663},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:TaxSubType:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:TaxSubType:\",\"visible\":true,\"common\":false,\"__gohashid\":25664},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:dbpErrCode:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:dbpErrCode:\",\"visible\":true,\"common\":false,\"__gohashid\":25665},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:dbpErrMsg:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:dbpErrMsg:\",\"visible\":true,\"common\":false,\"__gohashid\":25666},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:opstatus:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:opstatus:\",\"visible\":true,\"common\":false,\"__gohashid\":25667},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:httpStatusCode:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:httpStatusCode:\",\"visible\":true,\"common\":false,\"__gohashid\":25668}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpACHServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "FetchACHTaxSubType"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "TaxSubType",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<mapper xmlns=\"http://www.kony.com/ns/mapper\">\n    <map inputpath=\"request_in\" outputpath=\"request_out\">\n        <set-param inputpath=\"TaxType\" outputpath=\"taxType\"/>\n    </map>\n</mapper>\n",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"response_in\" outputpath=\"response_out\">                <map inputpath=\"bbTaxSubType\" outputpath=\"TaxSubType\">                        <set-param inputpath=\"id\" outputpath=\"Id\" />                        <set-param inputpath=\"taxSubType\" outputpath=\"TaxSubType\" />                        <set-param inputpath=\"taxType\" outputpath=\"TaxType\" />                </map>             <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                        <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />        </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"TaxSubType\",\"xy\":\"150 100\",\"__gohashid\":23210},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"dbpACHServices (1.0).FetchACHTaxSubType\",\"xy\":\"770 100\",\"__gohashid\":23211}],\"linkDataArray\":[{\"category\":\"Mapping\",\"visible\":true,\"__gohashid\":25110,\"from\":\"source:TaxSubType:TaxType:\",\"to\":\"target:taxType:\",\"fromPort\":\"source:TaxSubType:TaxType:\",\"toPort\":\"target:taxType:\"}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":false}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"TaxSubType\",\"xy\":\"770 100\",\"__gohashid\":25646},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpACHServices (1.0).FetchACHTaxSubType\",\"xy\":\"150 100\",\"__gohashid\":25647}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:TaxSubType\",\"fromPort\":\"target\",\"toPort\":\"target:TaxSubType\",\"visible\":true,\"common\":false,\"__gohashid\":25660},{\"from\":\"target:TaxSubType\",\"to\":\"target:TaxSubType:fields\",\"fromPort\":\"target:TaxSubType\",\"toPort\":\"target:TaxSubType:fields\",\"visible\":true,\"common\":false,\"__gohashid\":25661},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:Id:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:Id:\",\"visible\":true,\"common\":false,\"__gohashid\":25662},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:TaxType:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:TaxType:\",\"visible\":true,\"common\":false,\"__gohashid\":25663},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:TaxSubType:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:TaxSubType:\",\"visible\":true,\"common\":false,\"__gohashid\":25664},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:dbpErrCode:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:dbpErrCode:\",\"visible\":true,\"common\":false,\"__gohashid\":25665},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:dbpErrMsg:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:dbpErrMsg:\",\"visible\":true,\"common\":false,\"__gohashid\":25666},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:opstatus:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:opstatus:\",\"visible\":true,\"common\":false,\"__gohashid\":25667},{\"from\":\"target:TaxSubType:fields\",\"to\":\"target:TaxSubType:httpStatusCode:\",\"fromPort\":\"target:TaxSubType:fields\",\"toPort\":\"target:TaxSubType:httpStatusCode:\",\"visible\":true,\"common\":false,\"__gohashid\":25668}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

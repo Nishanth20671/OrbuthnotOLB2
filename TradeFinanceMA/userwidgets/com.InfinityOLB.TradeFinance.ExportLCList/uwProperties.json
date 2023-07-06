@@ -1,0 +1,179 @@
+{
+    "classname": "ExportLCList",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "g2a1e233329f458f82df75b71e96dae4",
+                    "paramList": [
+                        {
+                            "name": "context"
+                        }
+                    ],
+                    "propertyKey": "setContext",
+                    "pw": {
+                        "displayName": "setContext",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "db188bb397ab4f6685361c5ed8ad9422",
+                    "paramList": [],
+                    "propertyKey": "refreshComponent",
+                    "pw": {
+                        "displayName": "refreshComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f00aab70ef08440bb4b6f6126bf73323",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onTabClick",
+                    "pw": {
+                        "displayName": "onTabClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d41f20ee2b7146e5af19503bc4e55f91",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onError",
+                    "pw": {
+                        "displayName": "onError",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "dab99975cddb4a55a4a99e4a14397463",
+                    "paramList": [],
+                    "propertyIndex": 3,
+                    "propertyKey": "showErrorMessage",
+                    "pw": {
+                        "displayName": "showErrorMessage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "{\n  \"GetExportLetterOfCredits\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCredits\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\"\n    }\n  },\n  \"GetExportDrawings\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCreditDrawings\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\",\n      \"exportLcId\": \"${Collection.ExportLC.exportLcId}\"\n    }\n  },\n  \"GenerateExportLettersOfCredit\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"LCSummary\",\n    \"Verb\": \"generateExportLC\",\n    \"Criteria\": \"\"\n  },\n  \"GenerateExportDrawings\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"generateExportLetterOfCreditDrawing\",\n    \"Criteria\": \"\"\n  },\n  \"GetExportLetterOfCreditsById\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCreditsById\",\n    \"Criteria\": \"\"\n  },\n  \"GetExportDrawingById\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLetterOfCreditDrawingById\",\n    \"Criteria\": \"\"\n  },\n  \"GetExportAmendments\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLCAmmendments\",\n    \"Criteria\": {\n      \"searchString\": \"${Collection.ExportLC.searchString}\",\n      \"pageSize\": \"${Collection.ExportLC.pageSize}\",\n      \"pageOffset\": \"${Collection.ExportLC.pageOffset}\",\n      \"sortByParam\": \"${Collection.ExportLC.sortByParam}\",\n      \"sortOrder\": \"${Collection.ExportLC.sortOrder}\",\n      \"timeParam\": \"${Collection.ExportLC.timeParam}\",\n      \"timeValue\": \"${Collection.ExportLC.timeValue}\",\n      \"filterByValue\": \"${Collection.ExportLC.filterByValue}\",\n      \"filterByParam\": \"${Collection.ExportLC.filterByParam}\",\n      \"exportLcId\": \"${Collection.ExportLC.exportLcId}\"\n    }\n  },\n  \"GetExportAmendmentById\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"getExportLCAmendmentById\",\n    \"Criteria\": \"\"\n  },\n  \"GenerateExportAmendments\": {\n    \"ServiceType\": \"customVerb\",\n    \"Service\": \"TradeFinance\",\n    \"Object\": \"ExportLetterOfCredit\",\n    \"Verb\": \"generateExportLetterOfCreditAmendment\",\n    \"Criteria\": \"\"\n  }\n}",
+                    "group": "General",
+                    "kuid": "edd0dbd00a7a4f239b21b3adba622da0",
+                    "originalPropertyKey": "serviceParameters",
+                    "propertyIndex": 1,
+                    "propertyKey": "serviceParameters",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Service Parameters",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "jsonEditor-Retriever",
+                                "dataUpdaterId": "jsonEditor-Updater",
+                                "popupId": "jsonEditor-Popup",
+                                "type": "jsonEditor"
+                            }
+                        },
+                        "uiRepresentation": "Label-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "json",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\n  \"labels\": {\n    \"lblColumn1Tab1\": \"${i18n{i18n.ExportLC.Applicant}}\",\n    \"lblColumn2Tab1\": \"${i18n{i18n.ImportLC.LCReference}}\",\n    \"lblColumn3Tab1\": \"${i18n{i18n.ImportLC.LCType}}\",\n    \"lblColumn4Tab1\": \"${i18n{i18n.TradeFinance.updatedOn}}\",\n    \"lblColumn5Tab1\": \"${i18n{i18n.wealth.amount}}\",\n    \"lblColumn6Tab1\": \"${i18n{i18n.common.status}}\",\n    \"lblColumn7Tab1\": \"${i18n{i18n.TradeFinance.Actions}}\",\n    \"lblColumn1Tab2\": \"${i18n{i18n.ExportLC.Applicant}}\",\n    \"lblColumn2Tab2\": \"${i18n{i18n.TradeFinance.DrawingReference}}\",\n    \"lblColumn3Tab2\": \"${i18n{i18n.wealth.amount}}\",\n    \"lblColumn4Tab2\": \"${i18n{i18n.konybb.Common.Date}}\",\n    \"lblColumn5Tab2\": \"${i18n{i18n.common.status}}\",\n    \"lblColumn6Tab2\": \"${i18n{i18n.TradeFinance.Actions}}\",\n    \"lblColumn1Tab3\": \"${i18n{i18n.ExportLC.Applicant}}\",\n    \"lblColumn2Tab3\": \"${i18n{i18n.ImportLC.LCReference}}\",\n    \"lblColumn3Tab3\": \"${i18n{i18n.ImportLC.LCType}}\",\n    \"lblColumn4Tab3\": \"${i18n{i18n.TradeFinance.ReceivedOn}}\",\n    \"lblColumn5Tab3\": \"${i18n{i18n.TradeFinance.AmendmentNoWithDot}}\",\n    \"lblColumn6Tab3\": \"${i18n{i18n.common.status}}\",\n    \"lblColumn7Tab3\": \"${i18n{i18n.TradeFinance.Actions}}\"\n  },\n  \"buttons\": {\n    \"btnLOC\": \"${i18n{i18n.ImportLC.LetterofCredits}}\",\n    \"btnDrawings\": \"${i18n{i18n.ImportLC.Drawings}}\",\n    \"btnAmendments\": \"${i18n{i18n.ImportLC.Amendments}}\",\n    \"btnApply\": \"${i18n{i18n.wealth.datePicker.apply}}\",\n    \"btnCancel\": \"${i18n{i18n.konybb.common.cancel}}\"\n  }\n}",
+                    "group": "General",
+                    "kuid": "d8ed866e7b8747519132fd802409d3bd",
+                    "originalPropertyKey": "dataMapping",
+                    "propertyIndex": 2,
+                    "propertyKey": "dataMapping",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Data Mapping",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "jsonEditor-Retriever",
+                                "dataUpdaterId": "jsonEditor-Updater",
+                                "popupId": "jsonEditor-Popup",
+                                "type": "jsonEditor"
+                            }
+                        },
+                        "uiRepresentation": "Label-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "json",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{\n  \"CUSTOM_DATE\": {\n    \"BusinessRuleType\": \"FORMAT_DATE\",\n    \"BusinessRule\": {\n      \"inputFormat\": \"MM-DD-YYYY\",\n      \"displayFormat\": \"MM/DD/YYYY\"\n    }\n  }\n}",
+                    "group": "General",
+                    "kuid": "d55514259f114e889362f4de8d79496e",
+                    "originalPropertyKey": "dataFormatting",
+                    "propertyIndex": 3,
+                    "propertyKey": "dataFormatting",
+                    "pw": {
+                        "displayName": "Data Formatting",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "jsonEditor-Retriever",
+                                "dataUpdaterId": "jsonEditor-Updater",
+                                "popupId": "jsonEditor-Popup",
+                                "type": "jsonEditor"
+                            }
+                        },
+                        "uiRepresentation": "Label-Button"
+                    },
+                    "srcWgtKUID": "b861e7f985454a2e8bcfbba5837e05cf",
+                    "type": "json",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.InfinityOLB.TradeFinance",
+    "version": "1.0.0"
+}

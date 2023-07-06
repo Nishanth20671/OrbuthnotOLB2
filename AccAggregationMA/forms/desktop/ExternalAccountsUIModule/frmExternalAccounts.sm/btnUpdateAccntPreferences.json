@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s161cfe0a9704980851b68934d1df274",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Update Account Preferences"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {
+        "focusSkin": "sf44d06ca8224832827ea7fdff757013"
+    },
+    "displaytext": true,
+    "id": "btnUpdateAccntPreferences",
+    "info": null,
+    "isvisible": true,
+    "kuid": "f8d71bbcd9de4a36acce169c34060bc1",
+    "name": "kony.ui.Button",
+    "parent": "flxActions",
+    "pf": "frmExternalAccounts",
+    "responsiveData": {
+        "b1": {
+            "skin": "s161cfe0a9704980851b68934d1df274"
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "40px"
+            }
+        }
+    },
+    "texti18n": "i18n.AccountsAggregation.UpdateAccountPreferences",
+    "tooltip": "Update Account Preferences",
+    "wType": "Button",
+    "zindex": 1
+}

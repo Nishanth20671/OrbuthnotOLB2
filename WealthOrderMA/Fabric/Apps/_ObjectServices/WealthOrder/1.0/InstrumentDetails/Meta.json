@@ -1,0 +1,21 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "viewInstrumentTransactions" : "viewInstrumentTransactionsMapping",
+    "GetInstrumentDetails" : "GetInstrumentDetailsMapping",
+    "getstockNewsDetails" : "getstockNewsDetailsMapping",
+    "getSearchInstrumentList" : "getSearchInstrumentListMapping",
+    "getPricingData" : "getPricingDataMapping",
+    "getInstrumentMinimal" : "getInstrumentMinimalMapping",
+    "getStockNews" : "getStockNewsMapping",
+    "getStockNewsStory" : "getStockNewsStoryMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

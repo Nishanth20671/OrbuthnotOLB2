@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "portfolio-services.jar",
+    "type" : "jar"
+  }, {
+    "name" : "wealth-services.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

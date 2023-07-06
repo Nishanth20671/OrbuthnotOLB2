@@ -1,0 +1,8 @@
+{
+  "serviceType" : "orchestration",
+  "jars" : [ {
+    "name" : "wealthorder-services.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

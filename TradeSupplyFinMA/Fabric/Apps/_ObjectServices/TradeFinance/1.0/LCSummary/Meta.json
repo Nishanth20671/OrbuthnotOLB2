@@ -1,0 +1,25 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "downloadGeneratedList" : "downloadGeneratedListMapping",
+    "generateGuaranteesList" : "generateGuaranteesListMapping",
+    "generateImportDrawingsList" : "generateImportDrawingsListMapping",
+    "downloadGeneratedAcknowledgement" : "downloadGeneratedAcknowledgementMapping",
+    "generateExportAmendmentList" : "generateExportAmendmentListMapping",
+    "generateImportLCAmendment" : "generateImportLCAmendmentMapping",
+    "generateImportAmendmentsList" : "generateImportAmendmentsListMapping",
+    "generateExportLC" : "generateExportLCMapping",
+    "generateExportDrawingsList" : "generateExportDrawingsListMapping",
+    "generateImportLetterOfCreditsList" : "generateImportLetterOfCreditsListMapping",
+    "generate" : "generateMapping",
+    "generateExportLetterOfCreditList" : "generateExportLetterOfCreditListMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

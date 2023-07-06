@@ -1,0 +1,8 @@
+{
+  "serviceType" : "orchestration",
+  "jars" : [ {
+    "name" : "portfolio-services.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

@@ -1,0 +1,54 @@
+{
+  "meta" : "{\"locked\":true}",
+  "subType" : "customapp",
+  "description" : "WealthOrder",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "ReutersServices",
+    "version" : "1.0",
+    "etag" : "379d65c5-b65b-4dcb-83b4-56fd114ae9a0"
+  }, {
+    "name" : "WealthOrderMockServices",
+    "version" : "1.0",
+    "etag" : "0b57c57d-d637-443e-9d76-614d68d16e72"
+  }, {
+    "name" : "WealthOrderRefinitivServices",
+    "version" : "1.0",
+    "etag" : "851ac254-63a8-4808-baea-b4e108823e96"
+  }, {
+    "name" : "WealthOrderServices",
+    "version" : "1.0",
+    "etag" : "c927a162-6cac-4c09-9db8-125cdc4120b7"
+  }, {
+    "name" : "WealthOrderT24Services",
+    "version" : "1.0",
+    "etag" : "650bd421-28e4-406d-9306-b6afcfbe1ae3"
+  }, {
+    "name" : "WealthOrderTAPServices",
+    "version" : "1.0",
+    "etag" : "10c81e2f-1dff-41e5-8e50-9a2e3a41995d"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "WealthOrderOrch",
+    "version" : "1.0",
+    "etag" : "8d3bbb9f-b8b9-498b-ac34-cc084618270a"
+  }, {
+    "name" : "WealthOrderT24Orch",
+    "version" : "1.0",
+    "etag" : "19aaaa41-38dd-448c-8d18-a9c868bf042c"
+  }, {
+    "name" : "WealthOrderTAPOrch",
+    "version" : "1.0",
+    "etag" : "fa2fff6d-6e20-4a57-aa3b-959a22d76yhn"
+  }, {
+    "name" : "WealthOrderRefinitivOrch",
+    "version" : "1.0",
+    "etag" : "ed517b73-ac20-42a4-a4c5-fbe682a8ade8"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "WealthOrder",
+    "version" : "1.0",
+    "etag" : "88bd3e4c-cf39-443d-8fa6-3f13bfa1c643"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

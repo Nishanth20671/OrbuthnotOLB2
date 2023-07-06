@@ -1,0 +1,22 @@
+{
+  "jars" : [ {
+    "name" : "dbp-ObjectServices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "holdingsapi-services.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-productservices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "arrangementsapi-services.jar",
+    "type" : "jar"
+  } ],
+  "config" : {
+    "metadataSecurity" : "authorized_app_user",
+    "delete_strategy" : "soft-delete",
+    "uploadCache" : false,
+    "conflict_policy" : "none"
+  },
+  "empty" : true
+}

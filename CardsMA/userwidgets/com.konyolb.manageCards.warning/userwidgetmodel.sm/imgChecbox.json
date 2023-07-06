@@ -1,0 +1,63 @@
+{
+	 "@class": "com.kony.gen.viz.model.component.KVizImage2",
+	 "DNDConfig": null,
+	 "__parentReadjusting__": false,
+	 "_base64_": null,
+	 "_height_": {
+		 "type": "string",
+		 "value": "20px"
+	},
+	 "_left_": {
+		 "type": "string",
+		 "value": "0%"
+	},
+	 "_margin_": [
+		 0,
+		 0,
+		 0,
+		 0
+	],
+	 "_padding_": [
+		 0,
+		 0,
+		 0,
+		 0
+	],
+	 "_skin_": "s78a5f26c9f14cec9ebed1bb46098f80",
+	 "_src_": "unchecked_box.png",
+	 "_top_": {
+		 "type": "string",
+		 "value": "0dp"
+	},
+	 "_width_": {
+		 "type": "string",
+		 "value": "20dp"
+	},
+	 "canUpdateUI": true,
+	 "containerweight": 100,
+	 "context": {
+		 "channel": "desktop",
+		 "formID": "uwu63f03ac1eb64dd1a4457d71df524962",
+		 "platform": "desktopweb",
+		 "templateType": "userwidgets",
+		 "topLevelBox": null
+	},
+	 "id": "imgChecbox",
+	 "imagescalemode": 0,
+	 "imagewhiledownloading": "img_transparent.png",
+	 "info": null,
+	 "invokedProperty": "src",
+	 "isvisible": true,
+	 "kuid": "cafe4cbaf61b4ff3ba912aca67df971f",
+	 "name": "kony.ui.Image2",
+	 "parent": "flxCheckbox",
+	 "pf": "userwidgetmodel",
+	 "srcType": 1,
+	 "wType": "Image",
+	 "widgetalignment": 5,
+	 "zindex": 1,
+	 "accessibilityconfig": {
+		 "a11yLabel": "Checkbox",
+		 "a11yValue": ""
+	}
+}

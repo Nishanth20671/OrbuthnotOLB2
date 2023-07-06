@@ -1,0 +1,17 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "retrieveDocuments" : "retrieveDocumentsMapping",
+    "downloadDocument" : "downloadDocumentMapping",
+    "deleteDocument" : "deleteDocumentMapping",
+    "uploadDocument" : "uploadDocumentMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_eff86188404d493989613258a1433b28": {
+        "id": "AS_Form_eff86188404d493989613258a1433b28",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSelectExternalBanks",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d92ec5c101074474b0f27bc3b0994b14"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_dfa02026747d48a3b142e200ca0a03d3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setPreshowUiAndActions();",
+            "parentId": null
+        }]
+    }
+}

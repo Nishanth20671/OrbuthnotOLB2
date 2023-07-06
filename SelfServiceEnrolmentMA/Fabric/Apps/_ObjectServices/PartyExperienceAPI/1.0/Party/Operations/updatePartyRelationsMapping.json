@@ -1,0 +1,44 @@
+{
+  "operationConfig" : {
+    "name" : "UpdatePartyRelationsOperation3393",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"relationType\" outputpath=\"relationType\"/><set-param inputpath=\"partyId\" outputpath=\"partyId\"/></map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"code\" outputpath=\"code\"/><set-param inputpath=\"id\" outputpath=\"id\"/><set-param inputpath=\"message\" outputpath=\"message\"/><set-param inputpath=\"status\" outputpath=\"status\"/></map></mapper>",
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "backendMeta" : {
+      "serviceName" : "eumPartyServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "UpdatePartyRelationsOperation"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "Party",
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"request_in\" outputpath=\"request_out\"><set-param inputpath=\"relationType\" outputpath=\"relationType\"/><set-param inputpath=\"partyId\" outputpath=\"partyId\"/></map></mapper>",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\"><map inputpath=\"response_in\" outputpath=\"response_out\"><set-param inputpath=\"code\" outputpath=\"code\"/><set-param inputpath=\"id\" outputpath=\"id\"/><set-param inputpath=\"message\" outputpath=\"message\"/><set-param inputpath=\"status\" outputpath=\"status\"/></map></mapper>",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

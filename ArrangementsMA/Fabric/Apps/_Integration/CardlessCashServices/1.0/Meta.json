@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-ObjectServices.jar",
+    "type" : "jar"
+  }, {
+    "name" : "dbp-cardlesscash.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

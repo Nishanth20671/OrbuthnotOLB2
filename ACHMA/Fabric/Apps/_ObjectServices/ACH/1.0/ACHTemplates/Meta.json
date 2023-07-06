@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "Execute" : "ExecuteMapping",
+    "getTemplateDetailsById" : "getTemplateDetailsByIdMapping",
+    "getAllACHTemplates" : "getAllACHTemplatesMapping",
+    "createACHTemplate" : "createACHTemplateMapping",
+    "editACHTemplate" : "editACHTemplateMapping",
+    "deleteACHTemplate" : "deleteACHTemplateMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

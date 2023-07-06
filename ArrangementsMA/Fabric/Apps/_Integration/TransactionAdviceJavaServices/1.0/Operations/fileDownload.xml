@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" customOperation="false" description="" endpoint="default" groupType="" id="fileDownload" passwordencrypted="false" security="authorized_app" type="javaConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="className" value="com.temenos.infinity.api.docmanagement.javaservices.DownloadFileOperation"/>
+        <config-param api-version="" appid="" name="methodName" value="fileDownload"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="mediaType" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="pdf" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="fileName" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="sample" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="id" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="12884906629" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="revision" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="1" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Auth_Token" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="eyAidHlwIjogImp3dCIsICJhbGciOiAiUlMyNTYiIH0.eyAiX2VtYWlsIjogInZlbmthdGEuY2hhbGxhZ3VuZGxhQHRlbWVub3MuY29tIiwgIl92ZXIiOiAidjEuMSIsICJpc3MiOiAiaHR0cDovL2toMTU3NC50ZW1lbm9zZ3JvdXAuY29tOjgwODEvYXV0aFNlcnZpY2UvMTAwMDAwMDAyIiwgIl9zY29wZSI6ICJnIiwgIl9pc3NtZXRhIjogIi9tZXRhZGF0YS9RS1UtWmpXT1ZmbVdhZ2FGTS1MMU13PT0iLCAiX2FwcCI6ICJkMzY5NTlkZC04ZDUwLTQ1NDMtODM1MS1mOTZjY2E2ZjJjZGUiLCAiX3Nlc3Npb25faWQiOiAiM2ZhMGQ1MzMtZTkzNy00OTMzLTkzNzctYjc0YTU0ZGM1MThjIiwgIl9wdWlkIjogMjE0MzQ1NDMyMDkzNzQ2OTg2NiwgIl9hdXRoeiI6ICJleUp3WlhKdGFYTnphVzl1Y3lJNmUzMHNJbkp2YkdWeklqcGJYWDAiLCAiX2lkcCI6ICJ1c2VybG9naW4iLCAiZXhwIjogMTU5Nzk5NzM0OCwgImlhdCI6IDE1OTc5OTYxNDgsICJfc2Vzc2lvbl90aWQiOiAiMTAwMDAwMDAyIiwgIl9wcm92X3VzZXJpZCI6ICJ2ZW5rYXRhLmNoYWxsYWd1bmRsYUB0ZW1lbm9zLmNvbSIsICJqdGkiOiAiNGQyYjZlZTQtM2QyYS00Yzg5LWEwNWQtNWRkNDNkNDcxNGFlIiwgIl9hY3MiOiAiMTAwMDAwMDAyIiwgIl9wcm92aWRlcnMiOiBbICJ1c2VybG9naW4iIF0gfQ.al0terh1kbSWzT70BNrJPYezJxoRECgIvmq0M5kkrrM8UToz_3sxB9atTGNi778nx3xXxJU6H91uQtQQwxPcbTpC7xT-5hGayWakwqyhUg2cCO1wcXh8V7n30taWhSdPhagPJ9mC1WuGTP3sbWPuCQjvCiGWKaNV_G40TYJu56tpK082aLKpxVYfp7ElOsjrRlFofQC7QLtPCzi02h6LxUYywhxVE8nQ9wu2ezKxplZIK70sBIHnHVjid7m-lO0K81OuAbswhk5S_18Ui9c1aY0jZtXGMrvfGjgd2_3TXp6ujoPszT5JYC-bKqv4q3v78wFHyouGDsjzPKX7IHuK1A" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-input>
+    <service-output passthrough="true" isExtended="false"/>
+</service>

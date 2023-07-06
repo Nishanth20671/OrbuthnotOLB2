@@ -1,0 +1,95 @@
+{
+  "operationConfig" : {
+    "name" : "GetACHFileFormats4733",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "odata" : [ {
+      "id" : "$select",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$filter",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$orderby",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$top",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$skip",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$expand",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchsize",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    }, {
+      "id" : "$batchid",
+      "dataType" : "string",
+      "encode" : true,
+      "accessType" : "readonly",
+      "isExtended" : false
+    } ],
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                    <map inputpath=\"response_in\" outputpath=\"response_out\">                                        <map inputpath=\"achfileformats\" outputpath=\"ACHFileFormats\">                                                          <set-param inputpath=\"fileextension\" outputpath=\"Fileextension\" />                                                          <set-param inputpath=\"fileType\" outputpath=\"FileType\" />                                                          <set-param inputpath=\"mimetype\" outputpath=\"MIMEtype\" />                                                          <set-param inputpath=\"id\" outputpath=\"id\" />                                          </map>                         <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                                    <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                            <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                            <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />              </map></mapper>",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ACHFileFormats\",\"xy\":\"770 100\",\"__gohashid\":1340},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpACHServices (1.0).GetACHFileFormats\",\"xy\":\"150 100\",\"__gohashid\":1341}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:ACHFileFormats\",\"fromPort\":\"target\",\"toPort\":\"target:ACHFileFormats\",\"visible\":true,\"common\":false,\"__gohashid\":1478},{\"from\":\"target:ACHFileFormats\",\"to\":\"target:ACHFileFormats:fields\",\"fromPort\":\"target:ACHFileFormats\",\"toPort\":\"target:ACHFileFormats:fields\",\"visible\":true,\"common\":false,\"__gohashid\":1479},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:id:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:id:\",\"visible\":true,\"common\":false,\"__gohashid\":1480},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:Fileextension:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:Fileextension:\",\"visible\":true,\"common\":false,\"__gohashid\":1481},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:FileType:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:FileType:\",\"visible\":true,\"common\":false,\"__gohashid\":1482},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:MIMEtype:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:MIMEtype:\",\"visible\":true,\"common\":false,\"__gohashid\":1483},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:dbpErrCode:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:dbpErrCode:\",\"visible\":true,\"common\":false,\"__gohashid\":1484},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:dbpErrMsg:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:dbpErrMsg:\",\"visible\":true,\"common\":false,\"__gohashid\":1485},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:httpStatusCode:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:httpStatusCode:\",\"visible\":true,\"common\":false,\"__gohashid\":1486},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:opstatus:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:opstatus:\",\"visible\":true,\"common\":false,\"__gohashid\":1487}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "dbpACHServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "GetACHFileFormats"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "ACHFileFormats",
+      "actions" : {
+        "get" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                    <map inputpath=\"response_in\" outputpath=\"response_out\">                                        <map inputpath=\"achfileformats\" outputpath=\"ACHFileFormats\">                                                          <set-param inputpath=\"fileextension\" outputpath=\"Fileextension\" />                                                          <set-param inputpath=\"fileType\" outputpath=\"FileType\" />                                                          <set-param inputpath=\"mimetype\" outputpath=\"MIMEtype\" />                                                          <set-param inputpath=\"id\" outputpath=\"id\" />                                          </map>                         <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                                    <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                            <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                            <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />              </map></mapper>",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"ACHFileFormats\",\"xy\":\"770 100\",\"__gohashid\":1340},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"dbpACHServices (1.0).GetACHFileFormats\",\"xy\":\"150 100\",\"__gohashid\":1341}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:ACHFileFormats\",\"fromPort\":\"target\",\"toPort\":\"target:ACHFileFormats\",\"visible\":true,\"common\":false,\"__gohashid\":1478},{\"from\":\"target:ACHFileFormats\",\"to\":\"target:ACHFileFormats:fields\",\"fromPort\":\"target:ACHFileFormats\",\"toPort\":\"target:ACHFileFormats:fields\",\"visible\":true,\"common\":false,\"__gohashid\":1479},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:id:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:id:\",\"visible\":true,\"common\":false,\"__gohashid\":1480},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:Fileextension:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:Fileextension:\",\"visible\":true,\"common\":false,\"__gohashid\":1481},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:FileType:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:FileType:\",\"visible\":true,\"common\":false,\"__gohashid\":1482},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:MIMEtype:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:MIMEtype:\",\"visible\":true,\"common\":false,\"__gohashid\":1483},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:dbpErrCode:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:dbpErrCode:\",\"visible\":true,\"common\":false,\"__gohashid\":1484},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:dbpErrMsg:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:dbpErrMsg:\",\"visible\":true,\"common\":false,\"__gohashid\":1485},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:httpStatusCode:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:httpStatusCode:\",\"visible\":true,\"common\":false,\"__gohashid\":1486},{\"from\":\"target:ACHFileFormats:fields\",\"to\":\"target:ACHFileFormats:opstatus:\",\"fromPort\":\"target:ACHFileFormats:fields\",\"toPort\":\"target:ACHFileFormats:opstatus:\",\"visible\":true,\"common\":false,\"__gohashid\":1487}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

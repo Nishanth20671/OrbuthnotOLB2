@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0.50%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0e96acc37c6433384321ab444392007",
+    "_text_": "Locate Us",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "32%"
+    },
+    "accessibilityconfig": {
+        "a11yHint": "Click on Locate Us to view our branch locations",
+        "a11yLabel": "LOCATE"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "sae2e4475aa3419b8c89d14cf90383cb",
+    "id": "btnLocate",
+    "ide_onClick": "AS_Button_e871bfd24cd74f03b0880c9f934f9980",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "h9dbf82aeeda4786800bb6cbcf14a170",
+    "name": "kony.ui.Button",
+    "parent": "flxFooterInner",
+    "pf": "frmLogin",
+    "texti18n": "kony.mb.Hamburger.Locateus",
+    "wType": "Button",
+    "zindex": 1
+}

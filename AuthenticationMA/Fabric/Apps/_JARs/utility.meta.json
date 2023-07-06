@@ -1,0 +1,4 @@
+{
+  "dependentJars" : [ "mail-1.4.7.jar", "poi-ooxml-schemas-4.1.2.jar", "io-7.1.5.jar", "layout-7.1.5.jar", "kernel-7.2.4.jar", "poi-4.1.2.jar", "commons-compress-1.21.jar", "jmimemagic-0.1.5.jar", "poi-ooxml-4.1.2.jar", "commons-csv-1.0.jar" ],
+  "empty" : true
+}

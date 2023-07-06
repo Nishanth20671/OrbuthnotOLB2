@@ -1,0 +1,23 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getReferenceById" : "getReferenceByIdMapping",
+    "UpdateDetails" : "UpdateDetailsMapping",
+    "UpdateAddressWithProof" : "UpdateAddressWithProofMapping",
+    "checkUserEnrolled" : "checkUserEnrolledMapping",
+    "geRequestStatus" : "geRequestStatusMapping",
+    "get" : "getMapping",
+    "create" : "createMapping",
+    "getCustomerIdentifiers" : "getCustomerIdentifiersMapping",
+    "partialupdate" : "partialupdateMapping",
+    "verifyExistingPassword" : "verifyExistingPasswordMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

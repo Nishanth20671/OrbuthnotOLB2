@@ -1,0 +1,14 @@
+Aug 25, 2021 3:12:13 PM com.temenos.deploycomps.ComponentDeployer startup
+INFO: Copying from D:\MicroApp\workspace2\SavingsPotMA/infinitycomponents to D:\MicroApp\workspace2\SavingsPotMA/ResourcesMA
+Aug 25, 2021 3:12:13 PM com.temenos.deploycomps.ComponentDeployer getSegmentsToDeploy
+SEVERE: Segment D:\MicroApp\workspace2\SavingsPotMA\infinitycomponents\templates\desktop\segments\segUserActions.sm\segUserActions.json does not exist
+Aug 25, 2021 3:12:13 PM com.temenos.deploycomps.ComponentDeployer getSegmentsToDeploy
+SEVERE: Segment D:\MicroApp\workspace2\SavingsPotMA\infinitycomponents\templates\mobile\segments\segGoalsType.sm\segGoalsType.json does not exist
+Aug 25, 2021 3:12:13 PM com.temenos.deploycomps.ComponentDeployer getSegmentsToDeploy
+SEVERE: Segment D:\MicroApp\workspace2\SavingsPotMA\infinitycomponents\templates\mobile\segments\segMyGoals.sm\segMyGoals.json does not exist
+Aug 25, 2021 3:12:13 PM com.temenos.deploycomps.ComponentDeployer getSegmentsToDeploy
+SEVERE: Segment D:\MicroApp\workspace2\SavingsPotMA\infinitycomponents\templates\mobile\segments\segMyBudgets.sm\segMyBudgets.json does not exist
+Aug 25, 2021 3:12:13 PM com.temenos.deploycomps.ComponentDeployer getSegmentsToDeploy
+SEVERE: Segment D:\MicroApp\workspace2\SavingsPotMA\infinitycomponents\templates\mobile\segments\segFrequencyDay.sm\segFrequencyDay.json does not exist
+Aug 25, 2021 3:12:13 PM com.temenos.deploycomps.ComponentDeployer startup
+INFO: Completed..

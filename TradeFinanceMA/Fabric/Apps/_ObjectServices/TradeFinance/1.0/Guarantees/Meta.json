@@ -1,0 +1,33 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "getClauses" : "getClausesMapping",
+    "createGuarantees" : "createGuaranteesMapping",
+    "saveGuarantees" : "saveGuaranteesMapping",
+    "getGuaranteeAmendments" : "getGuaranteeAmendmentsMapping",
+    "updateGuaranteeLetterOfCredit" : "updateGuaranteeLetterOfCreditMapping",
+    "updateGuaranteeLcByBank" : "updateGuaranteeLcByBankMapping",
+    "DeleteGuaranteeLetterOfCredit" : "DeleteGuaranteeLetterOfCreditMapping",
+    "updateGuaranteeAmendment" : "updateGuaranteeAmendmentMapping",
+    "createClause" : "createClauseMapping",
+    "getLimitInstructions" : "getLimitInstructionsMapping",
+    "createGuaranteeAmendment" : "createGuaranteeAmendmentMapping",
+    "getGuaranteeAmendmentById" : "getGuaranteeAmendmentByIdMapping",
+    "getGuaranteesById" : "getGuaranteesByIdMapping",
+    "getGuarantees" : "getGuaranteesMapping",
+    "updateClause" : "updateClauseMapping",
+    "generateGuaranteeAmendmentList" : "generateGuaranteeAmendmentListMapping",
+    "updateGuaranteeAmendmentByBank" : "updateGuaranteeAmendmentByBankMapping",
+    "generateGuaranteeAmendment" : "generateGuaranteeAmendmentMapping",
+    "generateGuarantees" : "generateGuaranteesMapping",
+    "UpdateIssuedGuaranteeClaimByBank" : "UpdateIssuedGuaranteeClaimByBankMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

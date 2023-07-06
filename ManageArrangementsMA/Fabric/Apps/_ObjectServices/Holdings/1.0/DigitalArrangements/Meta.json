@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "closeAccount" : "closeAccountMapping",
+    "submitAccountClosureServiceRequest" : "submitAccountClosureServiceRequestMapping",
+    "getList" : "getListMapping",
+    "get" : "getMapping",
+    "validateAccountClosure" : "validateAccountClosureMapping",
+    "getInfinityAccounts" : "getInfinityAccountsMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "layout-7.1.5.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "kernel-7.2.1.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-nonproductservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "RBMetrics-4.2.0.jar",
+    "type" : "jar"
+  }, {
+    "name" : "mail-1.4.7.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "io-7.1.5.jar",
+    "type" : "dependentJar"
+  } ],
+  "empty" : true
+}

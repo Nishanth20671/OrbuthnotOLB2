@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-campaignengine.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "dbp-CampaignJWTGeneration.jar",
+    "type" : "jar"
+  } ],
+  "empty" : true
+}

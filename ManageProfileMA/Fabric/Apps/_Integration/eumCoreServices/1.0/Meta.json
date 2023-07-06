@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "eum-productservices.jar",
+    "type" : "servicejar"
+  }, {
+    "name" : "dbp-demoandcoreservices.jar",
+    "type" : "dependentJar"
+  } ],
+  "empty" : true
+}

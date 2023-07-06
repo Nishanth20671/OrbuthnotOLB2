@@ -1,0 +1,11 @@
+{
+  "serviceType" : "integration",
+  "jars" : [ {
+    "name" : "dbp-commonutilityservices.jar",
+    "type" : "dependentJar"
+  }, {
+    "name" : "dbp-productservices.jar",
+    "type" : "servicejar"
+  } ],
+  "empty" : true
+}

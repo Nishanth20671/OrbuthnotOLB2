@@ -1,0 +1,103 @@
+{
+    "HEAD": "w57b7b77498a457d84202d862ead04f5",
+    "w10f5c83107043968323997bb8d88462": {
+        "extension": "md",
+        "kuid": "w10f5c83107043968323997bb8d88462",
+        "name": "README.md",
+        "parent": "w79b93f48fac4f74aa061fc477046b43",
+        "type": "F"
+    },
+    "w1b002f7546d41dfbf3912e163cf37f5": {
+        "extension": "png",
+        "kuid": "w1b002f7546d41dfbf3912e163cf37f5",
+        "name": "logo.png",
+        "parent": "waab54b0ed91485cb3145a5a536124a5",
+        "type": "F"
+    },
+    "w44480a6df0b44f9b2900f218cb7675f": {
+        "extension": "css",
+        "kuid": "w44480a6df0b44f9b2900f218cb7675f",
+        "name": "index.css",
+        "parent": "wafa3344242a4542b8e3ecd8ecf51cc0",
+        "type": "F"
+    },
+    "w57b7b77498a457d84202d862ead04f5": {
+        "children": [
+            "w79b93f48fac4f74aa061fc477046b43",
+            "w70bd6eb510842cb82afea36980a7ba6",
+            "wbbd19855e3646b7ba867f01bbd6434b"
+        ],
+        "kuid": "w57b7b77498a457d84202d862ead04f5",
+        "name": "cordova",
+        "type": "C"
+    },
+    "w64a64e027d646c5b540d72aadcde267": {
+        "extension": "html",
+        "kuid": "w64a64e027d646c5b540d72aadcde267",
+        "name": "index.html",
+        "parent": "w70bd6eb510842cb82afea36980a7ba6",
+        "type": "F"
+    },
+    "w70bd6eb510842cb82afea36980a7ba6": {
+        "children": [
+            "wafa3344242a4542b8e3ecd8ecf51cc0",
+            "waab54b0ed91485cb3145a5a536124a5",
+            "w64a64e027d646c5b540d72aadcde267",
+            "w932c52dc8b64a858893c1fc80f21c02"
+        ],
+        "kuid": "w70bd6eb510842cb82afea36980a7ba6",
+        "name": "www",
+        "parent": "w57b7b77498a457d84202d862ead04f5",
+        "type": "D"
+    },
+    "w79b93f48fac4f74aa061fc477046b43": {
+        "children": [
+            "w10f5c83107043968323997bb8d88462"
+        ],
+        "kuid": "w79b93f48fac4f74aa061fc477046b43",
+        "name": "hooks",
+        "parent": "w57b7b77498a457d84202d862ead04f5",
+        "type": "D"
+    },
+    "w932c52dc8b64a858893c1fc80f21c02": {
+        "children": [
+            "wafde0dbd17545a1a74dc04e44d2834c"
+        ],
+        "kuid": "w932c52dc8b64a858893c1fc80f21c02",
+        "name": "js",
+        "parent": "w70bd6eb510842cb82afea36980a7ba6",
+        "type": "D"
+    },
+    "waab54b0ed91485cb3145a5a536124a5": {
+        "children": [
+            "w1b002f7546d41dfbf3912e163cf37f5"
+        ],
+        "kuid": "waab54b0ed91485cb3145a5a536124a5",
+        "name": "img",
+        "parent": "w70bd6eb510842cb82afea36980a7ba6",
+        "type": "D"
+    },
+    "wafa3344242a4542b8e3ecd8ecf51cc0": {
+        "children": [
+            "w44480a6df0b44f9b2900f218cb7675f"
+        ],
+        "kuid": "wafa3344242a4542b8e3ecd8ecf51cc0",
+        "name": "css",
+        "parent": "w70bd6eb510842cb82afea36980a7ba6",
+        "type": "D"
+    },
+    "wafde0dbd17545a1a74dc04e44d2834c": {
+        "extension": "js",
+        "kuid": "wafde0dbd17545a1a74dc04e44d2834c",
+        "name": "index.js",
+        "parent": "w932c52dc8b64a858893c1fc80f21c02",
+        "type": "F"
+    },
+    "wbbd19855e3646b7ba867f01bbd6434b": {
+        "extension": "xml",
+        "kuid": "wbbd19855e3646b7ba867f01bbd6434b",
+        "name": "config.xml",
+        "parent": "w57b7b77498a457d84202d862ead04f5",
+        "type": "F"
+    }
+}

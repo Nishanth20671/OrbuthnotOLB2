@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s94cdb65efdd4952844640b768507380",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "BillDetails"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxBillDetailsContainer",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b61709fc8b9441bc97055882fa6359f9",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxBillDetails",
+    "pf": "frmCreateBillStep3",
+    "responsiveData": {
+        "b1": {},
+        "b2": {},
+        "b3": {},
+        "b4": {}
+    },
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 2
+}

@@ -1,0 +1,50 @@
+{
+  "operationConfig" : {
+    "name" : "initiateDownloadTradeFinanceAck3435",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"request_in\" outputpath=\"request_out\">                <set-param inputpath=\"srmsReqOrderID\" outputpath=\"srmsReqOrderID\"/>        </map></mapper>",
+    "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                                      <map inputpath=\"response_in\" outputpath=\"response_out\">                                                                            <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>                      <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                                          <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                                          <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                                          <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />                    </map></mapper>",
+    "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"LCSummary\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceServices (1.0).initiateDownloadTradeFinanceAck\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:LCSummary\",\"fromPort\":\"source\",\"toPort\":\"source:LCSummary\",\"visible\":true,\"common\":false},{\"from\":\"source:LCSummary\",\"to\":\"source:LCSummary:t_p_fields\",\"fromPort\":\"source:LCSummary\",\"toPort\":\"source:LCSummary:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:srmsReqOrderID:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:srmsReqOrderID:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"LCSummary\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceServices (1.0).initiateDownloadTradeFinanceAck\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:LCSummary\",\"fromPort\":\"target\",\"toPort\":\"target:LCSummary\",\"visible\":true,\"common\":false},{\"from\":\"target:LCSummary\",\"to\":\"target:LCSummary:t_p_fields\",\"fromPort\":\"target:LCSummary\",\"toPort\":\"target:LCSummary:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source\",\"to\":\"source:t_p_parameters\",\"fromPort\":\"source\",\"toPort\":\"source:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:fileId:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+    "applyCommonMapping" : false,
+    "applyRequestCommonMapping" : false,
+    "applyResponseCommonMapping" : false,
+    "backendMeta" : {
+      "serviceName" : "TradeFinanceServices",
+      "serviceVersion" : "1.0",
+      "operationName" : "initiateDownloadTradeFinanceAck"
+    },
+    "relationshipHierarchyMapping" : {
+      "name" : "LCSummary",
+      "children" : [ ],
+      "actions" : { },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : true,
+    "responseXmlMappingOverride" : true,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "iMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">        <map inputpath=\"request_in\" outputpath=\"request_out\">                <set-param inputpath=\"srmsReqOrderID\" outputpath=\"srmsReqOrderID\"/>        </map></mapper>",
+      "oMapping" : "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><mapper xmlns=\"http://www.kony.com/ns/mapper\">                                      <map inputpath=\"response_in\" outputpath=\"response_out\">                                                                            <set-param inputpath=\"fileId\" outputpath=\"fileId\"/>                      <set-param outputpath=\"dbpErrCode\" inputpath=\"dbpErrCode\" />                                          <set-param outputpath=\"dbpErrMsg\" inputpath=\"dbpErrMsg\" />                                          <set-param outputpath=\"opstatus\" inputpath=\"opstatus\" />                                          <set-param outputpath=\"httpStatusCode\" inputpath=\"httpStatusCode\" />                    </map></mapper>",
+      "iVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"request_in\",\"text\":\"LCSummary\",\"xy\":\"150 100\"},{\"isGroup\":true,\"key\":\"request_out\",\"text\":\"TradeFinanceServices (1.0).initiateDownloadTradeFinanceAck\",\"xy\":\"770 100\"}],\"linkDataArray\":[{\"from\":\"source\",\"to\":\"source:LCSummary\",\"fromPort\":\"source\",\"toPort\":\"source:LCSummary\",\"visible\":true,\"common\":false},{\"from\":\"source:LCSummary\",\"to\":\"source:LCSummary:t_p_fields\",\"fromPort\":\"source:LCSummary\",\"toPort\":\"source:LCSummary:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"target\",\"to\":\"target:t_p_parameters\",\"fromPort\":\"target\",\"toPort\":\"target:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"target:t_p_parameters\",\"to\":\"target:srmsReqOrderID:\",\"fromPort\":\"target:t_p_parameters\",\"toPort\":\"target:srmsReqOrderID:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "oVisualMappingData" : "{\"nodeDataArray\":[{\"isGroup\":true,\"key\":\"response_out\",\"text\":\"LCSummary\",\"xy\":\"770 100\"},{\"isGroup\":true,\"key\":\"response_in\",\"text\":\"TradeFinanceServices (1.0).initiateDownloadTradeFinanceAck\",\"xy\":\"150 100\"}],\"linkDataArray\":[{\"from\":\"target\",\"to\":\"target:LCSummary\",\"fromPort\":\"target\",\"toPort\":\"target:LCSummary\",\"visible\":true,\"common\":false},{\"from\":\"target:LCSummary\",\"to\":\"target:LCSummary:t_p_fields\",\"fromPort\":\"target:LCSummary\",\"toPort\":\"target:LCSummary:t_p_fields\",\"visible\":true,\"common\":false},{\"from\":\"source\",\"to\":\"source:t_p_parameters\",\"fromPort\":\"source\",\"toPort\":\"source:t_p_parameters\",\"visible\":true,\"common\":false},{\"from\":\"source:t_p_parameters\",\"to\":\"source:fileId:\",\"fromPort\":\"source:t_p_parameters\",\"toPort\":\"source:fileId:\",\"visible\":true,\"common\":false}],\"blockCount\":{\"variableCount\":0},\"variableMap\":{},\"xmlMappingOverride\":true}",
+      "requestXmlMappingOverride" : true,
+      "responseXmlMappingOverride" : true,
+      "disabled" : false,
+      "applyCommonMapping" : false,
+      "applyRequestCommonMapping" : false,
+      "applyResponseCommonMapping" : false
+    } ]
+  },
+  "enableFrontendUrl" : true,
+  "customVerb" : false,
+  "frontendUrlPath" : "generate",
+  "frontend_supported_method" : "POST"
+}

@@ -1,0 +1,75 @@
+{
+    "DNDConfig": null,
+    "__UDWInstanceModelForRender__": true,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s03e902ebdc04c30b59c09a01c950cca",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "23%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "lblShowBatchBills",
+        "lblSwitchToBatchBills"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxSwitch",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "aec44683136941d8845a9de6981d4a45",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxTabOptions",
+    "pf": "frmReceivableBillsDashboard",
+    "responsiveData": {
+        "b2": {
+            "right": {
+                "type": "string",
+                "value": "2%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "reverselayoutdirection": true,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

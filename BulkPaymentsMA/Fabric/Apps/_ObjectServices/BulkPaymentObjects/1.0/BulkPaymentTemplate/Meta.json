@@ -1,0 +1,19 @@
+{
+  "type" : "svcdriven",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "createBulkRequest" : "createBulkRequestMapping",
+    "fetchBulkPaymentTemplates" : "fetchBulkPaymentTemplatesMapping",
+    "editBulkPaymentTemplate" : "editBulkPaymentTemplateMapping",
+    "fetchBulkPaymentTemplateById" : "fetchBulkPaymentTemplateByIdMapping",
+    "deleteBulkPaymentTemplate" : "deleteBulkPaymentTemplateMapping",
+    "createBulkPaymentTemplate" : "createBulkPaymentTemplateMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "buffer",
+    "backendMeta" : { },
+    "designTimeBackendMeta" : { }
+  }
+}
