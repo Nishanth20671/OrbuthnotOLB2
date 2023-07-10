@@ -102,6 +102,7 @@
                 "type": "string",
                 "value": ""
             },
+            "isVisible": false,
             "left": {
                 "type": "string",
                 "value": "0"

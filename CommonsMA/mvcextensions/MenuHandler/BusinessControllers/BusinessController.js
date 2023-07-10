@@ -783,6 +783,9 @@ define([], function() {
           chequeMod.presentationController.clearFlowValues();
           chequeMod.presentationController.navigateToChequeLandingScreen();
           break;
+        case "New Account Opening":
+          kony.application.openURL("https://infinitypoc16.temenos.com/apps/Origination/");
+          break;
         case configManager.constants.MENUACCOUNTS:
           scope.view.flxHamburger.isVisible = false;
            var accountsModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"moduleName" : "AccountsUIModule", "appName" : "HomepageMA"});

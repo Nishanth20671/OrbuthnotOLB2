@@ -112,6 +112,14 @@
             "i18n_text": "i18n.accounts.availableBalance",
             "text": ""
         },
+        "RichTextInfoArabic": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h6a46f19ce4948db86fbaaa9fb42bdf9",
+                "srcKUID": "gf6b074d9d61410cabce2e46c0e3e943",
+                "wType": "RichText"
+            }
+        },
         "flxAccountType": {
             "__events__": {},
             "__info__": {

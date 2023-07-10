@@ -1,0 +1,77 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_skin_": "sbf6bf21c3fa48d3b91dc224e8057ad7",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {}
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "scf790cf79ae47f098a660c2fe64508b",
+    "hoverskin": "",
+    "id": "btnCancel",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d23474cfd56d402db99782ca3a4c1476",
+    "name": "kony.ui.Button",
+    "parent": "flxButtons",
+    "pf": "frmOverdraftLimit",
+    "responsiveData": {
+        "b1": {
+            "desktopweb": {
+                "psp": {
+                    "hoverSkin": "sbf6bf21c3fa48d3b91dc224e8057ad7"
+                }
+            },
+            "disabledSkins": {},
+            "focusSkin": "sbf6bf21c3fa48d3b91dc224e8057ad7"
+        },
+        "b3": {
+            "right": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "45%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

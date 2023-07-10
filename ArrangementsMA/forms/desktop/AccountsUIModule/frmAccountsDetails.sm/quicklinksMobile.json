@@ -121,6 +121,9 @@
                 "type": "string",
                 "value": "29.50%"
             }
+        },
+        "b4": {
+            "isVisible": false
         }
     },
     "retaincontentalignment": false,

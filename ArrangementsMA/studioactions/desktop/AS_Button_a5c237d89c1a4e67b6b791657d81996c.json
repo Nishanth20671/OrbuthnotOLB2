@@ -1,0 +1,23 @@
+{
+    "AS_Button_a5c237d89c1a4e67b6b791657d81996c": {
+        "id": "AS_Button_a5c237d89c1a4e67b6b791657d81996c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOverdraftAcknowledgement",
+            "type": "forms",
+            "platform": null,
+            "KUID": "eb32f74fe03549759cfb809bc2583588"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_d2f39dad39784706b7f582fc88876c95",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.navToDashBoard();",
+            "parentId": null
+        }]
+    }
+}

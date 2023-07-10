@@ -3969,6 +3969,19 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                 }
             }
             var finalParam = scopeObj.getMenuItemsByMicroapp(param);
+          kony.print("finalParams are "+JSON.stringify(finalParam));
+           var NewParam={
+				    		       "linkText":"Overdraft Limit",
+	            "linkCTA":{
+                      "level":"Form",
+                      "method":"actionOverDraftLimit",
+                      "context":"",
+                      "entitlement":[]
+                              },
+            "accessibilityConfig":{"a11yARIA":{"role":"link"}},
+              "visibility":true
+           };
+           finalParam.push(NewParam);
             scopeObj.view.quicklinksHid.setContext(finalParam);
         },
         actionViewSweep: function() {
@@ -4793,6 +4806,13 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
             var accountsModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule("AccountsUIModule");
             accountsModule.presentationController.showScheduledTransactionsForm(this.context);
         },
+	       actionOverDraftLimit: function()
+      {
+     // alert("Testing by Nishanth");
+			      var ntf = new kony.mvc.Navigation("AccountsUIModule/frmOverdraftLimit");
+      ntf.navigate();
+	     //
+      },
         actionPayBill: function() {
             //Function call to open bill pay screen
             var self = this;
@@ -4813,6 +4833,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                 }
             });
         },
+       
         actionPayDueAmount: function() {
             var data = {
                 "accounts": this.context

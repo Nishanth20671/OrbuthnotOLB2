@@ -1364,6 +1364,12 @@
           info: null,
         }, 
         {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+          info: null,
+        },
+        
+        {
           img: 'transfer.png',
           text: this.constants.MENUUNIFIEDTRANSFERSFLOW,
           info: null,
@@ -1527,7 +1533,11 @@
           text: this.constants.MENUTRANSFERSACTIVITY,
           info: null,
         },
-
+	 	 {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+          info: null,
+        },
         {
           img: 'transfer.png',
           text: this.constants.MENUUNIFIEDTRANSFERSFLOW,
@@ -1667,6 +1677,11 @@
         {
           img: 'transferactivities.png',
           text: this.constants.MENUTRANSFERSACTIVITY,
+          info: null,
+        },
+        {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
         },
         {
@@ -2132,6 +2147,11 @@
         text: this.constants.MENUWEALTHWATCHLIST,
         info: null,
       },
+      {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+          info: null,
+        },
       {
         img: 'transfer.png',
         text: this.constants.MENUUNIFIEDTRANSFERSFLOW,
@@ -4282,6 +4302,11 @@
           info: null,
         },
         {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+          info: null,
+        },
+        {
           img: 'transfer.png',
           text: this.constants.MENUUNIFIEDTRANSFERSFLOW,
           info: null,
@@ -4467,6 +4492,11 @@
           info: null,
         },
         {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+          info: null,
+        },
+        {
           img: 'transfer.png',
           text: this.constants.MENUUNIFIEDTRANSFERSFLOW,
           info: null,
@@ -4641,6 +4671,12 @@
           info: null,
         },
         {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+          info: null,
+        },
+        
+        {
           img: 'transfer.png',
           text: this.constants.MENUUNIFIEDTRANSFERSFLOW,
           info: null,
@@ -4798,6 +4834,11 @@
          {
           img: 'chequemgmt.png',
           text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
+          info: null,
+        },
+        {
+          img: 'accounts.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
         },
         {

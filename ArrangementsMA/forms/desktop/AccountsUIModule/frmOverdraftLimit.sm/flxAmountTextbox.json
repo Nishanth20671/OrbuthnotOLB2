@@ -1,0 +1,78 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s31d287dad4a45939d8ff4159e478e94",
+    "_top_": {
+        "type": "string",
+        "value": "33dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblCurrency",
+        "txtNewLimit"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxAmountTextbox",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j1ee9c50c67b475eb777f9cc27272508",
+    "layouttype": 3,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxNewLimit",
+    "pf": "frmOverdraftLimit",
+    "responsiveData": {
+        "b1": {
+            "skin": "s721abc18aec4320bcb998e8b97be445"
+        },
+        "b2": {
+            "width": {
+                "type": "string",
+                "value": "95%"
+            }
+        },
+        "b3": {
+            "width": {
+                "type": "string",
+                "value": "96%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

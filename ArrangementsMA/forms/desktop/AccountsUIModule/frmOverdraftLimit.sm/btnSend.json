@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "35dp"
+    },
+    "_skin_": "sdecb05692e54e56a164ec8f67076e95",
+    "_text_": "Send",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "200dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {}
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "scf790cf79ae47f098a660c2fe64508b",
+    "hoverskin": "",
+    "id": "btnSend",
+    "ide_onClick": "AS_Button_jeb3e3242e5a4c5388691410233bfc39",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b1bda31fa640438db08f17b562dfe6a2",
+    "name": "kony.ui.Button",
+    "parent": "flxButtons",
+    "pf": "frmOverdraftLimit",
+    "responsiveData": {
+        "b1": {
+            "desktopweb": {
+                "psp": {
+                    "hoverSkin": "sdecb05692e54e56a164ec8f67076e95"
+                }
+            },
+            "disabledSkins": {},
+            "focusSkin": "sdecb05692e54e56a164ec8f67076e95"
+        },
+        "b3": {
+            "right": {
+                "type": "string",
+                "value": "5%"
+            },
+            "width": {
+                "type": "string",
+                "value": "40%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
