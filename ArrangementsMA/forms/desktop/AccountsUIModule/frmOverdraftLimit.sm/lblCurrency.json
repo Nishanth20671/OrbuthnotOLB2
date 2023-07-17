@@ -72,7 +72,18 @@
             "left": {
                 "type": "string",
                 "value": "5dp"
+            },
+            "text": "£"
+        },
+        "b2": {
+            "text": "£",
+            "top": {
+                "type": "string",
+                "value": "10dp"
             }
+        },
+        "b3": {
+            "text": "£"
         }
     },
     "retaincontentalignment": false,

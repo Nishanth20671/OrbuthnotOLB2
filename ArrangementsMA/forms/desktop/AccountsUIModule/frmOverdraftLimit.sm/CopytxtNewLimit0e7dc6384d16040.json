@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_placeholder_": "Enter Amount",
+    "_placeholder_": "Amount",
     "_skin_": "s11e82057ac14f75b68c562bae8af4c5",
     "_text_": "",
     "_top_": {
@@ -49,7 +49,7 @@
         "placeholderSkin": "s7ca632468db445ebfdc03823d54ff2b"
     },
     "disabledSkins": {},
-    "focusskin": "s50a989629ec42a1b56ea687d240835c",
+    "focusskin": "sd6cc6e4a8404e6da1ce67ccdbc69885",
     "id": "CopytxtNewLimit0e7dc6384d16040",
     "info": null,
     "iscustomlayout": false,

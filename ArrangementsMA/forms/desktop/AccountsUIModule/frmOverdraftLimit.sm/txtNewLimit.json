@@ -22,7 +22,7 @@
         0
     ],
     "_placeholder_": "Enter new Limit",
-    "_skin_": "s52414dd8c484d1b9991579329537b4d",
+    "_skin_": "s11e82057ac14f75b68c562bae8af4c5",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -45,7 +45,7 @@
         "placeholderSkin": "s7ca632468db445ebfdc03823d54ff2b"
     },
     "disabledSkins": {},
-    "focusskin": "s50a989629ec42a1b56ea687d240835c",
+    "focusskin": "s204d39e14e2407b940c3ce981be453c",
     "id": "txtNewLimit",
     "info": null,
     "iscustomlayout": false,
@@ -59,9 +59,7 @@
     "pf": "frmOverdraftLimit",
     "placeholderskin": "s7ca632468db445ebfdc03823d54ff2b",
     "responsiveData": {
-        "b1": {
-            "skin": "s11e82057ac14f75b68c562bae8af4c5"
-        }
+        "b1": {}
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

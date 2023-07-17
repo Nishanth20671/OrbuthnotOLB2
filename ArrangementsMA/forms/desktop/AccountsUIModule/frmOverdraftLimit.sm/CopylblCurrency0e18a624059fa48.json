@@ -63,6 +63,17 @@
     "name": "kony.ui.Label",
     "parent": "CopyflxAmountTextbox0i283ed1e540749",
     "pf": "frmOverdraftLimit",
+    "responsiveData": {
+        "b1": {
+            "text": "£"
+        },
+        "b2": {
+            "text": "£"
+        },
+        "b3": {
+            "text": "£"
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

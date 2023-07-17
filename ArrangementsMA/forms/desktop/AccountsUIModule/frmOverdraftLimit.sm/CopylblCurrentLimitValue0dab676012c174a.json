@@ -63,6 +63,17 @@
     "name": "kony.ui.Label",
     "parent": "FlexContainer0e55e23667e8749",
     "pf": "frmOverdraftLimit",
+    "responsiveData": {
+        "b1": {
+            "text": "£ 100.00"
+        },
+        "b2": {
+            "text": "£ 100.00"
+        },
+        "b3": {
+            "text": "£ 100.00"
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",
