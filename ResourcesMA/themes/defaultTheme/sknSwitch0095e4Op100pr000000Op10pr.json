@@ -1,6 +1,6 @@
 {
     "android": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "default",
@@ -11,7 +11,7 @@
         "thumb_color": "e3e3e3ff"
     },
     "androidwearos": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "default",
@@ -29,7 +29,7 @@
     "border_type": 0,
     "border_width": 0,
     "desktopweb": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "Helvetica",
@@ -43,7 +43,7 @@
     "font_style": "normal",
     "font_weight": "normal",
     "ipad": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "System",
@@ -55,7 +55,7 @@
         "tint_color": "e3e3e3ff"
     },
     "iphone": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "System",
@@ -76,7 +76,7 @@
     "left_font_color": "42424200",
     "right_font_color": "42424200",
     "spaan": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "Helvetica",
@@ -86,7 +86,7 @@
         "right_font_color": "42424200"
     },
     "spaandroidtablet": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "Helvetica",
@@ -96,7 +96,7 @@
         "right_font_color": "42424200"
     },
     "spaip": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "Helvetica",
@@ -106,7 +106,7 @@
         "right_font_color": "42424200"
     },
     "spaipad": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "Helvetica",
@@ -116,7 +116,7 @@
         "right_font_color": "42424200"
     },
     "spawindowstablet": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "Helvetica",
@@ -126,7 +126,7 @@
         "right_font_color": "42424200"
     },
     "spawinphone8": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "Helvetica",
@@ -136,7 +136,7 @@
         "right_font_color": "42424200"
     },
     "tabrcandroid": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "default",
@@ -148,7 +148,7 @@
     },
     "wType": "Switch",
     "watchos": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "System",
@@ -156,7 +156,7 @@
         "isForked": true
     },
     "windows8": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "None",
@@ -166,7 +166,7 @@
         "right_font_color": "42424200"
     },
     "winphone8": {
-        "background_left_color": "293276ff",
+        "background_left_color": "002B5Cff",
         "background_right_color": "0000004c",
         "bg_type": "one",
         "font_name": "None",

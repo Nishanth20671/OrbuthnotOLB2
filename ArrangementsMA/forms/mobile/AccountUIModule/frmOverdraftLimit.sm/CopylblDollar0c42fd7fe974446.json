@@ -22,7 +22,7 @@
         0
     ],
     "_skin_": "s9aae57bc52846afa1dfb1f93ddd78b6",
-    "_text_": "$",
+    "_text_": "£",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -64,7 +64,6 @@
     "pf": "frmOverdraftLimit",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "texti18n": "kony.mb.common.currencySymbol",
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",

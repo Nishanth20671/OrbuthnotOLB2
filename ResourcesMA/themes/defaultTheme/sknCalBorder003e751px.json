@@ -11,7 +11,7 @@
   "border_type": 0,
   "border_width": 1,
   "desktopweb": {
-    "customCSS": "cursor:pointer !important;\nborder: 1px solid #293276ff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
+    "customCSS": "cursor:pointer !important;\nborder: 1px solid #002B5Cff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
     "font_name": "SourceSansPro-Regular",
     "font_size": 125,
     "isCustomCSSEnabled": true,
@@ -38,37 +38,37 @@
   },
   "kuid": "seb8ea02d2bd442ebe692e7030860d3f",
   "spaan": {
-    "customCSS": "cursor:pointer !important;\nborder: 1px solid #293276ff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
+    "customCSS": "cursor:pointer !important;\nborder: 1px solid #002B5Cff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
     "font_size": 125,
     "isCustomCSSEnabled": true,
     "isForked": true
   },
   "spaandroidtablet": {
-    "customCSS": "cursor:pointer !important;\nborder: 1px solid #293276ff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
+    "customCSS": "cursor:pointer !important;\nborder: 1px solid #002B5Cff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
     "font_size": 125,
     "isCustomCSSEnabled": true,
     "isForked": true
   },
   "spaip": {
-    "customCSS": "cursor:pointer !important;\nborder: 1px solid #293276ff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
+    "customCSS": "cursor:pointer !important;\nborder: 1px solid #002B5Cff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
     "font_size": 125,
     "isCustomCSSEnabled": true,
     "isForked": true
   },
   "spaipad": {
-    "customCSS": "cursor:pointer !important;\nborder: 1px solid #293276ff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
+    "customCSS": "cursor:pointer !important;\nborder: 1px solid #002B5Cff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
     "font_size": 125,
     "isCustomCSSEnabled": true,
     "isForked": true
   },
   "spawindowstablet": {
-    "customCSS": "cursor:pointer !important;\nborder: 1px solid #293276ff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
+    "customCSS": "cursor:pointer !important;\nborder: 1px solid #002B5Cff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
     "font_size": 125,
     "isCustomCSSEnabled": true,
     "isForked": true
   },
   "spawinphone8": {
-    "customCSS": "cursor:pointer !important;\nborder: 1px solid #293276ff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
+    "customCSS": "cursor:pointer !important;\nborder: 1px solid #002B5Cff;\n-webkit-border-radius: 2px;\nborder-radius: 2px;\nfont :  normal   normal   15.0px   SourceSansPro-Regular ;\ncolor: #4a4a4a;\nbackground-color : rgba(0,0,0,0.0);\n-webkit-appearance: none;",
     "font_size": 125,
     "isCustomCSSEnabled": true,
     "isForked": true

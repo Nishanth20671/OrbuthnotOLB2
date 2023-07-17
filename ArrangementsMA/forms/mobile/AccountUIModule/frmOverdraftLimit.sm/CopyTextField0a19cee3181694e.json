@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_placeholder_": "100",
+    "_placeholder_": "Amount",
     "_right_": {
         "type": "string",
         "value": "20dp"

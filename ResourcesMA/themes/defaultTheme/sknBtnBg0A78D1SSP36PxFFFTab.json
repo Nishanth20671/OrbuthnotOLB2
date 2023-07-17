@@ -1,6 +1,6 @@
 {
   "android": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "border_color": "e3e3e300",
     "border_style": "custom",
@@ -23,7 +23,7 @@
     "top_right_border_radius": 4
   },
   "androidwearos": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "border_color": "e3e3e300",
     "border_style": "custom",
@@ -40,7 +40,7 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -81,7 +81,7 @@
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "border_color": "e3e3e300",
     "border_radius": 2,
@@ -101,7 +101,7 @@
     }
   },
   "iphone": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "border_color": "e3e3e300",
     "border_radius": 2,
@@ -122,7 +122,7 @@
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "border_color": "e3e3e300",
     "border_radius": 2,
@@ -136,7 +136,7 @@
   },
   "kuid": "sac7bd5c4d3948729bff4a577b664d04",
   "spaan": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -188,7 +188,7 @@
     "top_right_border_width": 0
   },
   "spaip": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -257,7 +257,7 @@
     "top_right_border_width": 0
   },
   "spawinphone8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -298,7 +298,7 @@
   },
   "wType": "Button",
   "watchos": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "font_color": "ffffffff",
     "font_name": "Helvetica",
@@ -311,7 +311,7 @@
     "isForked": true
   },
   "winphone8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "border_color": "e3e3e300",
     "border_style": "custom",

@@ -29,13 +29,13 @@ define({
             this.searchStatus.isSegmentVisible = false;
             this.view.title = configManager.constants.HEADERTERMSANDCONDITIONS;
             this.view.customHeader.lblLocateUs.text = configManager.constants.HEADERTERMSANDCONDITIONS;
-            this.view.browserContent.htmlString = populateData;
+            this.view.browserContent.htmlString = populateData.replace("Infinity Bank","Arbuthnot Latham");
         } else if (headerValue === configManager.constants.PRIVACY) {
             this.searchStatus.isSearchBoxVisible = false;
             this.searchStatus.isSegmentVisible = false;
             this.view.title = configManager.constants.HEADERPRIVACYPOLICY;
             this.view.customHeader.lblLocateUs.text = configManager.constants.HEADERPRIVACYPOLICY;
-            this.view.browserContent.htmlString = populateData;
+            this.view.browserContent.htmlString = populateData.replace(/Infinity DBX Bank/gi,"Arbuthnot Latham");
         }
       this.view.postShow = this.postshow;
         this.renderScreen();

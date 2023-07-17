@@ -63,7 +63,7 @@
     "top_right_border_width": 0
   },
   "fontSizeInPx": false,
-  "font_color": "293276ff",
+  "font_color": "002B5Cff",
   "font_name": "Helvetica",
   "font_size": 114,
   "font_style": "normal",
@@ -332,7 +332,7 @@
   "watchos": {
     "background_color": "ffffffff",
     "bg_type": "one",
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "font_size": 114,
     "isForked": true
   },

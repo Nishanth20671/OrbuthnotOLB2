@@ -36,7 +36,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -73,7 +73,7 @@
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -90,7 +90,7 @@
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "font_name": "SourceSansPro-Regular",
     "font_size": 100,
     "isForked": true
@@ -104,7 +104,7 @@
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true
   },
   "kuid": "sae2e4475aa3419b8c89d14cf90383cb",
@@ -117,7 +117,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -149,7 +149,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -181,7 +181,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -213,7 +213,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -245,7 +245,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -277,7 +277,7 @@
     "bottom_right_border_color": "ffffffff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "shadow": {
       "br": 2,
@@ -307,7 +307,7 @@
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true,
     "text_shadow": {
       "br": 0,
@@ -320,7 +320,7 @@
   "watchos": {
     "background_color": "ffffffff",
     "bg_type": "one",
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "font_size": 114,
     "isForked": true
   },
@@ -332,7 +332,7 @@
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true
   },
   "winphone8": {
@@ -342,7 +342,7 @@
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "isForked": true
   }
 }

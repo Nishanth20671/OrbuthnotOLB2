@@ -1364,11 +1364,15 @@
           info: null,
         }, 
         {
-          img: 'accounts.png',
+          img: 'overdraft.png',
           text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
         },
-        
+        {
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
+        },        
         {
           img: 'transfer.png',
           text: this.constants.MENUUNIFIEDTRANSFERSFLOW,
@@ -1380,7 +1384,7 @@
           info: null,
         },
          {
-          img: 'chequemgmt.png',
+          img: 'new_account.png',
           text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
@@ -1524,7 +1528,7 @@
           info: null,
         },
          {
-          img: 'chequemgmt.png',
+          img: 'new_account.png',
           text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
@@ -1534,9 +1538,14 @@
           info: null,
         },
 	 	 {
-          img: 'accounts.png',
+          img: 'overdraft.png',
           text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
+        },
+        {
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
         },
         {
           img: 'transfer.png',
@@ -1680,9 +1689,14 @@
           info: null,
         },
         {
-          img: 'accounts.png',
+          img: 'overdraft.png',
           text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
+        },
+        {
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
         },
         {
           img: 'transfer.png',
@@ -1695,7 +1709,7 @@
           info: null,
         },
          {
-          img: 'chequemgmt.png',
+          img: 'new_account.png',
           text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
@@ -1814,7 +1828,7 @@
           info: null,
         },
          {
-          img: 'chequemgmt.png',
+          img: 'new_account.png',
           text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
@@ -2148,9 +2162,14 @@
         info: null,
       },
       {
-          img: 'accounts.png',
+          img: 'overdraft.png',
           text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
+        },
+      {
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
         },
       {
         img: 'transfer.png',
@@ -4302,9 +4321,14 @@
           info: null,
         },
         {
-          img: 'accounts.png',
+          img: 'overdraft.png',
           text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
+        },
+        {
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
         },
         {
           img: 'transfer.png',
@@ -4316,11 +4340,11 @@
           text: this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
-         {
-          img: 'chequemgmt.png',
-          text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
-          info: null,
-        },
+//          {
+//           img: 'chequemgmt.png',
+//           text: this.constants.MENUCHEQUEMANAGEMENT,
+//           info: null,
+//         },
         {
           img: 'billpay.png',
           text: this.constants.MENUBILLPAY,
@@ -4481,20 +4505,25 @@
           text: this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
-         {
-          img: 'chequemgmt.png',
-          text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
-          info: null,
-        },
+//          {
+//           img: 'chequemgmt.png',
+//           text: this.constants.MENUCHEQUEMANAGEMENT,
+//           info: null,
+//         },
         {
           img: 'transferactivities.png',
           text: this.constants.MENUTRANSFERSACTIVITY,
           info: null,
         },
         {
-          img: 'accounts.png',
+          img: 'overdraft.png',
           text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
+        },
+        {
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
         },
         {
           img: 'transfer.png',
@@ -4660,20 +4689,25 @@
           text: this.constants.MENUCARDLESS,
           info: null,
         },
-        {
+//         {
+//           img: 'chequemgmt.png',
+//           text: this.constants.MENUCHEQUEMANAGEMENT,
+//           info: null,
+//         },
+         {
           img: 'chequemgmt.png',
           text: this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
-         {
-          img: 'chequemgmt.png',
-          text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
+        {
+          img: 'overdraft.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
         },
         {
-          img: 'accounts.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
         },
         
         {
@@ -4826,20 +4860,25 @@
           text: this.constants.MENUTRANSFERSACTIVITY,
           info: null,
         },
-        {
+//         {
+//           img: 'chequemgmt.png',
+//           text: this.constants.MENUCHEQUEMANAGEMENT,
+//           info: null,
+//         },
+         {
           img: 'chequemgmt.png',
           text: this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
-         {
-          img: 'chequemgmt.png',
-          text: "New Account Opening",//this.constants.MENUCHEQUEMANAGEMENT,
+        {
+          img: 'overdraft.png',
+          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
           info: null,
         },
         {
-          img: 'accounts.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
+          img:'new_account.png',
+          text:"New Account Opening",
+          info:null,
         },
         {
           img: 'transfer.png',

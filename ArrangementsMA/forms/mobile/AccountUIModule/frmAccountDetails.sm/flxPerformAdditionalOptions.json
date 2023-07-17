@@ -45,7 +45,8 @@
         "flxRemoveProfilePicture",
         "flxEditPhoneNumbers",
         "flxDisputeTranactions",
-        "flxEditEmail"
+        "flxEditEmail",
+        "flxoverDraftLimit"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
         "type": "string",
@@ -49,6 +48,30 @@
                 "wType": "FlexContainer"
             }
         },
+        "flxEntityHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "eb12e4075f90468abf8a38ed7425de8c",
+                "srcKUID": "b597088b79e849f3bf6279d6dafa76be",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEntitySelection": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8f9553253a742079067684464842013",
+                "srcKUID": "f30a113414574288974aacd2cf6ef78d",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxEntitySelectionContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bef9a9c294f64bc984eba770fbb4672b",
+                "srcKUID": "h9f02680553543c098f6e3d34fb6ca07",
+                "wType": "FlexContainer"
+            }
+        },
         "flxHamburger": {
             "__events__": {},
             "__info__": {
@@ -78,6 +101,14 @@
             "__info__": {
                 "kuid": "b3c2c36d52d74d4eb434942f0ff14f32",
                 "srcKUID": "fc24c156a3a24e5eb8c57ea8d8553c3e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxLegalEntityContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f8484b176d734c15b6da0653c8e02307",
+                "srcKUID": "cf933ca7a1744154b5c9de087b44aed6",
                 "wType": "FlexContainer"
             }
         },
@@ -121,6 +152,14 @@
                 "wType": "FlexContainer"
             }
         },
+        "imgDropdownEntiySelection": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fdf66330a5bf46b0b57e2f68439f163e",
+                "srcKUID": "fce7d797cadb4b31967a81e824f9501e",
+                "wType": "Image"
+            }
+        },
         "imgLogout": {
             "__events__": {},
             "__info__": {
@@ -137,11 +176,27 @@
                 "wType": "Image"
             }
         },
+        "lblEntityHeading": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gc3533bf98b947608849c6bd28ecc151",
+                "srcKUID": "d6a4ea12ca1943f3bf916d72b0df09a6",
+                "wType": "Label"
+            }
+        },
         "lblLastLogin": {
             "__events__": {},
             "__info__": {
                 "kuid": "d23344d68a0d47f98bb159cd690b96d1",
                 "srcKUID": "c34d3212705642f38b0946e5fba10429",
+                "wType": "Label"
+            }
+        },
+        "lblSelectedLegalEntity": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "h887cefb18164181bab63fcc71e64098",
+                "srcKUID": "j428b218221f4e1e95e1c0eb08e37bee",
                 "wType": "Label"
             }
         },

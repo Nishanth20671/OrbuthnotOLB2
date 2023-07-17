@@ -4,9 +4,9 @@
     "font_size": 91,
     "isForked": false
   },
-  "background_color": "29327600",
+  "background_color": "002B5C00",
   "bg_type": "one",
-  "border_color": "293276ff",
+  "border_color": "002B5Cff",
   "border_radius": 3,
   "border_style": "custom",
   "border_type": 0,
@@ -57,7 +57,7 @@
     "top_right_border_width": 0
   },
   "fontSizeInPx": false,
-  "font_color": "293276ff",
+  "font_color": "002B5Cff",
   "font_name": "Helvetica",
   "font_size": 91,
   "font_style": "normal",

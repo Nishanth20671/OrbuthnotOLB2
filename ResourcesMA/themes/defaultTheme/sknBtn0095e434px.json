@@ -1,8 +1,8 @@
 {
   "android": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -31,7 +31,7 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -71,9 +71,9 @@
   "font_style": "normal",
   "font_weight": "normal",
   "ipad": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -90,9 +90,9 @@
     }
   },
   "iphone": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -110,9 +110,9 @@
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -122,7 +122,7 @@
   },
   "kuid": "sd41f0625be0469b85d3fd584850f571",
   "spaan": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -156,7 +156,7 @@
     "top_right_border_width": 0
   },
   "spaandroidtablet": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -190,7 +190,7 @@
     "top_right_border_width": 0
   },
   "spaip": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -224,7 +224,7 @@
     "top_right_border_width": 0
   },
   "spaipad": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -258,7 +258,7 @@
     "top_right_border_width": 0
   },
   "spawindowstablet": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -292,7 +292,7 @@
     "top_right_border_width": 0
   },
   "spawinphone8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "ffffffff",
     "bottom_left_border_style": "plain",
@@ -326,9 +326,9 @@
     "top_right_border_width": 0
   },
   "tabrcandroid": {
-    "background_color": "29327600",
+    "background_color": "002B5C00",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -346,16 +346,16 @@
   },
   "wType": "Button",
   "watchos": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "font_color": "3B74A6ff",
     "font_size": 129,
     "isForked": true
   },
   "windows8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -364,9 +364,9 @@
     "isForked": true
   },
   "winphone8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,

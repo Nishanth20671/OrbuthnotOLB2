@@ -4,7 +4,6 @@
     "Default": {
         "contentAlignment": 8
     },
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "100%"

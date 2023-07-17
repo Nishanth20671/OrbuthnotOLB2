@@ -1,8 +1,8 @@
 {
   "android": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
@@ -12,14 +12,14 @@
     "top_left_border_radius": 5,
     "top_right_border_radius": 5
   },
-  "background_color": "293276ff",
+  "background_color": "002B5Cff",
   "bg_type": "one",
   "border_color": "000000ff",
   "border_style": "plain",
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
@@ -44,9 +44,9 @@
     "top_right_border_width": 0
   },
   "ipad": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_radius": 5,
     "border_style": "custom",
     "border_type": 0,
@@ -62,9 +62,9 @@
     }
   },
   "iphone": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_radius": 5,
     "border_style": "custom",
     "border_type": 0,
@@ -73,9 +73,9 @@
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_radius": 5,
     "border_style": "custom",
     "border_type": 0,
@@ -84,7 +84,7 @@
   },
   "kuid": "sd6e118861684716a119eb073e2de50f",
   "spaan": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
@@ -109,7 +109,7 @@
     "top_right_border_width": 0
   },
   "spaandroidtablet": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
@@ -134,7 +134,7 @@
     "top_right_border_width": 0
   },
   "spaip": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
@@ -159,7 +159,7 @@
     "top_right_border_width": 0
   },
   "spaipad": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
@@ -184,7 +184,7 @@
     "top_right_border_width": 0
   },
   "spawindowstablet": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
@@ -209,7 +209,7 @@
     "top_right_border_width": 0
   },
   "spawinphone8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
@@ -234,9 +234,9 @@
     "top_right_border_width": 0
   },
   "tabrcandroid": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
@@ -248,9 +248,9 @@
   },
   "wType": "FlexContainer",
   "windows8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,
@@ -261,9 +261,9 @@
     "top_right_border_radius": 5
   },
   "winphone8": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 1,

@@ -1,5 +1,5 @@
 {
-  "background_color": "293276ff",
+  "background_color": "002B5Cff",
   "bg_type": "one",
   "delinkedPltfrms": {
     "androidwear": [],
@@ -16,7 +16,7 @@
   "font_size": 107,
   "font_weight": "normal",
   "ipad": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
     "font_name": "SourceSansPro-Regular",
     "font_size": 107,

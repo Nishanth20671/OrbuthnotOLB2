@@ -23,7 +23,7 @@
   "desktopweb": {
     "cursor_type": "pointer",
     "customCSS": "cursor:pointer !important;",
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "font_name": "SourceSansPro-Regular",
     "font_size": 108,
     "isCustomCSSEnabled": false,

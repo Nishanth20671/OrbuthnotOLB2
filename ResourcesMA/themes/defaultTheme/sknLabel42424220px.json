@@ -57,7 +57,7 @@
     "isForked": true
   },
   "spaandroidtablet": {
-    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #293276;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
+    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #002B5C;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
     "font_name": "SourceSansPro-Regular",
     "font_size": 125,
     "isForked": true
@@ -68,19 +68,19 @@
     "isForked": true
   },
   "spaipad": {
-    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #293276;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
+    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #002B5C;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
     "font_name": "SourceSansPro-Regular",
     "font_size": 125,
     "isForked": true
   },
   "spawindowstablet": {
-    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #293276;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
+    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #002B5C;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
     "font_name": "Helvetica",
     "font_size": 125,
     "isForked": true
   },
   "spawinphone8": {
-    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #293276;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
+    "customCSS": ".sknLabel42424220px{\n  font-family: \"SourceSansPro-SemiBold\";\n  font-size: 24px;\n  color: #002B5C;  \n  letter-spacing: 0;\n  line-height: 26px;\n}",
     "font_name": "Helvetica",
     "font_size": 125,
     "isForked": true

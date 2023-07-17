@@ -1,0 +1,23 @@
+{
+    "AS_Button_a02155318c264bb794fb1836b4489e50": {
+        "id": "AS_Button_a02155318c264bb794fb1836b4489e50",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmOverDraftAcknowledgement",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e67643c246a74312a06a73749ca2024b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ae09cc16465242c791384ef674ead075",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " var accountMod = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({\"appName\":\"HomepageMA\",\"moduleName\":\"AccountsUIModule\"});\n      accountMod.presentationController.showDashboard();",
+            "parentId": null
+        }]
+    }
+}

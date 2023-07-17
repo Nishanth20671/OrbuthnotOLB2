@@ -2,7 +2,7 @@
   "android": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -21,7 +21,7 @@
   "androidwearos": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -37,9 +37,9 @@
       "y": 0
     }
   },
-  "background_color": "29327600",
+  "background_color": "002B5C00",
   "bg_type": "one",
-  "border_color": "293276ff",
+  "border_color": "002B5Cff",
   "border_style": "plain",
   "border_type": 0,
   "border_width": 0,
@@ -78,7 +78,7 @@
     "top_right_border_width": 0
   },
   "fontSizeInPx": false,
-  "font_color": "293276ff",
+  "font_color": "002B5Cff",
   "font_name": "Helvetica",
   "font_size": 91,
   "font_style": "normal",
@@ -86,7 +86,7 @@
   "ipad": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -105,7 +105,7 @@
   "iphone": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -125,7 +125,7 @@
   "kiosk": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -341,7 +341,7 @@
   "tabrcandroid": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -368,7 +368,7 @@
   "windows8": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,
@@ -379,7 +379,7 @@
   "winphone8": {
     "background_color": "f4f5f800",
     "bg_type": "one",
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "plain",
     "border_type": 0,
     "border_width": 0,

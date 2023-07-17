@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "20dp"
+    },
     "_height_": {
         "type": "string",
         "value": "40dp"
@@ -23,10 +27,6 @@
     ],
     "_skin_": "s6181403801f4bd782ec081a48ba4697",
     "_text_": "Send",
-    "_top_": {
-        "type": "string",
-        "value": "637dp"
-    },
     "_width_": {
         "type": "string",
         "value": "85%"
@@ -41,6 +41,7 @@
     "displaytext": true,
     "focusskin": "s6181403801f4bd782ec081a48ba4697",
     "id": "btnSend",
+    "ide_onClick": "AS_Button_e9fe7d4ea5d24eca9472df23d1068287",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

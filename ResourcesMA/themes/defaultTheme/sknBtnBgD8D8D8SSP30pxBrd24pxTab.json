@@ -366,9 +366,9 @@
   },
   "wType": "Button",
   "watchos": {
-    "background_color": "293276ff",
+    "background_color": "002B5Cff",
     "bg_type": "one",
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "font_size": 107,
     "isForked": true
   },

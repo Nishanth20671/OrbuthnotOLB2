@@ -1,13 +1,13 @@
 {
   "android": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,
     "isForked": true
   },
   "androidwearos": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,
@@ -44,7 +44,7 @@
     "top_right_border_width": 1
   },
   "ipad": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,
@@ -59,7 +59,7 @@
     }
   },
   "iphone": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,
@@ -75,7 +75,7 @@
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,
@@ -221,7 +221,7 @@
     "top_right_border_width": 1
   },
   "tabrcandroid": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,
@@ -229,14 +229,14 @@
   },
   "wType": "FlexContainer",
   "windows8": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,
     "isForked": true
   },
   "winphone8": {
-    "border_color": "293276ff",
+    "border_color": "002B5Cff",
     "border_style": "custom",
     "border_type": 0,
     "border_width": 2,

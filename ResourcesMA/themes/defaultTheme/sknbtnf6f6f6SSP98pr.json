@@ -326,7 +326,7 @@
   "watchos": {
     "background_color": "ffffff00",
     "bg_type": "one",
-    "font_color": "293276ff",
+    "font_color": "002B5Cff",
     "font_size": 79,
     "isForked": true
   },
