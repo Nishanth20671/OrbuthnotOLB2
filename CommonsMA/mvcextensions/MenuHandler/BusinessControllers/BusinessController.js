@@ -787,12 +787,12 @@ define([], function() {
           kony.application.openURL("https://infinitypoc16.temenos.com/apps/Origination/");
           break;
           
-        case "Overdraft limit":
-          var ntf=new kony.mvc.Navigation({ "appName": "ArrangementsMA", "friendlyName": "AccountUIModule/frmOverdraftLimit" });
-           ntf.navigate();
+        // case "Overdraft limit":
+        //   var ntf=new kony.mvc.Navigation({ "appName": "ArrangementsMA", "friendlyName": "AccountUIModule/frmOverdraftLimit" });
+        //    ntf.navigate();
 		   
 		   
-          break;
+        //   break;
         case configManager.constants.MENUACCOUNTS:
           scope.view.flxHamburger.isVisible = false;
            var accountsModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"moduleName" : "AccountsUIModule", "appName" : "HomepageMA"});
@@ -1311,9 +1311,9 @@ define([], function() {
                 else
                     menuData[i].visibility = false;
                 break;
-        case "Overdraft limit":
-           menuData[i].visibility = true;
-          break;
+        // case "Overdraft limit":
+        //    menuData[i].visibility = true;
+        //   break;
           case "New Account Opening":
           menuData[i].visibility = true;
           //kony.application.openURL("https://infinitypoc16.temenos.com/apps/Origination/");

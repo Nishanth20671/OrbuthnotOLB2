@@ -1363,11 +1363,11 @@
           text: this.constants.MENUWEALTHWATCHLIST,
           info: null,
         }, 
-        {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+        // {
+        //   img: 'overdraft.png',
+        //   text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+        //   info: null,
+        // },
         {
           img:'new_account.png',
           text:"New Account Opening",
@@ -1537,11 +1537,11 @@
           text: this.constants.MENUTRANSFERSACTIVITY,
           info: null,
         },
-	 	 {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+	 	//  {
+    //       img: 'overdraft.png',
+    //       text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+    //       info: null,
+    //     },
         {
           img:'new_account.png',
           text:"New Account Opening",
@@ -1688,11 +1688,11 @@
           text: this.constants.MENUTRANSFERSACTIVITY,
           info: null,
         },
-        {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+        // {
+        //   img: 'overdraft.png',
+        //   text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+        //   info: null,
+        // },
         {
           img:'new_account.png',
           text:"New Account Opening",
@@ -2161,11 +2161,11 @@
         text: this.constants.MENUWEALTHWATCHLIST,
         info: null,
       },
-      {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+      // {
+      //     img: 'overdraft.png',
+      //     text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+      //     info: null,
+      //   },
       {
           img:'new_account.png',
           text:"New Account Opening",
@@ -4320,11 +4320,11 @@
           text: this.constants.MENUWEALTHWATCHLIST,
           info: null,
         },
-        {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+        // {
+        //   img: 'overdraft.png',
+        //   text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+        //   info: null,
+        // },
         {
           img:'new_account.png',
           text:"New Account Opening",
@@ -4515,11 +4515,11 @@
           text: this.constants.MENUTRANSFERSACTIVITY,
           info: null,
         },
-        {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+        // {
+        //   img: 'overdraft.png',
+        //   text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+        //   info: null,
+        // },
         {
           img:'new_account.png',
           text:"New Account Opening",
@@ -4699,11 +4699,11 @@
           text: this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
-        {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+        // {
+        //   img: 'overdraft.png',
+        //   text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+        //   info: null,
+        // },
         {
           img:'new_account.png',
           text:"New Account Opening",
@@ -4870,11 +4870,11 @@
           text: this.constants.MENUCHEQUEMANAGEMENT,
           info: null,
         },
-        {
-          img: 'overdraft.png',
-          text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
-          info: null,
-        },
+        // {
+        //   img: 'overdraft.png',
+        //   text: "Overdraft limit",//this.constants.MENUWEALTHWATCHLIST,
+        //   info: null,
+        // },
         {
           img:'new_account.png',
           text:"New Account Opening",
