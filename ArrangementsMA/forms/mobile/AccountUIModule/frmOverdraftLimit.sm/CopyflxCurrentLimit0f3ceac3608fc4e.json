@@ -45,7 +45,7 @@
     "id": "CopyflxCurrentLimit0f3ceac3608fc4e",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "f25e16f055a246cea95ca1190435bfbb",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

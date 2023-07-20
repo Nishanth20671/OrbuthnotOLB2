@@ -482,6 +482,13 @@ navigateToPayBill: function() {
         "style": constants.ACTION_STYLE_DEFAULT,
         "action": this.navigateToMakeTransfer
          });
+              var actionOverdraftLimit = new kony.ui.ActionItem({
+        "title": applicationManager.getPresentationUtility().getStringFromi18n("kony.mb.accdetails.OverdraftLimit"),
+        "style": constants.ACTION_STYLE_DEFAULT,
+        "action": this.navigateToOverdraftLimit
+         });
+
+
 	applicationManager.actionSheetObject = actionSheetObject;
        var actionCancel = new kony.ui.ActionItem({
        "title": applicationManager.getPresentationUtility().getStringFromi18n("kony.tab.common.CANCEL"),
@@ -520,7 +527,8 @@ navigateToPayBill: function() {
         actionSheetObject.addAction(actionRequestChequeBook);
 		actionSheetObject.addAction(actionNewStopChequeRequest);
 		actionSheetObject.addAction(actionDisputeTransaction);
-        actionSheetObject.addAction(actionManageCards); 
+        actionSheetObject.addAction(actionManageCards);
+        actionSheetObject.addAction(actionOverdraftLimit);//added by Prakash 
         var navManager = applicationManager.getNavigationManager();
         var accountsDetails = navManager.getCustomInfo("frmAccountDetails");
         if(accountsDetails.selectedAccountData.isBusinessAccount === null ||accountsDetails.selectedAccountData.isBusinessAccount === undefined||accountsDetails.selectedAccountData.isBusinessAccount === "false"){
@@ -1820,6 +1828,14 @@ navigateToPayBill: function() {
       manageCardsModule.presentationController.filterCards(accountsData);
       
     },
+
+      navigateToOverdraftLimit:function()
+    {
+          var ntf=new kony.mvc.Navigation({ "appName": "ArrangementsMA", "friendlyName": "AccountUIModule/frmOverdraftLimit" });
+           ntf.navigate();
+      
+    },
+
     sectionClicked :function(sectionIndex, context){
       var sectionIndex = context.sectionIndex;
       var data = this.view.segTransactions.data;

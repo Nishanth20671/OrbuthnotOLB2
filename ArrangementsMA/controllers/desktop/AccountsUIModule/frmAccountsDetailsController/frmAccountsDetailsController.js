@@ -3970,6 +3970,10 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
             }
             var finalParam = scopeObj.getMenuItemsByMicroapp(param);
           kony.print("finalParams are "+JSON.stringify(finalParam));
+
+          if (account.accountType === "Checking")
+          {
+
            var NewParam={
 				    		       "linkText":"Overdraft Limit",
 	            "linkCTA":{
@@ -3982,6 +3986,9 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
               "visibility":true
            };
            finalParam.push(NewParam);
+            }
+
+
             scopeObj.view.quicklinksHid.setContext(finalParam);
         },
         actionViewSweep: function() {
