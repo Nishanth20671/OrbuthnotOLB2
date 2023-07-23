@@ -69,7 +69,8 @@
         "flxFooterMenu",
         "flxCopyRight",
         "lblCopyrightTab1",
-        "lblCopyrightTab2"
+        "lblCopyrightTab2",
+        "imgBg"
     ],
     "clipbounds": true,
     "containerweight": 100,

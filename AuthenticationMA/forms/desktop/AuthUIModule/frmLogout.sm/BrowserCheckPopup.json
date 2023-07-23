@@ -60,15 +60,6 @@
                 }
             }
         },
-        "Image0h71dd11a951e46": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "cf5b696d0c0b460bbcb7eb94c43e4d61",
-                "srcKUID": "fe276e511e134df794046e5d8dc70180",
-                "wType": "Image"
-            },
-            "src": "bbcloseicon_2.png"
-        },
         "btnContinue": {
             "__events__": {},
             "__info__": {
@@ -147,14 +138,6 @@
                 "kuid": "b3a66b92b3a54862b2dd38a706f4550a",
                 "srcKUID": "jec20dd9c745498f92099444725a3f52",
                 "wType": "Button"
-            }
-        },
-        "flxCloseBrowserCheck1": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "f32317d7d93e49ac96c54c756a6e93f5",
-                "srcKUID": "iadce571f86d4cc79ec96443e205f6b2",
-                "wType": "FlexContainer"
             }
         },
         "flxContinue": {

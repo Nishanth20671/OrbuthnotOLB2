@@ -86,7 +86,8 @@
         "btnUseMobileApp",
         "flxCloseFontIconParent",
         "flxAppLogo",
-        "flxTNCEntity"
+        "flxTNCEntity",
+        "imgBg"
     ],
     "clipbounds": false,
     "containerweight": 100,
@@ -117,7 +118,8 @@
             "left": {
                 "type": "string",
                 "value": "0dp"
-            }
+            },
+            "zIndex": 3
         },
         "b2": {
             "height": {

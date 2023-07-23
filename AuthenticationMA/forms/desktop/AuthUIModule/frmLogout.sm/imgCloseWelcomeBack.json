@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",
@@ -39,13 +38,6 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "context": {
-        "channel": "desktop",
-        "formID": "frmLogin",
-        "platform": "desktopweb",
-        "templateType": "forms",
-        "topLevelBox": null
-    },
     "id": "imgCloseWelcomeBack",
     "imagescalemode": 1,
     "imagewhiledownloading": "img_transparent.png",

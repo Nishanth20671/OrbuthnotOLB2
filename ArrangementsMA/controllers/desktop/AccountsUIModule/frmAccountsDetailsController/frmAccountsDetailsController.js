@@ -1208,7 +1208,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
             var accessibilityConfig = CommonUtilities.getaccessibilityConfig();
             CommonUtilities.setText(this.view.lblDowntimeWarning, kony.i18n.getLocalizedString("i18n.common.OoopsServerError"), accessibilityConfig);
             if (status === true) {
-                this.view.flxDowntimeWarning.setVisibility(true);
+                this.view.flxDowntimeWarning.setVisibility(false);
                 this.view.lblDowntimeWarning.setFocus(true);
             } else {
                 this.view.flxDowntimeWarning.setVisibility(false);
@@ -1222,7 +1222,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
          */
         showSweepError : function(sweepError) {
             this.view.lblDowntimeWarning.text = sweepError;
-            this.view.flxDowntimeWarning.setVisibility(true);
+            this.view.flxDowntimeWarning.setVisibility(false);
             this.updateRightContainerUI();
             this.AdjustScreen();
         },
@@ -2237,7 +2237,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                     CommonUtilities.setText(this.view.accountSummary.lblTotalDebtsValue, account.dividendRate + '%', accessibilityConfig);
                     if (account.externalIndicator && account.externalIndicator === "true") {
                         CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                        this.view.flxRenewExpired.setVisibility(true);
+                        this.view.flxRenewExpired.setVisibility(false);
                         this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                         this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                         this.view.imgExpired.src = "bluealert_2.png";
@@ -2303,7 +2303,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                     CommonUtilities.setText(this.view.accountSummary.lblTotalDebtsValue, CommonUtilities.formatCurrencyWithCommas(account.dividendLastPaidAmount, false, account.currencyCode), accessibilityConfig);
                     if (account.externalIndicator && account.externalIndicator === "true") {
                         CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                        this.view.flxRenewExpired.setVisibility(true);
+                        this.view.flxRenewExpired.setVisibility(false);
                         this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                         this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                         this.view.imgExpired.src = "bluealert_2.png";
@@ -2357,7 +2357,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                 CommonUtilities.setText(this.view.accountSummary.lblPendingWithdrawalsValue, CommonUtilities.formatCurrencyWithCommas(account.creditLimit, false, account.currencyCode), accessibilityConfig);
                 if (account.externalIndicator && account.externalIndicator === "true") {
                     CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                    this.view.flxRenewExpired.setVisibility(true);
+                    this.view.flxRenewExpired.setVisibility(false);
                     this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                     this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                     this.view.imgExpired.src = "bluealert_2.png";
@@ -2448,7 +2448,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                 this.view.accountSummary.flxCurrentBalanceRight.setVisibility(false);
                 if (account.externalIndicator && account.externalIndicator === "true") {
                     CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                    this.view.flxRenewExpired.setVisibility(true);
+                    this.view.flxRenewExpired.setVisibility(false);
                     this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                     this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                     this.view.imgExpired.src = "bluealert_2.png";
@@ -2523,7 +2523,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                     this.view.accountSummary.flxCurrentBalanceRight.setVisibility(false);
                     if (account.externalIndicator && account.externalIndicator === "true") {
                         CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                        this.view.flxRenewExpired.setVisibility(true);
+                        this.view.flxRenewExpired.setVisibility(false);
                         this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                         this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                         this.view.imgExpired.src = "bluealert_2.png";
@@ -2600,7 +2600,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                     this.view.accountSummary.flxCurrentBalanceRight.setVisibility(false);
                     if (account.externalIndicator && account.externalIndicator === "true") {
                         CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                        this.view.flxRenewExpired.setVisibility(true);
+                        this.view.flxRenewExpired.setVisibility(false);
                         this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                         this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                         this.view.imgExpired.src = "bluealert_2.png";
@@ -2661,7 +2661,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                     CommonUtilities.setText(this.view.accountSummary.lblPaidOnValue, CommonUtilities.formatCurrencyWithCommas(account.dividendPaidYTD, false, account.currencyCode), accessibilityConfig);
                     if (account.externalIndicator && account.externalIndicator === "true") {
                         CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                        this.view.flxRenewExpired.setVisibility(true);
+                        this.view.flxRenewExpired.setVisibility(false);
                         this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                         this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                         this.view.imgExpired.src = "bluealert_2.png";
@@ -2727,7 +2727,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                     CommonUtilities.setText(this.view.accountSummary.lblPaidOnValue, CommonUtilities.formatCurrencyWithCommas(account.dividendPaidYTD, false, account.currencyCode), accessibilityConfig);
                     if (account.externalIndicator && account.externalIndicator === "true") {
                         CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                        this.view.flxRenewExpired.setVisibility(true);
+                        this.view.flxRenewExpired.setVisibility(false);
                         this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                         this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                         this.view.imgExpired.src = "bluealert_2.png";
@@ -2788,7 +2788,7 @@ define("ArrangementsMA/AccountsUIModule/userfrmAccountsDetailsController", ['Com
                 this.view.accountSummary.flxBalanceDetailsRight.isVisible = false;
                 if (account.externalIndicator && account.externalIndicator === "true") {
                     CommonUtilities.setText(this.view.flexRight.lblAsOf, kony.i18n.getLocalizedString("i18n.accounts.AsOf") + " " + CommonUtilities.getDateAndTime(account.processingTime));
-                    this.view.flxRenewExpired.setVisibility(true);
+                    this.view.flxRenewExpired.setVisibility(false);
                     this.view.lblRenewExpired.text = kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime1") + count + kony.i18n.getLocalizedString("i18n.accountDetails.connectionTime2");
                     this.view.lblRenewExpired.skin = "sknSSP4176a415px"
                     this.view.imgExpired.src = "bluealert_2.png";

@@ -5,6 +5,7 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_i18n_text_": "i18n.login.BeyondBankingDesc",
     "_left_": {
         "type": "string",
         "value": "594dp"
@@ -72,11 +73,13 @@
                 "type": "string",
                 "value": "60dp"
             },
+            "i18n_text": "i18n.login.BeyondBankingDesc",
             "isVisible": true,
             "left": {
                 "type": "string",
                 "value": "0dp"
             },
+            "skin": "sbd23dd5958d440e80bd7d091fe49a27",
             "top": {
                 "type": "string",
                 "value": "50dp"

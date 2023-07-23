@@ -131,14 +131,6 @@
                 "Default": 1100
             }
         },
-        "btnClose": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "c5a3c7621e5341d6aec795a2d4b7cd9d",
-                "srcKUID": "a3d7cba7ef514646b97377e2638e2230",
-                "wType": "Button"
-            }
-        },
         "btnNo": {
             "__events__": {},
             "__info__": {

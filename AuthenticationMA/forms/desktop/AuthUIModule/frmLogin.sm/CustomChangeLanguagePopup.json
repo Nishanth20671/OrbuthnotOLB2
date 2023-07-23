@@ -135,14 +135,6 @@
                 "Default": 1100
             }
         },
-        "btnClose": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "acff7e8659ad4381a20138a019e190f3",
-                "srcKUID": "a3d7cba7ef514646b97377e2638e2230",
-                "wType": "Button"
-            }
-        },
         "btnNo": {
             "__events__": {},
             "__info__": {
@@ -347,41 +339,6 @@
                 "wType": "Button"
             }
         },
-        "flxCross1": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "e216bea3bf6b439dbb54085a30747c02",
-                "srcKUID": "e896a8d6e1244397be41e1011101c6ec",
-                "wType": "FlexContainer"
-            },
-            "responsiveData": {
-                "b1": {
-                    "right": {
-                        "type": "string",
-                        "value": "11dp"
-                    }
-                },
-                "b2": {
-                    "right": {
-                        "type": "string",
-                        "value": "11dp"
-                    }
-                },
-                "b3": {
-                    "right": {
-                        "type": "string",
-                        "value": "10dp"
-                    }
-                },
-                "b4": {
-                    "right": {
-                        "type": "string",
-                        "value": "11dp"
-                    }
-                }
-            },
-            "right": {}
-        },
         "flxHeader": {
             "__events__": {},
             "__info__": {
@@ -405,30 +362,6 @@
                 "srcKUID": "e909e4e4b4a145b1aa92b22ece7050d3",
                 "wType": "FlexContainer"
             }
-        },
-        "imgCross": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "bc351b2bc8eb4e5db4469eb24cbeabf9",
-                "srcKUID": "ja13bba308404016b1cd223dbcdf01ae",
-                "wType": "Image"
-            },
-            "height": {
-                "Default": {
-                    "type": "string",
-                    "value": "15dp"
-                }
-            },
-            "left": {},
-            "responsiveData": {
-                "b4": {
-                    "left": {
-                        "type": "string",
-                        "value": ""
-                    }
-                }
-            },
-            "src": "icon_close_grey.png"
         },
         "lblHeading": {
             "__events__": {},
@@ -487,14 +420,6 @@
             },
             "text": "Are you sure you want to change the language?",
             "width": {}
-        },
-        "lblcross": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "df2fcbecea564299b92fcd4b1a80e98a",
-                "srcKUID": "fd30aa3a9d8f4077b98f3053f04a091b",
-                "wType": "Label"
-            }
         }
     },
     "desktopweb": {},

@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -93,7 +92,8 @@
             "width": {
                 "type": "ref",
                 "value": "preferred"
-            }
+            },
+            "zIndex": 1
         },
         "b2": {
             "left": {

@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -66,15 +65,17 @@
     "pf": "frmLogout",
     "responsiveData": {
         "b1": {
+            "isVisible": true,
             "left": {
                 "type": "string",
                 "value": "565dp"
             },
-            "skin": "s1f60a6d51a6450e9fb01c504d007b1f",
+            "skin": "s8c76c35e26246288b02e4cb1a9f29f0",
             "width": {
                 "type": "string",
                 "value": "55%"
-            }
+            },
+            "zIndex": 3
         },
         "b2": {
             "isVisible": false

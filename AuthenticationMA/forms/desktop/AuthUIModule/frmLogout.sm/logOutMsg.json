@@ -740,82 +740,9 @@
         "lblSuccessMsgEBA": {
             "__events__": {},
             "__info__": {
-                "kuid": "e146ec2eabb1452e95f92405e2f1be84",
-                "srcKUID": "eac4a02b730a4c3798c2070625fef3c4",
+                "kuid": "df670ae978744cca975241e75326e8bb",
+                "srcKUID": "f320d159ffaf4728a4f48ce9242cf1c1",
                 "wType": "Label"
-            },
-            "centerX": {},
-            "i18n_text": "i18n.logout.reachOutBank",
-            "isVisible": true,
-            "left": {
-                "Default": {
-                    "type": "string",
-                    "value": "27dp"
-                }
-            },
-            "responsiveData": {
-                "b1": {
-                    "isVisible": null,
-                    "left": {
-                        "type": "string",
-                        "value": "128dp"
-                    },
-                    "width": {
-                        "type": "string",
-                        "value": "70%"
-                    }
-                },
-                "b2": {
-                    "centerX": {
-                        "type": "string",
-                        "value": "50%"
-                    },
-                    "isVisible": null,
-                    "left": {
-                        "type": "string",
-                        "value": ""
-                    },
-                    "width": {
-                        "type": "string",
-                        "value": "70%"
-                    }
-                },
-                "b3": {
-                    "centerX": {
-                        "type": "string",
-                        "value": "50%"
-                    },
-                    "isVisible": null,
-                    "left": {
-                        "type": "string",
-                        "value": ""
-                    },
-                    "width": {
-                        "type": "string",
-                        "value": "80%"
-                    }
-                },
-                "b4": {
-                    "centerX": {
-                        "type": "string",
-                        "value": "50%"
-                    },
-                    "isVisible": null,
-                    "left": {
-                        "type": "string",
-                        "value": ""
-                    },
-                    "width": {
-                        "type": "string",
-                        "value": "70%"
-                    }
-                }
-            },
-            "width": {
-                "Default": {
-                    "type": "string",
-                    "value": "80%"
-                }
             }
         },
         "logOutMsg": {

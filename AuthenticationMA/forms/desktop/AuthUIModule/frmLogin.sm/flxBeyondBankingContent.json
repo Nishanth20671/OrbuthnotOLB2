@@ -75,7 +75,8 @@
             "width": {
                 "type": "string",
                 "value": "55%"
-            }
+            },
+            "zIndex": 4
         },
         "b2": {
             "isVisible": false
@@ -93,5 +94,6 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }

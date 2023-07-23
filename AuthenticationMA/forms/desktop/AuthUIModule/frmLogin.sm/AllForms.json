@@ -121,6 +121,14 @@
                 "wType": "RichText"
             }
         },
+        "RichTextInfoArabic": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b2de0ecfefea4da48735448db6e0ffac",
+                "srcKUID": "gf6b074d9d61410cabce2e46c0e3e943",
+                "wType": "RichText"
+            }
+        },
         "flxAccountType": {
             "__events__": {},
             "__info__": {

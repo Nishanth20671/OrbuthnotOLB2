@@ -81,7 +81,7 @@ define(['FormControllerUtility', 'OLBConstants'], function(FormControllerUtility
                         text: "i18n.WireTransfer.CreateNewAccount",
                         toolTip: "i18n.WireTransfer.CreateNewAccount",
                         onClick: function() {
-                          kony.application.openURL("https://infinitypoc16.temenos.com/apps/Origination/");
+                          kony.application.openURL("https://infinitypoc16.temenos.com/apps/arbuthnotonboard/");
 //                               var config = applicationManager.getConfigurationManager();
 // 							  var ssoConfig = config.getSSOConfig();
 // 							  if(ssoConfig!== undefined && ssoConfig.toLowerCase() === "true"){

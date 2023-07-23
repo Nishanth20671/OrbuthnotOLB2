@@ -49,6 +49,11 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxBeyondBankingContent",
     "pf": "frmLogin",
+    "responsiveData": {
+        "b1": {
+            "isVisible": true
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

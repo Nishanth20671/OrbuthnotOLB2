@@ -67,10 +67,12 @@
             },
             "disabledSkins": {},
             "focusSkin": "s556a2946fce4371948ac109ed2c32b9",
+            "isVisible": true,
             "left": {
                 "type": "string",
                 "value": "565dp"
             },
+            "skin": "s26d7274735e464d80dbe07a663c2aeb",
             "top": {
                 "type": "string",
                 "value": "380dp"

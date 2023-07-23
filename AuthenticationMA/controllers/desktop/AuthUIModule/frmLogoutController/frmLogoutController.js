@@ -998,7 +998,7 @@ define(['FormControllerUtility', 'Deeplinking', 'ViewConstants', 'CommonUtilitie
             }
             this.view.btnVeiwMore.onClick = function() {
                 var config = applicationManager.getConfigurationManager();
-                kony.application.openURL(config.getConfigurationValue("LINK_TO_DBX"));
+                kony.application.openURL("https://www.arbuthnotlatham.co.uk/");
             }
             this.view.forceLayout();
         },

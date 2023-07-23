@@ -5,6 +5,7 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_i18n_text_": "i18n.login.BeyondBanking",
     "_left_": {
         "type": "string",
         "value": "595dp"
@@ -67,15 +68,18 @@
     "pf": "frmLogin",
     "responsiveData": {
         "b1": {
+            "i18n_text": "i18n.login.BeyondBanking",
+            "isVisible": true,
             "left": {
                 "type": "string",
                 "value": "0dp"
             },
-            "skin": "s1f60a6d51a6450e9fb01c504d007b1f",
+            "skin": "s8c76c35e26246288b02e4cb1a9f29f0",
+            "text": "",
             "top": {
                 "type": "string",
                 "value": "0dp"
-        },
+            },
             "width": {
                 "type": "string",
                 "value": "100%"

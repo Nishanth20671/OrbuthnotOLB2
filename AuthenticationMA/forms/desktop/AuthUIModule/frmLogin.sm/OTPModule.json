@@ -884,57 +884,10 @@
         "lblRememberMe": {
             "__events__": {},
             "__info__": {
-                "kuid": "b204946ae6734ec5a16bff3f5ee96235",
-                "srcKUID": "cd3935ecd7f24a3683f4e269f652e609",
+                "kuid": "eb9265fb6d6647eb9c25d8338246fefb",
+                "srcKUID": "b52ea224b4bc4368a29aee13a950ff3a",
                 "wType": "Label"
-            },
-            "centerX": {},
-            "i18n_text": "i18n.mfaprelogin.registerthisdevice",
-            "left": {},
-            "responsiveData": {
-                "b1": {
-                    "centerX": {
-                        "type": "string",
-                        "value": ""
-                    },
-                    "left": {
-                        "type": "string",
-                        "value": "0dp"
-                    },
-                    "text": "Register this browser"
-                },
-                "b2": {
-                    "centerX": {
-                        "type": "string",
-                        "value": ""
-                    },
-                    "left": {
-                        "type": "string",
-                        "value": "0dp"
-                    }
-                },
-                "b3": {
-                    "centerX": {
-                        "type": "string",
-                        "value": ""
-                    },
-                    "left": {
-                        "type": "string",
-                        "value": "0dp"
-                    }
-                },
-                "b4": {
-                    "centerX": {
-                        "type": "string",
-                        "value": ""
-                    },
-                    "left": {
-                        "type": "string",
-                        "value": "0dp"
-                    }
-                }
-            },
-            "text": "Register this device"
+            }
         },
         "lblResendMessage": {
             "__events__": {},

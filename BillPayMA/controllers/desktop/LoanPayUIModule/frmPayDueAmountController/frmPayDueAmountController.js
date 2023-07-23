@@ -284,7 +284,7 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
      */
     showServerError: function (serverError) {
       FormControllerUtility.hideProgressBar(this.view);
-      this.view.flxDownTimeWarning.setVisibility(true);
+      this.view.flxDownTimeWarning.setVisibility(false);
       this.view.rtxDowntimeWarning.setVisibility(true);
       this.view.rtxDowntimeWarning.text = serverError;
       this.view.rtxDowntimeWarning.setFocus(true);

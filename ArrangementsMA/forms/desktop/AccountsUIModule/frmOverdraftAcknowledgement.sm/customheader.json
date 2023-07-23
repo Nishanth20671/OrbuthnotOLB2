@@ -33,8 +33,6 @@
         "type": "string",
         "value": "100%"
     },
-    "android": {},
-    "androidwearos": {},
     "areflexpropsreferenced": false,
     "canUpdateUI": true,
     "clipbounds": false,
@@ -139,16 +137,16 @@
         "customhamburger.flxEntityTextHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "feeba51acb0f412f9ba4ab2f0ae15b70",
-                "srcKUID": "ce568ba9218f438ea529a5e5757dde81",
+                "kuid": "ib53acb1392140cea57cf4711bd9f48a",
+                "srcKUID": "gdc13029fae844d2a0083ea3f4c91afa",
                 "wType": "FlexContainer"
             }
         },
         "customhamburger.flxGroup": {
             "__events__": {},
             "__info__": {
-                "kuid": "fb6fa418b1bc4692a9c21874d8409b53",
-                "srcKUID": "ad787a479aee4f9d84e16933127812e0",
+                "kuid": "db2b91f09d1b444fb29222b871f6da3f",
+                "srcKUID": "c3245ebc10984aa68c5c29afc27336d9",
                 "wType": "FlexContainer"
             }
         },
@@ -163,40 +161,40 @@
         "customhamburger.flxLECrossHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "f98bef8e26874c978206311d2e010b5a",
-                "srcKUID": "af71850d5b634f9ea198f85765c52408",
+                "kuid": "ad05152b5a58424199b9376d696c3f83",
+                "srcKUID": "fbd4acc6c1d74621a02491096f8816f2",
                 "wType": "FlexContainer"
             }
         },
         "customhamburger.flxLESearchHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "cc95885800904407b16b28758e4eb4a1",
-                "srcKUID": "faaa47dd96fe4292ba3299ed3080f49c",
+                "kuid": "b0df7a969a484af0966b7641a6b3f8f6",
+                "srcKUID": "ef0d7010c0894fefae9f0319bf5e6de3",
                 "wType": "FlexContainer"
             }
         },
         "customhamburger.flxLegalEntityDropdownHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "c82513117a764f6c8ca26fc0db71218b",
-                "srcKUID": "f40b48af70134e88aa06aee8564a05c4",
+                "kuid": "a605338fb0d944928209fae67ccaf065",
+                "srcKUID": "c9fdb3f564bf4f03a3de2726d24b1cc1",
                 "wType": "FlexContainer"
             }
         },
         "customhamburger.flxLegalEntityHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "iad75c436c914a9d9f362eb79ef13f1a",
-                "srcKUID": "ebff8054f8764ab09dd3dff3ae36fc15",
+                "kuid": "c1fbc8debda14c5685a354f3c487e59b",
+                "srcKUID": "j9edfbf0c1fc4b3b9449f0b6386445ac",
                 "wType": "FlexContainer"
             }
         },
         "customhamburger.flxLogo": {
             "__events__": {},
             "__info__": {
-                "kuid": "h07b609f9c0d40eda4ff9e741a60d89b",
-                "srcKUID": "a4d0da4451564aefa7c8e7fafe6c74db",
+                "kuid": "b6d4e86aff0a4f79b53e38a7aceba737",
+                "srcKUID": "i6a68c54e924443c9af234b40c8b5a19",
                 "wType": "FlexContainer"
             }
         },
@@ -219,8 +217,8 @@
         "customhamburger.flxLogoutSeperator": {
             "__events__": {},
             "__info__": {
-                "kuid": "e4ace598a0d84409a2395ff6a77687c6",
-                "srcKUID": "fb1b4a15b9304127b46d8bbab096f38f",
+                "kuid": "efe5904e946a48a2b846c97e1e4cb83b",
+                "srcKUID": "jb886872835f42dca26433024b62b8a7",
                 "wType": "FlexContainer"
             }
         },
@@ -251,16 +249,16 @@
         "customhamburger.flxScroll": {
             "__events__": {},
             "__info__": {
-                "kuid": "i8e55851bad841ab86b5b2bd240148b9",
-                "srcKUID": "f24fd5909c3a4d61b1a00764507e1ef0",
+                "kuid": "baf43caba9cf400fae682a4edaceca9e",
+                "srcKUID": "dc6e6f0fa67a4167acb970b7a17a8756",
                 "wType": "FlexScrollContainer"
             }
         },
         "customhamburger.flxSegLegalEntityHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "fe5d97316a3943af9d99c6a13a598a4b",
-                "srcKUID": "b9323469a7a84301939abb6dda4e4a57",
+                "kuid": "f923c713791d4191897af107407f2e74",
+                "srcKUID": "e71b8edf8192445da174d29b4e793375",
                 "wType": "FlexContainer"
             }
         },
@@ -291,8 +289,8 @@
         "customhamburger.imgLECrossHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "jfd920898f324f63928999c261e1d835",
-                "srcKUID": "jb8892ec27d2446ab60f938d95cfe0db",
+                "kuid": "f2e0a7f0e2b14c868bf4242e77908db7",
+                "srcKUID": "fdca376d1c304df2bd5f99f3f4aaf803",
                 "wType": "Image"
             }
         },
@@ -339,32 +337,32 @@
         "customhamburger.lblLESearchIconHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "e904d8e6584042768e2ce526939556a5",
-                "srcKUID": "d37487ea6a6f4a0dbe90e38cdfe783c3",
+                "kuid": "j8bb9b883ce842dd92a6948145ae93c3",
+                "srcKUID": "b21c1697ddff4cf9800a637410c909e5",
                 "wType": "Label"
             }
         },
         "customhamburger.lblLegalEntityDropdownIconHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "f1f687ccd6234cb5b94f9a07445744b6",
-                "srcKUID": "a517975a120b4a8582cc4352ded3003d",
+                "kuid": "c3118668eec348c4a7ea1b86914f13af",
+                "srcKUID": "c5f13b6cce93416d8f2e0d542013e61c",
                 "wType": "Label"
             }
         },
         "customhamburger.lblLegalEntityHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "aaafafdba2a74ba1af720b953688a003",
-                "srcKUID": "h4ded3e07a294e519e87452215903a70",
+                "kuid": "h2331b0ab9fe48e7aca7c86d2ef54324",
+                "srcKUID": "fa1a4cb0b18b4375aa3c6d4df377c73c",
                 "wType": "Label"
             }
         },
         "customhamburger.lblLegalEntityTextHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "e38b181813064c5990ebba3db6563e95",
-                "srcKUID": "a7183fa36f1940cda1af2ea932e73cfe",
+                "kuid": "ie7e8f040f004d66a14eb94bc68bd0a5",
+                "srcKUID": "h8761dc6121f4df98881467ea6b01159",
                 "wType": "Label"
             }
         },
@@ -387,16 +385,16 @@
         "customhamburger.segLegalEntityHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "f97b937e9c13405d968072d3a4edb918",
-                "srcKUID": "j1f750e31c254e5295e446002b1edfa0",
+                "kuid": "dbb673dd09544eff9ee55d2364bae2b5",
+                "srcKUID": "e2c05f99b37043139f11a56862f79906",
                 "wType": "Segment"
             }
         },
         "customhamburger.tbxLESearchHamburger": {
             "__events__": {},
             "__info__": {
-                "kuid": "jb7791b3535d414bbacedf5a81e84e03",
-                "srcKUID": "g237c95e7bce4f598fd5775064237f94",
+                "kuid": "ef5aecb65ee94085ab18eea3a916b95f",
+                "srcKUID": "fa6b899d0eda41f4bd7ccce99c34f9bd",
                 "wType": "TextField"
             }
         },
@@ -1212,15 +1210,11 @@
             }
         }
     },
-    "desktopweb": {},
     "enablescrolling": true,
     "id": "customheader",
     "info": null,
-    "ipad": {},
-    "iphone": {},
     "isdatareferenced": false,
     "isvisible": true,
-    "kiosk": {},
     "kuid": "h045fd6f2a3b44f09770b147b8e441fc",
     "layouttype": 2,
     "masterType": 0,
@@ -1230,24 +1224,6 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "sourceUserWidget": "c04bbf50611342ca895c5e0a329aeb52",
-    "spa": {},
-    "spaan": {},
-    "spaandroidtablet": {},
-    "spabb": {},
-    "spaip": {},
-    "spaipad": {},
-    "spamobile": {},
-    "spatablet": {},
-    "spawindowstablet": {},
-    "spawinphone8": {},
-    "tabrcandroid": {},
-    "vizProps": {
-        "hidewidgethierarchy": false
-    },
     "wType": "UserWidgetInstance",
-    "windows10": {},
-    "windows8": {},
-    "winphone10": {},
-    "winphone8": {},
     "zindex": 1000
 }

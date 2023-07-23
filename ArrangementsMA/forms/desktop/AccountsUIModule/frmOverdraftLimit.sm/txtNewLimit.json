@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "98%"
     },
     "_left_": {
         "type": "string",
@@ -22,6 +22,10 @@
         0
     ],
     "_placeholder_": "Enter new Limit",
+    "_right_": {
+        "type": "string",
+        "value": "3dp"
+    },
     "_skin_": "s11e82057ac14f75b68c562bae8af4c5",
     "_text_": "",
     "_top_": {
@@ -37,6 +41,10 @@
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,

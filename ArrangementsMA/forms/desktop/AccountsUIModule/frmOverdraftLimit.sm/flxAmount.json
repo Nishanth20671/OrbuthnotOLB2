@@ -44,7 +44,7 @@
     "id": "flxAmount",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "e0997dbf30904dc49f73d61aa8823cf1",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

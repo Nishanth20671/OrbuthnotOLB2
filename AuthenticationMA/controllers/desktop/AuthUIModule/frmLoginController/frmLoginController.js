@@ -1315,7 +1315,7 @@
         self.view.forceLayout();
       },
       mappingCampaingsData: function (campaign) {
-        let url = campaign.destinationURL;
+        let url = "https://infinitypoc16.temenos.com/apps/arbuthnotonboard/";//campaign.destinationURL;
         return {
           "flxCampaignCarousel": {
             "onClick": () => kony.application.openURL(url)
@@ -1596,7 +1596,7 @@
         this.view.flxEnrollActivateContainer.setVisibility(false);
         this.view.btnVeiwMore.onClick = function () {
           var config = applicationManager.getConfigurationManager();
-          kony.application.openURL(config.getConfigurationValue("LINK_TO_DBX"));
+          kony.application.openURL("https://www.arbuthnotlatham.co.uk/");
         }
         if (this.view.flxEnrollOrServerError.isVisible || this.view.flxVerification.isVisible) {
           scopeObj.view.flxLogin.setVisibility(false);
@@ -2021,7 +2021,8 @@
                * Navigates to new user on boarding
                */
       navigateToNewUserOnBoarding: function () {
-        this.loadAuthModule().presentationController.navigateToNewUserOnBoarding();
+        kony.application.openURL("https://infinitypoc16.temenos.com/apps/arbuthnotonboard/");
+        //this.loadAuthModule().presentationController.navigateToNewUserOnBoarding();
       },
       /**
                * This function enables the Proceed button only if all the fields(SSN,DOB,lastName) are correct in Forgot form /verify form.

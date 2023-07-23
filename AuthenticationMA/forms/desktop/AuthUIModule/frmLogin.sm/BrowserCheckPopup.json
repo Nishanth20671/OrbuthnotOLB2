@@ -56,14 +56,6 @@
             },
             "responsiveData": {}
         },
-        "Image0h71dd11a951e46": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "e9b84881f2da47de80250584871e67d5",
-                "srcKUID": "fe276e511e134df794046e5d8dc70180",
-                "wType": "Image"
-            }
-        },
         "btnContinue": {
             "__events__": {},
             "__info__": {
@@ -142,14 +134,6 @@
                 "kuid": "h426261f457643dbb434aadd138bb227",
                 "srcKUID": "jec20dd9c745498f92099444725a3f52",
                 "wType": "Button"
-            }
-        },
-        "flxCloseBrowserCheck1": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "j3a5c540d57647719514f889886d3712",
-                "srcKUID": "iadce571f86d4cc79ec96443e205f6b2",
-                "wType": "FlexContainer"
             }
         },
         "flxContinue": {

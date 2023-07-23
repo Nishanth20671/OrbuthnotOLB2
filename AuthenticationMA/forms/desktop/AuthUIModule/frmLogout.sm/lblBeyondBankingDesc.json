@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -76,6 +75,7 @@
                 "type": "string",
                 "value": "565dp"
             },
+            "skin": "sbd23dd5958d440e80bd7d091fe49a27",
             "top": {
                 "type": "string",
                 "value": "300dp"

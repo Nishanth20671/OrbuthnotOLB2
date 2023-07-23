@@ -9,21 +9,18 @@ this.view.CopytxtNewLimit0e7dc6384d16040.text="";
   btnSend_onClick: function()
   {
 
-
-
-                    var requestParam = {
+    
+     var requestParam = {
                         "files": "",//scopeObj.fileObject,
                         "categoryid": "RCID_INCREASELOANAMOUNT",//scopeObj.view.NotficationsAndMessages.listbxCategory.selectedKey,
                         "subject": "Increase Loan Amount",
                         "description": "Current limit: 100"+"\nNew limit: "+this.view.txtNewLimit.text,
                         "isTradeModule": undefined
                     };
-                    this.loadAlertsMessagesModule().presentationController.createNewRequestOrMessage(requestParam);
-              
-
-
-    var ntf=new kony.mvc.Navigation("AccountsUIModule/frmOverdraftAcknowledgement");
-    ntf.navigate();
+					var msgModule=kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"appName": "SecureMessageMA", "moduleName" : "AlertsMsgsUIModule"});
+   msgModule.presentationController.createNewRequestOrMessage(requestParam);
+   		 var ntf=new kony.mvc.Navigation("AccountsUIModule/frmOverdraftAcknowledgement");
+    ntf.navigate(requestParam);
 
   },
 

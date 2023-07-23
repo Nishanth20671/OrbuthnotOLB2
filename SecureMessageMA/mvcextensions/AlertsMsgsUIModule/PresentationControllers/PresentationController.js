@@ -545,6 +545,7 @@ define([], function() {
      * @param {object[]} requestParams.files - array of attachements.
      */
     AlertsMsgsPresentationController.prototype.createNewRequestOrMessage = function(requestParams) {
+      kony.print("In STP flow1"+JSON.stringify(requestParams));
         var scopeObj = this;
         var requestId;
         if (requestParams.requestid != null && requestParams.requestid != undefined) {
@@ -564,7 +565,8 @@ define([], function() {
         }
 
         requestMessageInputs["mediaIds"] = scopeObj.mediaIdArray;
-        scopeObj.messagesManager.createNewRequestWithAttachments(
+      var msgModule=applicationManager.getMessagesManager();//kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"appName": "SecureMessageMA", "moduleName" : "MessagesManager"});
+        msgModule.createNewRequestWithAttachments(
             requestMessageInputs,
             scopeObj.onNewRequestWithAttachmentsSuccess.bind(scopeObj, requestParams),
             scopeObj.onNewRequestWithAttachmentsFails.bind(scopeObj, requestParams)

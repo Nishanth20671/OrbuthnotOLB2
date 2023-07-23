@@ -85,7 +85,8 @@
             "width": {
                 "type": "string",
                 "value": "640dp"
-            }
+            },
+            "zIndex": 3
         },
         "b2": {
             "centerX": {

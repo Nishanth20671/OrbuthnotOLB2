@@ -284,7 +284,8 @@
                 "kuid": "a9b1c3d2069748eda57f476318c26be6",
                 "srcKUID": "e51c8a8198184739b48a18c3fbc65273",
                 "wType": "Image"
-            }
+            },
+            "src": "kony_logo_white_2.png"
         },
         "customhamburger.imgLECrossHamburger": {
             "__events__": {},
@@ -437,7 +438,15 @@
                 "kuid": "b0e53d2eee0e4752a365d7630463ac75",
                 "srcKUID": "f04c6e11e7da43b49dd181b8b47d93c4",
                 "wType": "FlexContainer"
-            }
+            },
+            "isVisible": false,
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "-50%"
+                }
+            },
+            "responsiveData": {}
         },
         "flxHamburgerBack": {
             "__events__": {},

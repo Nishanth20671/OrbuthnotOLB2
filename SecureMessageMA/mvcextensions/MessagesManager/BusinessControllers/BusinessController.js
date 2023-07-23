@@ -489,6 +489,7 @@ define([], function () {
         repoName = "TradeSupplyFinanceMessages";
       }
     }
+    kony.print("In STP flow2"+JSON.stringify(params));
     var messagesObj = kony.mvc.MDAApplication.getSharedInstance().getRepoManager().getRepository(repoName);
     messagesObj.customVerb('createRequest', params, getCompletionCallback);
     function getCompletionCallback(status, data, error) {

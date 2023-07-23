@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         2,
         1,
-        0,
+        1,
         0
     ],
     "_skin_": "sf9684697add4e62829475852513a8c5",
@@ -106,7 +106,6 @@
         "b3": {}
     },
     "retainscrollposition": false,
-    "shellCSS": "desktop",
     "snapgridsize": 10,
     "snaptogrid": true,
     "titleBarSkin": "s2e24ee0a8ca46b089d8a5bea8a1a32e",

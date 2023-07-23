@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizButton",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
         "value": "40dp"
@@ -72,6 +71,7 @@
                 "type": "string",
                 "value": "565dp"
             },
+            "skin": "s26d7274735e464d80dbe07a663c2aeb",
             "top": {
                 "type": "string",
                 "value": "380dp"

@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_children_": [],
     "_height_": {
         "type": "string",
@@ -301,22 +300,6 @@
                     "type": "string",
                     "value": "40%"
                 }
-            }
-        },
-        "carousel": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "d7d5d36e254440c9b773faba78ecd69a",
-                "srcKUID": "j57281b8faef48699218b7d999e7ac9f",
-                "wType": "UserWidgetInstance"
-            }
-        },
-        "carousel.segCarousel": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "d829d66dd6f148739406e729d0f14ed7",
-                "srcKUID": "d08aa92461294a10a8e4ea12c7baa886",
-                "wType": "Segment"
             }
         },
         "flexcheckuncheck": {
