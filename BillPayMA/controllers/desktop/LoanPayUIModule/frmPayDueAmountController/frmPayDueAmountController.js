@@ -270,7 +270,8 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
       this.selectedDate = this.view.PayDueAmount.CalendarSendDate.formattedDate;
       this.showPayDueAmount();
       if (["", null, "0", "0.00"].includes(this.view.PayDueAmount.tbxAmount.text)) {
-        FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
+        FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
+        //FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
       } else {
         FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
       }
@@ -429,7 +430,7 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
         this.view.PayDueAmount.tbxAmount.hoverSkin = "sknTbxBkGrndf6f6f6SSP42424215px";
         this.view.PayDueAmount.lblDueAmount.isVisible = true;
         this.view.PayDueAmount.lblDueAmount.text = "(" + kony.i18n.getLocalizedString("i18n.payments.currentDue") + " " + CommonUtilities.formatCurrencyWithCommas(this.dueCurrentAmount, false, applicationManager.getFormatUtilManager().getCurrencySymbol(this.currency)) + "," + kony.i18n.getLocalizedString("i18n.payments.totalOverDueWithColon") + " " + CommonUtilities.formatCurrencyWithCommas(this.dueTotalAmount, false, applicationManager.getFormatUtilManager().getCurrencySymbol(this.currency)) + ")";
-        this.view.PayDueAmount.tbxAmount.setEnabled(false);
+        this.view.PayDueAmount.tbxAmount.setEnabled(true);
         if (this.dueAmount == "" || this.dueAmount == null) {
           this.dueAmount = "0.00";
         }
@@ -440,7 +441,8 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
         if (this.view.PayDueAmount.tbxAmount.text !== "" && this.view.PayDueAmount.tbxAmount.text !== null && this.view.PayDueAmount.tbxAmount.text !== "0" && this.view.PayDueAmount.tbxAmount.text !== "0.00" && this.view.PayDueAmount.tbxAmount.text !== "0,00") {
           FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
         } else {
-          FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
+          FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
+          //FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
         }
       } else if (obj === "Other") {
         this.validateDate();
@@ -1677,7 +1679,7 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
         this.presenter.getTBankDate();
         this.presenter.payDueDetails(account, "PayDue");
       }
-      this.view.PayDueAmount.tbxAmount.setEnabled(false);
+      this.view.PayDueAmount.tbxAmount.setEnabled(true);
       this.view.PayDueAmount.flxInfoDueAmount.setVisibility(false);
       this.penalty = data.lateFeesDue;
       this.dueAmount = parseFloat(data.nextPaymentAmount ? data.nextPaymentAmount : 0) + parseFloat(data.paymentDue ? data.paymentDue : 0);
@@ -1809,7 +1811,8 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
       if (this.view.PayDueAmount.tbxAmount.text !== "" && this.view.PayDueAmount.tbxAmount.text !== null && this.view.PayDueAmount.tbxAmount.text !== "0" && this.view.PayDueAmount.tbxAmount.text !== "0.00" && this.view.PayDueAmount.tbxAmount.text !== "0,00") {
         FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
       } else {
-        FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
+        FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
+        //FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
       }
     },
     //function to enable the paydue flow from loanpayoff
@@ -1889,7 +1892,8 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
       if (FormControllerUtility.isFontIconChecked(this.view.confirmation.lblFavoriteEmailCheckBoxMain) && !CommonUtilities.isCSRMode()) {
         FormControllerUtility.enableButton(this.view.confirmation.confirmButtons.btnConfirm);
       } else {
-        FormControllerUtility.disableButton(this.view.confirmation.confirmButtons.btnConfirm);
+        FormControllerUtility.enableButton(this.view.confirmation.confirmButtons.btnConfirm);
+        //FormControllerUtility.disableButton(this.view.confirmation.confirmButtons.btnConfirm);
       }
     },
     //function gets for termsandconditions
@@ -2462,7 +2466,8 @@ define(['FormControllerUtility', 'CommonUtilities', 'ViewConstants', 'OLBConstan
         this.view.PayDueAmount.tbxAmount.text !== "0" && this.view.PayDueAmount.tbxAmount.text !== "0.00") {
         FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
       } else {
-        FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
+        FormControllerUtility.enableButton(this.view.PayDueAmount.btnPayAmount);
+        //FormControllerUtility.disableButton(this.view.PayDueAmount.btnPayAmount);
       }
     },
     /**

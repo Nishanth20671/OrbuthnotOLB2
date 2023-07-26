@@ -15,19 +15,24 @@ define({
   btnonClick: function()
   {
     
-              var requestParam = {
-                        "files": "",//scopeObj.fileObject,
-                        "categoryid": "RCID_INCREASELOANAMOUNT",//scopeObj.view.NotficationsAndMessages.listbxCategory.selectedKey,
-                        "subject": "Increase Loan Amount",
-                        "description": "Current limit: 100"+"\nNew limit: "+this.view.CopyTextField0b68ada8a4afe4b.text,
-                        "isTradeModule": undefined
-                    };
-                    this.loadAlertsMessagesModule().presentationController.createNewRequestOrMessage(requestParam);
-                
+             
+           
+    var description="Current limit: 100"+"\nNew limit: "+this.view.CopyTextField0b68ada8a4afe4b.text;
+                 var data = {
+      "files" : "",
+      "requestsubject" : "Increase Loan Amount",//this.view.tbxSubject.text,
+      "messagedescription" : Base64.encode(encodeURI(description)),
+      "requestcategory_id" : "RCID_INCREASELOANAMOUNT",
+      "isNativeApplication": true
+    };
+    var navMan = applicationManager.getNavigationManager();
+          navMan.setCustomInfo("OverDraftLimit",true);
+    var msgModule=kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"appName": "SecureMessageMA", "moduleName" : "MessagesUIModule"});
+    msgModule.presentationController.createNewMessage(data);
+    
 
-
-    var ntf=new kony.mvc.Navigation("AccountUIModule/frmOverDraftAcknowledgement");
-           ntf.navigate();
+//     var ntf=new kony.mvc.Navigation("AccountUIModule/frmOverDraftAcknowledgement");
+//            ntf.navigate();
   },
 
             loadAlertsMessagesModule: function() {

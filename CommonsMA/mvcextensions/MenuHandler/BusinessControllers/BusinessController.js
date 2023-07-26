@@ -784,15 +784,15 @@ define([], function() {
           chequeMod.presentationController.navigateToChequeLandingScreen();
           break;
         case "New Account Opening":
-          kony.application.openURL("https://infinitypoc16.temenos.com/apps/Origination/");
+          kony.application.openURL("https://infinitypoc16.temenos.com/apps/arbuthnotonboard/");
           break;
           
-        // case "Overdraft limit":
-        //   var ntf=new kony.mvc.Navigation({ "appName": "ArrangementsMA", "friendlyName": "AccountUIModule/frmOverdraftLimit" });
-        //    ntf.navigate();
+        case "Overdraft limit":
+          var ntf=new kony.mvc.Navigation({ "appName": "ArrangementsMA", "friendlyName": "AccountUIModule/frmOverdraftLimit" });
+           ntf.navigate();
 		   
 		   
-        //   break;
+          break;
         case configManager.constants.MENUACCOUNTS:
           scope.view.flxHamburger.isVisible = false;
            var accountsModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"moduleName" : "AccountsUIModule", "appName" : "HomepageMA"});
@@ -946,6 +946,8 @@ define([], function() {
           disputeModule.getDisputeTransactionDetails(); 
           break;
         case configManager.constants.MENUMESSAGES:
+          var navMan = applicationManager.getNavigationManager();
+          navMan.setCustomInfo("OverDraftLimit",false);
           scope.view.flxHamburger.isVisible = false;
           var messagesModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"moduleName" : "MessagesUIModule", "appName" : "SecureMessageMA"});
           messagesModule.presentationController.getInboxRequests();
@@ -1311,9 +1313,9 @@ define([], function() {
                 else
                     menuData[i].visibility = false;
                 break;
-        // case "Overdraft limit":
-        //    menuData[i].visibility = true;
-        //   break;
+        case "Overdraft limit":
+           menuData[i].visibility = true;
+          break;
           case "New Account Opening":
           menuData[i].visibility = true;
           //kony.application.openURL("https://infinitypoc16.temenos.com/apps/Origination/");

@@ -355,7 +355,7 @@ define(["CommonUtilities"], function(CommonUtilities) {
         navUrl = adData.destinationURL;
       }
       if(navUrl) {
-        kony.application.openURL(navUrl);        
+        kony.application.openURL("https://infinitypoc16.temenos.com/apps/arbuthnotonboard/#/LandingMA/frmLandingDashboard");        
         if(!this.isTapDone){
           // this.LoggerManager.setCustomMetrics(this, true, "#PreLoginAds Tapped"); MICROAPP - setCustomMetrics breaking, hence commenting.
           this.isTapDone = true;

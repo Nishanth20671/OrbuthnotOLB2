@@ -167,7 +167,19 @@ define(['CommonUtilities'], function(CommonUtilities) {
 	if(!messageData) messageData = {};
     messageData.messagePopupType = "sendSuccess";
     navManager.setCustomInfo("frmMessages",messageData);
+   // var navMan = applicationManager.getNavigationManager();
+         var overDraft_toggle= navManager.getCustomInfo("OverDraftLimit");
+    if(overDraft_toggle)
+      {
+        var ntf=new kony.mvc.Navigation({ "appName": "ArrangementsMA", "friendlyName": "AccountUIModule/frmOverDraftAcknowledgement" });
+           ntf.navigate();
+//         var ntf=new kony.mvc.Navigation("AccountUIModule/frmOverDraftAcknowledgement");
+//            ntf.navigate();
+      }
+    else
+      {
     scope_MessagesPresentationController.getInboxRequests();
+      }
   };
   Messages_PresentationController.prototype.createNewMessagePresentationError = function(err,failureCallBack,index) {
     scope_MessagesPresentationController.logger.log("####Error in createNewMessage");
