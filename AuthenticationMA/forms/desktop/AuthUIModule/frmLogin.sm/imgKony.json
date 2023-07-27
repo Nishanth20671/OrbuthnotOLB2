@@ -72,7 +72,7 @@
             },
             "centerX": {
                 "type": "string",
-                "value": ""
+                "value": "50%"
             },
             "isVisible": true,
             "left": {

@@ -5,7 +5,13 @@ onNavigate: function()
 {
 this.view.txtNewLimit.text="";
 this.view.CopytxtNewLimit0e7dc6384d16040.text="";
+this.view.btnCancel.onClick=this.cancel_onClick;
 },
+  cancel_onClick:function()
+  {
+     var accountsModule = kony.mvc.MDAApplication.getSharedInstance().getModuleManager().getModule({"appName": "HomepageMA", "moduleName" : "AccountsUIModule"});
+        accountsModule.presentationController.showAccountsDashboard();
+  },
   btnSend_onClick: function()
   {
 
