@@ -2339,6 +2339,7 @@ define(['CampaignUtility', 'CommonUtilities'], function(CampaignUtility, CommonU
         });
       }
       this.filteredAccountsData = this.clone(accounts);
+      
       //  }
     },
 
@@ -2419,12 +2420,16 @@ define(['CampaignUtility', 'CommonUtilities'], function(CampaignUtility, CommonU
         },
         "flxViewContainer": {
           "onClick": function(eventobject, context) {
+            //alert("in func");
             var accountsData = {};
             var accountsKeys = Object.keys(this.filteredAccountsData);
-            accountsData[accountsKeys[context.sectionIndex]] = this.filteredAccountsData[accountsKeys[context.sectionIndex]];
+            //accountsData[accountsKeys[context.sectionIndex]] = this.filteredAccountsData[accountsKeys[context.sectionIndex]];
+            accountsData[accountsKeys[context.sectionIndex]] = this.filteredAccountsData[key];
             //Upon clicking the downarrow, processing the entire set of data to be visible in the list
+            //if (accountsData[accountsKeys[context.sectionIndex]].length > limit) {
             if (accountsData[accountsKeys[context.sectionIndex]].length > limit) {
-              var pendingRowdata = accountsData[accountsKeys[context.sectionIndex]].slice(limit, accountsData[accountsKeys[context.sectionIndex]].length);
+             // var pendingRowdata = accountsData[accountsKeys[context.sectionIndex]].slice(limit, accountsData[accountsKeys[context.sectionIndex]].length);
+               var pendingRowdata = accountsData[accountsKeys[context.sectionIndex]].slice(limit, accountsData[accountsKeys[context.sectionIndex]].length);
               var acctSegData = this.view.segAccounts.data;
               //this.getSegmentDataForAccounts(this.filteredAccountsData, 3);
               acctSegData.forEach(function(sectionData, index) {
@@ -2799,7 +2804,7 @@ define(['CampaignUtility', 'CommonUtilities'], function(CampaignUtility, CommonU
         this.getMembershipName(accounts);
         var accountsSegmentData = this.getSegmentDataForAccounts(processedAccounts, 3);
         this.view.segAccounts.widgetDataMap = this.getAccountsWidgetDataMap();
-        this.accountsData = this.clone(processedAccounts);
+        this.accountsData = this.clone(processedAccounts); 
         var configurationManager = applicationManager.getConfigurationManager();
         this.view.segAccounts.setData(accountsSegmentData);
         var configManager = applicationManager.getConfigurationManager();

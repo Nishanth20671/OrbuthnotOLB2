@@ -70,9 +70,7 @@
             }
         },
         "flxBack": {
-            "__events__": {
-                "ide_onClick": "AS_FlexContainer_b36153b67ba942a2aae35f1f9ef4d000"
-            },
+            "__events__": {},
             "__info__": {
                 "kuid": "a34fb5d5d05b43a78d2b0736765ef95a",
                 "srcKUID": "dd5ab076f18a49149f542c0d2b517ac2",
@@ -117,7 +115,8 @@
                 "kuid": "c319150bc6094a46a3a1a176a6821151",
                 "srcKUID": "a54167a680ef4852826dcbc71ac31f89",
                 "wType": "Image"
-            }
+            },
+            "src": "backbutton.png"
         },
         "imgSearch": {
             "__events__": {},

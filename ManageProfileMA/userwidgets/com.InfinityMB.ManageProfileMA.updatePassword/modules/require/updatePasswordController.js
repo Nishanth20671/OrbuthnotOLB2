@@ -148,7 +148,7 @@ define(function() {
       scopeObj.enableDisableButton(false);
       let isAndriod = applicationManager.getPresentationFormUtility().getDeviceName() !== "iPhone";
       scopeObj.view.flxHeader.isVisible = isAndriod;
-      scopeObj.view.flxMainContainer.top = isAndriod ? "0dp" : "56dp";
+      scopeObj.view.flxMainContainer.top = isAndriod ? "0dp" : "0dp";//"56dp"; // By Mounika
     },
 
     setFlowActions: function(){

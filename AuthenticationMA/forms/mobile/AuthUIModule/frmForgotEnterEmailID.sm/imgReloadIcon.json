@@ -1,7 +1,6 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_base64_": null,
     "_height_": {
         "type": "string",

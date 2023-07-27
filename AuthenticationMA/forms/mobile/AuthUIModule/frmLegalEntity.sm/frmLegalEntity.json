@@ -18,11 +18,11 @@
     "_pxMenuIndex": [
         0,
         1,
-        0,
-        26
+        1,
+        27
     ],
-    "_skin_": "sec176da97b4495e8aacaf20d4e95f17",
-    "_title_": null,
+    "_skin_": "sfd374011f8943daa0815da0aecd0408",
+    "_title_": "Let's verify it's you",
     "addWidgetsdone": false,
     "allboxes": [],
     "android": {
@@ -75,6 +75,16 @@
         "psp": {
             "inputAccessoryViewType": 4,
             "titleBarAttributes": {
+                "backBarButtonItem": {
+                    "enabled": true,
+                    "info": {
+                        "title": ""
+                    },
+                    "kuid": "a1fb366786ee499e93bce9411ee2f9ac",
+                    "style": 0,
+                    "tintColor": "ffffff00",
+                    "type": 1
+                },
                 "barStyle": 0,
                 "hidesBackButton": false,
                 "kuid": "ff9a0168fc8043dc86568b2512344d4a",
@@ -82,23 +92,12 @@
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
                 "renderTitleText": true,
-                "rightBarButtonItems": [
-                    {
-                        "enabled": true,
-                        "info": {
-                            "title": "Edit"
-                        },
-                        "kuid": "e609340a7c474d6c91bed6a5cb2a58a5",
-                        "style": 0,
-                        "tintColor": "4b88f100",
-                        "type": 1
-                    }
-                ],
-                "tintColor": "4b88f100",
+                "rightBarButtonItems": [],
+                "tintColor": "ffffff00",
                 "translucent": true
             }
         },
-        "titleBar": false
+        "titleBar": true
     },
     "iscustomlayout": false,
     "isvisible": true,
@@ -136,8 +135,8 @@
     "spawinphone8": {
         "needAppMenu": false
     },
-    "titleBarSkin": "s09f053e252c4c6f96f1ebfa5b827296",
-    "titlebar": true,
+    "titleBarSkin": "scb8fcbdebb649d1b5900564018c8da5",
+    "titlebar": false,
     "type": 3,
     "wType": "Form",
     "windows8": {
