@@ -520,7 +520,8 @@ define(['./LoginPopupsUtility','./LoginPopupsDAO'],function(LoginPopupsUtility, 
     loginTouch: function(UsernamePasswordJSON) {
       const scopeObj = this;     
       let authParams = {
-        "UserName": UsernamePasswordJSON.username,
+       // "UserName": UsernamePasswordJSON.username,
+        "userid": UsernamePasswordJSON.username,
         "Password": UsernamePasswordJSON.password,
         "loginOptions": {
           "isOfflineEnabled": false
@@ -567,7 +568,8 @@ define(['./LoginPopupsUtility','./LoginPopupsDAO'],function(LoginPopupsUtility, 
       let UsernamePasswordJSON = {"username":userName,"password":password};
       // AAC-7691: Pin validation will happen on Client Side
       let authParams = {
-        "UserName": UsernamePasswordJSON.username,
+        //"UserName": UsernamePasswordJSON.username,
+        "userid": UsernamePasswordJSON.username,
         "Password": UsernamePasswordJSON.password,
         "loginOptions": {
           "isOfflineEnabled": false
